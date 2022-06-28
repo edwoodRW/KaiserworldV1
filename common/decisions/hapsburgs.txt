@@ -1,0 +1,303 @@
+political_decisions = {
+	switch_hun = {
+		potential = {tag = HPS NOT = {has_country_flag = iron_crown}}
+		allow = {641 = {owned_by = THIS}619 = {NOT={owned_by = THIS}} 627 = {NOT={owned_by = THIS}} 683 = {NOT={owned_by = THIS}} 632 = {NOT={owned_by = THIS}} 625 = {NOT={owned_by = THIS}} NOT = {any_owned_province = {is_core = HRE}}}
+		effect = {
+			capital = 641
+			relation = {
+				who = HRE
+				value = 200
+			}
+			primary_culture = hungarian
+			add_accepted_culture = south_german
+			any_owned = {limit = {is_core = HPS} remove_core = HPS add_core = HUN}
+			change_tag = HUN
+			change_tag_no_core_switch = HUN
+			any_country = {limit = {tag = EPI vassal_of = HPS} country_event = {id = 184800115 days = 1}}
+			HUN = {country_event = {id = 184800116 days = 1}
+			
+		}
+		}
+	}
+	jewel_of_the_danube = {
+		potential = {OR = {tag = HUN tag = DNB} NOT = {has_country_flag = jewel_of_the_danube}}
+		allow = {641 = {owned_by = THIS} money = 100000}
+		effect = {
+			capital = 641
+			641 = {life_rating = 5}
+			641 = {add_province_modifier = {name = recently_renovated_city duration = 1825}}
+			treasury = -100000
+			set_country_flag = jewel_of_the_danube
+		}
+	}
+	reclaim_our_birthright = {
+	picture = "preacher"
+	potential = {
+	tag = HPS
+	NOT = {has_country_flag = reclaim_our_birthright}
+	NOT = {has_country_flag = seperate_german}
+	}
+	allow = {
+	NOT = {relation = { who = HRE value = -100 }}
+	}
+	effect = {
+	set_country_flag = reclaim_our_birthright
+	AUS_619 = {add_core=THIS}
+	AUS_613 = {add_core = THIS}
+	AUS_768 = {add_core = THIS}
+	778 = {add_core = THIS}
+	769 = {add_core = THIS}
+	737 = {add_core = THIS}
+	AUS_734 = {add_core = THIS}
+	AUS_612 = {add_core = THIS}
+	}
+	}
+	
+	throne_of_bavaria = {
+	picture = neuschwanstein
+	potential = {
+	tag = HPS
+	has_country_flag = reclaim_our_birthright
+	NOT = {has_country_flag = throne_of_bavaria}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	set_country_flag = throne_of_bavaria
+	capital = 619
+	BAV_599 = {add_core = THIS}
+	BAV_595 = {add_core = THIS}
+	}
+	}
+	
+	helvetia_and_swabia = {
+	picture = old_vilnius
+	potential = {
+	tag = HPS
+	has_country_flag = throne_of_bavaria
+	NOT = {has_country_flag = helvetia_and_swabia}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	set_country_flag = helvetia_and_swabia
+	WUR_589 = {add_core = THIS}
+	BAD_586 = {add_core = THIS}
+	611 = {add_core = THIS}
+	2568 = {add_core = THIS}
+	606 = {add_core = THIS}
+	603 = {add_core = THIS}
+	604 = {add_core = THIS}
+	605 = {add_core = THIS}
+	}
+	}
+	
+	iron_crown = {
+	picture = institute_central_bank
+	potential = {
+	tag = HPS
+	has_country_flag = helvetia_and_swabia
+	NOT = {has_country_flag = iron_crown}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	set_country_flag = iron_crown
+	AUS_729 = {add_core = THIS}
+	AUS_726 = {add_core = THIS}
+	AUS_736 = {add_core = THIS}
+	736 = {add_core = THIS}
+	}
+	}
+	
+	the_crown_of_tuscany = {
+	picture = force_vassal_freedom
+	potential = {
+	tag = HPS
+	has_country_flag = iron_crown
+	NOT = {has_country_flag = the_crown_of_tuscany}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	set_country_flag = the_crown_of_tuscany
+	PAP_741 = {add_core = THIS}
+	TUS_744 = {add_core = THIS}
+	}
+	}
+	
+	italian_autonomy = {
+	picture = embrace_minority
+	potential = {
+	tag = HPS
+	has_country_flag = the_crown_of_tuscany
+	NOT = {has_country_flag = italian_autonomy}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	set_country_flag = italian_autonomy
+	add_accepted_culture = north_italian
+	}
+	}
+	
+	#danubian path
+	seperate_german = {
+	picture = londonderry_quay
+	potential = {
+	OR = {
+	tag = HPS
+	tag = HUN
+	}
+	OR = {NOT = {has_country_flag = reclaim_our_birthright}
+		         tag = HUN
+	}
+	NOT = {has_country_flag = seperate_german}
+	}
+	allow = {
+	NOT = {619={owned_by = THIS}}
+	state_n_government = 1
+	}
+	effect = {
+	set_country_flag = seperate_german
+	
+	}
+	}
+	
+	give_in_to_slovak_noble_demands = {
+	picture = occupy_misiones
+	potential = {
+	OR = {
+	tag = HPS
+	tag = HUN
+	}
+	NOT = {has_country_flag = give_in_to_slovak_noble_demands}
+	has_country_flag = seperate_german
+	}
+	allow = {
+	AUS_633 = {owned_by = THIS}
+	}
+	effect = {
+	set_country_flag = give_in_to_slovak_noble_demands
+	prestige = -1
+	add_accepted_culture = slovak
+	}
+	}
+	
+	dacian_minority_rights = {
+	picture = romanians_marching
+	potential = {
+	OR = {
+	tag = HPS
+	tag = HUN
+	}
+	NOT = {has_country_flag = dacian_minority_rights}
+	has_country_flag = give_in_to_slovak_noble_demands
+	}
+	allow = {
+	nationalism_n_imperialism = 1
+	OR = {
+	AUS_652 = {owned_by = THIS}
+	AUS_654 = {owned_by = THIS}
+	AUS_657 = {owned_by = THIS}
+	}
+	}
+	effect = {
+	set_country_flag = dacian_minority_rights
+	add_accepted_culture = romanian
+	}
+	}
+	
+	south_slavic_compromise = {
+	picture = form_yugoslavia
+	potential = {
+	OR = {
+	tag = HPS
+	tag = HUN
+	}
+	NOT = {has_country_flag = south_slavic_compromise}
+	has_country_flag = give_in_to_slovak_noble_demands
+	}
+	allow = {
+	AUS_736 = {owned_by = THIS}
+	AUS_780 = {owned_by = THIS}
+	AUS_771 = {owned_by = THIS}
+	TUR_788 = {owned_by = THIS}
+	MON_2582 = {owned_by = THIS}
+	AUS_2538 = {owned_by = THIS}
+	SER_794 = {owned_by = THIS}
+	}
+	effect = {
+	set_country_flag = south_slavic_compromise
+	add_accepted_culture = serb
+	add_accepted_culture = bosniak
+	add_accepted_culture = slovene
+	}
+	}
+	
+	confederation_of_the_danube = {
+	picture = belgrade_view
+	potential = {
+	OR = {
+	tag = HPS
+	tag = HUN
+	}
+	NOT = {has_country_flag = confederation_of_the_danube}
+	has_country_flag = dacian_minority_rights
+	has_country_flag = south_slavic_compromise
+	}
+	allow = {
+	all_core={owned_by = THIS}
+	}
+	effect = {
+	set_country_flag = confederation_of_the_danube
+	any_owned = {
+	limit = {is_core = HPS}
+	add_core = DNB
+	}
+	change_tag = DNB
+	change_tag_no_core_switch = DNB
+	prestige = 5
+	WAL_665 = {add_core = DNB}
+	TUR_674 = {add_core = DNB}
+	678 = {add_core = DNB}
+	}
+	}
+	
+	push_to_the_balkans = {
+	picture = greater_bulgaria
+	potential = {
+	tag = DNB
+	NOT = {has_country_flag = push_to_the_balkans}
+	has_country_flag = confederation_of_the_danube
+	}
+	allow = {
+	all_core={owned_by = THIS}
+	}
+	effect = {
+	set_country_flag = push_to_the_balkans
+	TUR_809 = {add_core = THIS}
+	TUR_815 = {add_core = THIS}
+	}
+	}
+	danubian_integrity = {
+	picture = la_plata_foundation
+	potential = {
+	tag = DNB
+	NOT = {has_country_flag = danubian_integrity}
+	has_country_flag = push_to_the_balkans
+	}
+	allow = {
+	all_core={owned_by = THIS}
+	}
+	effect = {
+	set_country_flag = danubian_integrity
+	add_accepted_culture = bulgarian
+	}
+	}
+}

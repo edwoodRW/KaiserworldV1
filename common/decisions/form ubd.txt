@@ -1,0 +1,82 @@
+political_decisions = {
+	form_ubd_ger = {
+		potential = {
+		OR = {tag = HRE tag = GER}
+		NOT = {has_global_flag =form_ubd_ger}
+		}
+		allow = {
+		EST = {
+			 all_core = {
+                    
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       
+                    
+                }
+			}
+		LAT = {
+			 all_core = {
+                    
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                        
+                    
+                }
+			}
+		}
+		
+		effect = {
+		set_global_flag = form_ubd_ger
+		THIS={	354 = {owner = {country_event = {
+												id = 300001129
+												days = 0
+												}}}
+												}
+		THIS={	349 = {owner = {country_event = {
+												id = 300001129
+												days = 0
+												}}}
+												}
+		create_vassal = UBD
+		}
+	}
+	
+	transfer_lithuania_to_ubd = {
+		potential = {
+		OR = {tag = HRE tag = GER}
+		NOT = {has_global_flag =transfer_lithuania_to_ubd}
+		UBD = {vassal_of = THIS}
+		RUS_360 = {owned_by = THIS}
+		}
+		allow = { }
+		effect = {set_global_flag = transfer_lithuania_to_ubd RUS_360 = {secede_province = UBD}}
+	}
+	
+	accept_lithuanian_ubd = {
+		potential = {tag = UBD NOT = {accepted_culture = lithuanian}}
+		allow = {NOT={exists = PLC} 361 = {owned_by = THIS}}
+		effect = {add_accepted_culture = lithuanian}
+	}
+}

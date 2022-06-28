@@ -1,0 +1,51 @@
+focus_tree = {
+	id = USCA_intro_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USCA_The_Reign_Of_Comey
+		icon = unknown
+		x = 16
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USCA_Funding_A_Private_Military
+		icon = unkown
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_The_Reign_Of_Comey  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+}

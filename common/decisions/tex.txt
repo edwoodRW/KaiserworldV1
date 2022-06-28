@@ -1,0 +1,99 @@
+political_decisions = {
+	petition_for_independence = {
+	potential = {
+	OR = {  
+	AND = {
+	vassal_of = SPA
+	SPA = {ai = no}
+	}
+	AND = {
+	vassal_of = IBE
+	IBE = {ai = no}
+	}
+							
+				}
+	ai = no	
+	NOT = {has_country_flag = petition_for_independence}
+	}
+	
+	effect = {
+			set_country_flag = petition_for_independence
+			THIS = {overlord = {country_event = 200106}}
+	 }
+	}
+	
+	land_grants = {
+	picture = "new_life"
+	potential = {
+	tag = TEX
+	NOT = {has_country_flag = land_grants}
+	}
+	allow = {
+	TEX_132 = {owned_by = THIS}
+	is_vassal = no
+	war = no
+	state_n_government = 1
+		NOT = {
+			government = proletarian_dictatorship
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			government = fascist_dictatorship
+		}
+	}
+	effect = {
+		add_country_modifier = { name = land_grants_tex duration = 3650 }
+		set_country_flag = land_grants
+	 }
+	}
+	
+	texan_separatism = {
+	picture = "change_border_policy"
+	potential = {
+	NOT = {has_country_flag = texan_separatism}
+	tag = TEX
+	}
+	allow = {
+	TEX_132 = {owned_by = THIS}
+	NOT = {war_with = MEX}
+	}
+	effect = {
+		any_owned = {
+		limit = {
+		is_core = TEX
+		}
+		remove_core = MEX
+		remove_core = RGR
+		}
+		set_country_flag = texan_separatism
+	 }
+	}
+	
+	texan_oil_boom = {
+	picture = "change_border_policy"
+	potential = {
+	NOT = {has_country_flag = texan_oil_boom}
+	tag = TEX
+	}
+	allow = {
+	OR = {
+	AND = {
+	132 = {owned_by = THIS}
+	132 = {trade_goods = oil}
+	}
+	AND = {
+	133 = {owned_by = THIS}
+	133 = {trade_goods = oil}
+	}
+	AND = {
+	43 = {owned_by = THIS}
+	43 = {trade_goods = oil}
+	}
+	}
+	war = no
+	}
+	effect = {
+		add_country_modifier = { name = texan_oil_boom duration = 3650 }
+		set_country_flag = texan_oil_boom
+	 }
+	}
+}

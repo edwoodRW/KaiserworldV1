@@ -1,0 +1,245 @@
+ideas = {
+
+	country = {
+	
+
+		
+		idea_usa_norton_the_fourth = {
+			picture = army_corruption3
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+		
+			}
+		}
+
+		idea_usa_democratic_nation = {
+			picture = army_corruption3
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+		
+			}
+		}
+		idea_america_neutrality = {
+			picture = army_corruption3
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+		
+			}
+		}
+
+		american_foreign_legion = {
+			picture = army_corruption3
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.03
+				non_core_manpower = 0.05
+			}
+		}
+	
+		ford_crisis = {
+			picture = ford_crisis
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.001
+				consumer_goods_factor = 0.02
+				political_power_factor = -0.1
+				political_advisor_cost_factor = 0.15
+				fascism_drift = 0.01
+			}
+		}
+		ford_crisis2 = {
+			picture = ford_crisis
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.002
+				consumer_goods_factor = 0.04
+				political_power_factor = -0.2
+				political_advisor_cost_factor = 0.45
+				fascism_drift = 0.02
+			}
+		}
+		ford_crisis3 = {
+			picture = ford_crisis
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.003
+				consumer_goods_factor = 0.06
+				political_power_factor = -0.3
+				political_advisor_cost_factor = 0.6
+				fascism_drift = 0.03
+			}
+		}
+		ford_crisis4 = {
+			picture = ford_crisis
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.004
+				consumer_goods_factor = 0.08
+				political_power_factor = -0.4
+				political_advisor_cost_factor = 0.3
+				fascism_drift = 0.04
+			}
+		}
+	
+		liberty_protection_act = {
+			picture = reserve_divisions
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				democratic_drift = 0.01
+			}
+		}
+		
+		colonial_purchase = {
+			picture = ford_crisis
+			
+			allowed = { always = no }
+			available = {}
+			cancel = {}
+			
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+	}
+	
+	political_advisor = {
+		
+		USA_henry_ford = {
+			picture = generic_politician3
+		
+			allowed = {
+				original_tag = USA
+			}
+			available = {
+				has_completed_focus = USA_invite_henry_ford_into_the_government
+			}
+			
+			traits = { corporate_elitist }
+			modifier = {}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	tank_manufacturer = {
+	
+		ford_military_division = {
+			picture = ford_green
+		
+			allowed = {
+				original_tag = USA
+			}
+			visible = {}
+			available = { has_completed_focus = USA_expand_ford }
+			
+			research_bonus = { armor = 0.20 }
+			traits = { fast_tank_manufacturer }
+			modifier = {}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	aircraft_manufacturer = {
+	
+		ford_airplane_division = {
+			picture = ford_purple
+		
+			allowed = {
+				original_tag = USA
+			}
+			visible = {}
+			available = { has_completed_focus = USA_expand_ford }
+			
+			research_bonus = { air_equipment = 0.15 }
+			traits = { light_aircraft_manufacturer }
+			modifier = {}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+	materiel_manufacturer = {
+	
+		ford_motor_company = {
+			picture = ford
+		
+			allowed = {
+				original_tag = USA
+			}
+			visible = {}
+			available = { has_completed_focus = USA_expand_ford }
+			
+			research_bonus = { motorized_equipment = 0.25 }
+			traits = { motorized_equipment_manufacturer }
+			modifier = {}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	}
+	
+}

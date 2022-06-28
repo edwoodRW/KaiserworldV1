@@ -1,0 +1,68 @@
+characters={
+	ALB_king_zog={
+		name="King Zog"
+		portraits={
+			civilian={
+				large=gfx/leaders/ALB/zogu.dds
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ALB_enver_hoxha={
+		name="Enver Hoxha"
+		portraits={
+			civilian={
+				large=gfx/leaders/ALB/evner_hoxha.dds
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ staunch_stalinist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ALB_mehdi_bej_frasheri={
+		name="Mehdi Bej Frasheri"
+		portraits={
+			civilian={
+				large=gfx/leaders/ALB/mehdi_bej_frasheri.dds
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ALB_mehdi_bej_frasheri={
+		name="Mehdi Bej Frasheri"
+		portraits={
+			civilian={
+				large=gfx/leaders/ALB/mehdi_bej_frasheri.dds
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ALB_maliq_bushati={
+		name="Maliq Bushati"
+		portraits={
+			civilian={
+				large=gfx/leaders/ALB/mehdi_bej_frasheri.dds
+			}
+		}
+		country_leader={
+			ideology=state_corporatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

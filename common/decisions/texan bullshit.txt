@@ -1,0 +1,89 @@
+political_decisions = {
+the_question_of_texas = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = the_question_of_texas}
+		has_global_flag = southern_destiny_I
+		exists = TEX
+		OR = {
+			TEX = {is_vassal = yes}
+			TEX = {is_substate = yes}
+		}
+		TEX = {NOT = {vassal_of = THIS}}
+	}
+	
+	allow = {
+	NOT = {war_with = TEX}
+		state_n_government = 1
+		romanticism = 1
+		year = 1850
+		141 = {owned_by = THIS}
+	}
+	
+	effect = {
+	set_global_flag = the_question_of_texas
+		TEX = {
+			country_event = {
+				id = 5001001
+				days = 1
+			}
+		}
+	}
+	
+	}
+the_question_of_texas_tex = {
+	picture = "romanians_marching"
+	potential = {
+		tag = TEX
+		NOT = {has_global_flag = the_question_of_texas_tex}
+		OR = {
+			is_vassal = no
+			vassal_of = USA
+		}
+		141 = {owned_by = USA}
+	}
+	
+	allow = {
+		war = no
+		
+	}
+	
+	effect = {
+	set_global_flag = the_question_of_texas_tex
+		USA = {
+			country_event = {
+				id = 5001002
+				days = 1
+			}
+		}
+	}
+	
+	}
+
+ignite_texan_revolt = {
+	picture = "romanians_marching"
+	potential = {
+		tag = USA
+		NOT = {has_global_flag = ignite_texan_revolt}
+		has_global_flag = southern_destiny_I
+		NOT = {exists = TEX}
+	}
+	
+	allow = {
+		state_n_government = 1
+		romanticism = 1
+		year = 1850
+		141 = {owned_by = THIS}
+	}
+	
+	effect = {
+	set_global_flag = ignite_texan_revolt
+		133 = {owner = {country_event = {
+							id = 200102
+							days = 1
+						}}}
+	}
+	
+	}
+}

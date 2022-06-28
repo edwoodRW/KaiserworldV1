@@ -1,0 +1,69 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	division_names_group = FIN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Division"
+		location = 11105
+		division_template = "Infantry Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "2nd Division"
+		location = 3083
+		division_template = "Infantry Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "3rd Division"
+		location = 3122
+		division_template = "Infantry Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "4th Division"
+		location = 3137
+		division_template = "Infantry Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.65
+	}
+}
+
+air_wings = {
+	111 = {
+		fighter_equipment_0 = { owner = "FIN" amount = 26 }
+	}
+	111 = {
+		fighter_equipment_0 = { owner = "FIN" amount = 15 }
+	}
+	111 = {
+		fighter_equipment_0 = { owner = "FIN" amount = 18 }
+	}
+	111 = {
+		tac_bomber_equipment_0 = { owner = "FIN" amount = 17 }
+	}
+}
+
+instant_effect = {
+}

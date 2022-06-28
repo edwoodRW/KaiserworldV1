@@ -1,0 +1,37 @@
+characters={
+	ARG_roberto_maría_ortiz={
+		name="Roberto María Ortiz"
+		portraits={
+			civilian={
+				large=gfx/leaders/ALB/roberto_maría_ortiz.dds
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ARG_jose_felix_uriburu={
+		name="Jose Felix Uriburu"
+		portraits={
+			civilian={
+				large=gfx/leaders/ALB/jose_felix_uriburu.dds
+			}
+		}
+		country_leader={
+			ideology=state_corporatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			skill = 2
+			traits = {
+			}
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+}

@@ -1,0 +1,497 @@
+political_decisions = {
+	modernize_nile_irrigation = {
+	picture = vietnam_coffee
+	potential = {
+	OR={tag = EGY
+	tag = ARA
+	}
+	EGY_1745={owned_by = THIS}
+	NOT = {has_country_flag = modernize_nile_irrigation}
+		1766={owned_by = THIS}
+        1768={owned_by = THIS}
+        1767={owned_by = THIS}
+        1769={owned_by = THIS}
+        2559={owned_by = THIS}
+        1762={owned_by = THIS}
+        1764={owned_by = THIS}
+        1765={owned_by = THIS}
+        1763={owned_by = THIS}
+	}
+	allow = {
+	high_pressure_steam_engine = 1
+	medicine = 1
+	}
+	effect = {
+	1766 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1768 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1767 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1769 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	2559 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1762 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1764 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1765 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1763 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1745 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1749 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1748 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1746 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1750 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1747 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	1751 = {add_province_modifier = {name = modernized_irrigation duration = -1}}
+	set_country_flag = modernize_nile_irrigation
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	########################
+	#non-mutually exclusive#
+	########################
+	integrate_hedjaz = {
+	picture = conquest_of_the_south
+	potential = {
+	OR = {tag = EGY
+	tag = ARA
+	}
+	HDJ = {vassal_of = THIS}
+	NOT = {has_country_flag = integrate_hedjaz}
+	}
+	allow = {
+	enlightenment_thought = 1
+	}
+	effect = {
+	HDJ = {
+	any_owned = {
+	limit = {is_core = HDJ}
+	add_core = THIS
+	}
+	}
+	inherit = HDJ
+	HDJ_1151 = {add_core = THIS}
+	set_country_flag = integrate_hedjaz
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	proclaim_the_new_caliphate_egy = {
+	picture = conquest_of_the_south
+	potential = {
+	OR = {tag = EGY
+	AND={tag = ARA
+	original_tag = EGY
+	}
+	tag = EGE
+	}
+	has_country_flag = integrate_hedjaz
+	NOT = {has_country_flag = proclaim_the_new_caliphate}
+	}
+	allow = {
+	OR = {
+	is_secondary_power = yes
+	is_greater_power = yes
+	}
+	926 = {owned_by = THIS}
+	1151 = {owned_by = THIS}
+	}
+	effect = {
+	926 = {add_core = THIS}
+	927 = {add_core = THIS}
+	928 = {add_core = THIS}
+	925 = {add_core = THIS}
+	923 = {add_core = THIS}
+	924 = {add_core = THIS}
+	932 = {add_core = THIS}
+	933 = {add_core = THIS}
+	930 = {add_core = THIS}
+	929 = {add_core = THIS}
+	#TUR_931 = {change_region_name = "Baghdad"}
+	add_country_modifier = {name = caliph_egy duration = 999999}
+	set_country_flag = proclaim_the_new_caliphate
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	conquer_cyrenaica = {
+	picture = conquest_of_the_south
+	potential = {
+	OR = {tag = EGY
+	tag = ARA
+	}
+	NOT = {has_country_flag = conquer_cyrenaica}
+	}
+	allow = {
+	1737 = {owned_by = THIS}
+	1736 = {owned_by = THIS}
+	1735 = {owned_by = THIS}
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	prestige = 5
+	set_country_flag = conquer_cyrenaica
+	1737 = {add_core = THIS}
+	1736 = {add_core = THIS}
+	1735 = {add_core = THIS}
+	
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	##############################
+	#master of the levant branch##
+	##############################
+	master_of_the_levant = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	TUR_894={owned_by = EGY}
+	NOT = {has_country_flag = dreams_of_arabia}
+	NOT = {has_country_flag = master_of_the_levant}
+	}
+	allow = {
+	military_staff_system = 1
+	}
+	effect = {
+	prestige = 1
+	set_country_flag = master_of_the_levant
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	
+	push_into_anatolia = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	TUR_894={owned_by = EGY}
+	has_country_flag = master_of_the_levant
+	NOT = {has_country_flag = push_into_anatolia}
+	}
+	allow = {
+	military_staff_system = 1
+	}
+	effect = {
+	TUR_873 = {add_core = EGY}
+	TUR_876 = {add_core = EGY}
+	set_country_flag = push_into_anatolia
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	the_coast = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	has_country_flag = master_of_the_levant
+	NOT = {has_country_flag = push_into_anatolia}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	TUR_869 = {add_core = EGY}
+	
+	set_country_flag = push_into_anatolia
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	the_islands = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	has_country_flag = master_of_the_levant
+	NOT = {has_country_flag = the_islands}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	EGY_843 = {add_core = EGY}
+	TUR_855 = {add_core = EGY}
+	set_country_flag = the_islands
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	integrate_the_turkish = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	has_country_flag = push_into_anatolia
+	NOT = {has_country_flag = integrate_the_turkish}
+	}
+	allow = {
+	TUR_873 = {owned_by = EGY}
+	TUR_876 = {owned_by = EGY}
+	}
+	effect = {
+	add_accepted_culture = turkish
+	prestige = 5
+	set_country_flag = integrate_the_turkish
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	our_greek_brothers = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	has_country_flag = push_into_anatolia
+	NOT = {has_country_flag = our_greek_brothers}
+	}
+	allow = {
+	TUR_873 = {owned_by = EGY}
+	TUR_876 = {owned_by = EGY}
+	TUR_880 = {owned_by = EGY}
+	TUR_863 = {owned_by = EGY}
+	TUR_869 = {owned_by = EGY}
+	EGY_843 = {owned_by = EGY}
+	TUR_855 = {owned_by = EGY}
+	}
+	effect = {
+	add_accepted_culture = greek
+	prestige = 10
+	set_country_flag = our_greek_brothers
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	the_new_egyptian_empire = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	has_country_flag = our_greek_brothers
+	has_country_flag = the_islands
+	has_country_flag = the_coast
+	NOT = {has_country_flag = the_new_egyptian_empire}
+	}
+	allow = {
+	all_core = {owned_by = THIS}
+	}
+	effect = {
+	prestige = 15
+	any_owned = {
+	limit = {
+	is_core = EGY
+	}
+	add_core = EGE
+	}
+	change_tag = EGE
+	change_tag_no_core_switch = EGE
+	set_country_flag = the_new_egyptian_empire
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	########################################
+	#end of the master of the levant branch#
+	########################################
+	
+	#########################
+	#dreams of arabia branch#
+	#########################
+	dreams_of_arabia = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	all_core = {owned_by = THIS}
+	has_country_flag = integrate_hedjaz
+	NOT = {has_country_flag = dreams_of_arabia}
+	NOT = {has_country_flag = master_of_the_levant}
+	}
+	allow = {
+	military_staff_system = 1
+	}
+	effect = {
+	prestige = 1
+	set_country_flag = dreams_of_arabia
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	conquer_the_peninsula = {
+	picture = conquest_of_the_south
+	potential = {
+	tag = EGY
+	has_country_flag = dreams_of_arabia
+	NOT = {has_country_flag = conquer_the_peninsula}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	prestige = 5
+	
+	set_country_flag = conquer_the_peninsula
+	HDJ_1151 = {add_core = THIS}
+	YEM_1178 = {add_core = THIS}
+	YEM_1412 = {add_core = THIS}
+	OMA_1166 = {add_core = THIS}
+	ABU_1162 = {add_core = THIS}
+	NEJ_1157 = {add_core = THIS}
+	1160 = {add_core = THIS}
+	1158 = {add_core = THIS}
+	945 = {add_core = THIS}
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	unite_the_arabians = {
+	picture = zanzibar_oman
+	potential = {
+	OR = {tag = EGY
+	tag = ARA
+	}
+	has_country_flag = conquer_the_peninsula
+	has_country_flag = conquer_tunis
+	NOT = {has_country_flag = unite_the_arabians}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	prestige = 10
+	add_accepted_culture = bedouin
+	add_accepted_culture = misri
+	add_accepted_culture = mashriqi
+	any_owned = {
+	limit = {
+	is_core = EGY
+	}
+	add_core = ARA
+	}
+	change_tag = ARA
+	change_tag_no_core_switch = ARA
+	set_country_flag = unite_the_arabians
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	
+	conquer_tripolitania = {
+	picture = conquest_of_the_south
+	potential = {
+	OR = {tag = EGY
+	tag = ARA
+	}
+	has_country_flag = dreams_of_arabia
+	NOT = {has_country_flag = conquer_tripolitania}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	prestige = 5
+	set_country_flag = conquer_tripolitania
+	1734 = {add_core = THIS}
+	1740 = {add_core = THIS}
+	1732 = {add_core = THIS}
+	1733 = {add_core = THIS}
+	1731 = {add_core = THIS}
+	1744 = {add_core = THIS}
+	1741 = {add_core = THIS}
+	
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	conquer_tunis = {
+	picture = conquest_of_the_south
+	potential = {
+	OR = {tag = EGY
+	tag = ARA
+	}
+	has_country_flag = conquer_tripolitania
+	NOT = {has_country_flag = conquer_tunis}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	prestige = 5
+	set_country_flag = conquer_tunis
+	add_accepted_culture = maghrebi
+	1729 = {add_core = THIS}
+	1730 = {add_core = THIS}
+	1727 = {add_core = THIS}
+	1728 = {add_core = THIS}
+	1725 = {add_core = THIS}
+	1726 = {add_core = THIS}
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	barbary_coast = {
+	picture = conquest_of_the_south
+	potential = {
+	OR = {tag = EGY
+	tag = ARA
+	}
+	has_country_flag = conquer_tunis
+	NOT = {has_country_flag = barbary_coast}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	prestige = 5
+	set_country_flag = barbary_coast
+	add_accepted_culture = maghrebi
+	ALD_1708 = {add_core = THIS}
+	ALD_1713 = {add_core = THIS}
+	ALD_1704 = {add_core = THIS}
+	FRA_1700 = {add_core = THIS}
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	conquer_morocco = {
+	picture = conquest_of_the_south
+	potential = {
+	OR = {tag = EGY
+	tag = ARA
+	}
+	has_country_flag = barbary_coast
+	NOT = {has_country_flag = conquer_morocco}
+	}
+	allow = {
+	all_core = {owned_by=THIS}
+	}
+	effect = {
+	prestige = 5
+	set_country_flag = conquer_morocco
+	MOR_1688 = {add_core = THIS}
+	MOR_1683 = {add_core = THIS}
+	MOR_1694 = {add_core = THIS}
+	MOR_1693 = {add_core = THIS}
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+
+}

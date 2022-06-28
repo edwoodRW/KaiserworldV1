@@ -1,0 +1,99 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	division_names_group = AST_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Cavalry Guard"
+	
+	division_names_group = AST_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Australian Division"
+		location = 7859			#Canberra
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Australian Division"
+		location = 7669			#Darwin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3rd Australian Division"
+		location = 7798			#Melbourne
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4th Australian Division"
+		location = 1652			#Perth
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5th Australian Division"
+		location = 12406		#Sydney
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Guard Force Papua"
+		location = 12371		#Hollandia
+		division_template = "Cavalry Guard"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Guard Force New Zealand"
+		location = 1814		#Wellington
+		division_template = "Cavalry Guard"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Guard Force Fiji"
+		location = 4286		#Fiji
+		division_template = "Cavalry Guard"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.5
+	}
+	
+}
+
+instant_effect = {
+}

@@ -1,0 +1,195 @@
+﻿l_english:
+ ########
+ #AUS
+ ########
+ AUS_generic_war_industrialist:0 "Ernst Werndl"
+ AUS_generic_armaments_organizer:0 "Ludwig Draxler"
+ AUS_generic_quartermaster_general:0 "Emil Fey"
+ AUS_generic_real_estate_developer:0 "Ludwig Strobl"
+ AUS_generic_authoritarian_ideologue:0 "Ludwig Hülgerth"
+ AUS_generic_democratic_reformer:0 "Karl Renner"
+ AUS_generic_grand_battleplan_theorist:0 "Walter Schroth"
+ AUS_generic_superior_firepower_theorist:0 "Alfred Jansa"
+ ########
+ #BAV
+ ########
+ BAV_generic_financial_expert:0 "Ludwig Erhard"
+ ########
+ #CAN
+ ########
+ CAN_generic_communist_revolutionary:0 "Ethan Joyes"
+ CAN_generic_democratic_reformer:0 "Jade Staples"
+ ########
+ #DEN
+ ########
+ DEN_generic_defensive_army_chief:0 "Mathias Lodbrók"
+ ########
+ #HAN
+ ########
+ HAN_generic_prince_of_terror:0 "Arian Tiva"
+ ########
+ #HES
+ ########
+ HES_generic_captain_of_industry:0 "Moritz Otschi"
+ HES_generic_quartermaster_general:0 "Graf von Adler"
+ HES_generic_industrial_company:0 "Otschi-Werke"
+ HES_generic_light_aircraft_manufacturer:0 "Adler-Werke"
+ ########
+ #ITA
+ ########
+ ITA_generic_captain_of_industry:0 "Marcello Soleri"
+ ITA_generic_prince_of_terror:0 "Arturo Bocchini"
+ ITA_generic_real_estate_developer:0 "Giovanni Agnelli"
+ ITA_generic_silent_workhorse:0 "Luigi Federzoni"
+ ITA_generic_grand_battleplan_theorist:0 "Ugo Cavallero"
+ ITA_generic_mobile_warfare_theorist:0 "Giuseppe Castellano"
+ ITA_generic_mass_assault_theorist:0 "Edmondo Rossoni"
+ ITA_generic_superior_firepower_theorist:0 "Vittorio Ambrosio"
+ ########
+ #MEX
+ ########
+ MEX_generic_captain_of_industry:0 "Vicente L. Toledano"
+ MEX_generic_fortification_engineer:0 "Abelardo L. Rodríguez"
+ MEX_generic_communist_revolutionary:0 "Álvaro Obregón"
+ MEX_generic_military_theorist:0 "Lázaro Cárdenas"
+ ########
+ #NAP
+ ########
+ NAP_generic_prince_of_terror:0 "Benito Mussolini"
+ NAP_generic_military_theorist:0 "Taddeo Orlando"
+ NAP_generic_grand_battleplan_theorist:0 "Antonio Sorice"
+ NAP_generic_mobile_warfare_theorist:0 "Giovanni Messe"
+ NAP_generic_maneuver_army_chief:0 "Giovanni Messe"
+ ########
+ #NAT
+ ########
+ NAT_generic_quartermaster_general:0 "Jeddore"
+ NAT_generic_defensive_army_chief:0 "Clarence Tinker"
+ NAT_generic_offensive_army_chief:0 "Ira Hayes"
+ ########
+ #OHI
+ ########
+ OHI_generic_captain_of_industry:0 "Matthew of Selby"
+ OHI_generic_financial_expert:0 "Ethan Red"
+ OHI_generic_armaments_organizer:0 "Ethan Tanto"
+ OHI_generic_quartermaster_general:0 "Alexander of Georgia"
+ OHI_generic_real_estate_developer:0 "Skyler Godwill"
+ OHI_generic_authoritarian_ideologue:0 "Sir Evan Roberts"
+ OHI_generic_high_command_navy_amphibious_assaulter:0 "Tyler 'Marine' Tylers"
+ ########
+ #PRS
+ ########
+ PRS_generic_captain_of_industry:0 "Otto Braun"
+ PRS_generic_war_industrialist:0 "Hjalmar Schacht"
+ PRS_generic_financial_expert:0 "Walther Funk"
+ PRS_generic_armaments_organizer:0 "Gustav Krupp"
+ PRS_generic_quartermaster_general:0 "Adam Stegerwald"
+ PRS_generic_fortification_engineer:0 "Hans Lohmeyer"
+ PRS_generic_real_estate_developer:0 "Curt Joël"
+ PRS_generic_authoritarian_ideologue:0 "Franz Seldte"
+ PRS_generic_communist_revolutionary:0 "Gustav Lübeck"
+ PRS_generic_democratic_reformer:0 "Wilhelm Marx"
+ PRS_generic_fascist_demagogue:0 "Erich Ludendorff"
+ PRS_generic_popular_figurehead:0 "Kurt Schumacher"
+ PRS_generic_silent_workhorse:0 "Ernst Reuter"
+ PRS_generic_prince_of_terror:0 "Lutz von Krosigk"
+ PRS_generic_defensive_army_chief:0 "Walter Model"
+ PRS_generic_offensive_army_chief:0 "Hasso von Manteuffel"
+ PRS_generic_old_guard_army_chief:0 "August von Mackensen"
+ PRS_generic_organization_army_chief:0 "Walter von Bergmann"
+ PRS_generic_capital_ship_navy_chief:0 "Alfred Saalwächter"
+ PRS_generic_old_guard_navy_chief:0 "Wilhelm Souchon"
+ PRS_generic_submarine_navy_chief:0 "Karl Dönitz"
+ PRS_generic_all_weather_air_chief:0 "Wolfram von Richthofen"
+ PRS_generic_ground_support_air_chief:0 "Manfred von Richthofen"
+ PRS_generic_safety_air_chief:0 "Hans-Jürgen Stumpff"
+ PRS_generic_fast_tank_manufacturer:0 "Panzerwerk Pommern"
+ PRS_generic_heavy_tank_manufacturer:0 "Panzerwerk Berlin"
+ PRS_generic_medium_tank_manufacturer:0 "Panzerwerk Danzig"
+ PRS_generic_battlefleet_naval_manufacturer:0 "Schichau-Werke"
+ PRS_generic_raiding_fleet_naval_manufacturer:0 "Blohm & Voss"
+ PRS_generic_heavy_aircraft_manufacturer:0 "Heinkel"
+ PRS_generic_light_aircraft_manufacturer:0 "Messerschmitt"
+ PRS_generic_rifle_company:0 "Walther"
+ PRS_generic_artillery_company:0 "Königsberg Artillery"
+ PRS_generic_construction_company:0 "Preußenamt"
+ PRS_generic_electronics_company:0 "AEG"
+ PRS_generic_rocket_scientist:0 "Wernher von Braun"
+ PRS_generic_nuclear_scientist:0 "Albert Einstein"
+ PRS_generic_military_theorist:0 "Gerd von Rundstedt"
+ PRS_generic_grand_battleplan_theorist:0 "Erwin von Witzleben"
+ PRS_generic_mass_assault_theorist:0 "Fedor von Bock"
+ PRS_generic_mobile_warfare_theorist:0 "Heinz Guderian"
+ PRS_generic_superior_firepower_theorist:0 "Erich von Manstein"
+ PRS_generic_high_command_air_airborne_commander:0 "Kurt Student"
+ PRS_generic_high_command_navy_amphibious_assaulter:0 "Wilfried Loewenfeld"
+ PRS_generic_high_command_navy_submarine_commander:0 "Karl Dönitz"
+ PRS_generic_high_command_navy_submarine_hunter:0 "Max Bastian"
+ PRS_generic_high_command_army_commando_leader:0 "Friedrich Schulz"
+ PRS_generic_high_command_army_concealment_expert:0 "Werner von Blomberg"
+ PRS_generic_high_command_army_entrenchment_expert:0 "Hermann Hoth"
+ PRS_generic_high_command_army_regrouping_expert:0 "Johannes Blaskowitz"
+ PRS_generic_high_command_army_tank_commander:0 "Paul Hausser"
+ ########
+ #SWE
+ ########
+ SWE_generic_silent_workhorse:0 "Fraus Vanära"
+ SWE_generic_maneuver_army_chief:0 "Alexander Spräckarn"
+ ########
+ #USA
+ ########
+ USA_generic_captain_of_industry:0 "Felix M. Warburg"
+ USA_generic_war_industrialist:0 "Gerald C. MacGuire"
+ USA_generic_financial_expert:0 "John D. Rockefeller"
+ USA_generic_armaments_organizer:0 "Philemon T. Sherman"
+ USA_generic_quartermaster_general:0 "David F. Houston"
+ USA_generic_fortification_engineer:0 "Henry Morgenthau Jr."
+ USA_generic_real_estate_developer:0 "Frederick Trump"
+ USA_generic_authoritarian_ideologue:0 "Strom Thurmond"
+ USA_generic_communist_revolutionary:0 "Earl Browder"
+ USA_generic_democratic_reformer:0 "Thomas E. Dewey"
+ USA_generic_fascist_demagogue:0 "William D. Pelley"
+ USA_generic_popular_figurehead:0 "Franklin D. Roosevelt"
+ USA_generic_prince_of_terror:0 "John Edgar Hoover"
+ USA_generic_silent_workhorse:0 "Harry S. Truman"
+ USA_generic_socialist_enforcer:0 "Arvo Kustaa Hallberg"
+ USA_generic_defensive_army_chief:0 "Dwight D. Eisenhower"
+ USA_generic_offensive_army_chief:0 "George Patton"
+ USA_generic_old_guard_army_chief:0 "George Marshall"
+ USA_generic_organization_army_chief:0 "Mark Clark"
+ USA_generic_capital_ship_navy_chief:0 "Chester W. Nimitz"
+ USA_generic_maneuver_navy_chief:0 "Ernest King"
+ USA_generic_old_guard_navy_chief:0 "Frank J. Fletcher"
+ USA_generic_submarine_navy_chief:0 "Raymond Spruance"
+ USA_generic_all_weather_air_chief:0 "Carl Spaatz"
+ USA_generic_ground_support_air_chief:0 "Henry Arnold"
+ USA_generic_safety_air_chief:0 "William Boeing"
+ USA_generic_fast_tank_manufacturer:0 "Fargo"
+ USA_generic_heavy_tank_manufacturer:0 "Chrysler"
+ USA_generic_medium_tank_manufacturer:0 "Chevrolet"
+ USA_generic_battlefleet_naval_manufacturer:0 "Brooklyn Industries"
+ USA_generic_raiding_fleet_naval_manufacturer:0 "Norfolk Navy Yard"
+ USA_generic_heavy_aircraft_manufacturer:0 "Douglas"
+ USA_generic_light_aircraft_manufacturer:0 "Curtiss"
+ USA_generic_rifle_company:0 "JCG Industries"
+ USA_generic_artillery_company:0 "Rock Island Arsenal"
+ USA_generic_vehicle_company:0 "General Motors"
+ USA_generic_support_company:0 "U.S. Support Corps"
+ USA_generic_construction_company:0 "Hoover Constructions"
+ USA_generic_electronics_company:0 "Thomas Edison Industry"
+ USA_generic_industrial_company:0 "Sherman Industries"
+ USA_generic_rocket_scientist:0 "Robert H. Goddard"
+ USA_generic_nuclear_scientist:0 "Julius R. Oppenheimer"
+ USA_generic_military_theorist:0 "Kenneth C. Royall, Sr."
+ USA_generic_grand_battleplan_theorist:0 "Walter M. Robertson"
+ USA_generic_mass_assault_theorist:0 "Robert P. Patterson"
+ USA_generic_mobile_warfare_theorist:0 "William H. Simpson"
+ USA_generic_superior_firepower_theorist:0 "Henry L. Stimson"
+ USA_generic_high_command_air_airborne_commander:0 "William C. Lee"
+ USA_generic_high_command_navy_amphibious_assaulter:0 "Thomas Holcomb"
+ USA_generic_high_command_navy_submarine_hunter:0 "William Halsey, Jr."
+ USA_generic_high_command_army_commando_leader:0 "Paul T. Calvert"
+ USA_generic_high_command_army_concealment_expert:0 "Maxwell D. Taylor"
+ USA_generic_high_command_army_entrenchment_expert:0 "Walter Short"
+ USA_generic_high_command_army_regrouping_expert:0 "Lloyd E. Jones"
+ USA_generic_high_command_army_tank_commander:0 "Maurice Rose"

@@ -1,0 +1,104 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = MON_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Mongol Horde"
+	
+	division_names_group = MON_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.95
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4801
+		division_template = "Infantry Division"
+		start_experience_factor = 0.22
+		start_equipment_factor = 0.95
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4801
+		division_template = "Mongol Horde"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4801
+		division_template = "Mongol Horde"
+		start_experience_factor = 0.27
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4801
+		division_template = "Mongol Horde"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4801
+		division_template = "Mongol Horde"
+		start_experience_factor = 0.21
+		start_equipment_factor = 0.9
+	}
+	
+}
+
+instant_effect = {
+}

@@ -1,0 +1,62 @@
+defined_text = {
+	name = GetBundeswehrName
+	text = {
+		trigger = {
+			original_tag = PRS
+			has_government = neutrality
+		}
+		localization_key = "Reichswehr"
+	}
+	text = {
+		trigger = {
+			original_tag = PRS
+			has_government = democratic
+		}
+		localization_key = "Bundeswehr"
+	}
+	text = {
+		trigger = {
+			original_tag = PRS
+			has_government = communism
+		}
+		localization_key = "Nationale Volksarmee"
+	}
+	text = {
+		trigger = {
+			original_tag = PRS
+			has_government = fascism
+		}
+		localization_key = "Wehrmacht"
+	}
+}
+defined_text = {
+	name = GetGermanAnthemLine
+	text = {
+		trigger = {
+			original_tag = PRS
+			has_government = democratic
+		}
+		localization_key = "Einigkeit und Recht und Freiheit"
+	}
+	text = {
+		trigger = {
+			original_tag = PRS
+			has_government = neutrality
+		}
+		localization_key = "Deutschland, Deutschland über alles"
+	}
+	text = {
+		trigger = {
+			original_tag = PRS
+			has_government = communism
+		}
+		localization_key = "Auferstanden aus Ruinen"
+	}
+	text = {
+		trigger = {
+			original_tag = PRS
+			has_government = fascism
+		}
+		localization_key = "Heil Deutschland"
+	}
+}

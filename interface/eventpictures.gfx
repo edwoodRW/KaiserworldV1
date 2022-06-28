@@ -1,0 +1,1318 @@
+spriteTypes = {
+	##england events##
+	
+	spriteType = {
+		name = "united_kingdom_event"
+		texturefile = "gfx/event_pictures/report_event/united_kingdom_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "buckingham_palace_renovation_event"
+		texturefile = "gfx/event_pictures/report_event/buckingham_palace_renovation_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_queen_stays_event"
+		texturefile = "gfx/event_pictures/report_event/the_queen_stays_event.dds"
+	}
+	
+	spriteType = {
+		name = "queen_visits_paraliament_event"
+		texturefile = "gfx/event_pictures/report_event/queen_visits_paraliament_event.dds"
+	}
+	
+	spriteType = {
+		name = "welcome_back_to_the_palace_event"
+		texturefile = "gfx/event_pictures/report_event/welcome_back_to_the_palace_event.dds"
+	}
+	
+	spriteType = {
+		name = "liz_arrives_event"
+		texturefile = "gfx/event_pictures/report_event/liz_arrives_event.dds"
+	}
+	
+	spriteType = {
+		name = "request_royal_visit_event"
+		texturefile = "gfx/event_pictures/report_event/request_royal_visit_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "boris_reach_out_royalty_event"
+		texturefile = "gfx/event_pictures/report_event/boris_reach_out_royalty_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "the_SAS_Event"
+		texturefile = "gfx/event_pictures/report_event/the_SAS_Event.dds"
+	}
+	
+	spriteType = {
+		name = "scot_and_welsh_guard_event"
+		texturefile = "gfx/event_pictures/report_event/scot_and_welsh_guard_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "the_budget_event"
+		texturefile = "gfx/event_pictures/report_event/the_budget_event.dds"
+	}
+	
+	spriteType = {
+		name = "living_wage_event"
+		texturefile = "gfx/event_pictures/report_event/living_wage_event.dds"
+	}
+	
+	spriteType = {
+		name = "open_shop_here_event"
+		texturefile = "gfx/event_pictures/report_event/open_shop_here_event.dds"
+	}
+	
+	spriteType = {
+		name = "tourism_industry_event"
+		texturefile = "gfx/event_pictures/report_event/tourism_industry_event.dds"
+	}
+	
+	spriteType = {
+		name = "protecting_democracy_event"
+		texturefile = "gfx/event_pictures/report_event/protecting_democracy_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_bill_of_rights_event"
+		texturefile = "gfx/event_pictures/report_event/the_bill_of_rights_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "return_of_the_bbc_event"
+		texturefile = "gfx/event_pictures/report_event/return_of_the_bbc_event.dds"
+	}
+	
+	spriteType = {
+		name = "commonwealth_of_britain_event"
+		texturefile = "gfx/event_pictures/report_event/commonwealth_of_britain_event.dds"
+	}
+	
+	spriteType = {
+		name = "asking_irish_to_meet_event"
+		texturefile = "gfx/event_pictures/report_event/asking_irish_to_meet_event.dds"
+	}
+	
+	spriteType = {
+		name = "boris_military_alliance_event"
+		texturefile = "gfx/event_pictures/report_event/boris_military_alliance_event.dds"
+	}
+	
+
+		spriteType = {
+		name = "united_but_difference_event"
+		texturefile = "gfx/event_pictures/report_event/united_but_difference_event.dds"
+	}
+	
+	spriteType = {
+		name = "rebuilding_parliament_Event"
+		texturefile = "gfx/event_pictures/report_event/rebuilding_parliament_Event.dds"
+	}
+	
+	spriteType = {
+		name = "boris_excited_ref_event"
+		texturefile = "gfx/event_pictures/report_event/boris_excited_ref_event.dds"
+	}
+
+	spriteType = {
+		name = "uk_voting_ref_event"
+		texturefile = "gfx/event_pictures/report_event/uk_voting_ref_event.dds"
+	}
+	
+	spriteType = {
+		name = "diana_spencer_event"
+		texturefile = "gfx/event_pictures/report_event/diana_spencer_event.dds"
+	}
+	
+	spriteType = {
+		name = "first_debate_in_congress_event"
+		texturefile = "gfx/event_pictures/report_event/first_debate_in_congress_event.dds"
+	}
+
+	spriteType = {
+		name = "welcome_political_parties_to_congress_event"
+		texturefile = "gfx/event_pictures/report_event/welcome_political_parties_to_congress_event.dds"
+	}
+	
+	spriteType = {
+		name = "death_of_lawernce"
+		texturefile = "gfx/event_pictures/report_event/death_of_lawernce.dds"
+	}
+	
+	spriteType = {
+		name = "the_failed_meeting_Event"
+		texturefile = "gfx/event_pictures/report_event/the_failed_meeting_Event.dds"
+	}
+	
+	spriteType = {
+		name = "scotland_renoitgaites_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_renoitgaites_event.dds"
+	}
+	
+	spriteType = {
+		name = "welsh_demands_event"
+		texturefile = "gfx/event_pictures/report_event/welsh_demands_event.dds"
+	}
+	
+	spriteType = {
+		name = "scotland_demands_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_demands_event.dds"
+	}
+	
+	spriteType = {
+		name = "day_3_events"
+		texturefile = "gfx/event_pictures/report_event/day_3_events.dds"
+	}
+	
+	spriteType = {
+		name = "day_2_events"
+		texturefile = "gfx/event_pictures/report_event/day_2_events.dds"
+	}
+	
+	spriteType = {
+		name = "madrid_conference_day1_event"
+		texturefile = "gfx/event_pictures/report_event/madrid_conference_day1_event.dds"
+	}
+	
+	spriteType = {
+		name = "madrid_event"
+		texturefile = "gfx/event_pictures/report_event/madrid_event.dds"
+	}	
+	
+	spriteType = {
+		name = "meet_the_leaders_icon"
+		texturefile = "gfx/event_pictures/report_event/meet_the_leaders_icon.dds"
+	}	
+
+	spriteType = {
+		name = "third_weltkrieg_event"
+		texturefile = "gfx/event_pictures/report_event/third_weltkrieg_event.dds"
+	}	
+		
+	spriteType = {
+		name = "france_starts_war_with_Britain_event"
+		texturefile = "gfx/event_pictures/report_event/france_starts_war_with_Britain_event.dds"
+	}	
+	
+	spriteType = {
+		name = "america_responds_event"
+		texturefile = "gfx/event_pictures/report_event/america_responds_event.dds"
+	}	
+	
+	spriteType = {
+		name = "bombing_of_alctraz_event"
+		texturefile = "gfx/event_pictures/report_event/bombing_of_alctraz_event.dds"
+	}	
+
+	spriteType = {
+		name = "germany_joins_the_war_event"
+		texturefile = "gfx/event_pictures/report_event/germany_joins_the_war_event.dds"
+	}	
+	
+		spriteType = {
+		name = "russia_steps_in_event"
+		texturefile = "gfx/event_pictures/report_event/russia_steps_in_event.dds"
+	}	
+
+	spriteType = {
+		name = "taking_the_clover_event"
+		texturefile = "gfx/event_pictures/report_event/taking_the_clover_event.dds"
+	}	
+	
+	spriteType = {
+		name = "assassination_failure_event"
+		texturefile = "gfx/event_pictures/report_event/assassination_failure_event.dds"
+	}	
+		
+	spriteType = {
+		name = "meet_irish_leaders_event"
+		texturefile = "gfx/event_pictures/report_event/meet_irish_leaders_event.dds"
+	}	
+	
+	spriteType = {
+		name = "a_message_about_the_future_event"
+		texturefile = "gfx/event_pictures/report_event/a_message_about_the_future_event.dds"
+	}	
+	
+
+	spriteType = {
+		name = "a_night_with_blair_event"
+		texturefile = "gfx/event_pictures/report_event/a_night_with_blair_event.dds"
+	}	
+	
+
+	spriteType = {
+		name = "tourist_event"
+		texturefile = "gfx/event_pictures/report_event/tourist_event.dds"
+	}	
+	
+	spriteType = {
+		name = "peoples_stadium_event"
+		texturefile = "gfx/event_pictures/report_event/peoples_stadium_event.dds"
+	}	
+	
+
+	spriteType = {
+		name = "peace_for_northern_ireland_event"
+		texturefile = "gfx/event_pictures/report_event/peace_for_northern_ireland_event.dds"
+	}	
+	
+	spriteType = {
+		name = "the_eternal_leader_event"
+		texturefile = "gfx/event_pictures/report_event/the_eternal_leader_event.dds"
+	}	
+	
+	spriteType = {
+		name = "moving_military_event"
+		texturefile = "gfx/event_pictures/report_event/moving_military_event.dds"
+	}	
+	
+	spriteType = {
+		name = "operation_nightsky_event"
+		texturefile = "gfx/event_pictures/report_event/operation_nightsky_event.dds"
+	}	
+	
+	spriteType = {
+		name = "trump_in_un_event"
+		texturefile = "gfx/event_pictures/report_event/trump_in_un_event.dds"
+	}	
+	
+	spriteType = {
+		name = "we_have_power_event"
+		texturefile = "gfx/event_pictures/report_event/we_have_power_event.dds"
+	}	
+	
+	spriteType = {
+		name = "strike_down_satellite_event"
+		texturefile = "gfx/event_pictures/report_event/strike_down_satellite_event.dds"
+	}	
+
+	spriteType = {
+		name = "challenge_other_nations_Event"
+		texturefile = "gfx/event_pictures/report_event/challenge_other_nations_Event.dds"
+	}	
+
+	spriteType = {
+		name = "french_civil_war_event"
+		texturefile = "gfx/event_pictures/report_event/french_civil_war_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_flight_test_event"
+		texturefile = "gfx/event_pictures/report_event/the_flight_test_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "prepare_for_france_invasion_event"
+		texturefile = "gfx/event_pictures/report_event/prepare_for_france_invasion_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_united_armed_foces_event"
+		texturefile = "gfx/event_pictures/report_event/the_united_armed_foces_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "alliance_suppport_event"
+		texturefile = "gfx/event_pictures/report_event/alliance_suppport_event.dds"
+	}
+	
+	spriteType = {
+		name = "no_food_shortage_event"
+		texturefile = "gfx/event_pictures/report_event/no_food_shortage_event.dds"
+	}
+	
+	spriteType = {
+		name = "english_famine_event"
+		texturefile = "gfx/event_pictures/report_event/english_famine_event.dds"
+	}
+	
+	spriteType = {
+		name = "industry_of_tomorrow_event"
+		texturefile = "gfx/event_pictures/report_event/industry_of_tomorrow_event.dds"
+	}
+
+		spriteType = {
+		name = "food_delivery_event"
+		texturefile = "gfx/event_pictures/report_event/food_delivery_event.dds"
+	}
+	
+	spriteType = {
+		name = "shetlands_test_event"
+		texturefile = "gfx/event_pictures/report_event/shetlands_test_event.dds"
+	}	
+
+	spriteType = {
+		name = "nuclear_research_event"
+		texturefile = "gfx/event_pictures/report_event/nuclear_research_event.dds"
+	}	
+	spriteType = {
+		name = "only_england_event"
+		texturefile = "gfx/event_pictures/report_event/only_england_event.dds"
+	}	
+	
+	spriteType = {
+		name = "execute_royals_event"
+		texturefile = "gfx/event_pictures/report_event/execute_royals_event.dds"
+	}	
+	
+	spriteType = {
+		name = "scottish_rebel_crackdown_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_rebel_crackdown_event.dds"
+	}	
+	
+	spriteType = {
+		name = "the_new_british_republic_event"
+		texturefile = "gfx/event_pictures/report_event/the_new_british_republic_event.dds"
+	}
+	
+	spriteType = {
+		name = "korea_investment_event"
+		texturefile = "gfx/event_pictures/report_event/korea_investment_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "the_third_internationale_event"
+		texturefile = "gfx/event_pictures/report_event/the_third_internationale_event.dds"
+	}
+
+	spriteType = {
+		name = "the_red_meeting_event"
+		texturefile = "gfx/event_pictures/report_event/the_red_meeting_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "plan_for_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/plan_for_scotland_event.dds"
+	}
+	
+	spriteType = {
+		name = "selling_weapons_to_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/selling_weapons_to_scotland_event.dds"
+	}
+
+	spriteType = {
+		name = "breaking_down_the_borders_event"
+		texturefile = "gfx/event_pictures/report_event/breaking_down_the_borders_event.dds"
+	}
+
+	spriteType = {
+		name = "united_as_one_event"
+		texturefile = "gfx/event_pictures/report_event/united_as_one_event.dds"
+	}
+	
+	spriteType = {
+		name = "A_new_dawn_has_arrived_event"
+		texturefile = "gfx/event_pictures/report_event/A_new_dawn_has_arrived_event.dds"
+	}
+
+	spriteType = {
+		name = "welcome_to_the_union"
+		texturefile = "gfx/event_pictures/report_event/welcome_to_the_union.dds"
+	}
+	spriteType = {
+		name = "blair_bans_denim"
+		texturefile = "gfx/event_pictures/report_event/blair_bans_denim.dds"
+	}
+
+	spriteType = {
+		name = "legacy_of_foot_event"
+		texturefile = "gfx/event_pictures/report_event/legacy_of_foot_event.dds"
+	}
+
+
+	spriteType = {
+		name = "blairs_iron_fist_event"
+		texturefile = "gfx/event_pictures/report_event/blairs_iron_fist_event.dds"
+	}
+
+	spriteType = {
+		name = "the_weapon_research_event"
+		texturefile = "gfx/event_pictures/report_event/the_weapon_research_event.dds"
+	}
+
+	spriteType = {
+		name = "T_E_Lawrence_square_event"
+		texturefile = "gfx/event_pictures/report_event/T_E_Lawrence_square_event.dds"
+	}
+
+	spriteType = {
+		name = "blair_and_his_loyalty"
+		texturefile = "gfx/event_pictures/report_event/blair_and_his_loyalty.dds"
+	}
+
+	spriteType = {
+		name = "blair_tv_broadcast"
+		texturefile = "gfx/event_pictures/report_event/blair_tv_broadcast.dds"
+	}
+
+
+	spriteType = {
+		name = "fixing_the_union_economy"
+		texturefile = "gfx/event_pictures/report_event/fixing_the_union_economy.dds"
+	}
+
+	spriteType = {
+		name = "blair_and_korea_diplomats"
+		texturefile = "gfx/event_pictures/report_event/blair_and_korea_diplomats.dds"
+	}
+
+	
+	spriteType = {
+		name = "russia_and_england_summit"
+		texturefile = "gfx/event_pictures/report_event/russia_and_england_summit.dds"
+	}
+
+	spriteType = {
+		name = "unite_the_borders"
+		texturefile = "gfx/event_pictures/report_event/unite_the_borders.dds"
+	}
+	
+	spriteType = {
+		name = "the_scottish_borders"
+		texturefile = "gfx/event_pictures/report_event/the_scottish_borders.dds"
+	}
+	
+	spriteType = {
+		name = "firing_at_the_wall"
+		texturefile = "gfx/event_pictures/report_event/firing_at_the_wall.dds"
+	}
+	
+	spriteType = {
+		name = "unifing_the_isle"
+		texturefile = "gfx/event_pictures/report_event/unifing_the_isle.dds"
+	}
+	
+	spriteType = {
+		name = "the_congress_of_england_Event"
+		texturefile = "gfx/event_pictures/report_event/the_congress_of_england_Event.dds"
+	}
+
+	spriteType = {
+		name = "SCOTLAND_WILL_sET_YOU_FREE"
+		texturefile = "gfx/event_pictures/report_event/SCOTLAND_WILL_sET_YOU_FREE.dds"
+	}
+
+	spriteType = {
+		name = "north_sea_oil_dis"
+		texturefile = "gfx/event_pictures/report_event/north_sea_oil_dis.dds"
+	}
+
+	spriteType = {
+		name = "come_on_wales_join"
+		texturefile = "gfx/event_pictures/report_event/come_on_wales_join.dds"
+	}
+
+	spriteType = {
+		name = "cornwall_resistance_event"
+		texturefile = "gfx/event_pictures/report_event/cornwall_resistance_event.dds"
+	}
+
+
+	spriteType = {
+		name = "councils_of_england"
+		texturefile = "gfx/event_pictures/report_event/councils_of_england.dds"
+	}
+	
+	spriteType = {
+		name = "end_of_the_congress"
+		texturefile = "gfx/event_pictures/report_event/end_of_the_congress.dds"
+	}
+	
+	spriteType = {
+		name = "the_union_army_event"
+		texturefile = "gfx/event_pictures/report_event/the_union_army_event.dds"
+	}
+
+	spriteType = {
+		name = "fortify_the_union_event"
+		texturefile = "gfx/event_pictures/report_event/fortify_the_union_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_3_year_service_event"
+		texturefile = "gfx/event_pictures/report_event/the_3_year_service_event.dds"
+	}
+	
+	spriteType = {
+		name = "remebering_canda_event"
+		texturefile = "gfx/event_pictures/report_event/remebering_canda_event.dds"
+	}
+	
+	spriteType = {
+		name = "USBR_event_airwing"
+		texturefile = "gfx/event_pictures/report_event/USBR_event_airwing.dds"
+	}
+	
+	spriteType = {
+		name = "michael_wigston_event"
+		texturefile = "gfx/event_pictures/report_event/michael_wigston_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_siegh_of_scotland"
+		texturefile = "gfx/event_pictures/report_event/the_siegh_of_scotland.dds"
+	}
+
+	spriteType = {
+		name = "sonic_flight_event"
+		texturefile = "gfx/event_pictures/report_event/sonic_flight_event.dds"
+	}
+	
+	spriteType = {
+		name = "seas_of_england_event"
+		texturefile = "gfx/event_pictures/report_event/seas_of_england_event.dds"
+	}
+	
+	spriteType = {
+		name = "lindisfarne_drills_event"
+		texturefile = "gfx/event_pictures/report_event/lindisfarne_drills_event.dds"
+	}
+	
+	spriteType = {
+		name = "portsmouth_harbour_Event"
+		texturefile = "gfx/event_pictures/report_event/portsmouth_harbour_Event.dds"
+	}
+	
+	spriteType = {
+		name = "union_bridge_event"
+		texturefile = "gfx/event_pictures/report_event/union_bridge_event.dds"
+	}
+		
+	spriteType = {
+		name = "new_education_event"
+		texturefile = "gfx/event_pictures/report_event/new_education_event.dds"
+	}
+	
+	spriteType = {
+		name = "working_for_the_leader_event"
+		texturefile = "gfx/event_pictures/report_event/working_for_the_leader_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_leaders_new_palace_event"
+		texturefile = "gfx/event_pictures/report_event/the_leaders_new_palace_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_future_scientists_event"
+		texturefile = "gfx/event_pictures/report_event/the_future_scientists_event.dds"
+	}
+	
+	spriteType = {
+		name = "shetland_island_event"
+		texturefile = "gfx/event_pictures/report_event/shetland_island_event.dds"
+	}
+
+	spriteType = {
+		name = "the_talks_are_unless_event"
+		texturefile = "gfx/event_pictures/report_event/the_talks_are_unless_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "the_talks_fail_event"
+		texturefile = "gfx/event_pictures/report_event/the_talks_fail_event.dds"
+	}
+
+	spriteType = {
+		name = "teh_dragons_head_event"
+		texturefile = "gfx/event_pictures/report_event/teh_dragons_head_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_has_fallen_event"
+		texturefile = "gfx/event_pictures/report_event/wales_has_fallen_event.dds"
+	}
+	
+	spriteType = {
+		name = "burn_the_flag"
+		texturefile = "gfx/event_pictures/report_event/burn_the_flag.dds"
+	}
+	
+	spriteType = {
+		name = "welsh_trials_event"
+		texturefile = "gfx/event_pictures/report_event/welsh_trials_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_and_england_united_event"
+		texturefile = "gfx/event_pictures/report_event/wales_and_england_united_event.dds"
+	}
+
+	spriteType = {
+		name = "the_humliated_defeat_event"
+		texturefile = "gfx/event_pictures/report_event/the_humliated_defeat_event.dds"
+	}
+	
+	spriteType = {
+		name = "killing_the_ones_who_run"
+		texturefile = "gfx/event_pictures/report_event/killing_the_ones_who_run.dds"
+	}
+	
+	spriteType = {
+		name = "raiding_the_homes_event"
+		texturefile = "gfx/event_pictures/report_event/raiding_the_homes_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_wrath_of_general_blair_event"
+		texturefile = "gfx/event_pictures/report_event/the_wrath_of_general_blair_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_is_prize_event"
+		texturefile = "gfx/event_pictures/report_event/wales_is_prize_event.dds"
+	}
+
+	spriteType = {
+		name = "terror_event"
+		texturefile = "gfx/event_pictures/report_event/terror_event.dds"
+	}
+	
+	spriteType = {
+		name = "grey_tuesday_event"
+		texturefile = "gfx/event_pictures/report_event/grey_tuesday_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_day_of_mourning_event"
+		texturefile = "gfx/event_pictures/report_event/the_day_of_mourning_event.dds"
+	}
+	
+	spriteType = {
+		name = "lowering_the_flag_event"
+		texturefile = "gfx/event_pictures/report_event/lowering_the_flag_event.dds"
+	}
+	
+	spriteType = {
+		name = "funeral_for_a_King_event"
+		texturefile = "gfx/event_pictures/report_event/funeral_for_a_King_event.dds"
+	}
+
+	spriteType = {
+		name = "choosing_a_new_replacement_event"
+		texturefile = "gfx/event_pictures/report_event/choosing_a_new_replacement_event.dds"
+	}
+	
+	spriteType = {
+		name = "boris_johnson_event"
+		texturefile = "gfx/event_pictures/report_event/boris_johnson_event.dds"
+	}
+	
+	spriteType = {
+		name = "peoples_government_event"
+		texturefile = "gfx/event_pictures/report_event/peoples_government_event.dds"
+	}
+	
+	spriteType = {
+		name = "opening_market_event"
+		texturefile = "gfx/event_pictures/report_event/opening_market_event.dds"
+	}
+	
+	spriteType = {
+		name = "shutting_the_camps_event"
+		texturefile = "gfx/event_pictures/report_event/shutting_the_camps_event.dds"
+	}
+	
+	spriteType = {
+		name = "boris_in_the_un_event"
+		texturefile = "gfx/event_pictures/report_event/boris_in_the_un_event.dds"
+	}
+	
+	spriteType = {
+		name = "congress_clensing_event"
+		texturefile = "gfx/event_pictures/report_event/congress_clensing_event.dds"
+	}
+	
+	spriteType = {
+		name = "dermots_iron_fist_event"
+		texturefile = "gfx/event_pictures/report_event/dermots_iron_fist_event.dds"
+	}
+	
+	spriteType = {
+		name = "Mcdonnell_takes_over_event"
+		texturefile = "gfx/event_pictures/report_event/Mcdonnell_takes_over_event.dds"
+	}
+	
+	spriteType = {
+		name = "peace_for_all_event"
+		texturefile = "gfx/event_pictures/report_event/peace_for_all_event.dds"
+	}
+	
+	spriteType = {
+		name = "kennedy_takes_over_event"
+		texturefile = "gfx/event_pictures/report_event/kennedy_takes_over_event.dds"
+	}
+	
+	spriteType = {
+		name = "bring_the_dragons_head_event"
+		texturefile = "gfx/event_pictures/report_event/bring_the_dragons_head_event.dds"
+	}
+
+	spriteType = {
+		name = "kennedys_government_event"
+		texturefile = "gfx/event_pictures/report_event/kennedys_government_event.dds"
+	}
+	
+	spriteType = {
+		name = "boris_and_his_cola_event"
+		texturefile = "gfx/event_pictures/report_event/boris_and_his_cola_event.dds"
+	}
+	
+	spriteType = {
+		name = "a_night_to_remember_event"
+		texturefile = "gfx/event_pictures/report_event/a_night_to_remember_event.dds"
+	}
+	
+	spriteType = {
+		name = "kennedy_real_leader_event"
+		texturefile = "gfx/event_pictures/report_event/kennedy_real_leader_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_new_kennedy_fandom_event"
+		texturefile = "gfx/event_pictures/report_event/the_new_kennedy_fandom_event.dds"
+	}
+
+	spriteType = {
+		name = "first_kennedy_broadcast_event"
+		texturefile = "gfx/event_pictures/report_event/first_kennedy_broadcast_event.dds"
+	}
+	
+	spriteType = {
+		name = "time_to_get_to_work_event"
+		texturefile = "gfx/event_pictures/report_event/time_to_get_to_work_event.dds"
+	}
+	
+	spriteType = {
+		name = "people_must_learn_event"
+		texturefile = "gfx/event_pictures/report_event/people_must_learn_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_taken_event"
+		texturefile = "gfx/event_pictures/report_event/wales_taken_event.dds"
+	}
+
+	spriteType = {
+		name = "end_the_welsh_games_event"
+		texturefile = "gfx/event_pictures/report_event/end_the_welsh_games_event.dds"
+	}
+	
+	spriteType = {
+		name = "hunt_for_gethin_Event"
+		texturefile = "gfx/event_pictures/report_event/hunt_for_gethin_Event.dds"
+	}
+	
+	spriteType = {
+		name = "Portillo_takes_over_event"
+		texturefile = "gfx/event_pictures/report_event/Portillo_takes_over_event.dds"
+	}
+	
+	spriteType = {
+		name = "wales_destory_city_event"
+		texturefile = "gfx/event_pictures/report_event/wales_destory_city_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_biggeR_state_event"
+		texturefile = "gfx/event_pictures/report_event/the_biggeR_state_event.dds"
+	}
+	
+	spriteType = {
+		name = "kennedy_talks_about_himself_event"
+		texturefile = "gfx/event_pictures/report_event/kennedy_talks_about_himself_event.dds"
+	}
+	
+	spriteType = {
+		name = "better_stronger_english_event"
+		texturefile = "gfx/event_pictures/report_event/better_stronger_english_event.dds"
+	}
+	
+	spriteType = {
+		name = "giving_back_to_the_elite_event"
+		texturefile = "gfx/event_pictures/report_event/giving_back_to_the_elite_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_new_kennedy_photos"
+		texturefile = "gfx/event_pictures/report_event/the_new_kennedy_photos.dds"
+	}
+	
+	spriteType = {
+		name = "the_new_kennedy_photos"
+		texturefile = "gfx/event_pictures/report_event/the_new_kennedy_photos.dds"
+	}
+	
+	spriteType = {
+		name = "kennedys_iron_fist_event"
+		texturefile = "gfx/event_pictures/report_event/kennedys_iron_fist_event.dds"
+	}
+	
+	spriteType = {
+		name = "rebuilding_the_army_event"
+		texturefile = "gfx/event_pictures/report_event/rebuilding_the_army_event.dds"
+	}
+
+	spriteType = {
+		name = "new_military_education_event"
+		texturefile = "gfx/event_pictures/report_event/new_military_education_event.dds"
+	}
+
+	spriteType = {
+		name = "rise_up_people_event"
+		texturefile = "gfx/event_pictures/report_event/rise_up_people_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_peoples_new_well_built_army_event"
+		texturefile = "gfx/event_pictures/report_event/the_peoples_new_well_built_army_event.dds"
+	}
+	
+	spriteType = {
+		name = "highland_training_event"
+		texturefile = "gfx/event_pictures/report_event/highland_training_event.dds"
+	}
+	
+	spriteType = {
+		name = "a_message_to_the_king_Event"
+		texturefile = "gfx/event_pictures/report_event/a_message_to_the_king_Event.dds"
+	}
+	
+	spriteType = {
+		name = "kidnapping_kings_daughter_event"
+		texturefile = "gfx/event_pictures/report_event/kidnapping_kings_daughter_event.dds"
+	}
+	
+	spriteType = {
+		name = "killing_the_bloodline_event"
+		texturefile = "gfx/event_pictures/report_event/killing_the_bloodline_event.dds"
+	}
+
+	spriteType = {
+		name = "waiting_for_scottish_reaction_event"
+		texturefile = "gfx/event_pictures/report_event/waiting_for_scottish_reaction_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_irish_surprise_event"
+		texturefile = "gfx/event_pictures/report_event/the_irish_surprise_event.dds"
+	}
+	
+	spriteType = {
+		name = "prepare_for_scotland_attacks_event"
+		texturefile = "gfx/event_pictures/report_event/prepare_for_scotland_attacks_event.dds"
+	}
+
+	spriteType = {
+		name = "the_stale_war_event"
+		texturefile = "gfx/event_pictures/report_event/the_stale_war_event.dds"
+	}
+	
+	spriteType = {
+		name = "preotecting_welsh_beaches_event"
+		texturefile = "gfx/event_pictures/report_event/preotecting_welsh_beaches_event.dds"
+	}
+
+	spriteType = {
+		name = "failed_nuke_launch_event"
+		texturefile = "gfx/event_pictures/report_event/failed_nuke_launch_event.dds"
+	}
+	
+	spriteType = {
+		name = "enough_is_enough_event"
+		texturefile = "gfx/event_pictures/report_event/enough_is_enough_event.dds"
+	}
+	
+	spriteType = {
+		name = "protection_of_london_event"
+		texturefile = "gfx/event_pictures/report_event/protection_of_london_event.dds"
+	}
+
+	spriteType = {
+		name = "voting_fails_event"
+		texturefile = "gfx/event_pictures/report_event/voting_fails_event.dds"
+	}
+
+	spriteType = {
+		name = "taking_more_ground_event"
+		texturefile = "gfx/event_pictures/report_event/taking_more_ground_event.dds"
+	}
+	
+	spriteType = {
+		name = "moving_foward_event"
+		texturefile = "gfx/event_pictures/report_event/moving_foward_event.dds"
+	}
+	
+	spriteType = {
+		name = "taking_edinburgh_event"
+		texturefile = "gfx/event_pictures/report_event/taking_edinburgh_event.dds"
+	}
+
+	spriteType = {
+		name = "the_turning_point_event"
+		texturefile = "gfx/event_pictures/report_event/the_turning_point_event.dds"
+	}
+
+	spriteType = {
+		name = "waiting_for_welsh_surrender_event"
+		texturefile = "gfx/event_pictures/report_event/waiting_for_welsh_surrender_event.dds"
+	}
+	
+	spriteType = {
+		name = "threaten_the_irish_event"
+		texturefile = "gfx/event_pictures/report_event/threaten_the_irish_event.dds"
+	}
+	
+	spriteType = {
+		name = "we_want_reparations_event"
+		texturefile = "gfx/event_pictures/report_event/we_want_reparations_event.dds"
+	}
+	
+	spriteType = {
+		name = "claiming_the_scottish_throne_event"
+		texturefile = "gfx/event_pictures/report_event/claiming_the_scottish_throne_event.dds"
+	}
+
+	spriteType = {
+		name = "perpare_for_unifcation_event"
+		texturefile = "gfx/event_pictures/report_event/perpare_for_unifcation_event.dds"
+	}
+
+	spriteType = {
+		name = "scotland_takes_land_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_takes_land_event.dds"
+	}
+
+	spriteType = {
+		name = "protecting_the_south_event"
+		texturefile = "gfx/event_pictures/report_event/protecting_the_south_event.dds"
+	}
+	
+	spriteType = {
+		name = "meeting_with_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/meeting_with_scotland_event.dds"
+	}
+
+	spriteType = {
+		name = "isolated_south_england_event"
+		texturefile = "gfx/event_pictures/report_event/isolated_south_england_event.dds"
+	}
+
+	spriteType = {
+		name = "kingdom_of_northumberland_event"
+		texturefile = "gfx/event_pictures/report_event/kingdom_of_northumberland_event.dds"
+	}
+
+	spriteType = {
+		name = "keeping_the_war_going_Event"
+		texturefile = "gfx/event_pictures/report_event/keeping_the_war_going_Event.dds"
+	}
+
+	spriteType = {
+		name = "kennedys_last_stand_event"
+		texturefile = "gfx/event_pictures/report_event/kennedys_last_stand_event.dds"
+	}
+
+	spriteType = {
+		name = "a_new_flag_is_raised_event"
+		texturefile = "gfx/event_pictures/report_event/a_new_flag_is_raised_event.dds"
+	}
+	
+	spriteType = {
+		name = "canada_makes_a_target_event"
+		texturefile = "gfx/event_pictures/report_event/canada_makes_a_target_event.dds"
+	}
+
+	spriteType = {
+		name = "talks_for_a_ceasefire_event"
+		texturefile = "gfx/event_pictures/report_event/talks_for_a_ceasefire_event.dds"
+	}
+
+	spriteType = {
+		name = "cumbria_landings_event"
+		texturefile = "gfx/event_pictures/report_event/cumbria_landings_event.dds"
+	}
+	
+	spriteType = {
+		name = "southern_union_event"
+		texturefile = "gfx/event_pictures/report_event/southern_union_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_UN_Reaches_out_event"
+		texturefile = "gfx/event_pictures/report_event/the_UN_Reaches_out_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_war_meeting_event"
+		texturefile = "gfx/event_pictures/report_event/the_war_meeting_event.dds"
+	}
+	
+	spriteType = {
+		name = "canada_takes_over_event"
+		texturefile = "gfx/event_pictures/report_event/canada_takes_over_event.dds"
+	}
+	
+	spriteType = {
+		name = "defending_the_castle_event"
+		texturefile = "gfx/event_pictures/report_event/defending_the_castle_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_palace_has_fallen_event"
+		texturefile = "gfx/event_pictures/report_event/the_palace_has_fallen_event.dds"
+	}
+	
+	spriteType = {
+		name = "johnson_at_the_UN_event"
+		texturefile = "gfx/event_pictures/report_event/johnson_at_the_UN_event.dds"
+	}
+	
+	spriteType = {
+		name = "boris_reforms_continue_event"
+		texturefile = "gfx/event_pictures/report_event/boris_reforms_continue_event.dds"
+	}
+
+	spriteType = {
+		name = "ending_blair_fandom_event"
+		texturefile = "gfx/event_pictures/report_event/ending_blair_fandom_event.dds"
+	}
+
+	spriteType = {
+		name = "end_totalism_evnet"
+		texturefile = "gfx/event_pictures/report_event/end_totalism_evnet.dds"
+	}
+
+	spriteType = {
+		name = "build_back_better_event"
+		texturefile = "gfx/event_pictures/report_event/build_back_better_event.dds"
+	}
+	
+	spriteType = {
+		name = "old_london_event"
+		texturefile = "gfx/event_pictures/report_event/old_london_event.dds"
+	}
+	
+	spriteType = {
+		name = "rights_for_people_event"
+		texturefile = "gfx/event_pictures/report_event/rights_for_people_event.dds"
+	}
+
+	spriteType = {
+		name = "the_new_nhs_event"
+		texturefile = "gfx/event_pictures/report_event/the_new_nhs_event.dds"
+	}
+	
+	spriteType = {
+		name = "liberal_reforms_events"
+		texturefile = "gfx/event_pictures/report_event/liberal_reforms_events.dds"
+	}
+
+	spriteType = {
+		name = "a_new_beginning_event"
+		texturefile = "gfx/event_pictures/report_event/a_new_beginning_event.dds"
+	}
+	
+	spriteType = {
+		name = "meeting_with_welsh_Event"
+		texturefile = "gfx/event_pictures/report_event/meeting_with_welsh_Event.dds"
+	}
+	
+	spriteType = {
+		name = "new_cardiff_agreement_Event"
+		texturefile = "gfx/event_pictures/report_event/new_cardiff_agreement_Event.dds"
+	}
+
+	spriteType = {
+		name = "peace_border_event"
+		texturefile = "gfx/event_pictures/report_event/peace_border_event.dds"
+	}
+
+	spriteType = {
+		name = "king_meets_boris_event"
+		texturefile = "gfx/event_pictures/report_event/king_meets_boris_event.dds"
+	}
+	
+	spriteType = {
+		name = "isle_of_mann_event"
+		texturefile = "gfx/event_pictures/report_event/isle_of_mann_event.dds"
+	}
+
+	spriteType = {
+		name = "talks_for_unification_event"
+		texturefile = "gfx/event_pictures/report_event/talks_for_unification_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "scotland_the_brave_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_the_brave_event.dds"
+	}
+	
+	spriteType = {
+		name = "english_refugees_event"
+		texturefile = "gfx/event_pictures/report_event/english_refugees_event.dds"
+	}
+	
+	spriteType = {
+		name = "francis_changes_direction_event"
+		texturefile = "gfx/event_pictures/report_event/francis_changes_direction_event.dds"
+	}
+
+	spriteType = {
+		name = "scottish_welfare_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_welfare_event.dds"
+	}
+
+	spriteType = {
+		name = "scottish_job_industry_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_job_industry_event.dds"
+	}
+	
+	spriteType = {
+		name = "highland_resources_event"
+		texturefile = "gfx/event_pictures/report_event/highland_resources_event.dds"
+	}
+
+	spriteType = {
+		name = "the_nation_event"
+		texturefile = "gfx/event_pictures/report_event/the_nation_event.dds"
+	}
+
+	spriteType = {
+		name = "scotland_and_canada_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_and_canada_event.dds"
+	}
+
+	spriteType = {
+		name = "scottish_intelligence_agency_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_intelligence_agency_event.dds"
+	}
+
+	spriteType = {
+		name = "bernie_and_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/bernie_and_scotland_event.dds"
+	}
+
+
+	spriteType = {
+		name = "socialist_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/socialist_scotland_event.dds"
+	}
+	
+	spriteType = {
+		name = "francis_and_bernie_event"
+		texturefile = "gfx/event_pictures/report_event/francis_and_bernie_event.dds"
+	}
+	
+	spriteType = {
+		name = "scotland_and_ireland_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_and_ireland_event.dds"
+	}
+	###greece event###
+	spriteType = {
+		name = "restored_empire"
+		texturefile = "gfx/event_pictures/report_event/restored_empire.dds"
+	}
+	###usa event###
+	spriteType = {
+		name = "us_female_troop_saluting"
+		texturefile = "gfx/event_pictures/report_event/us_female_troop_saluting.dds"
+	}
+	
+	spriteType = {
+		name = "2010_us_congressional_election"
+		texturefile = "gfx/event_pictures/report_event/2010_us_congressional_election.dds"
+	}
+	
+	spriteType = {
+		name = "2010_us_election"
+		texturefile = "gfx/event_pictures/report_event/2010_us_election.dds"
+	}
+
+	spriteType = {
+		name = "texas_state"
+		texturefile = "gfx/event_pictures/report_event/texas_state.dds"
+	}
+
+	spriteType = {
+		name = "2016_bernie_trump"
+		texturefile = "gfx/event_pictures/report_event/2016_bernie_trump.dds"
+	}
+
+	spriteType = {
+		name = "gaben"
+		texturefile = "gfx/event_pictures/report_event/gaben.dds"
+	}
+
+	spriteType = {
+		name = "mcarthur_event"
+		texturefile = "gfx/event_pictures/report_event/mcarthur_event.dds"
+	}
+
+	spriteType = {
+		name = "revengers_event"
+		texturefile = "gfx/event_pictures/report_event/revengers_event.dds"
+	}
+
+	spriteType = {
+		name = "PM_Alex_jones_lovecraft"
+		texturefile = "gfx/event_pictures/report_event/PM_Alex_jones_lovecraft.dds"
+	}
+	
+	
+#CANADA#
+	spriteType = {
+		name = "canada_event_one"
+		texturefile = "gfx/event_pictures/report_event/canada_event_one.dds"
+	}
+	
+
+
+
+
+
+#ALASKA#
+spriteType = {
+	name = "Anchorage_Under_Siege_event"
+	texturefile = "gfx/event_pictures/report_event/Anchorage_Under_Siege_event.dds"
+}
+
+
+spriteType = {
+	name = "order_66_event"
+	texturefile = "gfx/event_pictures/report_event/order_66_event.dds"
+}
+
+spriteType = {
+	name = "first_american_troops_leave_event"
+	texturefile = "gfx/event_pictures/report_event/first_american_troops_leave_event.dds"
+}
+
+spriteType = {
+	name = "alaskan_milita_takes_rig_event"
+	texturefile = "gfx/event_pictures/report_event/alaskan_milita_takes_rig_event.dds"
+}
+
+
+
+
+
+
+
+
+

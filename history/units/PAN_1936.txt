@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = SPAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4624
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.25
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7630
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.25
+	}
+}
+
+air_wings = {
+	304 = {
+		fighter_equipment_0 = {
+			owner = "PAN" 
+			amount = 12
+		}
+	}
+}
+
+instant_effect = {
+}

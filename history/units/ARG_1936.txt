@@ -1,0 +1,138 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = SPR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Armored Division"
+	
+	division_names_group = SPAN_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Division"
+		location = 12364		#Buenos Aires
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "2nd Division"
+		location = 12364		#Buenos Aires
+		division_template = "Armored Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "3rd Division"
+		location = 2152			#Asuncion
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "4th Division"
+		location = 10992		#Close to Santiago
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "5th Division"
+		location = 12351		#Buenos Aires
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "6th Division"
+		location = 8216			#Tucuman
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "7th Division"
+		location = 12364		#Buenos Aires
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "8th Division"
+		location = 8216			#Tucuman
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "9th Division"
+		location = 12379		#Buenos Aires
+		division_template = "Armored Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "10th Division"
+		location = 10362		#Montevideo
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "11th Division"
+		location = 7621		#Mar del Plata
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+}
+
+air_wings = {
+	278 = {
+		fighter_equipment_0 = {
+			owner = "ARG" 
+			amount = 100
+		}
+	}
+}
+
+instant_effect = {
+}

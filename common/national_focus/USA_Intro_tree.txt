@@ -1,0 +1,356 @@
+focus_tree = {
+	id = USA_intro_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_Bernies_Time_To_Shine
+		icon = unknown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_Bernies_New_Deal
+		icon = unkown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernies_Time_To_Shine  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Pushing_back_Against_The_Military_Industrial_Complex
+		icon = unkown
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernies_New_Deal  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Regulate_Wall_Street
+		icon = unkown
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Pushing_back_Against_The_Military_Industrial_Complex  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+	focus = {
+		id = USA_Raise_Minimum_Wage
+		icon = unkown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernies_New_Deal  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	
+	focus = {
+		id = USA_Increase_Taxes_On_The_Aristocracy
+		icon = unkown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Raise_Minimum_Wage  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Subsidize_Healthcare
+		icon = unkown
+		x = 13
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bernies_New_Deal  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Work_With_The_Banks
+		icon = unkown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Subsidize_Healthcare  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Onto_The_Real_Work
+		icon = unkown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Work_With_The_Banks  }
+		prerequisite = { focus =  USA_Regulate_Wall_Street  }
+		prerequisite = { focus =  USA_Increase_Taxes_On_The_Aristocracy  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Free_Schooling_For_All
+		icon = unkown
+		x = 7
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Onto_The_Real_Work  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Big_Pharma_And_Socialism
+		icon = unkown
+		x = 7
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Free_Schooling_For_All  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Protect_Unions
+		icon = unkown
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Onto_The_Real_Work  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Workplace_Democracy
+		icon = unkown
+		x = 10
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Protect_Unions  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_A_Roof_Over_Everyones_Head
+		icon = unkown
+		x = 13
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Onto_The_Real_Work  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_End_The_Prison_Pipeline
+		icon = unkown
+		x = 13
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Roof_Over_Everyones_Head  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bernies_Decolonization_Policy
+		icon = unknown
+		x = 25
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+	focus = {
+		id = USA_The_Issues_Of_Baja
+		icon = unknown
+		x = 21
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Bernies_Decolonization_Policy  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_Hawaiian_Brotherhood
+		icon = unknown
+		x = 21
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_The_Issues_Of_Baja  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Take_It_To_The_European_Powers
+		icon = unknown
+		x = 29
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Bernies_Decolonization_Policy  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

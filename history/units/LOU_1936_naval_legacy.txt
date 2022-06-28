@@ -1,0 +1,29 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	### ROYAL NAVY ###
+	fleet = {
+		name = "Koninklijke Marine"			
+		naval_base = 7552  # Amsterdam
+		task_force = {				
+			name = "Koninklijke Vloot"			
+			location = 7552  # Amsterdam
+			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = LOU } } }		
+			ship = { name = "HrMs Jacob van Heemskerck" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = LOU } } }		
+			ship = { name = "HrMs Van Galen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LOU } } }		
+		}
+		task_force = {				
+			name = "Koninklijke Onderzeeboot Smaldeel"			
+			location = 3314  # Amsterdam
+			ship = { name = "HrMs O-9" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LOU version_name = "630 Series" } } }
+			ship = { name = "HrMs O-10" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LOU version_name = "630 Series" } } }
+			ship = { name = "HrMs O-11" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LOU version_name = "630 Series" } } }
+			ship = { name = "HrMs O-12" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LOU version_name = "630 Series" } } }
+			ship = { name = "HrMs O-13" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LOU version_name = "630 Series" } } }
+			ship = { name = "HrMs O-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LOU version_name = "630 Series" } } }
+			ship = { name = "HrMs O-15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LOU version_name = "630 Series" } } }
+		}	
+	}
+}
+
+

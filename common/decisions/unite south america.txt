@@ -1,0 +1,273 @@
+political_decisions = {
+	united_sam = {
+	picture = unite_gran_colombia
+		
+		allow = {
+			war = no
+            nationalism_n_imperialism = 1
+            BRZ = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			
+			ARG = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			
+			PEU = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			ECU = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			CLM = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			CHL = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			BOL = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			VNZ = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			URU = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+			PRG = {
+                all_core = {
+					OR = {
+					
+                        OR = {
+                            owned_by = THIS
+                            owner = {
+                                in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                                war = no
+                                is_mobilised = no
+                                is_greater_power = no
+                            }
+                        }
+                       is_colonial = yes
+                    }
+                }
+            }
+		}
+		effect = {
+		change_tag = SAM
+		change_tag_no_core_switch = SAM
+			any_owned = {
+			limit = {continent = south_america}
+			add_core = SAM
+			}
+		any_country = {	
+			any_owned = {
+			limit = {continent = south_america}
+			add_core = SAM
+			}
+		}
+		any_country = { limit = {AND = {in_sphere = THIS capital_scope = {continent = south_america}}} annex_to = THIS }
+		ARG_2384 = {add_core = SAM}
+		ARG_2393 = {add_core = SAM}
+		ARG_2391 = {add_core = SAM}
+		CHL_2332 = {add_core = SAM}
+		ARG_2398 = {add_core = SAM}
+		BRZ_2401 = {add_core = SAM}
+		2353 = {add_core = SAM}
+		add_accepted_culture = brazilian
+		add_accepted_culture = north_andean
+		add_accepted_culture = south_andean
+		}
+		potential = {
+			NOT = {exists = SAM}
+			capital_scope = {continent = south_america}
+			
+		}
+	}
+	
+	el_tofo = {
+		picture = essen_ruhr
+		potential = {
+		NOT = {has_country_flag = el_tofo_mines}
+			OR = {	
+				capital_scope = {continent = south_america}
+				tag = IBE
+				tag = SPA
+			}
+		2322 = {owned_by = THIS}
+		}
+		allow = {
+			drilling_and_blasting = 1
+		}
+		effect = {
+			set_country_flag = el_tofo_mines
+			2322 = {add_province_modifier = {name = el_tofo duration = -1}}
+			2322 = {add_province_modifier = {name = recently_built_city duration = 3650}}
+		}
+	}
+}

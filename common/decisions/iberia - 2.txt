@@ -1,0 +1,56 @@
+political_decisions = {
+	ibe_colonial_reform = {
+		picture = dreams_of_empire
+		allow = {
+			NOT = {has_country_modifier = finishing_colonial_centralization}
+			war = no
+			is_greater_power = yes
+			OR = {
+				any_sphere_member = {substate_of = THIS OR = {primary_culture = brazilian primary_culture = north_andean primary_culture = south_andean primary_culture = mexican primary_culture = central_american}}
+				any_sphere_member = {vassal_of = THIS OR = {primary_culture = brazilian primary_culture = north_andean primary_culture = south_andean primary_culture = mexican primary_culture = central_american}}
+			}
+		}
+		effect = {
+			set_global_flag = ibe_colonial_reform
+			set_country_flag = ibe_colonial_reform
+			add_accepted_culture = peruvian
+			any_country = {
+				limit = {substate_of = THIS OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}}
+				any_owned = {limit = {OR = {continent = south_america continent = north_america}} add_core = THIS}
+			}
+			any_country = {
+				limit = {vassal_of = THIS OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}}
+				any_owned = {limit = {OR = {continent = south_america continent = north_america}} add_core = THIS}
+			}
+			any_country = {
+				limit = {substate_of = THIS OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}}
+				annex_to = THIS
+			}
+			any_country = {
+				limit = {vassal_of = THIS OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}}
+				annex_to = THIS
+			}
+			any_pop = {
+				limit = {OR = {has_pop_culture = north_andean has_pop_culture = south_andean has_pop_culture = brazilian has_pop_culture = platinean has_pop_culture =mexican has_pop_culture =central_american}}
+				militancy = 5
+			}
+			any_owned = {
+				limit = {is_core = THIS OR ={continent = north_america continent = south_america}}
+				add_province_modifier = {name = spanish_colonies_integration_province duration = -1}
+			}
+			add_country_modifier = {name = spanish_colonies_integration duration = -1}
+			set_country_flag = new_world_nation
+		}
+		potential = {
+			OR = {tag = IBE tag = SPA}
+			
+			NOT = {has_global_flag = ibe_colonial_reform}
+			has_global_flag = begin_further_colonial_centralization
+			OR = {
+				any_sphere_member = {substate_of = THIS OR = {primary_culture = brazilian primary_culture = north_andean primary_culture = south_andean primary_culture = mexican primary_culture = central_american}}
+				any_sphere_member = {vassal_of = THIS OR = {primary_culture = brazilian primary_culture = north_andean primary_culture = south_andean primary_culture = mexican primary_culture = central_american}}
+			}
+		}
+	}
+	
+}

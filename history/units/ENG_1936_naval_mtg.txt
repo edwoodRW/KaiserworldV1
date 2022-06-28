@@ -1,0 +1,198 @@
+﻿units = {
+	##### NAVAL UNITS #####
+	### HOME COMMAND ###
+	fleet = {
+		name = "Home Command"			
+		naval_base = 11064 # Scapa Flow
+		task_force = {
+			name = "Home Fleet"
+			location = 9458 # plymouth
+			ship = { name = "Republican Furious" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "ENG" amount = 18 }
+					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 12 }
+				}
+			}
+			ship = { name = "Republican Nelson" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
+			ship = { name = "Republican Rodney" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Nelson Class" } } }
+			ship = { name = "Republican Royal Oak" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }
+			ship = { name = "Republican Royal Sovereign" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }
+			ship = { name = "Republican Ramillies" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }
+			ship = { name = "Republican Hood" pride_of_the_fleet = yes definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Admiral Class" } } }
+			ship = { name = "Republican Repulse" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
+			ship = { name = "Republican Renown" definition = battle_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Renown Class" } } }
+			ship = { name = "Republican Norfolk" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+			ship = { name = "Republican Calcutta" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }
+			ship = { name = "Republican Emerald" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+			ship = { name = "Republican Enterprise" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
+			ship = { name = "Republican Sabre" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
+			ship = { name = "Republican Shikari" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
+			### 6th Destroyer Flotilla
+			ship = { name = "Republican Keith" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			# Destroyer Division 11
+			ship = { name = "Republican Venetia" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Vanessa" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Viscount" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Wessex" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			# Destroyer Division 12
+			ship = { name = "Republican Vesper" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Vivacious" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Wakeful" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Windsor" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			### 8th Destroyer Flotilla
+			ship = { name = "Republican Faulknor" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }
+			# Destroyer Division 15
+			ship = { name = "Republican Foxhound" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } } 						# to RCN as Qu'Appelle, 1943	
+			ship = { name = "Republican Fury" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }
+			ship = { name = "Republican Fearless" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }
+			ship = { name = "Republican Forester" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }
+			# Destroyer Division 16
+			ship = { name = "Republican Fame" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }
+			ship = { name = "Republican Firedrake" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }
+			ship = { name = "Republican Foresight" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }
+			ship = { name = "Republican Fortune" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = ENG version_name = "E/F/G/H Class"} } }							# to RCN as Saskatchewan, 1943	
+		}				
+		task_force = {				
+			name = "Reserve Fleet"			
+			location = 9458 # Portsmouth
+			ship = { name = "Republican Foot" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+			ship = { name = "Republican Valiant" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }
+			ship = { name = "Republican Frobisher" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
+			ship = { name = "Republican Hawkins" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
+			ship = { name = "Republican Carlisle" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
+			ship = { name = "Republican Curlew" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
+			ship = { name = "Republican Adventure" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Adventure Class" } } }
+			# Reserve Destroyer Division
+			ship = { name = "Republican Whitshed" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Wild Swan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Viceroy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Verdun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Vanity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+		}
+		task_force = {
+			name = "Channel Force"			
+			location = 9458 # Portsmouth
+			ship = { name = "Republican Courageous" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = ENG version_name = "Courageous Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "ENG" amount = 18 }
+					cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 24 }
+				}
+			}
+			ship = { name = "Republican Resolution" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }			
+			ship = { name = "Republican Revenge" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ENG version_name = "Revenge Class"} } }					
+			ship = { name = "Republican Ceres" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
+			ship = { name = "Republican Caradoc" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
+			ship = { name = "Republican Cairo" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class" } } }
+			# 5th Destroyer Flotilla
+			ship = { name = "Republican Kempenfelt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }		# to RCN as Assiniboine, 1939
+			# Destroyer Division 9
+			ship = { name = "Republican Acasta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
+			ship = { name = "Republican Antelope" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
+			ship = { name = "Republican Ardent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
+			ship = { name = "Republican Acheron" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
+			# Destroyer Division 10
+			ship = { name = "Republican Achates" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }				
+			ship = { name = "Republican Anthony" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
+			ship = { name = "Republican Arrow" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }			
+			ship = { name = "Republican Amazon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }		
+		}
+		task_force = {
+			name = "Humber Force"
+			location = 11297 # Hull
+			### 7th Destroyer Flotilla
+			# Destroyer Division 13
+			ship = { name = "Republican Broke" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Wanderer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Whitehall" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Witch" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }	
+			# Destroyer Division 14
+			ship = { name = "Republican Verity" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Volunteer" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Witherington" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Wolverine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }	
+		}				
+		
+		
+		task_force = {
+			name = "Nore Fleet"
+			location = 3501 # Dover
+			ship = { name = "Republican London" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+			ship = { name = "Republican Curacoa" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C-Class"} } }
+			# Nore Destroyer Division
+			ship = { name = "Republican Campbell" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Vivien" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Worcester" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Woolston" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			ship = { name = "Republican Wolfhound" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class"} } }
+			### 14th Destroyer Flotilla
+			ship = { name = "Republican Codrington" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			# Destroyer Division 27
+			ship = { name = "Republican Basilisk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "Republican Beagle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
+			ship = { name = "Republican Boreas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "Republican Bulldog" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
+			# Destroyer Division 28
+			ship = { name = "Republican Blanche" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "Republican Boadicea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }	
+			ship = { name = "Republican Brazen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "Republican Brilliant" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+		}
+		task_force = {
+			name = "Portsmouth Fleet"
+			location = 9458 # Portsmouth
+			ship = { name = "Republican Suffolk" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+			### 9th Destroyer Flotilla
+			# Destroyer Division 17
+			ship = { name = "Republican Skate" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
+			ship = { name = "Republican Saladin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
+			ship = { name = "Republican Scimitar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
+			ship = { name = "Republican Sardonyx" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "S Class"} } }
+			# Destroyer Division 18
+			ship = { name = "Republican Ambuscade" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "A/B/C/D Class" } } }
+			ship = { name = "Republican Winchester" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }	
+		}
+		task_force = {
+			name = "Western Approaches Fleet"
+			location = 540 # Plymouth
+			# Western Approaches Destroyer Division
+			ship = { name = "Republican Montrose" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Sturdy" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Valentine" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Vega" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Westminster" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			# 11th Destroyer Flotilla
+			ship = { name = "Republican Mackay" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			# Destroyer Division 21
+			ship = { name = "Republican Vanquisher" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Vanoc" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Walpole" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Winchelsea" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			# Destroyer Division 22
+			ship = { name = "Republican Versatile" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Vimiera" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Whirlwind" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+			ship = { name = "Republican Warwick" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V/W Class" } } }
+		}
+		
+		
+		task_force = {
+			name = "5th Submarine Flotilla"
+			location = 9458 # Portsmouth
+			# Submarine Division 51
+			ship = { name = "Republican Oberon" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican Thames" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			# Submarine Division 52
+			ship = { name = "Republican L23" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican H28" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican H31" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican H33" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican H34" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican H43" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican H44" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican H49" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+			ship = { name = "Republican H50" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }
+		}
+	}
+
+	
+}

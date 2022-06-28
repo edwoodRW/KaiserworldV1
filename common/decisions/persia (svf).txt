@@ -1,0 +1,218 @@
+political_decisions = {
+    reach_for_the_mediterranean ={
+	picture = "conquest_of_the_desert"
+	potential ={
+	tag = SVF
+	NOT = {has_country_flag = reach_for_the_mediterranean}
+	}
+	allow = {
+	all_core = {owned_by = THIS}
+	tag = SVF
+	alphabetic_flag_signaling = 1
+	}
+	effect = {
+	TUR_894 = {add_core = THIS}
+	set_country_flag = reach_for_the_mediterranean
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	finish_off_afghanistan = {
+	picture = "conquest_of_the_desert"
+	potential ={
+	tag = SVF
+	NOT = {has_country_flag = finish_off_afghanistan}
+	}
+	allow = {
+	1209 = {owned_by = THIS}
+	1215 = {owned_by = THIS}
+	NOT = {exists =AFG}
+	tag = SVF
+	}
+	effect = {
+	
+	1212 = {add_core = THIS}
+	1213 = {add_core = THIS}
+	1211 = {add_core = THIS}
+	1210 = {add_core = THIS}
+	1209 = {add_core = THIS}
+	1216 = {add_core = THIS}
+	1214 = {add_core = THIS}
+	2133 = {add_core = THIS}
+	1217 = {add_core = THIS}
+	1215 = {add_core = THIS}
+	1219 = {add_core = THIS}
+	set_country_flag = finish_off_afghanistan
+	}
+	
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	expand_into_india = {
+	picture = "conquest_of_the_desert"
+	potential ={
+	tag = SVF
+	has_country_flag = finish_off_afghanistan
+	has_country_flag = reach_for_the_mediterranean
+	NOT = {has_country_flag = expand_into_india}
+	}
+	allow = {
+	military_score = 60
+	tag = SVF
+	}
+	effect = {
+	KAL_1221 = {add_core = THIS}
+	PAN_1227 = {add_core = THIS}
+	PAN_1224 = {add_core = THIS}
+	1289 = {add_core = THIS}
+	1288 = {add_core = THIS}
+	set_country_flag = expand_into_india
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	
+	}
+	
+	cross_the_indus = {
+	picture = "bulgarian_miracle"
+	potential ={
+	tag = SVF
+	has_country_flag = expand_into_india
+	NOT = {has_country_flag = cross_the_indus}
+	}
+	allow = {
+	all_core = {owned_by = THIS}
+	tag = SVF
+	}
+	effect = {
+	1290 = {add_core = THIS}
+	1266 = {add_core = THIS}
+	1264 = {add_core = THIS}
+	1268 = {add_core = THIS}
+	1236 = {add_core = THIS}
+	1237 = {add_core = THIS}
+	1267 = {add_core = THIS}
+	1265 = {add_core = THIS}
+	set_country_flag = cross_the_indus
+	}
+	
+	ai_will_do = {					
+		factor = 1
+	}
+	}
+	
+	into_arabia = {
+	picture = "bedouins_granger"
+	potential ={
+	NOT = {has_country_flag = into_arabia}
+	tag = SVF
+	
+	
+	}
+	
+	allow = {
+	all_core = {owned_by = THIS}
+	1167 = {owned_by = THIS}
+	1168 = {owned_by = THIS}
+	2664 = {owned_by = THIS}
+	OMA_1166 = {owned_by = THIS}
+	tag = SVF
+	}
+	effect = {
+	HDJ_1151 = {add_core = THIS}
+	YEM_1178 = {add_core = THIS}
+	YEM_1412 = {add_core = THIS}
+	OMA_1166 = {add_core = THIS}
+	ABU_1162 = {add_core = THIS}
+	NEJ_1157 = {add_core = THIS}
+	1160 = {add_core = THIS}
+	1158 = {add_core = THIS}
+	945 = {add_core = THIS}
+	set_country_flag = into_arabia
+	}
+	
+	
+	ai_will_do = {					
+		factor = 1
+	}
+	
+	}
+	
+	solidify_shiite_dominance = {
+	picture = "dubai_city"
+	potential ={
+	NOT = {has_country_flag = solidify_shiite_dominance}
+	has_country_flag = into_arabia
+	tag = SVF
+	
+	
+	}
+	
+	allow = {
+	all_core = {owned_by = THIS}
+	1151 = {owned_by = THIS}
+	tag = SVF
+	}
+	effect = {
+	add_country_modifier = {name = caliph_egy duration = 999999}
+	add_country_modifier = {name = persian_discipline duration = -1}
+	any_pop = {
+                limit = {
+						has_pop_religion = shiite
+						}
+                
+                militancy = -4
+				consciousness = -1
+            }
+	set_country_flag = solidify_shiite_dominance
+	}
+	
+	
+	ai_will_do = {					
+		factor = 1
+	}
+	
+	}
+	
+	
+	###############################################
+	#Keep this decision at the end of the document#
+	###############################################
+	caucasus_compromise = {
+	picture = "embrace_minority"
+	
+	allow = {
+	nationalism_n_imperialism = 1
+	tag = SVF
+	}
+	effect = {
+	
+	any_owned = {
+	limit = {is_core = AZB}
+	add_core = THIS
+	}
+	
+	add_accepted_culture = azerbaijani
+	set_country_flag = caucasus_compromise
+	}
+	ai_will_do = {					
+		factor = 1
+	}
+	potential ={
+	NOT = {has_country_flag = caucasus_compromise}
+	tag = SVF
+	any_owned_province = {
+	is_core = AZB
+	}
+	
+	}
+	
+	
+	}
+
+}

@@ -1,0 +1,26 @@
+﻿units = {
+}
+
+air_wings = {
+	261 = {
+		fighter_equipment_0 = {
+			owner = "OHI" 
+			amount = 24
+		}
+	}
+	261 = {
+		fighter_equipment_0 = {
+			owner = "OHI" 
+			amount = 24
+		}
+	}
+	261 = {
+		fighter_equipment_0 = {
+			owner = "OHI" 
+			amount = 24
+		}
+	}
+}
+
+instant_effect = {
+}

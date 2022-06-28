@@ -1,0 +1,91 @@
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	### Split between San Pedro (Los Angeles) and San Diego ###
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 1562 # San Diego
+		task_force = {				
+			name = "Battleships, Battle Force"
+			location = 1562 # San Diego
+			### Battleship Division 1 ###			
+			ship = { name = "USS Nevada" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAL version_name = "Pennsylvania Class" } } }				
+			ship = { name = "USS Arizona" definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAL version_name = "Pennsylvania Class" } } }				
+			ship = { name = "USS Pennsylvania" pride_of_the_fleet = yes definition = battleship equipment = { battleship_1 = { amount = 1 owner = CAL version_name = "Pennsylvania Class" } } }					
+		}				
+		task_force = {					
+			name = "Carrier Division, Battle Force"		
+			location = 1562 # San Diego
+			ship = { name = "USS Ranger" definition = carrier equipment = { carrier_2 = { amount = 1 owner = CAL } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "CAL" amount = 8 } # historical: 36
+					cv_CAS_equipment_1 =  { owner = "CAL" amount = 14 } # historical: 15
+					cv_nav_bomber_equipment_1 =  { owner = "CAL" amount = 8 } # historical: 12
+				}
+			}
+		}					
+		task_force = {					
+			name = "Cruisers, Battle Force"
+			location = 9814 # Los Angeles
+			# Cruiser Division 2 #			
+			ship = { name = "USS Omaha" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }				
+			ship = { name = "USS Milwaukee" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }				
+			ship = { name = "USS Cincinnati" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }				
+			# Cruiser Division 6 #		
+			ship = { name = "USS New Orleans" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL version_name = "Portland Class" } } }				
+			ship = { name = "USS Astoria" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL version_name = "Portland Class" } } }				
+			ship = { name = "USS Minneapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL version_name = "Portland Class" } } }				
+			ship = { name = "USS Indianapolis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CAL version_name = "Portland Class" } } }				
+		}					
+		task_force = {					
+			name = "Cruiser Division 3"				
+			base = 1562
+			location = 1562 # San Diego
+			ship = { name = "USS Trenton" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }				
+			ship = { name = "USS Concord" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }				
+		}					
+		### Destroyer Flotilla 1 ###				
+		task_force = {					
+			name = "Destroyer Flotilla 1"				
+			location = 1562 # San Diego
+			ship = { name = "USS Raleigh" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CAL } } }				
+			### Destroyer Squadron 1 ###				
+			# 1st Destroyer Division				
+			ship = { name = "USS Dewey" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL version_name = "Farragut Class" } } }
+			ship = { name = "USS Hull" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL version_name = "Farragut Class" } } }
+			ship = { name = "USS MacDonough" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL version_name = "Farragut Class" } } }
+			ship = { name = "USS Worden" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL version_name = "Farragut Class" } } }
+			# 2nd Destroyer Division				
+			ship = { name = "USS Farragut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL version_name = "Farragut Class" } } }
+			ship = { name = "USS Dale" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL version_name = "Farragut Class" } } }
+			ship = { name = "USS Monaghan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL version_name = "Farragut Class" } } }
+			ship = { name = "USS Aylwin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL version_name = "Farragut Class" } } }
+			### Destroyer Squadron 9 ###				
+			# 17th Destroyer Division				
+			ship = { name = "USS Hatfield" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }		
+			ship = { name = "USS Brooks" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }		
+			ship = { name = "USS Fox" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }		
+			ship = { name = "USS Kane" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CAL } } }							
+	}
+				
+		task_force = {					
+			name = "4th Submarine Squadron"			
+			location = 4180 # Pearl Harbor, HI
+			ship = { name = "USS Argonaut" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL version_name = "Barracuda Class" } } }
+			# 7th Submarine Division				
+			ship = { name = "USS S-1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			ship = { name = "USS S-18" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			ship = { name = "USS S-23" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			ship = { name = "USS S-27" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			ship = { name = "USS S-28" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			ship = { name = "USS S-34" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			ship = { name = "USS S-35" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			# 16th Submarine Division			
+			ship = { name = "USS S-31" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			ship = { name = "USS S-32" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+			ship = { name = "USS S-33" definition = submarine equipment = { submarine_1 = { amount = 1 owner = CAL } } }
+		}
+	}
+}

@@ -1,0 +1,134 @@
+bookmarks = {
+	bookmark = {
+		name = "2010_NAME"
+		desc = "2010_DESC"
+		date = 2010.1.1.1
+		picture = "GFX_select_date_2010"
+		default_country = "USA"
+		default = yes
+		
+		"USA"={
+			history = "USA_DESC"
+			ideology = moderate_socialist
+			ideas = {
+			    idea_usa_norton_the_fourth
+				idea_usa_democratic_nation
+				idea_america_neutrality
+			}
+			focuses = {
+				USA_a_legitimate_ruler
+				USA_embrace_nationalist_values
+				USA_it_cant_happen_here
+				
+			}
+		}
+		"WAL"={
+			history = "WALES_DESC"
+			ideology = fascist
+			ideas = {
+			}
+			focuses = {
+				WAL_Addressing_Wales
+				WAL_Ban_Trade_With_USBR
+				WAL_Awaken_The_Dragon
+			}
+		}
+		"SCO"={
+			history = "SCOTLAND_DESC"
+			ideology = monarchist
+			ideas = {
+				lessons_of_humiliation
+			}
+			focuses = {
+				SCO_The_Kingdom_Of_Scotland
+				SCO_The_Bernie_Direction
+				SCO_Defending_Scotland
+			}
+		}
+		"ENG"={
+			history = "ENGLAND_DESC"
+			ideology = communist
+			ideas = {
+				idea_memories_of_Michael_foot
+				idea_war_ready
+				idea_north_sea_oil
+				idea_the_failed_economy
+				idea_New_Hadrians_Wall
+			}
+			focuses = {
+				ENG_legacy_of_foot
+				ENG_Johnson_The_Reformist
+				ENG_the_annual_congress_of_england
+			}
+		}
+		"IRE"={
+			history = "IRELAND_DESC"
+			ideology = national_conservative
+			ideas = {
+			}
+			focuses = {
+		
+			}
+		}
+		"ALA"={
+			history = "ALASKA_DESC"
+			ideology = nationalist
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		"SOV"={
+			history = "SOV_DESC"
+			ideology = revolutionary_socialist
+			ideas = {
+				bolshevik_insurgents2
+				orthodox_church_content
+			}
+			focuses = {
+		
+			}
+		}
+
+		"---"={
+			history = "OTHER_1936_DESC"
+		}
+		
+		"ETH"={
+			minor = yes
+			history = "CAN_1936_DESC"
+			ideology = monarchist
+			ideas = {}
+			focuses = {}
+		}
+		"ITA"={
+			minor = yes
+			history = "ITA_1936_DESC"
+			ideology = monarchist
+			ideas = {
+				pci_divided
+				italian_monarchy_in_exile
+			}
+			focuses = {
+				
+			}
+		}
+		"UAR"={
+			minor = yes
+			history = "JAP_1936_DESC"
+			ideology = monarchist
+			ideas = {}
+			focuses = {
+				
+			}
+		}
+
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

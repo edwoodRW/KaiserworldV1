@@ -1,0 +1,119 @@
+focus_tree = {
+	id = uk_Miliatry_Junta_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = ENG
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 50 y = 1550 }
+	focus = {
+		id = ENG_The_Military_And_Their_Iron_Fist
+		icon = 5th_nov_icon
+		cost = 5
+		x = 10
+		y = 0
+		completion_reward = {
+
+
+		}
+	}
+
+	focus = {
+		id = ENG_Entrenching_Our_Position
+		icon = martial_law_icon
+		cost = 5
+		x = 10
+		y = 1
+		prerequisite = { focus = ENG_The_Military_And_Their_Iron_Fist  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Promising_Full_Neutrality
+		icon = martial_law_icon
+		cost = 5
+		x = 10
+		y = 2
+		prerequisite = { focus = ENG_Entrenching_Our_Position  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Sowing_Distrust_With_All_Sides
+		icon = martial_law_icon
+		cost = 5
+		x = 10
+		y = 3
+		prerequisite = { focus = ENG_Promising_Full_Neutrality  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_We_Will_Not_Be_Tried
+		icon = martial_law_icon
+		cost = 5
+		x = 7
+		y = 2
+		prerequisite = { focus = ENG_Entrenching_Our_Position  }
+		completion_reward = {
+
+		}
+
+	}
+
+
+	focus = {
+		id = ENG_For_The_Crimes_Of_Others
+		icon = martial_law_icon
+		cost = 5
+		x = 7
+		y = 3
+		prerequisite = { focus = ENG_Entrenching_Our_Position  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Detente_With_Wales
+		icon = martial_law_icon
+		cost = 5
+		x = 13
+		y = 2
+		prerequisite = { focus = ENG_Entrenching_Our_Position  }
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Forgetting_Syndicalism
+		icon = martial_law_icon
+		cost = 5
+		x = 13
+		y = 3
+		prerequisite = { focus = ENG_Detente_With_Wales  }
+		completion_reward = {
+
+		}
+
+	}
+
+
+
+
+}

@@ -1,0 +1,102 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = SPAN_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Cavalry Brigade"
+	
+	division_names_group = SPAN_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 0 y = 4 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 8113
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1944
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 8113
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4892
+		division_template = "Cavalry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.6
+	}
+}
+
+air_wings = {
+	307 = {
+		fighter_equipment_0 = {
+			owner = "VEN" 
+			amount = 27
+		}
+	}
+	307 = {
+		fighter_equipment_0 = {
+			owner = "VEN" 
+			amount = 24
+		}
+	}
+	307 = {
+		fighter_equipment_0 = {
+			owner = "VEN" 
+			amount = 19
+		}
+	}
+}
+
+instant_effect = {
+}

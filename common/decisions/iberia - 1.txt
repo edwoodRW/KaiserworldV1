@@ -1,0 +1,39 @@
+political_decisions = {
+	begin_further_colonial_centralization = {
+		picture = dreams_of_empire
+		allow = {
+			iron_steamers = 1
+			nationalism_n_imperialism = 1
+			war = no
+			is_greater_power = yes
+			OR = {
+				any_sphere_member = {substate_of = THIS OR = {primary_culture = brazilian primary_culture = north_andean primary_culture = south_andean primary_culture = mexican primary_culture = central_american}}
+				any_sphere_member = {vassal_of = THIS OR = {primary_culture = brazilian primary_culture = north_andean primary_culture = south_andean primary_culture = mexican primary_culture = central_american}}
+			}
+		}
+		effect = {
+			set_global_flag = begin_further_colonial_centralization
+			any_country = {
+				limit = {substate_of = THIS OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}}
+				add_country_modifier = {name = increased_colonial_centralization duration = 3650}
+			}
+			any_country = {
+				limit = {vassal_of = THIS OR = {capital_scope = {continent = south_america} capital_scope = {continent = north_america}}}
+				add_country_modifier = {name = increased_colonial_centralization duration = 3650}
+			}
+			add_country_modifier = {name = finishing_colonial_centralization duration = 3650}
+		}
+		potential = {
+			OR = {tag = IBE tag = SPA}
+			
+			NOT = {has_global_flag = begin_further_colonial_centralization}
+			
+			OR = {
+				any_sphere_member = {substate_of = THIS OR = {primary_culture = brazilian primary_culture = north_andean primary_culture = south_andean primary_culture = mexican primary_culture = central_american}}
+				any_sphere_member = {vassal_of = THIS OR = {primary_culture = brazilian primary_culture = north_andean primary_culture = south_andean primary_culture = mexican primary_culture = central_american}}
+			}
+		}
+		
+	}
+	
+}

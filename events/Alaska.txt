@@ -1,0 +1,53 @@
+add_namespace = Alaska
+
+country_event = {
+	id = Alaska.1
+	title = Alaska.1.t
+	desc = Alaska.1.d
+	picture = Anchorage_Under_Siege_event
+	fire_only_once = yes
+
+	option = {
+		name = Alaska.1.o1
+
+	}
+}
+
+country_event = {
+	id = Alaska.2
+	title = Alaska.2.t
+	desc = Alaska.2.d
+	picture = order_66_event
+	fire_only_once = yes
+
+	option = {
+		name = Alaska.2.o1
+
+	}
+}
+
+country_event = {
+	id = Alaska.3
+	title = Alaska.3.t
+	desc = Alaska.3.d
+	picture = first_american_troops_leave_event
+	fire_only_once = yes
+
+	option = {
+		name = Alaska.3.o1
+
+	}
+}
+
+country_event = {
+	id = Alaska.4
+	title = Alaska.4.t
+	desc = Alaska.4.d
+	picture = alaskan_milita_takes_rig_event
+	fire_only_once = yes
+
+	option = {
+		name = Alaska.4.o1
+
+	}
+}

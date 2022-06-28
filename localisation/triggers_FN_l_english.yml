@@ -1,0 +1,11 @@
+﻿l_english:
+ TRIGGER_HAS_IDEA_SOCIAL_FACTION:0 "Has social faction $IDEA|H$"
+ TRIGGER_HAS_NOT_IDEA_SOCIAL_FACTION:0 "Does not have social faction $IDEA|H$"
+ TRIGGER_HAS_IDEA_TRADE_DOCTRINE:0 "Has trade doctrine $IDEA|H$"
+ TRIGGER_HAS_NOT_IDEA_TRADE_DOCTRINE:0 "Does not have trade doctrine $IDEA|H$"
+ TRIGGER_HAS_IDEA_ECONOMIC_DOCTRINE:0 "Has economic doctrine $IDEA|H$"
+ TRIGGER_HAS_NOT_IDEA_ECONOMIC_DOCTRINE:0 "Does not have economic doctrine $IDEA|H$"
+ TRIGGER_HAS_IDEA_RELIGIOUS_DOCTRINE:0 "Has religious doctrine $IDEA|H$"
+ TRIGGER_HAS_NOT_IDEA_RELIGIOUS_DOCTRINE:0 "Does not have religious doctrine $IDEA|H$"
+ TRIGGER_HAS_IDEA_DIPLOMATIC_DOCTRINE:0 "Has diplomatic doctrine $IDEA|H$"
+ TRIGGER_HAS_NOT_IDEA_DIPLOMATIC_DOCTRINE:0 "Does not have diplomatic doctrine $IDEA|H$"

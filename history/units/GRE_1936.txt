@@ -1,0 +1,101 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = GRE_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Motorized Division"
+	
+	division_names_group = GRE_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+        motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Division"
+		location = 4109
+		division_template = "Motorized Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "2nd Division"
+		location = 9837
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "3rd Division"
+		location = 9837
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "4th Division"
+		location = 9805
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "5th Division"
+		location = 9940
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+}
+
+air_wings = {
+	185 = {
+		fighter_equipment_0 = { owner = "GRE" amount = 41 }
+	}
+	182 = {
+		fighter_equipment_0 = { owner = "GRE" amount = 16 }
+	}
+	47 = {
+		fighter_equipment_0 = { owner = "GRE" amount = 37 }
+	}
+	47 = {
+		tac_bomber_equipment_0 = { owner = "GRE" amount = 17 }
+	}
+	182 = {
+		tac_bomber_equipment_0 = { owner = "GRE" amount = 3 }
+	}
+}
+
+instant_effect = {
+}

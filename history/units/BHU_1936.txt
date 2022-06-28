@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = BHU_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Royal Division"
+		location = 8010
+		division_template = "Infantry Division"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "King's Rifles"
+		location = 12860
+		division_template = "Infantry Division"
+		start_experience_factor = 0.15
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+}

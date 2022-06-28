@@ -1,0 +1,5 @@
+﻿l_english:
+ EFFECT_CHANGE_LAW_religious_doctrine:0 "Change Religious Doctrine to '$NAME|Y$' which grants ($DESC$)."
+ EFFECT_CHANGE_LAW_economic_doctrine:0 "Change Economic Doctrine to '$NAME|Y$' which grants ($DESC$)."
+ EFFECT_CHANGE_LAW_trade_doctrine:0 "Change Trade Doctrine to '$NAME|Y$' which grants ($DESC$)."
+ EFFECT_CHANGE_LAW_diplomatic_doctrine:0 "Change Diplomatic Doctrine to '$NAME|Y$' which grants ($DESC$)."

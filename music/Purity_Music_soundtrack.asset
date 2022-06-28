@@ -1,0 +1,12 @@
+music = {
+	name = "What A Time It Was"
+	file = "What_A_Time_It_Was.ogg"
+	volume = 1
+}
+
+music = {
+	name = "Over There"
+	file = "Over_There.ogg"
+	volume = 1
+}
+

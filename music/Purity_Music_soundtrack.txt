@@ -1,0 +1,30 @@
+music_station = "Dawn Of Purity"
+
+# Please keep this file alphabetically sorted (but with the main theme at the top), thank you very much!
+music = {
+	song = "What_A_Time_It_Was"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+music = {
+	song = "Over_There"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}	
+}
+
+
+
+

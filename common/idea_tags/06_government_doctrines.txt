@@ -1,0 +1,13 @@
+idea_categories = {
+	
+	government_doctrine = {
+		slot = trade_doctrine
+		slot = economic_doctrine
+		slot = religious_doctrine
+		slot = diplomatic_doctrine
+		
+		cost = 250
+		removal_cost = -1
+	}
+	
+}

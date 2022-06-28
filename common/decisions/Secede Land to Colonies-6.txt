@@ -1,0 +1,74 @@
+political_decisions = {
+	secede_land_lsk = {
+	picture = "deseret_complete_cores"
+	effect = {
+	THIS={country_event = {id=196006}}
+	}
+	allow = {
+	
+	}
+	potential = {
+	tag = RUS
+	OR={
+	LSK = {substate_of=THIS}
+	LSK = {vassal_of=THIS}
+	}
+	THIS = {neighbour = LSK}
+	NOT = {war_with = LSK}
+	any_owned_province = {
+	AND={
+		continent = north_america
+				NOT={
+				OR={is_core = RUS
+				province_id = 197
+				province_id = 198
+				province_id = 199
+				province_id = 200
+				province_id = 2209
+				province_id = 2219
+				province_id = 2210
+				province_id = 198
+				province_id = 2211
+				province_id = 2212
+				province_id = 44
+				province_id = 2220
+				province_id = 2218
+				province_id = 2217
+				province_id = 2213
+				province_id = 2215
+				province_id = 2216
+				province_id = 2214
+				province_id = 2222
+				province_id = 2223
+				province_id = 2226
+				province_id = 2236
+				province_id = 45
+				province_id = 3246
+				province_id = 2227
+				province_id = 2225
+				province_id = 2224
+				province_id = 2230
+				province_id = 2232
+				province_id = 2228
+				province_id = 2231
+				province_id = 2409
+				province_id = 2233
+				province_id = 2238
+				province_id = 2237
+				province_id = 2229
+				}
+				}
+			}
+	
+	 }
+	}
+	
+	
+	}
+	
+	
+	
+	
+	
+
+}

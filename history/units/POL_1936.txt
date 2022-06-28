@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = POL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3544
+		division_template = "Infantry Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.65
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9508
+		division_template = "Infantry Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.65
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11399
+		division_template = "Infantry Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.65
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3393
+		division_template = "Infantry Division"
+		start_experience_factor = 0.16
+		start_equipment_factor = 0.65
+	}
+}
+
+air_wings = {
+	10 = {
+		fighter_equipment_0 = { owner = "POL" amount = 36 }
+	}
+	10 = {
+		fighter_equipment_0 = { owner = "POL" amount = 25 }
+	}
+	10 = {
+		fighter_equipment_0 = { owner = "POL" amount = 28 }
+	}
+	10 = {
+		tac_bomber_equipment_0 = { owner = "POL" amount = 27 }
+	}
+}
+
+instant_effect = {
+}

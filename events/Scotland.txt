@@ -1,0 +1,275 @@
+add_namespace = Scotland
+##Grey Tuesday
+country_event = {
+	id = Scotland.1
+	title = Scotland.1.t
+	desc = Scotland.1.d
+	picture = scotland_the_brave_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.1.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.2
+	title = Scotland.2.t
+	desc = Scotland.2.d
+	picture = english_refugees_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.2.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.3
+	title = Scotland.3.t
+	desc = Scotland.3.d
+	picture = francis_changes_direction_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.3.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.4
+	title = Scotland.4.t
+	desc = Scotland.4.d
+	picture = scottish_welfare_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.4.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.5
+	title = Scotland.5.t
+	desc = Scotland.5.d
+	picture = scottish_job_industry_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.5.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.6
+	title = Scotland.6.t
+	desc = Scotland.6.d
+	picture = highland_resources_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.6.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.7
+	title = Scotland.7.t
+	desc = Scotland.7.d
+	picture = the_nation_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.7.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.8
+	title = Scotland.8.t
+	desc = Scotland.8.d
+	picture = scotland_and_canada_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.8.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.9
+	title = Scotland.9.t
+	desc = Scotland.9.d
+	picture = scottish_intelligence_agency_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.9.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.10
+	title = Scotland.10.t
+	desc = Scotland.10.d
+	picture = bernie_and_scotland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.10.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.11
+	title = Scotland.11.t
+	desc = Scotland.11.d
+	picture = socialist_scotland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.11.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.12
+	title = Scotland.12.t
+	desc = Scotland.12.d
+	picture = francis_and_bernie_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.12.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.13
+	title = Scotland.13.t
+	desc = Scotland.13.d
+	picture = scotland_and_ireland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.13.o1
+
+	}
+}
+
+
+country_event = {
+	id = Scotland.14
+	title = Scotland.14.t
+	desc = Scotland.14.d
+	picture = scotland_and_ireland_agreement_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.14.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.15
+	title = Scotland.15.t
+	desc = Scotland.15.d
+	picture = the_king_in_his_counting_house_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.15.o1
+
+	}
+}
+
+
+country_event = {
+	id = Scotland.16
+	title = Scotland.16.t
+	desc = Scotland.16.d
+	picture = the_welsh_appointment_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.16.o1
+
+	}
+}
+
+country_event = {
+	id = Scotland.17
+	title = Scotland.17.t
+	desc = Scotland.17.d
+	picture = the_scottish_coup_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.17.o1
+		SCO = {
+			country_event = { days = 5 id = Scotland.18 } 
+		}
+	}
+}
+
+
+country_event = {
+	id = Scotland.18
+	title = Scotland.18.t
+	desc = Scotland.18.d
+	picture = the_Agreement_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.18.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.19
+	title = Scotland.19.t
+	desc = Scotland.19.d
+	picture = the_shared_parliament_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.19.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.20
+	title = Scotland.20.t
+	desc = Scotland.20.d
+	picture = arresting_far_left_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.20.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.21
+	title = Scotland.21.t
+	desc = Scotland.21.d
+	picture = solidarity_movement_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.21.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.22
+	title = Scotland.22.t
+	desc = Scotland.22.d
+	picture = scotlands_soldiers_stand_ready_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.22.o1
+	
+	}
+}
+
+
+

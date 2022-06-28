@@ -1,0 +1,64 @@
+characters={
+	AFG_amanullah_khan={
+		name="Amanullah Khan"
+		portraits={
+			civilian={
+				large=gfx/leaders/AFG/amanullah_khan.dds
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AFG_habibullah_kalakani={
+		name="Habibullāh Kalakāni"
+		portraits={
+			civilian={
+				large=gfx/leaders/AFG/habibullah_kalakani.dds
+			}
+		}
+		country_leader={
+			ideology=religious_fundamentalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AFG_mohammed_zahir_shah={
+		name="Mohammed Zahir Shah"
+		portraits={
+			army={
+				large=gfx/leaders/AFG/mohammed_zahir_shah.dds
+			}
+		}
+		corps_commander = {
+			skill = 2
+			traits = {
+				skilled_staffer
+			}
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+	AFG_mohammed_nadir_khah={
+		name="Muhammad Nadir Khan"
+		portraits={
+			army={
+				large=gfx/leaders/AFG/mohammed_nadir_khah.dds
+			}
+		}
+		field_marshal = {
+			skill = 1
+			traits = {
+				defensive_doctrine
+			}
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+		}
+	}
+}

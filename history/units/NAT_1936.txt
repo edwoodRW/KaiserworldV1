@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	division_names_group = BRENGL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "1st Cherokee Division"
+		location = 1806			#Tulsa
+		division_template = "Infantry Division"
+		start_experience_factor = 0.18
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Cherokee Division"
+		location = 12586		#Omaha
+		division_template = "Infantry Division"
+		start_experience_factor = 0.18
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1st Montana Division"
+		location = 4860			#Great Falls
+		division_template = "Infantry Division"
+		start_experience_factor = 0.18
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Montana Division"
+		location = 12124
+		division_template = "Infantry Division"
+		start_experience_factor = 0.18
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1st Dakota Division"
+		location = 1836
+		division_template = "Infantry Division"
+		start_experience_factor = 0.18
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2nd Dakota Division"
+		location = 1747
+		division_template = "Infantry Division"
+		start_experience_factor = 0.18
+		start_equipment_factor = 1.0
+	}
+	
+}
+
+air_wings = {
+	374 = {
+		fighter_equipment_0 = {
+			owner = "NAT" 
+			amount = 3
+		}
+		fighter_equipment_0 = {
+			owner = "USA" 
+			amount = 12
+		}
+	}
+}
+
+instant_effect = {
+}

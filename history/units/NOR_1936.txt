@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Infanteriet Divisjon"
+	
+	division_names_group = NOR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 6115
+		division_template = "Infanteriet Divisjon"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.79
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 122
+		division_template = "Infanteriet Divisjon"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.79
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3022
+		division_template = "Infanteriet Divisjon"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.79
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 192
+		division_template = "Infanteriet Divisjon"
+		start_experience_factor = 0.24
+		start_equipment_factor = 0.79
+	}
+}
+
+air_wings = {
+	110 = {
+		fighter_equipment_0 = { owner = "NOR" amount = 42 }
+	}
+	142 = {
+		fighter_equipment_0 = { owner = "NOR" amount = 35 }
+	}
+	144 = {
+		fighter_equipment_0 = { owner = "NOR" amount = 29 }
+	}
+	110 = {
+		tac_bomber_equipment_0 = { owner = "NOR" amount = 26 }
+	}
+}
+
+instant_effect = {
+}

@@ -1,0 +1,62 @@
+political_decisions = {
+
+	settle_alaska = {
+	picture = "kwangchowan_china"
+	potential={
+	
+	NOT = {has_global_flag = settle_alaska}
+		
+		
+		tag = LSK
+		vassal_of = RUS
+	}
+	allow = {
+	
+	positivism = 1
+	medicine = 1
+	13 = {owned_by = THIS}
+	78 = {owned_by = THIS}
+	79 = {owned_by = THIS}
+	14 = {owned_by = THIS}
+	}
+	
+	effect = {
+		set_global_flag = settle_alaska
+		13 = {add_province_modifier = {name = settle_alaska duration = 3650}}
+		78 = {add_province_modifier = {name = settle_alaska duration = 3650}}
+		79 = {add_province_modifier = {name = settle_alaska duration = 3650}}
+		14 = {add_province_modifier = {name = settle_alaska duration = 3650}}
+		14 = {life_rating = 4}
+		
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	new_slavia = {
+	picture = "kwangchowan_china"
+	potential={
+	
+	has_global_flag = settle_alaska
+	NOT = {has_global_flag = new_slavia}	
+		
+		tag = LSK
+		#vassal_of = RUS
+	}
+	allow = {
+	13 = {owned_by = THIS}
+	nationalism_n_imperialism = 1
+	is_secondary_power = yes
+	}
+	
+	effect = {
+	THIS = {add_country_modifier = {name = new_slavia_country duration = -1}}
+		set_global_flag = new_slavia
+		13 = {add_province_modifier = {name = new_slavic_metropolis duration = -1}}
+		
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+
+
+}

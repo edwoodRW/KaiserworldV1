@@ -1,0 +1,152 @@
+﻿division_template = {
+	name = "Infantry Division"
+
+	division_names_group = SCO_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Motorized Division"
+
+	division_names_group = SCO_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+        motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Armored Division"
+	
+	division_names_group = SCO_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+        motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Colonial Brigade"
+	
+	division_names_group = SCO_INF_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+units = {
+
+	division = {
+		name = "1st Scottish Armored"
+		location = 9392		#Edinburgh
+		division_template = "Armored Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+
+	
+	division = {
+		name = "1st Scottish Infantry"
+		location = 3273		#Glasgow
+		division_template = "Motorized Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+
+	division = {
+		name = "3rd Scottish Infantry"
+		location = 9392		#Edinburgh
+		division_template = "Infantry Division"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.75
+	}
+
+}
+
+air_wings = {
+	127 = {
+		fighter_equipment_0 = {
+			owner = "SCO" 
+			amount = 76
+		}
+		name = "Fighter Group I"
+	}
+	132 = {
+		fighter_equipment_0 = {
+			owner = "SCO" 
+			amount = 46
+		}
+		name = "Fighter Group II"
+	}
+	120 = {
+		fighter_equipment_0 = {
+			owner = "SCO" 
+			amount = 52
+		}
+		name = "Fighter Group III"
+	}
+	336 = {
+		fighter_equipment_0 = {
+			owner = "SCO" 
+			amount = 13
+		}
+		name = "Fighter Group IV"
+	}
+}
+
+instant_effect = {
+}

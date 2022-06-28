@@ -1,0 +1,149 @@
+political_decisions = {
+	secede_land_peu = {
+	picture = "deseret_complete_cores"
+	effect = {
+	THIS={country_event = {id=196004}}
+	}
+	allow = {
+	
+	}
+	potential = {
+	OR={tag = IBE
+	tag= SPA
+	}
+	OR={
+	PEU = {substate_of=THIS}
+	PEU = {vassal_of=THIS}
+	}
+	THIS = {neighbour = PEU}
+	NOT = {war_with = PEU}
+	any_owned_province = {
+	AND={
+		continent = south_america
+				NOT={
+				OR={is_core = IBE
+				is_core = SPA
+				is_core = GCO
+				is_core = ARG
+				province_id = 197
+				province_id = 198
+				province_id = 199
+				province_id = 200
+				province_id = 2209
+				province_id = 2219
+				province_id = 2210
+				province_id = 198
+				province_id = 2211
+				province_id = 2212
+				province_id = 44
+				province_id = 2220
+				province_id = 2218
+				province_id = 2217
+				province_id = 2213
+				province_id = 2215
+				province_id = 2216
+				province_id = 2214
+				province_id = 2222
+				province_id = 2223
+				province_id = 2226
+				province_id = 2236
+				province_id = 45
+				province_id = 3246
+				province_id = 2227
+				province_id = 2225
+				province_id = 2224
+				province_id = 2230
+				province_id = 2232
+				province_id = 2228
+				province_id = 2231
+				province_id = 2409
+				province_id = 2233
+				province_id = 2238
+				province_id = 2237
+				province_id = 2229
+				}
+				}
+			}
+	
+	 }
+	}
+	
+	
+	}
+	
+	
+	secede_land_arg = {
+	picture = "deseret_complete_cores"
+	effect = {
+	THIS={country_event = {id=196005}}
+	}
+	allow = {
+	
+	}
+	potential = {
+	OR={tag = IBE
+	tag= SPA
+	}
+	OR={
+	ARG = {substate_of=THIS}
+	ARG = {vassal_of=THIS}
+	}
+	THIS = {neighbour = ARG}
+	NOT = {war_with = ARG}
+	any_owned_province = {
+	AND={
+		continent = south_america
+				NOT={
+				OR={is_core = IBE
+				is_core = SPA
+				is_core = GCO
+				is_core = PEU
+				province_id = 197
+				province_id = 198
+				province_id = 199
+				province_id = 200
+				province_id = 2209
+				province_id = 2219
+				province_id = 2210
+				province_id = 198
+				province_id = 2211
+				province_id = 2212
+				province_id = 44
+				province_id = 2220
+				province_id = 2218
+				province_id = 2217
+				province_id = 2213
+				province_id = 2215
+				province_id = 2216
+				province_id = 2214
+				province_id = 2222
+				province_id = 2223
+				province_id = 2226
+				province_id = 2236
+				province_id = 45
+				province_id = 3246
+				province_id = 2227
+				province_id = 2225
+				province_id = 2224
+				province_id = 2230
+				province_id = 2232
+				province_id = 2228
+				province_id = 2231
+				province_id = 2409
+				province_id = 2233
+				province_id = 2238
+				province_id = 2237
+				province_id = 2229
+				}
+				}
+			}
+	
+	 }
+	}
+	
+	
+	}
+	
+	
+
+}

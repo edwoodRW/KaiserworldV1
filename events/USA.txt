@@ -1,0 +1,60 @@
+﻿add_namespace = usa
+
+
+country_event = {
+	id = usa.7
+	title = usa.7.t
+	desc = usa.7.d
+	picture = mcarthur_event
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 2010.5.1
+		date < 2010.5.20
+	}
+	
+	option = {
+		name = usa.7.o1
+	}
+}
+
+country_event = {
+	id = usa.8
+	title = usa.8.t
+	desc = usa.8.d
+	picture = revengers_event
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 2011.2.1
+		date < 2011.2.20
+	}
+	
+	option = {
+		name = usa.8.o1
+	}
+}
+
+
+country_event = {
+	id = usa.9
+	title = usa.9.t
+	desc = usa.9.d
+	picture = PM_Alex_jones_lovecraft
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 2012.2.1
+		date < 2012.2.20
+	}
+	
+	option = {
+		name = usa.9.o1
+	}
+}

@@ -3443,6 +3443,59 @@ SpriteType = {
 
 	### IRELAND ####
 	
+		
+	SpriteType = {
+		name = "the_irish_state_icon"
+		texturefile = "gfx/interface/goals/ireland/the_irish_state_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "general_takes_control_icon"
+		texturefile = "gfx/interface/goals/ireland/general_takes_control_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "gun_and_a_speaker_icon"
+		texturefile = "gfx/interface/goals/ireland/gun_and_a_speaker_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "ask_for_military_help_icon"
+		texturefile = "gfx/interface/goals/ireland/ask_for_military_help_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "speak_to_the_dail_icon"
+		texturefile = "gfx/interface/goals/ireland/speak_to_the_dail_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "try_to_appease_public_icon"
+		texturefile = "gfx/interface/goals/ireland/try_to_appease_public_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "martial_law_icon_ire"
+		texturefile = "gfx/interface/goals/ireland/martial_law_icon_ire.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "close_public_events_icon"
+		texturefile = "gfx/interface/goals/ireland/close_public_events_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "proclaim_red_northern_ireland_icon"
+		texturefile = "gfx/interface/goals/ireland/proclaim_red_northern_ireland_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "the_derry_riot_icon"
+		texturefile = "gfx/interface/goals/ireland/the_derry_riot_icon.dds"			
+	}
+	
 	SpriteType = {
 		name = "send_a_warning_to_usbr_icon"
 		texturefile = "gfx/interface/goals/ireland/send_a_warning_to_usbr_icon.dds"			

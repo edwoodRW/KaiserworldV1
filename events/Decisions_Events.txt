@@ -113,3 +113,16 @@ country_event = {
 		name = decision_event.8.o1
 	}
 }
+
+country_event = {
+	id = decision_event.9
+	title = decision_event.9.t
+	desc = decision_event.9.d
+	picture = death_of_lawernce
+	
+	is_triggered_only = yes
+	
+	option = {   
+		name = decision_event.9.o1
+	}
+}

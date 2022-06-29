@@ -1,0 +1,30 @@
+USCA_James_Comey_Overthrown = {
+
+	ENG_A_History_of_the_Second_Weltkrieg = {
+	
+		icon = generic_scorched_earth
+	
+		allowed = {
+			OR = {
+				original_tag = CEA
+			
+			}
+		}
+	
+		available = {
+			always = yes
+		}
+	
+		cost = 0
+		fire_only_once = yes
+		ai_will_do = {
+			factor = 0
+		}
+	
+		complete_effect = {
+			country_event = { id = decision_event.9 }
+		}
+	}
+
+
+}

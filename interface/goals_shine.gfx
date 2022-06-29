@@ -1,5 +1,6 @@
 spriteTypes = {
 	
+	
 	SpriteType = {
 		name = "Icon_A_Meeting_with_Johnson_KW_shine"
 		texturefile = "gfx/interface/goals/eng/Icon_A_Meeting_with_Johnson_KW.dds"				
@@ -19750,6 +19751,361 @@ spriteTypes = {
 
 
 		###IRELAND##
+		
+		SpriteType = {
+			name = "send_a_warning_to_usbr_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/send_a_warning_to_usbr_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/send_a_warning_to_usbr_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/send_a_warning_to_usbr_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		SpriteType = {
+			name = "discourage_far_left_activity_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/discourage_far_left_activity_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/discourage_far_left_activity_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/discourage_far_left_activity_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		SpriteType = {
+			name = "arrest_totalist_leader_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/arrest_totalist_leader_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/arrest_totalist_leader_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/arrest_totalist_leader_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		
+		SpriteType = {
+			name = "arrest_syndicalists_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/arrest_syndicalists_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/arrest_syndicalists_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/arrest_syndicalists_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		SpriteType = {
+			name = "deploy_troops_to_belfast_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/deploy_troops_to_belfast_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/deploy_troops_to_belfast_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/deploy_troops_to_belfast_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		
+		SpriteType = {
+			name = "declare_martial_law_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/declare_martial_law_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/declare_martial_law_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/declare_martial_law_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		SpriteType = {
+			name = "combat_english_influence_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/combat_english_influence_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/combat_english_influence_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/combat_english_influence_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		
+		SpriteType = {
+			name = "order_arrests_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/order_arrests_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/order_arrests_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/order_arrests_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		SpriteType = {
+			name = "the_troubles_up_north_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/the_troubles_up_north_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/the_troubles_up_north_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/the_troubles_up_north_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+		SpriteType = {
+			name = "offer_hope_for_future_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/offer_hope_for_future_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/offer_hope_for_future_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/offer_hope_for_future_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
+		
+			SpriteType = {
+			name = "speak_to_The_republic_icon_shine"
+			texturefile = "gfx/interface/goals/ireland/speak_to_The_republic_icon.dds"				
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/speak_to_The_republic_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/ireland/speak_to_The_republic_icon.dds"				
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+				animationlooping = no			# yes or no ;)
+				animationtime = 0.75				# in seconds
+				animationdelay = 0			# in seconds
+				animationblendmode = "add"       #add, multiply, overlay
+				animationtype = "scrolling"      #scrolling, rotating, pulsing
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+		}
 		
 		SpriteType = {
 			name = "send_in_the_militayr_ir_icon_shine"

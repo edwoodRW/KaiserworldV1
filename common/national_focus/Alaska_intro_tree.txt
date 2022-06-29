@@ -8,8 +8,8 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = ALA_The_Situation_In_Alaska
-		icon = unknown
+		id = USA_The_Situation_In_Alaska
+		icon = Icon_The_Situation_in_Alaska_KW
 		x = 16
 		y = 0
 		cost = 5
@@ -23,15 +23,15 @@ focus_tree = {
 	
 	}
 	focus = {
-		id = ALA_Finally_Pull_Out_Of_Alaska
-		icon = unkown
+		id = USA_Finally_Pull_Out_Of_Alaska
+		icon = Icon_Finally_Pull_Out_of_Alaska_KW
 		x = 16
 		y = 1
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_The_Situation_In_Alaska  }
+		prerequisite = { focus =  USA_The_Situation_In_Alaska  }
 		completion_reward = {
 	
 		}
@@ -39,18 +39,18 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Take_Our_Time_Withdraw_Slowly
-		icon = unkown
+		id = USA_Take_Our_Time_Withdraw_Slowly
+		icon = Icon_Take_Our_Time_Withdraw_Slowly_KW
 		x = 12
 		y = 2
 		cost = 5
 		mutually_exclusive = {
-			focus = ALA_Its_long_Overdue_Get_Our_Boys_Home_Now
+			focus = USA_Its_long_Overdue_Get_Our_Boys_Home_Now
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Finally_Pull_Out_Of_Alaska  }
+		prerequisite = { focus =  USA_Finally_Pull_Out_Of_Alaska  }
 		completion_reward = {
 	
 		}
@@ -58,7 +58,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Continue_Training_The_Alaskan_Military
+		id = USA_Continue_Training_The_Alaskan_Military
 		icon = unkown
 		x = 10
 		y = 3
@@ -66,7 +66,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Take_Our_Time_Withdraw_Slowly  }
+		prerequisite = { focus =  USA_Take_Our_Time_Withdraw_Slowly  }
 		completion_reward = {
 	
 		}
@@ -74,7 +74,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Fortify_the_consulate
+		id = USA_Fortify_the_consulate
 		icon = unkown
 		x = 10
 		y = 4
@@ -82,7 +82,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Continue_Training_The_Alaskan_Military  }
+		prerequisite = { focus =  USA_Continue_Training_The_Alaskan_Military  }
 		completion_reward = {
 	
 		}
@@ -90,7 +90,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Continue_Building_Up_Infrastructure
+		id = USA_Continue_Building_Up_Infrastructure
 		icon = unkown
 		x = 10
 		y = 5
@@ -98,7 +98,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Fortify_the_consulate  }
+		prerequisite = { focus =  USA_Fortify_the_consulate  }
 		completion_reward = {
 	
 		}
@@ -106,7 +106,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Start_Troop_Withdrawal
+		id = USA_Start_Troop_Withdrawal
 		icon = unkown
 		x = 10
 		y = 6
@@ -114,7 +114,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Continue_Building_Up_Infrastructure  }
+		prerequisite = { focus =  USA_Continue_Building_Up_Infrastructure  }
 		completion_reward = {
 			country_event = {			
 				id = Alaska.3
@@ -124,7 +124,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Cooperate_With_Government_On_Withdrawal_Efforts
+		id = USA_Cooperate_With_Government_On_Withdrawal_Efforts
 		icon = unkown
 		x = 10
 		y = 7
@@ -132,7 +132,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Start_Troop_Withdrawal  }
+		prerequisite = { focus =  USA_Start_Troop_Withdrawal  }
 		completion_reward = {
 	
 		}
@@ -140,7 +140,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Complete_Our_Withdrawal
+		id = USA_Complete_Our_Withdrawal
 		icon = unkown
 		x = 12
 		y = 8
@@ -148,8 +148,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Cooperate_With_Government_On_Withdrawal_Efforts  }
-		prerequisite = { focus =  ALA_Keep_Elmendirf_AFB_Under_Our_Control  }
+		prerequisite = { focus =  USA_Cooperate_With_Government_On_Withdrawal_Efforts  }
+		prerequisite = { focus =  USA_Keep_Elmendirf_AFB_Under_Our_Control  }
 		
 		completion_reward = {
 	
@@ -160,7 +160,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Continue_Building_Up_The_Government
+		id = USA_Continue_Building_Up_The_Government
 		icon = unkown
 		x = 14
 		y = 3
@@ -168,7 +168,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Take_Our_Time_Withdraw_Slowly  }
+		prerequisite = { focus =  USA_Take_Our_Time_Withdraw_Slowly  }
 		completion_reward = {
 	
 		}
@@ -177,7 +177,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Encouraging_American_Investment
+		id = USA_Encouraging_American_Investment
 		icon = unkown
 		x = 14
 		y = 4
@@ -185,7 +185,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Continue_Building_Up_The_Government  }
+		prerequisite = { focus =  USA_Continue_Building_Up_The_Government  }
 		completion_reward = {
 	
 		}
@@ -194,7 +194,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Continue_Secularization_Polcies
+		id = USA_Continue_Secularization_Polcies
 		icon = unkown
 		x = 14
 		y = 5
@@ -202,7 +202,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Encouraging_American_Investment  }
+		prerequisite = { focus =  USA_Encouraging_American_Investment  }
 		completion_reward = {
 	
 		}
@@ -210,7 +210,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Anti-Beringian_Propaganda
+		id = USA_Anti-Beringian_Propaganda
 		icon = unkown
 		x = 14
 		y = 6
@@ -218,7 +218,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Continue_Secularization_Polcies  }
+		prerequisite = { focus =  USA_Continue_Secularization_Polcies  }
 		completion_reward = {
 	
 		}
@@ -227,7 +227,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Keep_Elmendirf_AFB_Under_Our_Control
+		id = USA_Keep_Elmendirf_AFB_Under_Our_Control
 		icon = unkown
 		x = 14
 		y = 7
@@ -235,7 +235,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Anti-Beringian_Propaganda  }
+		prerequisite = { focus =  USA_Anti-Beringian_Propaganda  }
 		completion_reward = {
 	
 		}
@@ -246,18 +246,18 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Its_long_Overdue_Get_Our_Boys_Home_Now
-		icon = unkown
+		id = USA_Its_long_Overdue_Get_Our_Boys_Home_Now
+		icon = Icon_Its_long_overdue_get_our_boys_home_now_KW
 		x = 20
 		y = 2
 		cost = 5
 		mutually_exclusive = {
-			focus = ALA_Take_Our_Time_Withdraw_Slowly
+			focus = USA_Take_Our_Time_Withdraw_Slowly
 		}
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Finally_Pull_Out_Of_Alaska  }
+		prerequisite = { focus =  USA_Finally_Pull_Out_Of_Alaska  }
 		completion_reward = {
 	
 		}
@@ -266,7 +266,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Set_A_4_Week_Timer
+		id = USA_Set_A_4_Week_Timer
 		icon = unkown
 		x = 18
 		y = 3
@@ -274,7 +274,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Its_long_Overdue_Get_Our_Boys_Home_Now  }
+		prerequisite = { focus =  USA_Its_long_Overdue_Get_Our_Boys_Home_Now  }
 		completion_reward = {
 	
 		}
@@ -282,7 +282,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Push_For_Alaskan_Self_Defense
+		id = USA_Push_For_Alaskan_Self_Defense
 		icon = unkown
 		x = 18
 		y = 4
@@ -290,7 +290,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Set_A_4_Week_Timer  }
+		prerequisite = { focus =  USA_Set_A_4_Week_Timer  }
 		completion_reward = {
 	
 		}
@@ -298,7 +298,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Put_The_Embassy_On_High_Alert
+		id = USA_Put_The_Embassy_On_High_Alert
 		icon = unkown
 		x = 18
 		y = 5
@@ -306,7 +306,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Push_For_Alaskan_Self_Defense  }
+		prerequisite = { focus =  USA_Push_For_Alaskan_Self_Defense  }
 		completion_reward = {
 	
 		}
@@ -315,7 +315,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Remove_Our_Infrastructure
+		id = USA_Remove_Our_Infrastructure
 		icon = unkown
 		x = 18
 		y = 6
@@ -323,7 +323,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Put_The_Embassy_On_High_Alert  }
+		prerequisite = { focus =  USA_Put_The_Embassy_On_High_Alert  }
 		completion_reward = {
 	
 		}
@@ -331,7 +331,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Evacuate_Any_Allies
+		id = USA_Evacuate_Any_Allies
 		icon = unkown
 		x = 18
 		y = 7
@@ -339,7 +339,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Remove_Our_Infrastructure  }
+		prerequisite = { focus =  USA_Remove_Our_Infrastructure  }
 		completion_reward = {
 	
 		}
@@ -347,7 +347,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_We_Accomplished_our_Mission
+		id = USA_We_Accomplished_our_Mission
 		icon = unkown
 		x = 20
 		y = 8
@@ -355,8 +355,8 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Evacuate_Any_Allies  }
-		prerequisite = { focus =  ALA_Leave_In_The_Middle_Of_The_Night  }
+		prerequisite = { focus =  USA_Evacuate_Any_Allies  }
+		prerequisite = { focus =  USA_Leave_In_The_Middle_Of_The_Night  }
 		
 		completion_reward = {
 	
@@ -365,7 +365,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Withdraw_Training_Instructors
+		id = USA_Withdraw_Training_Instructors
 		icon = unkown
 		x = 22
 		y = 3
@@ -373,7 +373,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Its_long_Overdue_Get_Our_Boys_Home_Now  }
+		prerequisite = { focus =  USA_Its_long_Overdue_Get_Our_Boys_Home_Now  }
 		completion_reward = {
 			country_event = {			
 				id = Alaska.4
@@ -383,7 +383,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Delegate_Policing_To_Alaskan_Authorities
+		id = USA_Delegate_Policing_To_Alaskan_Authorities
 		icon = unkown
 		x = 22
 		y = 4
@@ -391,7 +391,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Withdraw_Training_Instructors  }
+		prerequisite = { focus =  USA_Withdraw_Training_Instructors  }
 		completion_reward = {
 	
 		}
@@ -399,7 +399,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Start_Evacuating_Soldiers
+		id = USA_Start_Evacuating_Soldiers
 		icon = unkown
 		x = 22
 		y = 5
@@ -407,7 +407,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Delegate_Policing_To_Alaskan_Authorities  }
+		prerequisite = { focus =  USA_Delegate_Policing_To_Alaskan_Authorities  }
 		completion_reward = {
 	
 		}
@@ -415,7 +415,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Give_A_Warning_To_Any_Civilians
+		id = USA_Give_A_Warning_To_Any_Civilians
 		icon = unkown
 		x = 22
 		y = 6
@@ -423,7 +423,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Start_Evacuating_Soldiers  }
+		prerequisite = { focus =  USA_Start_Evacuating_Soldiers  }
 		completion_reward = {
 	
 		}
@@ -431,7 +431,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Leave_In_The_Middle_Of_The_Night
+		id = USA_Leave_In_The_Middle_Of_The_Night
 		icon = unkown
 		x = 22
 		y = 7
@@ -439,7 +439,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Give_A_Warning_To_Any_Civilians  }
+		prerequisite = { focus =  USA_Give_A_Warning_To_Any_Civilians  }
 		completion_reward = {
 	
 		}
@@ -451,7 +451,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_The_Anchorage_Crsis
+		id = USA_The_Anchorage_Crsis
 		icon = unkown
 		x = 13
 		y = 12
@@ -460,7 +460,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		mutually_exclusive = {
-			focus = ALA_A_Successful_Withdrawal
+			focus = USA_A_Successful_Withdrawal
 		}
 		completion_reward = {
 			country_event = {			
@@ -473,7 +473,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Operation_Rising_Eagle
+		id = USA_Operation_Rising_Eagle
 		icon = unkown
 		x = 10
 		y = 13
@@ -482,9 +482,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		mutually_exclusive = {
-			focus = ALA_Negotiate_For_Civilian_Safety
+			focus = USA_Negotiate_For_Civilian_Safety
 		}
-		prerequisite = { focus =  ALA_The_Anchorage_Crsis  }
+		prerequisite = { focus =  USA_The_Anchorage_Crsis  }
 
 		completion_reward = {
 			country_event = {			
@@ -495,7 +495,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Secure_Old_Airfields
+		id = USA_Secure_Old_Airfields
 		icon = unkown
 		x = 8
 		y = 14
@@ -504,7 +504,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Operation_Rising_Eagle  }
+		prerequisite = { focus =  USA_Operation_Rising_Eagle  }
 
 		completion_reward = {
 	
@@ -514,7 +514,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_The_Race_For_Anchorage
+		id = USA_The_Race_For_Anchorage
 		icon = unkown
 		x = 8
 		y = 15
@@ -523,7 +523,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Secure_Old_Airfields  }
+		prerequisite = { focus =  USA_Secure_Old_Airfields  }
 
 		completion_reward = {
 	
@@ -532,7 +532,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Melt_The_Alaskan_Wilderness
+		id = USA_Melt_The_Alaskan_Wilderness
 		icon = unkown
 		x = 12
 		y = 14
@@ -541,7 +541,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Operation_Rising_Eagle  }
+		prerequisite = { focus =  USA_Operation_Rising_Eagle  }
 
 		completion_reward = {
 	
@@ -550,7 +550,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Bring_Canada_Into_The_Fold
+		id = USA_Bring_Canada_Into_The_Fold
 		icon = unkown
 		x = 12
 		y = 15
@@ -559,7 +559,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Melt_The_Alaskan_Wilderness  }
+		prerequisite = { focus =  USA_Melt_The_Alaskan_Wilderness  }
 
 		completion_reward = {
 	
@@ -569,7 +569,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_BReinegrate_Alaska_Into_The_Union
+		id = USA_BReinegrate_Alaska_Into_The_Union
 		icon = unkown
 		x = 10
 		y = 16
@@ -578,8 +578,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Bring_Canada_Into_The_Fold  }
-		prerequisite = { focus =  ALA_The_Race_For_Anchorage  }
+		prerequisite = { focus =  USA_Bring_Canada_Into_The_Fold  }
+		prerequisite = { focus =  USA_The_Race_For_Anchorage  }
 
 		completion_reward = {
 	
@@ -601,7 +601,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Negotiate_For_Civilian_Safety
+		id = USA_Negotiate_For_Civilian_Safety
 		icon = unkown
 		x = 16
 		y = 13
@@ -610,9 +610,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		mutually_exclusive = {
-			focus = ALA_Operation_Rising_Eagle
+			focus = USA_Operation_Rising_Eagle
 		}
-		prerequisite = { focus =  ALA_The_Anchorage_Crsis  }
+		prerequisite = { focus =  USA_The_Anchorage_Crsis  }
 
 		completion_reward = {
 	
@@ -621,7 +621,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Release_Beringian_Figures
+		id = USA_Release_Beringian_Figures
 		icon = unkown
 		x = 14
 		y = 14
@@ -630,7 +630,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Negotiate_For_Civilian_Safety  }
+		prerequisite = { focus =  USA_Negotiate_For_Civilian_Safety  }
 
 		completion_reward = {
 	
@@ -639,7 +639,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Secure_The_Anchorage_Airport
+		id = USA_Secure_The_Anchorage_Airport
 		icon = unkown
 		x = 14
 		y = 15
@@ -648,7 +648,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Release_Beringian_Figures  }
+		prerequisite = { focus =  USA_Release_Beringian_Figures  }
 
 		completion_reward = {
 	
@@ -657,7 +657,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Push_For_A_Democratic_Regime
+		id = USA_Push_For_A_Democratic_Regime
 		icon = unkown
 		x = 18
 		y = 14
@@ -666,7 +666,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Negotiate_For_Civilian_Safety  }
+		prerequisite = { focus =  USA_Negotiate_For_Civilian_Safety  }
 
 		completion_reward = {
 	
@@ -675,7 +675,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Leave_As_Quickly_As_Possible
+		id = USA_Leave_As_Quickly_As_Possible
 		icon = unkown
 		x = 18
 		y = 15
@@ -684,7 +684,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Push_For_A_Democratic_Regime  }
+		prerequisite = { focus =  USA_Push_For_A_Democratic_Regime  }
 
 		completion_reward = {
 	
@@ -693,7 +693,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_What_Was_The_Point
+		id = USA_What_Was_The_Point
 		icon = unkown
 		x = 16
 		y = 16
@@ -702,8 +702,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 
-		prerequisite = { focus =  ALA_Leave_As_Quickly_As_Possible  }
-		prerequisite = { focus =  ALA_Secure_The_Anchorage_Airport  }
+		prerequisite = { focus =  USA_Leave_As_Quickly_As_Possible  }
+		prerequisite = { focus =  USA_Secure_The_Anchorage_Airport  }
 
 		completion_reward = {
 	
@@ -717,7 +717,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_A_Successful_Withdrawal
+		id = USA_A_Successful_Withdrawal
 		icon = unkown
 		x = 23
 		y = 12
@@ -726,7 +726,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		mutually_exclusive = {
-			focus = ALA_The_Anchorage_Crsis
+			focus = USA_The_Anchorage_Crsis
 		}
 		completion_reward = {
 	
@@ -735,7 +735,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Continue_To_Support_Democracy_Aboard
+		id = USA_Continue_To_Support_Democracy_Aboard
 		icon = unkown
 		x = 23
 		y = 13
@@ -743,7 +743,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_A_Successful_Withdrawal  }
+		prerequisite = { focus =  USA_A_Successful_Withdrawal  }
 
 		completion_reward = {
 	
@@ -752,7 +752,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Establish_A_New_Embassy
+		id = USA_Establish_A_New_Embassy
 		icon = unkown
 		x = 23
 		y = 14
@@ -760,7 +760,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Continue_To_Support_Democracy_Aboard  }
+		prerequisite = { focus =  USA_Continue_To_Support_Democracy_Aboard  }
 
 		completion_reward = {
 	
@@ -769,7 +769,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ALA_Cooperate_With_The_Alaskan_Military
+		id = USA_Cooperate_With_The_Alaskan_Military
 		icon = unkown
 		x = 23
 		y = 15
@@ -777,7 +777,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Establish_A_New_Embassy  }
+		prerequisite = { focus =  USA_Establish_A_New_Embassy  }
 
 		completion_reward = {
 	
@@ -787,7 +787,7 @@ focus_tree = {
 
 
 	focus = {
-		id = ALA_Alaska_And_America_Push_Forward_Together
+		id = USA_Alaska_And_America_Push_Forward_Together
 		icon = unkown
 		x = 23
 		y = 16
@@ -795,7 +795,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  ALA_Cooperate_With_The_Alaskan_Military  }
+		prerequisite = { focus =  USA_Cooperate_With_The_Alaskan_Military  }
 
 		completion_reward = {
 	

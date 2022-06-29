@@ -9311,6 +9311,27 @@ SpriteType = {
 	texturefile = "gfx/interface/goals/usa/usa_shaking_hands.dds"			
 	}
 	
+	SpriteType = {
+		name = "Icon_The_Situation_in_Alaska_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Situation_in_Alaska_KW.dds"			
+		}
+	SpriteType = {
+		name = "Icon_Finally_Pull_Out_of_Alaska_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Finally_Pull_Out_of_Alaska_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Take_Our_Time_Withdraw_Slowly_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Take_Our_Time_Withdraw_Slowly_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Its_long_overdue_get_our_boys_home_now_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Its_long_overdue_get_our_boys_home_now_KW.dds"			
+		}	
+		
+		
+
 	#### UAPR TREE ####
 	
 	SpriteType = {

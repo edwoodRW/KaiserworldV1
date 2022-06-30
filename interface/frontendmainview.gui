@@ -193,11 +193,6 @@ guiTypes = {
 		size = { width = 320 height = 395}
 		Orientation = CENTER
 		Origo = center		
-
-		positionType = {
-			name = "subscription_size"
-			position = { x = 320 y = 523 }
-		}
 				
 		background = {
 			name = "Background"		
@@ -243,11 +238,6 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 20	
 		}
-
-		positionType = {
-			name = "version_label_subscription_position"
-			position = { x = 35 y = 484 }
-		}
 		
 		
 		ButtonType = {
@@ -260,19 +250,10 @@ guiTypes = {
 			oversound = ui_menu_over
 		}
 		
-		buttonType = {
-			name = "career_profile_button"
-			position = { x = 16 y = 138 }
-			quadTextureSprite ="GFX_main_lobby_button"
-			buttonText = "MENU_BAR_CAREER_PROFILE"
-			buttonFont = "hoi_24header"
-			clicksound = click_default
-			oversound = ui_menu_over
-		}
 
 		ButtonType = {
 			name = "credits_button"
-			position = {  x = 16 y = 178 }
+			position = {  x = 16 y = 138 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "FE_CREDITS"
 			buttonFont = "hoi_24header"
@@ -282,11 +263,12 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 16 y = 218 }
+			position = { x = 16 y = 178 }
 			quadTextureSprite ="GFX_main_lobby_button"	
 			buttonText = "Nudge!"
 			buttonFont = "hoi_24header"
 		}
+		
 
 		ButtonType = {
 			name = "exit_button"
@@ -297,43 +279,6 @@ guiTypes = {
 			clicksound = click_default
 			oversound = ui_menu_over
 			
-		}
-
-		iconType = {
-			name = "subscription_divider"
-			position = { x = 4 y = 296}
-			spriteType = "GFX_main_lobby_divider"
-		}
-
-		containerWindowType = {
-			name = "subscription_widget"
-			position = { x = 16 y = 312 }
-			size = { width = 288 height = 108 }
-
-			ButtonType = {
-				name = "show_subscription"
-				position = { x = 0 y = 0 }
-				quadTextureSprite ="GFX_subscription_widget"
-				buttonText = "SUBSCRIPTION_WIDGET"
-				buttonFont = "hoi_24header"
-				multiline = yes
-			}
-		}
-
-		containerWindowType = {
-			name = "subscription_widget_subscribed"
-			position = { x = 16 y = 312 }
-			size = { width = 288 height = 108 }
-
-			ButtonType = {
-				name = "show_subscription"
-				position = { x = 0 y = 0 }
-				quadTextureSprite ="GFX_subscription_widget_active"
-				frame = 1
-				buttonText = "SUBSCRIPTION_WIDGET_SUBSCRIBED"
-				buttonFont = "hoi_24header"
-				multiline = yes
-			}
 		}
 	}
 	
@@ -347,16 +292,6 @@ guiTypes = {
 		positionType = {
 			name = "position_without_social_gui"
 			position = { x = 0 y = 155 }
-		}
-
-		positionType = {
-			name = "subscription_position"
-			position = { x = -50 y = 89 }
-		}
-
-		positionType = {
-			name = "subscription_position_without_social_gui"
-			position = { x = 0 y = 219 }
 		}
 		
 		containerWindowType = {
@@ -405,35 +340,37 @@ guiTypes = {
 		}
 		
 		ButtonType = {
-			name = "homepage_button"
+			name = "steam_button"
 			position = { x=0 y=0 }
 			quadTextureSprite ="homepage"
 			clicksound = click_default
-			pdx_tooltip = "MENU_HOMEPAGE"
+			pdx_tooltip = "MENU_STEAM"
+			web_link = "https://steamcommunity.com/sharedfiles/filedetails/?id=2166453693"
 		}
 		ButtonType = {
-			name = "forum_button"
+			name = "discord_button"
 			position = { x=50 y=0 }
 			quadTextureSprite ="forum"
 			clicksound = click_default
-			pdx_tooltip = "MENU_FORUM"
-			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
+			pdx_tooltip = "MENU_DISCORD"
+			web_link = "https://discord.gg/7YyY5f4WXp"
 		}
 		ButtonType = {
-			name = "facebook_button"
+			name = "youtube_button"
 			position = { x=100 y=0 }
 			quadTextureSprite ="facebook"
 			clicksound = click_default
-			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.facebook.com/Heartsofiron"
-		}
+			pdx_tooltip = "MENU_YOUTUBE"
+			web_link = "https://www.youtube.com/channel/UCmVM8QWUFnDGzyg1NDxUeQg"
+		}			
+		
 		ButtonType = {
 			name = "twitter_button"
 			position = { x=150 y=0 }
 			quadTextureSprite ="twitter"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/hoi_game"
+			clicksound = click_default
+			pdx_tooltip = "MENU_RWTWITTER"
+			web_link = "https://www.reddit.com/r/RedWorldMod/"
 		}
 		ButtonType = {
 			name = "privacy_policy_button"

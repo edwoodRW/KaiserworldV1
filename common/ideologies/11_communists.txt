@@ -3,7 +3,12 @@ ideologies = {
 	communist = {
 		
 		types = {
-		
+			british_totalism = {
+			}	
+
+			totalism = {
+			}		
+
 			marxist = {
 			}
 			

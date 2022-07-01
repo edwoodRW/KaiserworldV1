@@ -9329,9 +9329,57 @@ SpriteType = {
 		name = "Icon_Its_long_overdue_get_our_boys_home_now_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Its_long_overdue_get_our_boys_home_now_KW.dds"			
 		}	
+			
+	SpriteType = {
+		name = "Icon_Continue_Training_the_Alaskan_Military_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Continue_Training_the_Alaskan_Military_KW.dds"			
+		}	
 		
 		
+	SpriteType = {
+		name = "Icon_Continue_Building_Up_the_Governement_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Continue_Building_Up_the_Governement_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Set_a_4_Week_Timer_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Set_a_4_Week_Timer_KW.dds"			
+		}	
+		
+		
+	SpriteType = {
+		name = "Icon_Withdraw_Training_Instructors_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Withdraw_Training_Instructors_KW.dds"			
+		}	
 
+	SpriteType = {
+		name = "Icon_Fortify_the_Consulate_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Fortify_the_Consulate_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Encourage_American_Investments_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Encourage_American_Investments_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Push_for_Alaskan_Self"
+		texturefile = "gfx/interface/goals/usa/Icon_Push_for_Alaskan_Self.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Delegate_Policing_to_Alaskan_Authorities_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Delegate_Policing_to_Alaskan_Authorities_KW.dds"			
+		}
+	
+		
+	SpriteType = {
+		name = "Icon_Push_for_Alaskan_Self-Defense_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Push_for_Alaskan_Self-Defense_KW.dds"			
+		}
+	
+	
+		
 	#### UAPR TREE ####
 	
 	SpriteType = {

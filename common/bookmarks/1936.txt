@@ -11,14 +11,18 @@ bookmarks = {
 			history = "USA_DESC"
 			ideology = moderate_socialist
 			ideas = {
-			    idea_usa_norton_the_fourth
-				idea_usa_democratic_nation
-				idea_america_neutrality
+				idea_usa_norton_the_fourth
+				idea_usa_house
+				idea_usa_senate
+				idea_usa_us_supreme_court
+				idea_usa_norton_ii_legacy
+				idea_usa_legacy_of_second_acw
+				idea_usa_berniecare
 			}
 			focuses = {
-				USA_a_legitimate_ruler
-				USA_embrace_nationalist_values
-				USA_it_cant_happen_here
+				USA_prime_minister_bernie
+				USA_2012_election
+				USA_lessons_in_alaska
 				
 			}
 		}
@@ -67,7 +71,9 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-		
+				IRE_Stabilise_Ireland
+				IRE_The_Dragon_And_The_Clover
+				IRE_Establish_A_Celtic_Economic_Zone
 			}
 		}
 		"ALA"={

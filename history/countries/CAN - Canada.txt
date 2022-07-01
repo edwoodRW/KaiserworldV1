@@ -131,7 +131,7 @@ set_popularities = {
 		communist = 0
 }
 
-puppet = AST
+
 
 AST = {
 	set_popularities = {
@@ -148,8 +148,7 @@ AST = {
 		communist = 0
 }
 }
-create_faction = democratic_league
-add_to_faction = AST
+
 
 create_country_leader = {
 	name = "Preston Manning"

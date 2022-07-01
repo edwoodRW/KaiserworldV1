@@ -59,7 +59,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Continue_Training_The_Alaskan_Military
-		icon = unkown
+		icon = Icon_Continue_Training_the_Alaskan_Military_KW
 		x = 10
 		y = 3
 		cost = 5
@@ -75,7 +75,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Fortify_the_consulate
-		icon = unkown
+		icon = Icon_Fortify_the_Consulate_KW
 		x = 10
 		y = 4
 		cost = 5
@@ -161,7 +161,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Continue_Building_Up_The_Government
-		icon = unkown
+		icon = Icon_Continue_Building_Up_the_Governement_KW
 		x = 14
 		y = 3
 		cost = 5
@@ -178,7 +178,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Encouraging_American_Investment
-		icon = unkown
+		icon = Icon_Encourage_American_Investments_KW
 		x = 14
 		y = 4
 		cost = 5
@@ -267,7 +267,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Set_A_4_Week_Timer
-		icon = unkown
+		icon = Icon_Set_a_4_Week_Timer_KW
 		x = 18
 		y = 3
 		cost = 5
@@ -283,7 +283,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Push_For_Alaskan_Self_Defense
-		icon = unkown
+		icon = Icon_Push_for_Alaskan_Self-Defense_KW
 		x = 18
 		y = 4
 		cost = 5
@@ -366,7 +366,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Withdraw_Training_Instructors
-		icon = unkown
+		icon = Icon_Withdraw_Training_Instructors_KW
 		x = 22
 		y = 3
 		cost = 5
@@ -384,7 +384,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Delegate_Policing_To_Alaskan_Authorities
-		icon = unkown
+		icon = Icon_Delegate_Policing_to_Alaskan_Authorities_KW
 		x = 22
 		y = 4
 		cost = 5

@@ -91,7 +91,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Continue_Building_Up_Infrastructure
-		icon = unkown
+		icon = Icon_Continue_Building_Up_Infrastructure_KW
 		x = 10
 		y = 5
 		cost = 5
@@ -107,7 +107,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Start_Troop_Withdrawal
-		icon = unkown
+		icon = Icon_Start_Troop_Withdrawal_KW
 		x = 10
 		y = 6
 		cost = 5
@@ -125,7 +125,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Cooperate_With_Government_On_Withdrawal_Efforts
-		icon = unkown
+		icon = Icon_Cooperate_with_Government_on_Withdrawal_Efforts_KW
 		x = 10
 		y = 7
 		cost = 5
@@ -141,7 +141,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Complete_Our_Withdrawal
-		icon = unkown
+		icon = Icon_Complete_our_Withdrawal_KW
 		x = 12
 		y = 8
 		cost = 5
@@ -195,7 +195,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Continue_Secularization_Polcies
-		icon = unkown
+		icon = Icon_Continue_Secularization_Policies_KW
 		x = 14
 		y = 5
 		cost = 5
@@ -211,7 +211,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Anti-Beringian_Propaganda
-		icon = unkown
+		icon = Icon_Anti-Beringian_Propaganda_KW
 		x = 14
 		y = 6
 		cost = 5
@@ -228,7 +228,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Keep_Elmendirf_AFB_Under_Our_Control
-		icon = unkown
+		icon = Icon_Keep_Elmendorf_AFB_Under_our_Control_KW
 		x = 14
 		y = 7
 		cost = 5
@@ -299,7 +299,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Put_The_Embassy_On_High_Alert
-		icon = unkown
+		icon = Icon_Put_the_Embassy_on_High_Alert_KW
 		x = 18
 		y = 5
 		cost = 5
@@ -316,7 +316,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Remove_Our_Infrastructure
-		icon = unkown
+		icon = Icon_Remove_our_Infrastructure_KW
 		x = 18
 		y = 6
 		cost = 5
@@ -332,7 +332,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Evacuate_Any_Allies
-		icon = unkown
+		icon = Icon_Evacuate_Any_Allies_KW
 		x = 18
 		y = 7
 		cost = 5
@@ -348,7 +348,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_We_Accomplished_our_Mission
-		icon = unkown
+		icon = Icon_We_Accomplished_our_Mission_KW
 		x = 20
 		y = 8
 		cost = 5
@@ -400,7 +400,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Start_Evacuating_Soldiers
-		icon = unkown
+		icon = Icon_Start_Evacuating_Soldiers_KW
 		x = 22
 		y = 5
 		cost = 5
@@ -416,7 +416,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Give_A_Warning_To_Any_Civilians
-		icon = unkown
+		icon = Icon_Give_a_Warning_to_Any_Civilians_KW
 		x = 22
 		y = 6
 		cost = 5
@@ -432,7 +432,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Leave_In_The_Middle_Of_The_Night
-		icon = unkown
+		icon = Icon_Leave_in_the_Middle_of_the_Night_KW
 		x = 22
 		y = 7
 		cost = 5

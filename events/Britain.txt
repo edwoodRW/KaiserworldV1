@@ -2292,7 +2292,33 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.199.o1
+		hidden_effect = {
+			declare_war_on = { type = annex_everything    target = IRE }
+			declare_war_on = { type = annex_everything    target = GER }
+			declare_war_on = { type = annex_everything    target = FRA }
+			declare_war_on = { type = annex_everything    target = DEN }
+			declare_war_on = { type = annex_everything    target = HOL }
+			declare_war_on = { type = annex_everything    target = BEL }
+			declare_war_on = { type = annex_everything    target = POL }
+			declare_war_on = { type = annex_everything    target = ITA }
+			declare_war_on = { type = annex_everything    target = CAN }
+			declare_war_on = { type = annex_everything    target = USA }
 
+			SOV = {
+
+				declare_war_on = { type = annex_everything    target = IRE }
+				declare_war_on = { type = annex_everything    target = GER }
+				declare_war_on = { type = annex_everything    target = FRA }
+				declare_war_on = { type = annex_everything    target = DEN }
+				declare_war_on = { type = annex_everything    target = HOL }
+				declare_war_on = { type = annex_everything    target = BEL }
+				declare_war_on = { type = annex_everything    target = POL }
+				declare_war_on = { type = annex_everything    target = ITA }
+				declare_war_on = { type = annex_everything    target = CAN }
+				declare_war_on = { type = annex_everything    target = USA }
+			}
+
+		}
 	}
 }
 

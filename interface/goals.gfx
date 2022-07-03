@@ -9378,7 +9378,77 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/usa/Icon_Push_for_Alaskan_Self-Defense_KW.dds"			
 		}
 	
-	
+	SpriteType = {
+		name = "Icon_Continue_Building_Up_Infrastructure_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Continue_Building_Up_Infrastructure_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Continue_Secularization_Policies_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Continue_Secularization_Policies_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Put_the_Embassy_on_High_Alert_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Put_the_Embassy_on_High_Alert_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Start_Evacuating_Soldiers_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Start_Evacuating_Soldiers_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Start_Troop_Withdrawal_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Start_Troop_Withdrawal_KW.dds"			
+		}
+SpriteType = {
+		name = "Icon_Anti-Beringian_Propaganda_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Anti-Beringian_Propaganda_KW.dds"			
+		}
+
+SpriteType = {
+		name = "Icon_Remove_our_Infrastructure_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Remove_our_Infrastructure_KW.dds"			
+		}
+
+SpriteType = {
+		name = "Icon_Give_a_Warning_to_Any_Civilians_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Give_a_Warning_to_Any_Civilians_KW.dds"			
+		}
+
+
+SpriteType = {
+		name = "Icon_Cooperate_with_Government_on_Withdrawal_Efforts_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Cooperate_with_Government_on_Withdrawal_Efforts_KW.dds"			
+		}		
+
+SpriteType = {
+		name = "Icon_Keep_Elmendorf_AFB_Under_our_Control_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Keep_Elmendorf_AFB_Under_our_Control_KW.dds"			
+		}		
+		
+SpriteType = {
+		name = "Icon_Evacuate_Any_Allies_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Evacuate_Any_Allies_KW.dds"			
+		}		
+
+SpriteType = {
+		name = "Icon_Leave_in_the_Middle_of_the_Night_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Leave_in_the_Middle_of_the_Night_KW.dds"			
+		}		
+
+SpriteType = {
+		name = "Icon_Complete_our_Withdrawal_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Complete_our_Withdrawal_KW.dds"			
+		}						
+		
+SpriteType = {
+		name = "Icon_We_Accomplished_our_Mission_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_We_Accomplished_our_Mission_KW.dds"			
+		}						
+		
+		
 		
 	#### UAPR TREE ####
 	

@@ -1,0 +1,254 @@
+focus_tree = {
+	id = USCA_Dominion_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USCA_Yet_Another_Colonial_adventure
+		icon = unknown
+		x = 16
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USCA_Governor_General_Marc_Bilodeau
+		icon = unkown
+		x = 16
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Yet_Another_Colonial_adventure  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Undoing_American_Damage
+		icon = unkown
+		x = 13
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Governor_General_Marc_Bilodeau  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Granting_Representation_To_locals
+		icon = unkown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Undoing_American_Damage  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Repurpose_The_Grey_House
+		icon = unkown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Granting_Representation_To_locals  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USCA_Reorganize_Local_Armies
+		icon = unkown
+		x = 16
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Governor_General_Marc_Bilodeau  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USCA_Reorienting_infrastructure
+		icon = unkown
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Reorganize_Local_Armies  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Reorienting_infrastructure
+		icon = unkown
+		x = 16
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Reorganize_Local_Armies  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Import_Canadian_Infrastructure
+		icon = unkown
+		x = 16
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Reorienting_infrastructure  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Import_Canadian_Infrastructure
+		icon = unkown
+		x = 16
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Reorienting_infrastructure  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Integrate_The_FBI
+		icon = unkown
+		x = 19
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Governor_General_Marc_Bilodeau  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Use_MI6_To_Secure_The_Nation
+		icon = unkown
+		x = 19
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Integrate_The_FBI  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USCA_The_Hunt_For_Escobar
+		icon = unkown
+		x = 19
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_Integrate_The_FBI  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USCA_Hail_Britannia
+		icon = unkown
+		x = 19
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USCA_The_Hunt_For_Escobar  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

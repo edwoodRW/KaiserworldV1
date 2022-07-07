@@ -2,6 +2,13 @@ spriteTypes = {
 	##england events##
 	
 	spriteType = {
+		name = "hoff_at_wall_event"
+		texturefile = "gfx/event_pictures/report_event/hoff_at_wall_event.dds"
+	}
+	
+	
+
+	spriteType = {
 		name = "james_comey_overthrown_event"
 		texturefile = "gfx/event_pictures/report_event/james_comey_overthrown_event.dds"
 	}
@@ -1319,6 +1326,6 @@ spriteType = {
 
 
 
-
+}
 
 

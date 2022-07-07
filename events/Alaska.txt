@@ -51,3 +51,31 @@ country_event = {
 
 	}
 }
+
+
+country_event = {
+	id = Alaska.5
+	title = Alaska.5.t
+	desc = Alaska.5.d
+	picture = the_situation_in_alaska_event
+	fire_only_once = yes
+
+	option = {
+		name = Alaska.5.o1
+
+	}
+}
+
+country_event = {
+	id = Alaska.6
+	title = Alaska.6.t
+	desc = Alaska.6.d
+	picture = last_troops_leave_alaska_event
+	fire_only_once = yes
+
+	option = {
+		name = Alaska.6.o1
+
+	}
+}
+

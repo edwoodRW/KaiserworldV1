@@ -18,7 +18,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-	
+			id = Alaska.5
 		}
 	
 	}
@@ -33,7 +33,9 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_The_Situation_In_Alaska  }
 		completion_reward = {
-	
+			country_event = {			
+			
+			}
 		}
 	
 	}
@@ -152,7 +154,9 @@ focus_tree = {
 		prerequisite = { focus =  USA_Keep_Elmendirf_AFB_Under_Our_Control  }
 		
 		completion_reward = {
-	
+			country_event = {			
+				id = Alaska.6
+			}
 		}
 	
 	}
@@ -359,7 +363,9 @@ focus_tree = {
 		prerequisite = { focus =  USA_Leave_In_The_Middle_Of_The_Night  }
 		
 		completion_reward = {
-	
+			country_event = {			
+				id = Alaska.6
+			}
 		}
 	
 	}
@@ -452,7 +458,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_The_Anchorage_Crsis
-		icon = unkown
+		icon = Icon_The_Anchorage_Crisis_KW
 		x = 13
 		y = 12
 		cost = 5
@@ -474,7 +480,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Operation_Rising_Eagle
-		icon = unkown
+		icon = Icon_Operation_Rising_Eagle_KW
 		x = 10
 		y = 13
 		cost = 5
@@ -496,7 +502,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Secure_Old_Airfields
-		icon = unkown
+		icon = Icon_Secure_Old_Airfields_KW
 		x = 8
 		y = 14
 		cost = 5
@@ -515,7 +521,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_The_Race_For_Anchorage
-		icon = unkown
+		icon = Icon_The_Race_for_Anchorage_KW
 		x = 8
 		y = 15
 		cost = 5
@@ -533,7 +539,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Melt_The_Alaskan_Wilderness
-		icon = unkown
+		icon = Icon_Melt_the_Alaskan_Wilderness_KW
 		x = 12
 		y = 14
 		cost = 5
@@ -551,7 +557,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Bring_Canada_Into_The_Fold
-		icon = unkown
+		icon = Icon_Bring_Canada_Into_the_Fold_KW
 		x = 12
 		y = 15
 		cost = 5
@@ -570,7 +576,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_BReinegrate_Alaska_Into_The_Union
-		icon = unkown
+		icon = Icon_Integrate_Alaska_Into_the_Union_KW
 		x = 10
 		y = 16
 		cost = 5
@@ -602,7 +608,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Negotiate_For_Civilian_Safety
-		icon = unkown
+		icon = Icon_Negociate_for_Civilian_Safety_KW
 		x = 16
 		y = 13
 		cost = 5
@@ -622,7 +628,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Release_Beringian_Figures
-		icon = unkown
+		icon = Icon_Release_Beringian_Figures_KW
 		x = 14
 		y = 14
 		cost = 5
@@ -640,7 +646,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Secure_The_Anchorage_Airport
-		icon = unkown
+		icon = Icon_Secure_Anchorage_Airport_KW
 		x = 14
 		y = 15
 		cost = 5
@@ -658,7 +664,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Push_For_A_Democratic_Regime
-		icon = unkown
+		icon = Icon_Push_for_a_Democratic_Regime_KW
 		x = 18
 		y = 14
 		cost = 5
@@ -676,7 +682,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Leave_As_Quickly_As_Possible
-		icon = unkown
+		icon = Icon_Leave_as_Quickly_as_Possible_KW
 		x = 18
 		y = 15
 		cost = 5
@@ -694,7 +700,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_What_Was_The_Point
-		icon = unkown
+		icon = Icon_What_Was_the_Point_KW
 		x = 16
 		y = 16
 		cost = 5

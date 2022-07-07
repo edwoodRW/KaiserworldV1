@@ -9448,7 +9448,70 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/usa/Icon_We_Accomplished_our_Mission_KW.dds"			
 		}						
 		
+	SpriteType = {
+		name = "Icon_The_Anchorage_Crisis_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Anchorage_Crisis_KW.dds"			
+		}	
 		
+			
+	SpriteType = {
+		name = "Icon_Operation_Rising_Eagle_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Operation_Rising_Eagle_KW.dds"			
+		}	
+	
+SpriteType = {
+		name = "Icon_Negociate_for_Civilian_Safety_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Negociate_for_Civilian_Safety_KW.dds"			
+		}			
+
+		SpriteType = {
+			name = "Icon_Secure_Old_Airfields_KW"
+			texturefile = "gfx/interface/goals/usa/Icon_Secure_Old_Airfields_KW.dds"			
+			}	
+		SpriteType = {
+			name = "Icon_Melt_the_Alaskan_Wilderness_KW"
+			texturefile = "gfx/interface/goals/usa/Icon_Melt_the_Alaskan_Wilderness_KW.dds"			
+			}	
+
+	SpriteType = {
+		name = "Icon_Release_Beringian_Figures_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Release_Beringian_Figures_KW.dds"			
+		}			
+	
+	SpriteType = {
+		name = "Icon_Push_for_a_Democratic_Regime_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Push_for_a_Democratic_Regime_KW.dds"			
+		}					
+	
+	SpriteType = {
+		name = "Icon_The_Race_for_Anchorage_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Race_for_Anchorage_KW.dds"			
+		}	
+	
+	SpriteType = {
+		name = "Icon_Bring_Canada_Into_the_Fold_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Bring_Canada_Into_the_Fold_KW.dds"			
+		}		
+		
+	SpriteType = {
+		name = "Icon_Secure_Anchorage_Airport_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Secure_Anchorage_Airport_KW.dds"			
+		}			
+		
+	SpriteType = {
+		name = "Icon_Leave_as_Quickly_as_Possible_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Leave_as_Quickly_as_Possible_KW.dds"			
+		}		
+
+	SpriteType = {
+		name = "Icon_Integrate_Alaska_Into_the_Union_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Integrate_Alaska_Into_the_Union_KW.dds"			
+		}		
+		
+	SpriteType = {
+		name = "Icon_What_Was_the_Point_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_What_Was_the_Point_KW.dds"			
+		}	
 		
 	#### UAPR TREE ####
 	

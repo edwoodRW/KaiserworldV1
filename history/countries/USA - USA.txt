@@ -2,6 +2,8 @@
 
 oob = "USA_1939"
 
+load_focus_Tree = "Alaska_intro_tree"
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "USA_2000_naval_mtg"

@@ -220,13 +220,17 @@ focus_tree = {
 	focus = {
 		id = USCA_Hail_Britannia
 		icon = unkown
-		x = 19
-		y = 4
+		x = 16
+		y = 5
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus =  USCA_The_Hunt_For_Escobar  }
+		prerequisite = { focus =  USCA_Repurpose_The_Grey_House  }
+		prerequisite = { focus =  USCA_Reorienting_infrastructure  }
+
+
 		completion_reward = {
 	
 		}

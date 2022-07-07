@@ -2,10 +2,19 @@ spriteTypes = {
 	##england events##
 	
 	spriteType = {
+		name = "last_troops_leave_alaska_event"
+		texturefile = "gfx/event_pictures/report_event/last_troops_leave_alaska_event.dds"
+	}
+
+	spriteType = {
 		name = "hoff_at_wall_event"
 		texturefile = "gfx/event_pictures/report_event/hoff_at_wall_event.dds"
 	}
 	
+	spriteType = {
+		name = "the_situation_in_alaska_event"
+		texturefile = "gfx/event_pictures/report_event/the_situation_in_alaska_event.dds"
+	}
 	
 
 	spriteType = {

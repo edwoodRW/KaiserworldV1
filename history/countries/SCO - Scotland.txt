@@ -17,6 +17,7 @@ if = {
 add_ideas = {
    idea_Francis_Of_Scotland 
    idea_Scottish_Resources
+   idea_Standing_Against_England
     UN_Member_idea
 }
 

@@ -50,13 +50,38 @@ ideas = {
     }
 
 
+    idea_Standing_Against_England = {
+        allowed = {
+            always = no
+        }
+        
+        picture = standing_up_against_england
+        removal_cost = -1
+        
+        allowed_civil_war = {
+            always = yes
+        }
+
+        traits = { popular_figurehead }
+
+        modifier = {
+            research_speed_factor = 0.05
+            weekly_manpower = 1000
+            training_time_army_factor = -0.2
+            industrial_capacity_factory = 0.10
+            production_speed_arms_factory_factor = 0.1
+            production_speed_bunker_factor = 0.2
+            production_speed_air_base_factor = 0.25
+            production_speed_anti_air_building_factor = 0.25
+        }
+    }
 
 
 
 
 
 
-    
+
     }
 
     
@@ -67,10 +92,10 @@ tank_manufacturer = {
 
 designer = yes
 
-union_motors = {
+Thales = {
     
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = tank_manufacturer limit = 1 }
         }
@@ -91,12 +116,12 @@ naval_manufacturer = {
 
 designer = yes
 
-vickers_shipbulding_and_engineering = {
+Thales = {
     
-    picture = generic_naval_manufacturer_1
+    picture = scotland_Thales
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = naval_manufacturer limit = 1 }
         }
@@ -117,12 +142,12 @@ aircraft_manufacturer = {
 
 designer = yes
 
-britten_norman = {
+Thales = {
     
-    picture = generic_air_manufacturer_1
+    picture = scotland_Thales
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = light_aircraft_manufacturer limit = 1 }
         }
@@ -138,12 +163,12 @@ britten_norman = {
     traits = { light_aircraft_manufacturer }
 }
 
-british_aerospace = {
+Thistle_Design = {
     
-    picture = generic_air_manufacturer_3
+    picture = Thistle_design
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = medium_aircraft_manufacturer limit = 1 }
         }
@@ -159,12 +184,12 @@ british_aerospace = {
     traits = { medium_aircraft_manufacturer }
 }
 
-rolls_royce = {
+Thales = {
 
-    picture = generic_air_manufacturer_2
+    picture = scotland_Thales
     
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = heavy_aircraft_manufacturer limit = 1 }
         }
@@ -180,12 +205,12 @@ rolls_royce = {
     traits = { heavy_aircraft_manufacturer }
 }
 
-westland = {
+Thales = {
     
-    picture = generic_naval_manufacturer_2
+    picture = scotland_Thales
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = naval_aircraft_manufacturer limit = 1 }
         }
@@ -206,10 +231,10 @@ industrial_concern = {
 
 rio_tinto = {
     
-    picture = generic_industrial_concern_1
+    picture = scotland_Thales
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = industrial_concern limit = 1 }
         }
@@ -227,10 +252,10 @@ rio_tinto = {
 
 marconi_electronic_systems = {
     
-    picture = generic_electronics_concern_1
+    picture = scotland_Thales
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
         }
@@ -253,10 +278,10 @@ designer = yes
 
 land_rover = {
     
-    picture = generic_motorized_equipment_manufacturer_3
+    picture = scotland_Thales
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = motorized_equipment_manufacturer limit = 1 }
         }
@@ -277,7 +302,7 @@ royal_ordnance = {
     picture = generic_infantry_equipment_manufacturer_2
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = infantry_equipment_manufacturer limit = 1 }
         }
@@ -295,10 +320,10 @@ royal_ordnance = {
 
 thales_air_defence = {
     
-    picture = generic_artillery_manufacturer_2
+    picture = scotland_Thales
 
     allowed = {
-        original_tag = ENG
+        original_tag = SCO
         NOT = {
             has_available_idea_with_traits = { idea = artillery_manufacturer limit = 1 }
         }
@@ -320,7 +345,7 @@ second_in_command = {
     britain_liz_trust = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -337,7 +362,7 @@ second_in_command = {
     britain_philip_hammond = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -352,7 +377,7 @@ second_in_command = {
     britain_David_cameron = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -367,7 +392,7 @@ second_in_command = {
     britain_nick_clegg = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -385,7 +410,7 @@ second_in_command = {
     britain_ed_balls = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -400,7 +425,7 @@ second_in_command = {
     britain_michael_gove = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -418,7 +443,7 @@ second_in_command = {
     britain_christopher_eccleston = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -437,7 +462,7 @@ second_in_command = {
     britain_Charles_Kennedy = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
 
 
@@ -459,7 +484,7 @@ second_in_command = {
     britain_Boris_Johnson = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -480,7 +505,7 @@ foreign_minister = {
     britain_russel_brand = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -496,7 +521,7 @@ foreign_minister = {
     britain_katie_hopkins = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -511,7 +536,7 @@ foreign_minister = {
     britain_owen_jones = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -526,7 +551,7 @@ foreign_minister = {
     britain_alan_sugar = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -541,7 +566,7 @@ foreign_minister = {
     britain_tim_farron = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -556,7 +581,7 @@ foreign_minister = {
     britain_david_lammy = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -571,7 +596,7 @@ foreign_minister = {
     Britain_Angela_Rayner = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -587,7 +612,7 @@ foreign_minister = {
     britain_John_Prescott = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -603,7 +628,7 @@ foreign_minister = {
     britain_Theresa_May = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -619,7 +644,7 @@ foreign_minister = {
     britain_kenneth_clarke = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -637,7 +662,7 @@ foreign_minister = {
     britain_Jeremy_Corbyn = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -654,7 +679,7 @@ foreign_minister = {
     britain_fom_dermot_hudson = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -678,7 +703,7 @@ industry_minister = {
     Britain_Kate_Hoey = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -693,7 +718,7 @@ industry_minister = {
     Britain_Patrick_Stewart = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -708,7 +733,7 @@ industry_minister = {
     Britain_Rupert_Murdoch = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -723,7 +748,7 @@ industry_minister = {
     Britain_rebecca_long_bailey = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -738,7 +763,7 @@ industry_minister = {
     britain_Bill_Nighy = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -753,7 +778,7 @@ industry_minister = {
     Britain_Margaret_Beckett = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -768,7 +793,7 @@ industry_minister = {
     britain_john_hurt = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -785,7 +810,7 @@ industry_minister = {
     britain_Chris_Whitty = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -800,7 +825,7 @@ industry_minister = {
     britain_Jacob_Rees_Mogg = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -816,7 +841,7 @@ industry_minister = {
     britain_ind_ella_rule = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -836,7 +861,7 @@ national_security_minister = {
     britain_rory_stewart = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -851,7 +876,7 @@ national_security_minister = {
     britain_ben_kingsley = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -866,7 +891,7 @@ national_security_minister = {
     britain_Amber_Rudd = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -881,7 +906,7 @@ national_security_minister = {
     britain_michael_caine = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -896,7 +921,7 @@ national_security_minister = {
     Britain_Nadine_Dorries = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -911,7 +936,7 @@ national_security_minister = {
     britain_ian_duncan_smith = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -926,7 +951,7 @@ national_security_minister = {
     britain_john_bercow = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -941,7 +966,7 @@ national_security_minister = {
     britain_rowan_atkinson = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -957,7 +982,7 @@ national_security_minister = {
     britain_Jeremy_Hunt = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -974,7 +999,7 @@ national_security_minister = {
     britain_Owen_Paterson = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -991,7 +1016,7 @@ national_security_minister = {
     britain_Piers_Corbyn = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -1011,7 +1036,7 @@ intelligence_minister = {
     britain_george_osborne = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -1026,7 +1051,7 @@ intelligence_minister = {
     Britain_Esther_Mcvey = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -1041,7 +1066,7 @@ intelligence_minister = {
     britain_Simon_Pegg = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -1062,7 +1087,7 @@ intelligence_minister = {
     britain_Matt_Hancock = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {
@@ -1078,7 +1103,7 @@ intelligence_minister = {
     britain_Jonathan_Ashworth = {
     
         allowed = {
-            original_tag = ENG
+            original_tag = SCO
         }
         
         available = {

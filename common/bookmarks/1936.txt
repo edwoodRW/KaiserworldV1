@@ -30,6 +30,7 @@ bookmarks = {
 			history = "WALES_DESC"
 			ideology = fascist
 			ideas = {
+				idea_Standing_Against_England
 			}
 			focuses = {
 				WAL_Addressing_Wales
@@ -43,6 +44,7 @@ bookmarks = {
 			ideas = {
 				idea_Francis_Of_Scotland
 				idea_Scottish_Resources
+				idea_Standing_Against_England
 				UN_Member_idea
 
 			}
@@ -72,6 +74,7 @@ bookmarks = {
 			history = "IRELAND_DESC"
 			ideology = national_conservative
 			ideas = {
+				idea_Standing_Against_England
 			}
 			focuses = {
 				IRE_Stabilise_Ireland

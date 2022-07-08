@@ -33,8 +33,21 @@ spriteTypes = {
 		name = "GFX_idea_francis_of_scotland"
 		texturefile = "gfx/interface/ideas/SCO/francis_of_scotland.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_standing_up_against_england"
+		texturefile = "gfx/interface/ideas/SCO/standing_up_against_england.dds"
+	}
+
 	
 
+	#WALES#
+	
+	spriteType = {
+		name = "GFX_idea_standing_up_against_england"
+		texturefile = "gfx/interface/ideas/WAL/standing_up_against_england.dds"
+	}
+	
 
 	#others#
 	spriteType = {
@@ -45,6 +58,20 @@ spriteTypes = {
 	
 
 	#### BRITISH COMPANIES AND ADVISORS ####
+	
+	
+	spriteType = {
+		name = "GFX_idea_scotland_Thales"
+		texturefile = "gfx/interface/ideas/companies/scotland_Thales.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Thistle_design"
+		texturefile = "gfx/interface/ideas/companies/Thistle_design.dds"
+	}
+
+	
+
 	spriteType = {
 		name = "GFX_idea_union_motors"
 		texturefile = "gfx/interface/ideas/companies/union_motors.dds"

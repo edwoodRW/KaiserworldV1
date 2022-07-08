@@ -38,10 +38,13 @@ bookmarks = {
 			}
 		}
 		"SCO"={
-			history = "SCOTLAND_DESC"
+			history = "SCO_DESC"
 			ideology = monarchist
 			ideas = {
-				lessons_of_humiliation
+				idea_Francis_Of_Scotland
+				idea_Scottish_Resources
+				UN_Member_idea
+
 			}
 			focuses = {
 				SCO_The_Kingdom_Of_Scotland
@@ -50,8 +53,8 @@ bookmarks = {
 			}
 		}
 		"ENG"={
-			history = "ENGLAND_DESC"
 			ideology = communist
+			history = "ENG_DESC"
 			ideas = {
 				idea_memories_of_Michael_foot
 				idea_war_ready

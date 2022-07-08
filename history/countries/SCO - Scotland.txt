@@ -15,6 +15,8 @@ if = {
 
 
 add_ideas = {
+   idea_Francis_Of_Scotland 
+   idea_Scottish_Resources
     UN_Member_idea
 }
 

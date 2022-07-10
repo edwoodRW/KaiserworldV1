@@ -532,7 +532,14 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SCO_Kingdom_Elections  }
 		completion_reward = {
-
+			add_popularity = {
+				ideology = nationalist 
+				popularity = 0.20
+			}
+			set_politics = {
+				ruling_party = nationalist
+				elections_allowed = no
+				}
 		}
 
 	}
@@ -544,7 +551,15 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SCO_Kingdom_Elections  }
 		completion_reward = {
-
+			add_popularity = {
+				ideology = new_democrat 
+				popularity = 0.52
+			}
+			set_politics = {
+				ruling_party = new_democrat
+				elections_allowed = no
+				}
+		
 		}
 
 	}
@@ -556,7 +571,14 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SCO_Kingdom_Elections  }
 		completion_reward = {
-
+			add_popularity = {
+				ideology = liberal 
+				popularity = 0.20
+			}
+			set_politics = {
+				ruling_party = liberal
+				elections_allowed = no
+				}
 		}
 
 	}
@@ -568,7 +590,14 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SCO_Kingdom_Elections  }
 		completion_reward = {
-
+			add_popularity = {
+				ideology = national_conservative 
+				popularity = 0.20
+			}
+			set_politics = {
+				ruling_party = national_conservative
+				elections_allowed = no
+				}
 		}
 
 	}

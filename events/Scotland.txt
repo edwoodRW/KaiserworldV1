@@ -254,6 +254,14 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = Scotland.21.o1
+		create_country_leader = {
+			name = "Richie Venton"
+			picture = "big_boris.dds"
+			ideology = revolutionary_socialist_ideology
+		}
+	}
+	option = {
+		name = Scotland.21.o2
 	
 	}
 }
@@ -308,7 +316,29 @@ country_event = {
 }
 
 
+country_event = {
+	id = Scotland.26
+	title = Scotland.26.t
+	desc = Scotland.26.d
+	picture = anti_missile_weapon_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.26.o1
+	
+	}
+}
 
+country_event = {
+	id = Scotland.27
+	title = Scotland.27.t
+	desc = Scotland.27.d
+	picture = scotland_protest_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.27.o1
+	
+	}
+}
 
 
 

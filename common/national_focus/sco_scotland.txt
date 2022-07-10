@@ -295,7 +295,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_The_Youth_Service  }
 		prerequisite = { focus = SCO_Arm_North_Berwick  }
 		completion_reward = {
-
+			country_event = {
+				id = Scotland.26
+			}
 		}
 
 	}
@@ -356,7 +358,9 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SCO_Protect_Our_Lands  }
 		completion_reward = {
-
+			country_event = {
+				id = Scotland.25
+			}
 		}
 
 	}
@@ -620,7 +624,10 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = SCO_The_Welsh_Appointment  }
 		completion_reward = {
-
+			country_event = {
+				id = Scotland.27
+	
+			}
 		}
 
 	}

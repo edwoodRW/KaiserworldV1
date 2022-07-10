@@ -271,5 +271,53 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = Scotland.23
+	title = Scotland.23.t
+	desc = Scotland.23.d
+	picture = scottish_soldiers_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.23.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.24
+	title = Scotland.24.t
+	desc = Scotland.24.d
+	picture = scottish_armed_bordeR_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.24.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.25
+	title = Scotland.25.t
+	desc = Scotland.25.d
+	picture = welcome_to_Scotland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.25.o1
+	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

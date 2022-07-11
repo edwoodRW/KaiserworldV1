@@ -39,6 +39,30 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SCO/standing_up_against_england.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_kingdom_of_scotland_idea"
+		texturefile = "gfx/interface/ideas/SCO/kingdom_of_scotland_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_people_jobs_idea"
+		texturefile = "gfx/interface/ideas/SCO/scotland_people_jobs_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_helping_homeless_idea"
+		texturefile = "gfx/interface/ideas/SCO/helping_homeless_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_new_job_sector_idea"
+		texturefile = "gfx/interface/ideas/SCO/new_job_sector_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_canada_trade_idea"
+		texturefile = "gfx/interface/ideas/SCO/canada_trade_idea.dds"
+	}
 	
 
 	#WALES#

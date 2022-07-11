@@ -16,6 +16,8 @@ focus_tree = {
 		x = 17
 		y = 0
 		completion_reward = {
+			add_ideas = idea_Kingdom_of_scotland
+		add_stability = 0.05
 			country_event = {
 				id = Scotland.1
 			}
@@ -30,6 +32,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SCO_The_Kingdom_Of_Scotland  }
 		completion_reward = {
+
 			country_event = {
 				id = Scotland.7
 			}
@@ -44,6 +47,8 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = SCO_The_Nation  }
 		completion_reward = {
+		add_opinion_modifier = { target = CAN modifier = small_increase  }
+
 			country_event = {
 				id = Scotland.8
 			}
@@ -70,6 +75,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = SCO_Working_With_Canadian_Businesses }
 		completion_reward = {
+			add_ideas = idea_Canada_Trade
 
 		}
 
@@ -82,6 +88,20 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SCO_The_Maple_Leaf  }
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 2
+				category = encryption_tech
+				category = decryption_tech
+			}
+			add_political_power = 50
+			add_command_power = 50
+			add_building_construction = {
+				type = radar_station
+				level = 2
+				instant_build = yes
+			}
+
 			country_event = {
 				id = Scotland.9
 			}
@@ -96,7 +116,12 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = SCO_Security_Partnership  }
 		completion_reward = {
-
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
 		}
 
 	}
@@ -109,6 +134,7 @@ focus_tree = {
 		prerequisite = { focus = SCO_The_New_Trade_Route  }
 		prerequisite = { focus = SCO_Canada_Weapon_Factory  }
 		completion_reward = {
+			add_opinion_modifier = { target = CAN modifier = large_increase  }
 
 		}
 
@@ -122,6 +148,8 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = SCO_The_Nation  }
 		completion_reward = {
+			add_opinion_modifier = { target = USA modifier = small_increase  }
+
 			country_event = {
 				id = Scotland.10
 			}
@@ -136,6 +164,33 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SCO_The_Bernie_Direction  }
 		completion_reward = {
+			add_extra_state_shared_building_slots = 5
+			add_building_construction = {
+				type = arms_factory
+				level = 5
+				instant_build = yes
+			}
+			army_experience = 10
+			add_tech_bonus = {
+				uses = 2
+				bonus = 1.0
+				category = artillery
+				category = support_tech
+			}
+			add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+				technology = tech_engineers
+				technology = tech_engineers2
+				technology = tech_engineers3
+				technology = tech_recon
+				technology = tech_recon2
+				technology = tech_recon3
+			}
 
 		}
 
@@ -187,6 +242,8 @@ focus_tree = {
 		prerequisite = { focus = SCO_The_New_International_Hub  }
 		prerequisite = { focus = SCO_The_Socialist_Friend  }
 		completion_reward = {
+			add_opinion_modifier = { target = USA modifier = large_increase  }
+
 			country_event = {
 				id = Scotland.12
 			}
@@ -397,6 +454,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = SCO_The_Kingdom_Of_Scotland  }
 		completion_reward = {
+			add_ideas = idea_Scottish_people
 
 		}
 
@@ -409,7 +467,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = SCO_The_People  }
 		completion_reward = {
-
+			add_ideas = idea_fighting_poverty
 		}
 
 	}
@@ -421,6 +479,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SCO_Fighting_Poverty  }
 		completion_reward = {
+			add_political_power = 30
 			country_event = {
 				id = Scotland.3
 			}
@@ -435,6 +494,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SCO_The_People  }
 		completion_reward = {
+			add_political_power = 30
 			country_event = {
 				id = Scotland.2
 			}
@@ -450,7 +510,8 @@ focus_tree = {
 		prerequisite = { focus = SCO_Service_To_The_People  }
 		prerequisite = { focus = SCO_Accept_English_Refugees  }
 		completion_reward = {
-
+			add_stability = 0.15
+			add_political_power = 10
 		}
 
 	}
@@ -464,6 +525,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = SCO_The_People  }
 		completion_reward = {
+			add_stability = 0.10
 			country_event = {
 				id = Scotland.4
 			}
@@ -478,7 +540,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SCO_Better_Welfare  }
 		completion_reward = {
-
+			add_political_power = 20
 		}
 
 	}
@@ -491,6 +553,7 @@ focus_tree = {
 		prerequisite = { focus = SCO_Scotland_For_All  }
 		prerequisite = { focus = SCO_Accept_English_Refugees  }
 		completion_reward = {
+			add_ideas = idea_New_Job_Sector
 			country_event = {
 				id = Scotland.5
 			}
@@ -506,6 +569,7 @@ focus_tree = {
 		prerequisite = { focus = SCO_Scottish_Education  }
 		prerequisite = { focus = SCO_New_Jobs_sector  }
 		completion_reward = {
+			add_ideas = idea_Scotlands_Resources
 			country_event = {
 				id = Scotland.6
 			}

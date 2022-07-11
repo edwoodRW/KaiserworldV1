@@ -63,6 +63,17 @@ spriteTypes = {
 		name = "GFX_idea_canada_trade_idea"
 		texturefile = "gfx/interface/ideas/SCO/canada_trade_idea.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_scotland_america_trade_idea"
+		texturefile = "gfx/interface/ideas/SCO/scotland_america_trade_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_irish_friendship_idea"
+		texturefile = "gfx/interface/ideas/SCO/irish_friendship_idea.dds"
+	}
+	
 	
 
 	#WALES#

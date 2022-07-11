@@ -116,7 +116,12 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = SCO_Security_Partnership  }
 		completion_reward = {
-			add_extra_state_shared_building_slots = 2
+			add_tech_bonus = {
+				uses = 2
+				bonus = 1.0
+				category = artillery
+				category = support_tech
+			}
 			add_building_construction = {
 				type = arms_factory
 				level = 3
@@ -148,7 +153,6 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = SCO_The_Nation  }
 		completion_reward = {
-			add_opinion_modifier = { target = USA modifier = small_increase  }
 
 			country_event = {
 				id = Scotland.10
@@ -203,6 +207,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = SCO_Weapons_Trade_Pact  }
 		completion_reward = {
+			add_ideas = idea_USA_Trade
 
 		}
 
@@ -215,7 +220,15 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SCO_The_Bernie_Direction  }
 		completion_reward = {
-
+			add_opinion_modifier = { target = USA modifier = small_increase  }
+			add_popularity = {
+				ideology = new_democrat 
+				popularity = 0.12
+			}
+			add_popularity = {
+				ideology = liberal 
+				popularity = 0.12
+			}
 		}
 
 	}
@@ -227,6 +240,14 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = SCO_The_Stars_And_Scotland  }
 		completion_reward = {
+			add_popularity = {
+				ideology = new_democrat 
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology =  monarchist
+				popularity = 0.12
+			}
 			country_event = {
 				id = Scotland.11
 			}
@@ -273,6 +294,8 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = SCO_The_Irish_Partnership  }
 		completion_reward = {
+			add_opinion_modifier = { target = IRE modifier = large_increase  }
+
 			country_event = {
 				id = Scotland.14
 			}
@@ -287,6 +310,7 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = SCO_The_Irish_Partnership  }
 		completion_reward = {
+			add_ideas = idea_Ireland_Friendship
 
 		}
 

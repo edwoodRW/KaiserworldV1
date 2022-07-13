@@ -1,4 +1,185 @@
 ﻿add_namespace = usa
+#America in 2010
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = us_female_troop_saluting
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		date > 2010.1.1
+		date < 2010.1.20
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = usa.1.o1
+		hidden_effect = {
+		    USA = {
+		        country_event = { days = 10 id = usa.2 } 
+		    }
+		}
+	}
+}
+
+#The Abolitionment Conference 1
+country_event = {
+	id = usa.2
+	title = usa.2.t
+	desc = usa.2.d
+	picture = 2010_us_election
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.2.o1
+		add_popularity = {
+			ideology = monarchist
+			popularity = -0.02
+		}
+		hidden_effect = {
+		    USA = {
+		        country_event = { days = 1 id = usa.3 }
+		    }
+		}
+	}
+}
+
+#The Abolitionment Conference
+country_event = {
+	id = usa.3
+	title = usa.3.t
+	desc = usa.3.d
+	picture = texas_state
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.3.o1
+		add_political_power = -45
+		hidden_effect = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = moderate_socialist
+				popularity = -0.02
+		    }
+		}
+	}
+}
+
+#Death of Mr. Rogers
+country_event = {
+	id = usa.4
+	title = usa.4.t
+	desc = usa.4.d
+	picture = 2010_us_congressional_election
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		date > 2010.2.5
+		date < 2010.2.25
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = usa.4.o1
+		add_political_power = -15
+	}
+}
+
+#Sanders-Trump 2016
+country_event = {
+	id = usa.5
+	title = usa.5.t
+	desc = usa.5.d
+	picture = 2016_bernie_trump
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.5.o1
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = 0.01
+		}
+	}
+}
+
+#Sanders-Trump 2016
+country_event = {
+	id = usa.6
+	title = usa.6.t
+	desc = usa.6.d
+	picture = gaben
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		date > 2016.11.1
+		date < 2016.11.30
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = usa.6.o1
+		add_popularity = {
+			ideology = centrist
+			popularity = 0.01
+		}
+	}
+}
+
+#2016 Presidential Election (ModSoc/NewDem)
+country_event = {
+	id = usa.7
+	title = usa.7.t
+	desc = usa.7.d
+	picture = us_female_troop_saluting
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		date > 2016.11.1
+		date < 2016.11.30
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {   #Chomsky
+		name = usa.7.o1
+		set_politics = {
+			ruling_party = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.30
+		}
+		hidden_effect = {
+			sound_effect = chomsky_2016_sound
+			news_event = {
+				hours = 4
+			    id = news.315
+		}
+	}
+}
 
 
 country_event = {

@@ -1,6 +1,12 @@
 spriteTypes = {
 	
 
+	
+	spriteType = {
+		name = "greenland_sells_event"
+		texturefile = "gfx/event_pictures/report_event/greenland_sells_event.dds"
+	}
+	
 
 	spriteType = {
 		name = "scotland_protest_event"

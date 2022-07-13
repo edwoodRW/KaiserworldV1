@@ -58,3 +58,18 @@ country_event = {
 		name = usa.9.o1
 	}
 }
+
+
+country_event = {
+	id = usa.10
+	title = usa.10.t
+	desc = usa.10.d
+	picture = greenland_sells_event
+	
+	fire_only_once = yes
+	
+	option = {
+		name = usa.10.o1
+	}
+}
+

@@ -73,9 +73,29 @@ spriteTypes = {
 		name = "GFX_idea_irish_friendship_idea"
 		texturefile = "gfx/interface/ideas/SCO/irish_friendship_idea.dds"
 	}
-	
-	
 
+	spriteType = {
+		name = "GFX_idea_scottish_army_idea"
+		texturefile = "gfx/interface/ideas/SCO/scottish_army_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_felxible_army_idea"
+		texturefile = "gfx/interface/ideas/SCO/felxible_army_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_three_year_service_idea"
+		texturefile = "gfx/interface/ideas/SCO/three_year_service_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_defending_scotland_idea"
+		texturefile = "gfx/interface/ideas/SCO/defending_scotland_idea.dds"
+	}
+	
+	
+	
 	#WALES#
 	
 	spriteType = {

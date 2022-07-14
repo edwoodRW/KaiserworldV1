@@ -1132,7 +1132,7 @@ country_event = {
 			ideology = marxist
 			}
 		set_cosmetic_tag = WAL_wales_communist		
-			}
+		}
 	}
 }
 

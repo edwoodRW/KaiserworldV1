@@ -32,7 +32,7 @@ focus_tree = {
 		icon = destroy_blairism_icon
 		x = 5
 		y = 1
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -48,7 +48,7 @@ focus_tree = {
 		icon = kennedy_the_real_leader_icon
 		x = 3
 		y = 2
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -66,7 +66,7 @@ focus_tree = {
 		icon = destroy_the_peoples_palace_icon
 		x = 4
 		y = 3
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -82,7 +82,7 @@ focus_tree = {
 		icon = kill_the_blair_fandom_icon
 		x = 7
 		y = 2
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -100,7 +100,7 @@ focus_tree = {
 		icon = a_new_kennedy_square_icon
 		x = 6
 		y = 3
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -116,7 +116,7 @@ focus_tree = {
 		icon = kennedy_will_lead_us_icon
 		x = 5
 		y = 4
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -138,7 +138,7 @@ focus_tree = {
 		icon = tiem_to_get_To_work_icon
 		x = 15
 		y = 1
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -156,7 +156,7 @@ focus_tree = {
 		icon = another_go_at_The_dragon_icon
 		x = 13
 		y = 2
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -173,7 +173,7 @@ focus_tree = {
 		icon = order_the_attack_icon
 		x = 14
 		y = 3
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -189,7 +189,7 @@ focus_tree = {
 		icon = the_people_must_learn_icon
 		x = 17
 		y = 2
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -207,7 +207,7 @@ focus_tree = {
 		icon = no_second_chances_icon
 		x = 16
 		y = 3
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -223,7 +223,7 @@ focus_tree = {
 		icon = wales_has_been_taken_icon
 		x = 15
 		y = 4
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -244,7 +244,7 @@ focus_tree = {
 		icon = slit_the_welsh_throats_icons
 		x = 10
 		y = 6
-		cost = 5
+		cost = 7
 	
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -262,7 +262,7 @@ focus_tree = {
 		icon = order_mass_arrests_icon
 		x = 8
 		y = 7
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -315,7 +315,7 @@ focus_tree = {
 		icon = take_the_food_icon
 		x = 10
 		y = 7
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -417,7 +417,7 @@ focus_tree = {
 		icon = a_bigger_state_icon
 		x = 10
 		y = 10
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -437,7 +437,7 @@ focus_tree = {
 		icon = past_leaders_couldnt_do_what_i_did_icon
 		x = 10
 		y = 11
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -455,7 +455,7 @@ focus_tree = {
 		icon = prepare_for_scottish_exetermination_icon
 		x = 6
 		y = 12
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -471,7 +471,7 @@ focus_tree = {
 		icon = train_for_highland_war_icon
 		x = 5
 		y = 13
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -489,7 +489,7 @@ focus_tree = {
 		icon = prepare_to_defend_union_icon
 		x = 5
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -505,7 +505,7 @@ focus_tree = {
 		icon = an_easier_plan_for_scotland_icon
 		x = 5
 		y = 15
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -522,7 +522,7 @@ focus_tree = {
 		icon = a_message_to_the_king_icon
 		x = 7
 		y = 13
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -540,7 +540,7 @@ focus_tree = {
 		icon = a_refusal_that_will_Cost_you_icon
 		x = 7
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -556,7 +556,7 @@ focus_tree = {
 		icon = kidnap_the_king_daughter_icon
 		x = 7
 		y = 15
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -574,7 +574,7 @@ focus_tree = {
 		icon = killing_his_bloodline_icon
 		x = 6
 		y = 16
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -593,7 +593,7 @@ focus_tree = {
 		icon = wait_for_scottish_reaction_icon
 		x = 6
 		y = 17
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -617,7 +617,7 @@ focus_tree = {
 		icon = a_new_union_to_rule_icon
 		x = 10
 		y = 12
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -636,7 +636,7 @@ focus_tree = {
 		icon = harvest_welsh_lands_icon
 		x = 9
 		y = 13
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -652,7 +652,7 @@ focus_tree = {
 		icon = feed_the_elite_icon
 		x = 9
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -670,7 +670,7 @@ focus_tree = {
 		icon = grow_the_kennedy_fandom_icon
 		x = 9
 		y = 15
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -688,7 +688,7 @@ focus_tree = {
 		icon = 3_year_plan_icon
 		x = 11
 		y = 13
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -704,7 +704,7 @@ focus_tree = {
 		icon = restrict_peoples_freedom_icon
 		x = 11
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -720,7 +720,7 @@ focus_tree = {
 		icon = ban_social_gatherings_icon
 		x = 11
 		y = 15
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -736,7 +736,7 @@ focus_tree = {
 		icon = iron_fist_strikes_hard_icon
 		x = 10
 		y = 16
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -755,7 +755,7 @@ focus_tree = {
 		icon = rebuild_the_army_icon
 		x = 14
 		y = 12
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -773,7 +773,7 @@ focus_tree = {
 		icon = army_factory_production_factory_icon
 		x = 13
 		y = 13
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -789,7 +789,7 @@ focus_tree = {
 		icon = new_generals_for_army_icon
 		x = 13
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -805,7 +805,7 @@ focus_tree = {
 		icon = invest_in_military_research_icon
 		x = 13
 		y = 15
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -821,7 +821,7 @@ focus_tree = {
 		icon = invest_in_military_icon
 		x = 15
 		y = 13
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -839,7 +839,7 @@ focus_tree = {
 		icon = hero_fight_for_the_union_icon
 		x = 15
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -857,7 +857,7 @@ focus_tree = {
 		icon = the_peopleS_defence_acmedy_icon
 		x = 15
 		y = 15
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -873,7 +873,7 @@ focus_tree = {
 		icon = a_stronger_well_built_army_icon
 		x = 14
 		y = 16
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -893,7 +893,7 @@ focus_tree = {
 		icon = the_irish_suprise_icon
 		x = 30
 		y = 0
-		cost = 5
+		cost = 10
 		available ={
 			has_completed_focus = ENG_Wait_For_The_Scottish_Reaction
 		}
@@ -920,7 +920,7 @@ focus_tree = {
 		icon = order_soldiers_to_split_up_icon
 		x = 28
 		y = 1
-		cost = 5
+		cost = 8
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -936,7 +936,7 @@ focus_tree = {
 		icon = defend_the_state_of_wales_icon
 		x = 30
 		y = 1
-		cost = 5
+		cost = 8
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -954,7 +954,7 @@ focus_tree = {
 		icon = retreat_from_st_davids_icon
 		x = 29
 		y = 2
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -971,7 +971,7 @@ focus_tree = {
 		icon = the_battle_of_swansea_icon
 		x = 29
 		y = 3
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -987,7 +987,7 @@ focus_tree = {
 		icon = execute_welsh_prisoners_icon
 		x = 28
 		y = 4
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1003,7 +1003,7 @@ focus_tree = {
 		icon = order_nuke_strike_on_ireland_icon
 		x = 30
 		y = 4
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1019,7 +1019,7 @@ focus_tree = {
 		icon = germany_says_no_icon
 		x = 29
 		y = 5
-		cost = 5
+		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1038,7 +1038,7 @@ focus_tree = {
 		icon = un_debates_intervention_icon
 		x = 29
 		y = 6
-		cost = 5
+		cost = 8
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1059,7 +1059,7 @@ focus_tree = {
 		icon = order_the_attack_on_scotland_icon
 		x = 33
 		y = 1
-		cost = 5
+		cost = 8
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1077,7 +1077,7 @@ focus_tree = {
 		icon = order_attacks_from_sky_icon
 		x = 33
 		y = 2
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1093,7 +1093,7 @@ focus_tree = {
 		icon = defend_the_borders_of_berwick_icon
 		x = 33
 		y = 3
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1109,7 +1109,7 @@ focus_tree = {
 		icon = a_stale_warl_icon
 		x = 33
 		y = 4
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1148,7 +1148,7 @@ focus_tree = {
 		icon = UN_Invades_channel_icon
 		x = 24
 		y = 8
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1164,7 +1164,7 @@ focus_tree = {
 		icon = pull_out_of_wales_icon
 		x = 28
 		y = 8
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1180,7 +1180,7 @@ focus_tree = {
 		icon = order_the_protection_of_london_icon
 		x = 26
 		y = 9
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1224,7 +1224,7 @@ focus_tree = {
 		icon = defending_welsh_border_icon
 		x = 32
 		y = 8
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1240,7 +1240,7 @@ focus_tree = {
 		icon = advance_into_scotland_icon
 		x = 34
 		y = 8
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1275,7 +1275,7 @@ focus_tree = {
 		icon = push_onwards_icon
 		x = 30
 		y = 10
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1296,7 +1296,7 @@ focus_tree = {
 		icon = taking_edinburgh_icon
 		x = 29
 		y = 11
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1315,7 +1315,7 @@ focus_tree = {
 		icon = new_WMD_on_irish_icon
 		x = 31
 		y = 11
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1331,7 +1331,7 @@ focus_tree = {
 		icon = a_turning_point_icon
 		x = 30
 		y = 12
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1351,7 +1351,7 @@ focus_tree = {
 		icon = edinburgh_is_ours_icon
 		x = 30
 		y = 13
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1370,7 +1370,7 @@ focus_tree = {
 		icon = capture_the_rest_of_scotland_icon
 		x = 29
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1389,7 +1389,7 @@ focus_tree = {
 		icon = destroy_wallace_monument_icon
 		x = 31
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1406,7 +1406,7 @@ focus_tree = {
 		icon = taking_the_highlands_icon
 		x = 30
 		y = 15
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1428,7 +1428,7 @@ focus_tree = {
 		icon = the_scottish_throne_is_ours_icon
 		x = 30
 		y = 16
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1448,7 +1448,7 @@ focus_tree = {
 		icon = execute_scottish_targets_icon
 		x = 29
 		y = 17
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1465,7 +1465,7 @@ focus_tree = {
 		icon = ENG_End_The_Scottish_identity_icon
 		x = 31
 		y = 17
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1482,7 +1482,7 @@ focus_tree = {
 		icon = ENG_Scotland_No_More_icon
 		x = 30
 		y = 18
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1505,7 +1505,7 @@ focus_tree = {
 		icon = taking_back_welsh_cities_icon
 		x = 26
 		y = 13
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1522,7 +1522,7 @@ focus_tree = {
 		icon = cardiff_in_kennedys_hands_icon
 		x = 25
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1539,7 +1539,7 @@ focus_tree = {
 		icon = taking_newton_icon
 		x = 25
 		y = 15
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1556,7 +1556,7 @@ focus_tree = {
 		icon = swansea_for_our_navy_icon
 		x = 27
 		y = 14
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1573,7 +1573,7 @@ focus_tree = {
 		icon = destroy_st_davids_icon
 		x = 27
 		y = 15
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1610,7 +1610,7 @@ focus_tree = {
 		icon = prepare_for_irish_invasion_icon
 		x = 25
 		y = 17
-		cost = 5
+		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1644,7 +1644,7 @@ focus_tree = {
 		icon = we_want_reparations_icon
 		x = 25
 		y = 19
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1662,7 +1662,7 @@ focus_tree = {
 		icon = guard_northern_ireland_icon
 		x = 24
 		y = 20
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1684,7 +1684,7 @@ focus_tree = {
 		icon = leave_the_state_icon
 		x = 26
 		y = 20
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1704,7 +1704,7 @@ focus_tree = {
 		icon = sit_down_with_ireland_icon
 		x = 27
 		y = 17
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1720,7 +1720,7 @@ focus_tree = {
 		icon = take_wales_you_stay_out_icon
 		x = 27
 		y = 18
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1736,7 +1736,7 @@ focus_tree = {
 		icon = the_irish_cowards_icon
 		x = 28
 		y = 19
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1752,7 +1752,7 @@ focus_tree = {
 		icon = preparing_for_unifcation_icon
 		x = 29
 		y = 20
-		cost = 5
+		cost = 8
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1774,7 +1774,7 @@ focus_tree = {
 		icon = abandon_the_border_icon
 		x = 36
 		y = 10
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1796,7 +1796,7 @@ focus_tree = {
 		icon = Defend_the_New_Hadrians_Wall_icon
 		x = 35
 		y = 11
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1812,7 +1812,7 @@ focus_tree = {
 		icon = Standing_In_The_Midlands_icon
 		x = 37
 		y = 11
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1828,7 +1828,7 @@ focus_tree = {
 		icon = the_north_is_lost_icon
 		x = 36
 		y = 12
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1871,7 +1871,7 @@ focus_tree = {
 		icon = sit_down_with_scotland_icon
 		x = 34
 		y = 14
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1892,7 +1892,7 @@ focus_tree = {
 		icon = the_isolated_south_icon
 		x = 33
 		y = 15
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1910,7 +1910,7 @@ focus_tree = {
 		icon = the_union_of_southern_englnad_icon
 		x = 33
 		y = 16
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1926,7 +1926,7 @@ focus_tree = {
 		icon = a_free_northern_england_icon
 		x = 35
 		y = 15
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1944,7 +1944,7 @@ focus_tree = {
 		icon = kingdom_of_northumbria_icon
 		x = 35
 		y = 16
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1960,7 +1960,7 @@ focus_tree = {
 		icon = we_fight_on_icon
 		x = 38
 		y = 14
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1981,7 +1981,7 @@ focus_tree = {
 		icon = last_men_stand_for_kennedy_icon
 		x = 38
 		y = 15
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -1997,7 +1997,7 @@ focus_tree = {
 		icon = the_battle_of_cable_street_icon
 		x = 38
 		y = 16
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2050,7 +2050,7 @@ focus_tree = {
 		icon = the_un_in_the_usbr_icon
 		x = 43
 		y = 0
-		cost = 5
+		cost = 8
 			#trigger = {
 		#	has_country_flag = ENG_the_UN_in_ENG
 	#	}
@@ -2072,7 +2072,7 @@ focus_tree = {
 		icon = defend_the_scottish_border_icon
 		x = 41
 		y = 1
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2090,7 +2090,7 @@ focus_tree = {
 		icon = fight_on_The_cliffs_of_dover_icon
 		x = 45
 		y = 1
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2106,7 +2106,7 @@ focus_tree = {
 		icon = a_challenge_from_Canada_icon
 		x = 43
 		y = 2
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2125,7 +2125,7 @@ focus_tree = {
 		icon = the_three_way_war_icon
 		x = 43
 		y = 3
-		cost = 5
+		cost = 4
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2141,7 +2141,7 @@ focus_tree = {
 		icon = fight_the_scottish_advancement_icon
 		x = 40
 		y = 4
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2157,7 +2157,7 @@ focus_tree = {
 		icon = talks_for_a_ceasefire_icon
 		x = 40
 		y = 5
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2175,7 +2175,7 @@ focus_tree = {
 		icon = scotland_will_regret_their_option_icon
 		x = 40
 		y = 6
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2191,7 +2191,7 @@ focus_tree = {
 		icon = retreat_to_the_midlands_icon
 		x = 40
 		y = 7
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2207,7 +2207,7 @@ focus_tree = {
 		icon = prevent_the_un_beach_landings_icon
 		x = 43
 		y = 4
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2223,7 +2223,7 @@ focus_tree = {
 		icon = prevent_teh_un_advancement_into_kent_icon
 		x = 43
 		y = 5
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2239,7 +2239,7 @@ focus_tree = {
 		icon = fighting_in_cumbria_icon
 		x = 46
 		y = 4
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2255,7 +2255,7 @@ focus_tree = {
 		icon = cumbria_was_never_a_favourite_icon
 		x = 46
 		y = 5
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2271,7 +2271,7 @@ focus_tree = {
 		icon = focus_on_england_icon
 		x = 45
 		y = 6
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2289,7 +2289,7 @@ focus_tree = {
 		icon = we_maybe_surrounded_but_we_will_win_icon
 		x = 45
 		y = 7
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2305,7 +2305,7 @@ focus_tree = {
 		icon = union_of_southern_england_icon
 		x = 43
 		y = 8
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2325,7 +2325,7 @@ focus_tree = {
 		icon = the_un_reaches_out_icon
 		x = 43
 		y = 9
-		cost = 5
+		cost = 7
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2344,7 +2344,7 @@ focus_tree = {
 		icon = if_fall_england_falls_icon
 		x = 45
 		y = 10
-		cost = 5
+		cost = 3
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2364,7 +2364,7 @@ focus_tree = {
 		icon = a_fight_to_the_death_icon
 		x = 45
 		y = 11
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2381,7 +2381,7 @@ focus_tree = {
 		icon = defend_kennedys_palace_icon
 		x = 44
 		y = 12
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2400,7 +2400,7 @@ focus_tree = {
 		icon = russia_has_betrayed_us_icon
 		x = 46
 		y = 12
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2417,7 +2417,7 @@ focus_tree = {
 		icon = the_palace_has_fallen_icon
 		x = 45
 		y = 13
-		cost = 5
+		cost = 1
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2449,7 +2449,7 @@ focus_tree = {
 		icon = we_accept_icon
 		x = 41
 		y = 10
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2481,7 +2481,7 @@ focus_tree = {
 		icon = the_arrest_of_kennedy_icon
 		x = 41
 		y = 11
-		cost = 5
+		cost = 2
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
@@ -2500,7 +2500,7 @@ focus_tree = {
 		icon = end_of_totalist_england_icon
 		x = 41
 		y = 12
-		cost = 5
+		cost = 6
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}

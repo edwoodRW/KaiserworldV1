@@ -16,7 +16,9 @@ focus_tree = {
 		x = 25
 		y = 0
 		completion_reward = {
-
+			country_event = {
+				id = wales.1
+			}
 		}
 	}
 	focus = {
@@ -27,7 +29,9 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = WAL_Cynnydd_y_Ddraig  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.2
+			}
 		}
 
 	}
@@ -51,7 +55,9 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = WAL_Welsh_Freedom  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.3
+			}
 		}
 
 	}
@@ -73,6 +79,9 @@ focus_tree = {
 		cost = 5
 		x = 13
 		y = 5
+		available ={
+			has_completed_focus = WAL_The_Planned_Strikes
+			}
 		prerequisite = { focus = WAL_Expand_Mining_Operations  }
 		completion_reward = {
 
@@ -113,7 +122,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Rebuild_The_Steel_Industry  }
 		prerequisite = { focus = WAL_The_Five_Year_Automation_Plan  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.4
+			}
 		}
 
 	}
@@ -147,9 +158,14 @@ focus_tree = {
 		cost = 5
 		x = 18
 		y = 5
+		available ={
+		has_completed_focus = WAL_Remove_Safety_Laws
+		}
 		prerequisite = { focus = WAL_Rebuild_The_Steel_Industry  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.5
+			}
 		}
 
 	}
@@ -245,7 +261,9 @@ focus_tree = {
 		y = 5
 		prerequisite = { focus = WAL_Welsh_Education  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.8
+			}
 		}
 
 	}
@@ -293,7 +311,9 @@ focus_tree = {
 		y = 5
 		prerequisite = { focus = WAL_New_Nationalism  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.7
+			}
 		}
 
 	}
@@ -305,7 +325,7 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = WAL_Reformed_Welfare  }
 		completion_reward = {
-
+		
 		}
 
 	}
@@ -317,7 +337,9 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = WAL_New_Tax  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.9
+			}
 		}
 
 	}
@@ -341,7 +363,9 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_Awaken_The_Dragon  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.10
+			}
 		}
 
 	}
@@ -391,7 +415,9 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = WAL_Wales_Is_Alive  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.11
+			}
 		}
 
 	}
@@ -415,7 +441,9 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = WAL_Ban_Trade_With_USBR  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.12
+			}
 		}
 
 	}
@@ -447,6 +475,7 @@ focus_tree = {
 		x = 40
 		y = 0
 
+		available ={
 		has_completed_focus = WAL_Ban_English_Refugees
 		has_completed_focus = WAL_No_To_The_Left
 		has_completed_focus = WAL_The_Future_Lives_On
@@ -455,9 +484,11 @@ focus_tree = {
 		has_completed_focus = WAL_Remove_Safety_Laws
 		has_completed_focus = WAL_No_More_trade_With_Ireland
 		has_completed_focus = WAL_We_Need_Scottish_Power	
-		
+		}
 		completion_reward = {
-
+			country_event = {
+				id = wales.13
+			}
 		}
 	}
 	focus = {
@@ -493,7 +524,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_Meeting_With_The_Irish  }
 		prerequisite = { focus = WAL_Meeting_With_Scottish_Royalty  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.14
+			}
 		}
 
 	}
@@ -505,7 +538,7 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = WAL_The_Power_Struggle  }
 		completion_reward = {
-
+	
 		}
 
 	}
@@ -517,7 +550,9 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = WAL_The_Vote_Of_No_Confidence  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.15
+			}
 		}
 
 	}
@@ -543,7 +578,9 @@ focus_tree = {
 		prerequisite = { focus = WAL_The_People_Want_To_Vote  }
 		prerequisite = { focus = WAL_The_Party_Takes_Charge  }
 		completion_reward = {
-
+			country_event = {
+				id = wales.16
+			}
 		}
 
 	}
@@ -598,7 +635,14 @@ focus_tree = {
 		}
 		prerequisite = { focus = WAL_Chamber_Election  }
 		completion_reward = {
-
+			add_popularity = {
+				ideology = liberal 
+				popularity = 0.50
+			}
+			set_politics = {
+				ruling_party = liberal
+				elections_allowed = no
+			}
 		}
 
 	}

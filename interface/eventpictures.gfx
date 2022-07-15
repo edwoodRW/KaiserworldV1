@@ -1,5 +1,89 @@
 spriteTypes = {
 	
+	spriteType = {
+		name = "chamber_elections_event"
+		texturefile = "gfx/event_pictures/report_event/chamber_elections_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "welsh_people_riot_event"
+		texturefile = "gfx/event_pictures/report_event/welsh_people_riot_event.dds"
+	}
+	
+	spriteType = {
+		name = "gethin_confidence_vote_event"
+		texturefile = "gfx/event_pictures/report_event/gethin_confidence_vote_event.dds"
+	}
+	
+	spriteType = {
+		name = "celetic_congress_event"
+		texturefile = "gfx/event_pictures/report_event/celetic_congress_event.dds"
+	}
+
+	spriteType = {
+		name = "no_coal_for_blair_event"
+		texturefile = "gfx/event_pictures/report_event/no_coal_for_blair_event.dds"
+	}
+
+	spriteType = {
+		name = "ban_tarde_with_england_event"
+		texturefile = "gfx/event_pictures/report_event/ban_tarde_with_england_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "welsh_miltiary_budget_event"
+		texturefile = "gfx/event_pictures/report_event/welsh_miltiary_budget_event.dds"
+	}
+	
+	spriteType = {
+		name = "removing_left_event"
+		texturefile = "gfx/event_pictures/report_event/removing_left_event.dds"
+	}
+	
+	spriteType = {
+		name = "blinding_the_young_event"
+		texturefile = "gfx/event_pictures/report_event/blinding_the_young_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "wales_poverty_help_event"
+		texturefile = "gfx/event_pictures/report_event/wales_poverty_help_event.dds"
+	}
+	
+	spriteType = {
+		name = "banning_strikes_event"
+		texturefile = "gfx/event_pictures/report_event/banning_strikes_event.dds"
+	}
+	
+	spriteType = {
+		name = "striking_for_safety_event"
+		texturefile = "gfx/event_pictures/report_event/striking_for_safety_event.dds"
+	}
+
+
+	spriteType = {
+		name = "increasing_demand_event"
+		texturefile = "gfx/event_pictures/report_event/increasing_demand_event.dds"
+	}
+		
+	spriteType = {
+		name = "expanding_industry_event"
+		texturefile = "gfx/event_pictures/report_event/expanding_industry_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "address_wales_event"
+		texturefile = "gfx/event_pictures/report_event/address_wales_event.dds"
+	}
+
+	spriteType = {
+		name = "dragon_rises_event"
+		texturefile = "gfx/event_pictures/report_event/dragon_rises_event.dds"
+	}
 
 	
 	spriteType = {

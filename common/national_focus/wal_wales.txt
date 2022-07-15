@@ -16,6 +16,7 @@ focus_tree = {
 		x = 25
 		y = 0
 		completion_reward = {
+			add_ideas = idea_The_Dragon_Rises
 			country_event = {
 				id = wales.1
 			}
@@ -29,6 +30,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = WAL_Cynnydd_y_Ddraig  }
 		completion_reward = {
+			add_political_power = 40
 			country_event = {
 				id = wales.2
 			}
@@ -43,7 +45,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = WAL_Addressing_Wales  }
 		completion_reward = {
-
+			add_stability = 0.03
 		}
 
 	}

@@ -103,7 +103,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/WAL/standing_up_against_england.dds"
 	}
 	
-
+	spriteType = {
+		name = "GFX_idea_dragon_rises_idea"
+		texturefile = "gfx/interface/ideas/WAL/dragon_rises_idea.dds"
+	}
+	
 	#others#
 	spriteType = {
 		name = "GFX_idea_UN_Member_idea"

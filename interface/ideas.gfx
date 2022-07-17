@@ -108,12 +108,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/WAL/dragon_rises_idea.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_expanding_mine_operations_idea"
+		texturefile = "gfx/interface/ideas/WAL/expanding_mine_operations_idea.dds"
+	}
+	
+
+	
+
+
+
+
+
+
 	#others#
 	spriteType = {
 		name = "GFX_idea_UN_Member_idea"
 		texturefile = "gfx/interface/ideas/UN_Member_idea.dds"
 	}
 	
+	
+
 	
 
 	#### BRITISH COMPANIES AND ADVISORS ####

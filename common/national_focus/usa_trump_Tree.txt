@@ -1,0 +1,458 @@
+focus_tree = {
+	id = USA_trump_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_Make_America_Great_Again
+		icon = unknown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_A_New_Type_Of_Republicanism
+		icon = unkown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Make_America_Great_Again  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Renegotiate_The_Reichspakt_Trade_Agreement
+		icon = unkown
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Type_Of_Republicanism  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Lower_Corporate_Taxes
+		icon = unkown
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Type_Of_Republicanism  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Reverse_bernie_Tax_Hikes
+		icon = unkown
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lower_Corporate_Taxes  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+	focus = {
+		id = USA_Spread_Conservatism
+		icon = unkown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Type_Of_Republicanism  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Appease_The_Religious_Right
+		icon = unkown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Spread_Conservatism  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Empowering_Local_Government
+		icon = unkown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Appease_The_Religious_Right  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Rebuild_Infrastructure
+		icon = unkown
+		x = 13
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Type_Of_Republicanism  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Funds_To_Support_Veterans
+		icon = unkown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Rebuild_Infrastructure  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Improve_Youth_Organizations
+		icon = unkown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Funds_To_Support_Veterans  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_The_New_American_Dream
+		icon = unkown
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Improve_Youth_Organizations  }
+		prerequisite = { focus =  USA_Reverse_bernie_Tax_Hikes  }
+		prerequisite = { focus =  USA_Empowering_Local_Government  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_African_Travel_Ban
+		icon = unkown
+		x = 10
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_New_American_Dream  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Invest_In_American_Business
+		icon = unkown
+		x = 7
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_African_Travel_Ban  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Invest_In_The_American_Tech_Sector
+		icon = unkown
+		x = 7
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invest_In_American_Business  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Lower_Taxes_On_Corporations
+		icon = unkown
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_African_Travel_Ban  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Lower_Taxes_On_The_Middle_Class
+		icon = unkown
+		x = 10
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lower_Taxes_On_Corporations  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Vilify_The_Clintons
+		icon = unkown
+		x = 13
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_African_Travel_Ban  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Reach_Out_To_The_Royal_Party
+		icon = unkown
+		x = 13
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Vilify_The_Clintons  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Reduce_Reliance_On_Mexico
+		icon = unkown
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reach_Out_To_The_Royal_Party  }
+		prerequisite = { focus =  USA_Invest_In_The_American_Tech_Sector  }
+		prerequisite = { focus =  USA_Lower_Taxes_On_The_Middle_Class  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+#######If Parliament Dissolved############
+focus = {
+	id = USA_The_Trump_Crisis
+	icon = unkown
+	x = 10
+	y = 13
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+
+
+	completion_reward = {
+
+	}
+
+}
+
+
+
+
+
+focus = {
+	id = USA_Call_A_Parliamentary_Meeting
+	icon = unkown
+	x = 10
+	y = 14
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  USA_The_Trump_Crisis  }
+
+	completion_reward = {
+
+	}
+
+}
+
+
+focus = {
+	id = USA_Find_A_Scapegoat
+	icon = unkown
+	x = 7
+	y = 15
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  USA_Call_A_Parliamentary_Meeting  }
+
+	completion_reward = {
+
+	}
+
+}
+
+focus = {
+	id = USA_Accept_Responsibility
+	icon = unkown
+	x = 13
+	y = 15
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  USA_Call_A_Parliamentary_Meeting  }
+
+	completion_reward = {
+
+	}
+
+}
+
+focus = {
+	id = USA_Order_Restored
+	icon = unkown
+	x = 10
+	y = 16
+	cost = 5
+	search_filters = {
+		FOCUS_FILTER_POLITICAL
+	}
+	prerequisite = { focus =  USA_Accept_Responsibility  }
+	prerequisite = { focus =  USA_Find_A_Scapegoat  }
+
+	completion_reward = {
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

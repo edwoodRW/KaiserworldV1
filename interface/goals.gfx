@@ -9513,6 +9513,33 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/usa/Icon_What_Was_the_Point_KW.dds"			
 		}	
 		
+	SpriteType = {
+		name = "Icon_A_Successful_Withdrawal_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_A_Successful_Withdrawal_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Continue_to_Support_Democracy_Abroad_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Continue_to_Support_Democracy_Abroad_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Establish_a_New_Embassy_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Establish_a_New_Embassy_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Cooperate_with_the_Alaskan_Military_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Cooperate_with_the_Alaskan_Military_KW.dds"			
+		}
+		
+
+	SpriteType = {
+		name = "Icon_Alaska_and_America_Push_Foward_Together_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Alaska_and_America_Push_Foward_Together_KW.dds"			
+		}
+		
+
 	#### UAPR TREE ####
 	
 	SpriteType = {

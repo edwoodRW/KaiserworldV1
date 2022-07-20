@@ -1,0 +1,492 @@
+focus_tree = {
+	id = USA_gabe_newell_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_The_Newell/Howard_Administration
+		icon = unknown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_It_Just_Works
+		icon = unkown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Newell/Howard_Administration  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Fixing_Bernies_Mistakes
+		icon = unkown
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_It_Just_Works  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_De_Regulate_Wall_Street
+		icon = unkown
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fixing_Bernies_Mistakes  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Lower_Taxes_on_The_1_percent
+		icon = unkown
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_De_Regulate_Wall_Street  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Soliciting_Bipartisan_Legislation
+		icon = unkown
+		x = 7
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lower_Taxes_on_The_1_percent  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Funding_The_Technology_Sector
+		icon = unkown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_It_Just_Works  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Refunding_NASA
+		icon = unkown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Funding_The_Technology_Sector  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Robot_Soldiers_Closer_Than_You_Think
+		icon = unkown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Refunding_NASA  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Robot_Stoke_A_Technology_Race
+		icon = unkown
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Robot_Soldiers_Closer_Than_You_Think  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Encourage_Working_In_STEM
+		icon = unkown
+		x = 13
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_It_Just_Works  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Subsidize_Technology_In_School
+		icon = unkown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Encourage_Working_In_STEM  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Subsidize_The_Green_Industry
+		icon = unkown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Subsidize_Technology_In_School  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_The_Smart_Home_Generation
+		icon = unkown
+		x = 13
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Subsidize_The_Green_Industry  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_To_Infinity
+		icon = unkown
+		x = 10
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Smart_Home_Generation  }
+		prerequisite = { focus =  USA_Robot_Stoke_A_Technology_Race  }
+		prerequisite = { focus =  USA_Soliciting_Bipartisan_Legislation  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Everyone_Makes_A_Good_Point
+		icon = unkown
+		x = 7
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_To_Infinity  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Encourage_Political_Unity
+		icon = unkown
+		x = 7
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Everyone_Makes_A_Good_Point  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Re_Establish_American_Centrism
+		icon = unkown
+		x = 7
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Encourage_Political_Unity  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_And_Beyond
+		icon = unkown
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_To_Infinity  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Encourage_The_Private_Space_Industry
+		icon = unkown
+		x = 10
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_And_Beyond  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Subsidize_An_Industrial_Revolution
+		icon = unkown
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Encourage_The_Private_Space_Industry  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Cooperation_With_The_German_Scientific_Center
+		icon = unkown
+		x = 13
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_To_Infinity  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_The_Norton_I_Rover
+		icon = unkown
+		x = 13
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Cooperation_With_The_German_Scientific_Center  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Build_The_Sanders_Sattelite
+		icon = unkown
+		x = 13
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Norton_I_Rover  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_New_Space_Age
+		icon = unkown
+		x = 10
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Build_The_Sanders_Sattelite  }
+		prerequisite = { focus =  USA_Re_Establish_American_Centrism  }
+		prerequisite = { focus =  USA_Subsidize_An_Industrial_Revolution  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Where_Our_Loyalties_Will_Lay
+		icon = unkown
+		x = 25
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Our_Friends_In_The_Space_Race
+		icon = unkown
+		x = 20
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Where_Our_Loyalties_Will_Lay  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -3401,3 +3401,24 @@ country_event = {
 
 }
 
+country_event = {
+	id = England.242
+	title = England.242.t
+	desc = England.242.d
+	picture = enngland_heatwave_event
+	fire_only_once = yes
+	
+	trigger = {
+		tag = USA
+		date > 2011.7.1
+		date < 2011.7.10
+	}
+	
+	option = {
+		name = England.242.o1
+
+	}
+
+}
+
+

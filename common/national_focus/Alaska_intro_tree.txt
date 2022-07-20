@@ -724,7 +724,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_Successful_Withdrawal
-		icon = unkown
+		icon = Icon_A_Successful_Withdrawal_KW
 		x = 23
 		y = 12
 		cost = 5
@@ -742,7 +742,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Continue_To_Support_Democracy_Aboard
-		icon = unkown
+		icon = Icon_Continue_to_Support_Democracy_Abroad_KW
 		x = 23
 		y = 13
 		cost = 5
@@ -759,7 +759,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Establish_A_New_Embassy
-		icon = unkown
+		icon = Icon_Establish_a_New_Embassy_KW
 		x = 23
 		y = 14
 		cost = 5
@@ -776,7 +776,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Cooperate_With_The_Alaskan_Military
-		icon = unkown
+		icon = Icon_Cooperate_with_the_Alaskan_Military_KW
 		x = 23
 		y = 15
 		cost = 5
@@ -794,7 +794,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Alaska_And_America_Push_Forward_Together
-		icon = unkown
+		icon = Icon_Alaska_and_America_Push_Foward_Together_KW
 		x = 23
 		y = 16
 		cost = 5

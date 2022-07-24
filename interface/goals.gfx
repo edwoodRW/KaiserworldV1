@@ -3443,7 +3443,94 @@ SpriteType = {
 
 	### IRELAND ####
 	
-		
+	SpriteType = {
+		name = "syndicalism_illegal_icon"
+		texturefile = "gfx/interface/goals/ireland/syndicalism_illegal_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "preventing_a_crisis_icon"
+		texturefile = "gfx/interface/goals/ireland/preventing_a_crisis_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "ratify_the_constitution_icon"
+		texturefile = "gfx/interface/goals/ireland/ratify_the_constitution_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "create_a_military_congress_icon"
+		texturefile = "gfx/interface/goals/ireland/create_a_military_congress_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "president_for_life_icon"
+		texturefile = "gfx/interface/goals/ireland/president_for_life_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "a_new_better_ireland_icon"
+		texturefile = "gfx/interface/goals/ireland/a_new_better_ireland_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "overhaul_educaiton_system_icon"
+		texturefile = "gfx/interface/goals/ireland/overhaul_educaiton_system_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "government_control_of_media_icon"
+		texturefile = "gfx/interface/goals/ireland/government_control_of_media_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "anti_syndicalist_legislation_icon"
+		texturefile = "gfx/interface/goals/ireland/anti_syndicalist_legislation_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "militarize_police_froce_icon"
+		texturefile = "gfx/interface/goals/ireland/militarize_police_froce_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "service_for_citzenship_icon"
+		texturefile = "gfx/interface/goals/ireland/service_for_citzenship_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "a_new_consition_icon"
+		texturefile = "gfx/interface/goals/ireland/a_new_consition_icon.dds"			
+	}
+	
+
+	SpriteType = {
+		name = "replacing_leaders_with_officers_icon"
+		texturefile = "gfx/interface/goals/ireland/replacing_leaders_with_officers_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "closing_interregion_borders_icon"
+		texturefile = "gfx/interface/goals/ireland/closing_interregion_borders_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "extend_provisional_powers_icon"
+		texturefile = "gfx/interface/goals/ireland/extend_provisional_powers_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "state_of_ireland_icon"
+		texturefile = "gfx/interface/goals/ireland/state_of_ireland_icon.dds"			
+	}
+	
+
 	SpriteType = {
 		name = "the_irish_state_icon"
 		texturefile = "gfx/interface/goals/ireland/the_irish_state_icon.dds"			

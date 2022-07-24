@@ -693,7 +693,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_The_State_Of_Ireland
-		icon = stabilse_ireland_icon
+		icon = state_of_ireland_icon
 		cost = 5
 		x = 26
 		y = 14
@@ -708,7 +708,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Preventing_A_Crsis
-		icon = stabilse_ireland_icon
+		icon = preventing_a_crisis_icon
 		cost = 5
 		x = 30
 		y = 15
@@ -720,7 +720,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Declare_Syndicalism
-		icon = stabilse_ireland_icon
+		icon = syndicalism_illegal_icon
 		cost = 5
 		x = 30
 		y = 16
@@ -819,7 +819,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Extend_The_Provisional_Powers
-		icon = stabilse_ireland_icon
+		icon = extend_provisional_powers_icon
 		cost = 5
 		x = 22
 		y = 15
@@ -831,7 +831,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Closing_Interregion_Borders
-		icon = stabilse_ireland_icon
+		icon = closing_interregion_borders_icon
 		cost = 5
 		x = 22
 		y = 16
@@ -843,7 +843,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Replacing_Local_Leaders_With_Officers
-		icon = stabilse_ireland_icon
+		icon = replacing_leaders_with_officers_icon
 		cost = 5
 		x = 22
 		y = 17
@@ -856,7 +856,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_A_New_Constitution
-		icon = stabilse_ireland_icon
+		icon = a_new_consition_icon
 		cost = 5
 		x = 22
 		y = 18
@@ -869,7 +869,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Service_For_Citzenship
-		icon = stabilse_ireland_icon
+		icon = service_for_citzenship_icon
 		cost = 5
 		x = 19
 		y = 19
@@ -881,7 +881,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Militarize_Police_Forces
-		icon = stabilse_ireland_icon
+		icon = militarize_police_froce_icon
 		cost = 5
 		x = 22
 		y = 19
@@ -893,7 +893,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_AntiSyndicalist_Legislation
-		icon = stabilse_ireland_icon
+		icon = anti_syndicalist_legislation_icon
 		cost = 5
 		x = 25
 		y = 19
@@ -905,7 +905,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Government_Control_Of_The_Media
-		icon = stabilse_ireland_icon
+		icon = government_control_of_media_icon
 		cost = 5
 		x = 20
 		y = 20
@@ -919,7 +919,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Overhaul_The_Education_System
-		icon = stabilse_ireland_icon
+		icon = overhaul_educaiton_system_icon
 		cost = 5
 		x = 24
 		y = 20
@@ -933,7 +933,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_A_New_Better_Ireland
-		icon = stabilse_ireland_icon
+		icon = a_new_better_ireland_icon
 		cost = 5
 		x = 22
 		y = 21
@@ -946,7 +946,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_A_President_For_Life
-		icon = stabilse_ireland_icon
+		icon = president_for_life_icon
 		cost = 5
 		x = 22
 		y = 22
@@ -958,7 +958,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Create_A_Military_Congress
-		icon = stabilse_ireland_icon
+		icon = create_a_military_congress_icon
 		cost = 5
 		x = 22
 		y = 23
@@ -971,7 +971,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Ratify_The_Constitution
-		icon = stabilse_ireland_icon
+		icon = ratify_the_constitution_icon
 		cost = 5
 		x = 22
 		y = 24

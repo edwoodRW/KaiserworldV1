@@ -1,6 +1,95 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "arresting_protesters_event"
+		texturefile = "gfx/event_pictures/report_event/arresting_protesters_event.dds"
+	}
+	
+	spriteType = {
+		name = "derry_riots_event"
+		texturefile = "gfx/event_pictures/report_event/derry_riots_event.dds"
+	}
+
+	spriteType = {
+		name = "IRSM_event"
+		texturefile = "gfx/event_pictures/report_event/IRSM_event.dds"
+	}
+	
+	spriteType = {
+		name = "IRSP_event"
+		texturefile = "gfx/event_pictures/report_event/IRSP_event.dds"
+	}
+
+	spriteType = {
+		name = "bertie_speaks_to_republic_Event"
+		texturefile = "gfx/event_pictures/report_event/bertie_speaks_to_republic_Event.dds"
+	}
+		
+	spriteType = {
+		name = "in_comes_the_military"
+		texturefile = "gfx/event_pictures/report_event/in_comes_the_military.dds"
+	}
+	
+	spriteType = {
+		name = "the_four_way_coalition_event"
+		texturefile = "gfx/event_pictures/report_event/the_four_way_coalition_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_vote_in_ireland_Event"
+		texturefile = "gfx/event_pictures/report_event/the_vote_in_ireland_Event.dds"
+	}
+	
+	spriteType = {
+		name = "attempting_To_pass_bill_event"
+		texturefile = "gfx/event_pictures/report_event/attempting_To_pass_bill_event.dds"
+	}
+	spriteType = {
+		name = "dail_meeting_event"
+		texturefile = "gfx/event_pictures/report_event/dail_meeting_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "celtic_currency_event"
+		texturefile = "gfx/event_pictures/report_event/celtic_currency_event.dds"
+	}
+	
+	spriteType = {
+		name = "meeting_the_celts_event"
+		texturefile = "gfx/event_pictures/report_event/meeting_the_celts_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "business_confience_event"
+		texturefile = "gfx/event_pictures/report_event/business_confience_event.dds"
+	}
+	
+	spriteType = {
+		name = "irish_privatisation_event"
+		texturefile = "gfx/event_pictures/report_event/irish_privatisation_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "ireland_austerity_event"
+		texturefile = "gfx/event_pictures/report_event/ireland_austerity_event.dds"
+	}
+	
+	spriteType = {
+		name = "ireland_trade_expanding_event"
+		texturefile = "gfx/event_pictures/report_event/ireland_trade_expanding_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "irishg_republic_starting_event"
+		texturefile = "gfx/event_pictures/report_event/irishg_republic_starting_event.dds"
+	}
+	
+	
+	spriteType = {
 		name = "enngland_heatwave_event"
 		texturefile = "gfx/event_pictures/report_event/enngland_heatwave_event.dds"
 	}

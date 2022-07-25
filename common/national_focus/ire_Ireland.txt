@@ -16,7 +16,9 @@ focus_tree = {
 		x = 11
 		y = 0
 		completion_reward = {
-
+			country_event = {
+				id = ireland.1
+			}
 		}
 	}
 
@@ -28,7 +30,9 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = IRE_Stabilise_Ireland  }
 		completion_reward = {
-
+			country_event = {
+				id = ireland.2
+			}
 		}
 
 	}
@@ -41,7 +45,7 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = IRE_Reassure_Businessess  }
 		completion_reward = {
-
+		
 		}
 
 	}
@@ -96,7 +100,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_Attract_Investors  }
 
 		completion_reward = {
-
+			country_event = {
+				id = ireland.3
+			}
 		}
 
 	}
@@ -110,7 +116,9 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = IRE_Stabilise_Ireland  }
 		completion_reward = {
-
+			country_event = {
+				id = ireland.4
+			}
 		}
 
 	}
@@ -181,7 +189,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_Sell_Public_Assests  }
 
 		completion_reward = {
-
+			country_event = {
+				id = ireland.5
+			}
 		}
 
 	}
@@ -212,7 +222,9 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = IRE_The_Next_Stage_Of_The_Plan  }
 		completion_reward = {
-
+			country_event = {
+				id = ireland.6
+			}
 		}
 
 	}
@@ -268,7 +280,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_Celtic_Economoic_Aid  }
 
 		completion_reward = {
-
+			country_event = {
+				id = ireland.7
+			}
 		}
 
 	}
@@ -283,7 +297,9 @@ focus_tree = {
 		y = 6
 		prerequisite = { focus = IRE_The_Next_Stage_Of_The_Plan  }
 		completion_reward = {
-
+			country_event = {
+				id = ireland.8
+			}
 		}
 
 	}
@@ -340,7 +356,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_Ask_For_SDLP_Support  }
 		prerequisite = { focus = IRE_Ask_For_Fine_Gael_Support  }
 		completion_reward = {
-
+			country_event = {
+				id = ireland.9
+			}
 		}
 
 	}
@@ -354,7 +372,9 @@ focus_tree = {
 		y = 9
 		prerequisite = { focus = IRE_Attempt_To_Pass_The_Bill  }
 		completion_reward = {
-
+			country_event = {
+				id = ireland.10
+			}
 		}
 
 	}
@@ -368,7 +388,9 @@ focus_tree = {
 		x = 27
 		y = 0
 		completion_reward = {
-
+			country_event = {
+				id = ireland.11
+			}
 		}
 	}
 
@@ -407,7 +429,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_An_Attempt_To_Rebuild_Ireland  }
 
 		completion_reward = {
-
+			country_event = {
+				id = ireland.12
+			}
 		}
 	}
 
@@ -420,7 +444,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_An_Attempt_To_Rebuild_Ireland  }
 
 		completion_reward = {
-
+			country_event = {
+				id = ireland.13
+			}
 		}
 	}
 
@@ -449,7 +475,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_Send_In_The_Military  }
 
 		completion_reward = {
-
+			country_event = {
+				id = ireland.18
+			}
 		}
 	}
 
@@ -565,7 +593,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_Send_In_The_Military  }
 
 		completion_reward = {
-
+			country_event = {
+				id = ireland.14
+			}
 		}
 	}
 
@@ -603,7 +633,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_Combat_English_Influence  }
 
 		completion_reward = {
-
+			country_event = {
+				id = ireland.15
+			}
 		}
 	}
 
@@ -667,7 +699,9 @@ focus_tree = {
 		prerequisite = { focus = IRE_Discourage_Far_Left_Activity  }
 		prerequisite = { focus = IRE_Send_A_Warning_To_The_USBR  }
 		completion_reward = {
-
+			country_event = {
+				id = ireland.16
+			}
 		}
 	}
 
@@ -679,12 +713,10 @@ focus_tree = {
 		y = 10
 		prerequisite = { focus = IRE_The_Derry_Riot  }
 		completion_reward = {
-			
-			ULS = {
-				set_cosmetic_tag = northern_ireland_totalist
-				transfer_state = 119
-				
-				}
+			country_event = {
+				id = ireland.17
+			}
+		
 		}
 	}
 
@@ -732,7 +764,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Waive_All_Constitutional_Rights
-		icon = stabilse_ireland_icon
+		icon = waive_all_constitutional_rights_icon
 		cost = 5
 		x = 30
 		y = 17
@@ -744,7 +776,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Martial_Law_In_The_North
-		icon = stabilse_ireland_icon
+		icon = martial_law_in_the_north_icon
 		cost = 5
 		x = 30
 		y = 18
@@ -756,7 +788,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Arrest_Suspected_Traitors
-		icon = stabilse_ireland_icon
+		icon = arrest_suspected_traitors_icon
 		cost = 5
 		x = 28
 		y = 19
@@ -768,7 +800,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Life_Imprisonment_Terms
-		icon = stabilse_ireland_icon
+		icon = life_imprisonment_terms_icon
 		cost = 5
 		x = 28
 		y = 20
@@ -780,7 +812,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Withhold_Food_From_Spsected_Families
-		icon = stabilse_ireland_icon
+		icon = withhold_food_from_suspected_families_icon
 		cost = 5
 		x = 32
 		y = 19
@@ -792,7 +824,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Amnesty_For_Those_Who_Surrender
-		icon = stabilse_ireland_icon
+		icon = amnesty_for_those_who_surrender_icon
 		cost = 5
 		x = 32
 		y = 20
@@ -804,7 +836,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_The_Connacht_Conference
-		icon = stabilse_ireland_icon
+		icon = the_connacht_conference_icon
 		cost = 5
 		x = 30
 		y = 21

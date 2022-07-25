@@ -3444,6 +3444,41 @@ SpriteType = {
 	### IRELAND ####
 	
 	SpriteType = {
+		name = "the_connacht_conference_icon"
+		texturefile = "gfx/interface/goals/ireland/the_connacht_conference_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "amnesty_for_those_who_surrender_icon"
+		texturefile = "gfx/interface/goals/ireland/amnesty_for_those_who_surrender_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "withhold_food_from_suspected_families_icon"
+		texturefile = "gfx/interface/goals/ireland/withhold_food_from_suspected_families_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "life_imprisonment_terms_icon"
+		texturefile = "gfx/interface/goals/ireland/life_imprisonment_terms_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "arrest_suspected_traitors_icon"
+		texturefile = "gfx/interface/goals/ireland/arrest_suspected_traitors_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "martial_law_in_the_north_icon"
+		texturefile = "gfx/interface/goals/ireland/martial_law_in_the_north_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "waive_all_constitutional_rights_icon"
+		texturefile = "gfx/interface/goals/ireland/waive_all_constitutional_rights_icon.dds"			
+	}
+	
+	SpriteType = {
 		name = "syndicalism_illegal_icon"
 		texturefile = "gfx/interface/goals/ireland/syndicalism_illegal_icon.dds"			
 	}

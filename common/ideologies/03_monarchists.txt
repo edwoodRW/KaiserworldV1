@@ -6,6 +6,9 @@ ideologies = {
 		
 			absolute_monarchist = {
 			}
+
+			military_junta = {
+			}
 			
 		}
 		

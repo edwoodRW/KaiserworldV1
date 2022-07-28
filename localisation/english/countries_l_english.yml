@@ -6554,7 +6554,9 @@ ENG_COW:0 "Syndicalist Republic of England"
 ENG_COW_DEF:0 "Syndicalist Republic of England"
 ENG_COW_ADJ:0 "Syndicalist Republic of England"
 
-
+ENG_the_military_has_power:0 "State Of England"
+ENG_the_military_has_power_DEF:0 "State Of England"
+ENG_the_military_has_power_ADJ:0 "State Of England"
 
 ENG_New_Union_England:0 "United Socialist British Republic"
 ENG_New_Union_England_DEF:0 "United Socialist British Republic"

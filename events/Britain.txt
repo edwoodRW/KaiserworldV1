@@ -3422,3 +3422,73 @@ country_event = {
 }
 
 
+
+country_event = {
+	id = England.243
+	title = England.243.t
+	desc = England.243.d
+	picture = patrick_plans_out_event
+	is_triggered_only = yes
+	option = {
+		name = England.243.o1
+
+		set_cosmetic_tag = ENG_the_military_has_power
+		
+		set_politics = {
+			ruling_party =  monarchist
+			elections_allowed = no
+		}
+
+		create_country_leader = {
+			name = "Patrick Sanders"
+			picture = "Patrick_Sanders.dds"
+			ideology = military_junta
+		}
+		
+		add_popularity = {
+			ideology = military_junta 
+			popularity = 0.52
+		}
+
+		set_party_name = { 
+			ideology = monarchist 
+			long_name = ENG_republic_of_england_long
+			name = ENG_republic_of_england
+		} 
+	
+		
+		
+	}
+
+}
+
+
+
+country_event = {
+	id = England.244
+	title = England.244.t
+	desc = England.244.d
+	picture = showing_our_power_properly_evnt
+	is_triggered_only = yes
+	option = {
+		name = England.244.o1
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

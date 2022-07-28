@@ -36,15 +36,15 @@ difficulty_settings = {
 		multiplier = 2.0
 	}
 	difficulty_setting = {
-		key = "custom_diff_strong_jap"
+		key = "custom_diff_strong_SCO"
 		modifier = diff_strong_ai_generic
-		countries = { JAP MEN MAN }
+		countries = { SCO }
 		multiplier = 2.0
 	}
 	difficulty_setting = {
-		key = "custom_diff_strong_chi"
+		key = "custom_diff_strong_WAL"
 		modifier = diff_strong_ai_generic
-		countries = { CHI PRC }
+		countries = { WAL }
 		multiplier = 2.0
 	}
 }

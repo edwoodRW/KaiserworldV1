@@ -2142,6 +2142,11 @@ ENG_the_military_takes_over:0 "English Military Administration"
 ENG_the_military_takes_over_DEF:0 "English Military Administration"
 ENG_the_military_takes_over_ADJ:0 "English Military Administration"
 
+
+ENG_the_military_has_power:0 "State Of England"
+ENG_the_military_has_power_DEF:0 "State Of England"
+ENG_the_military_has_power_ADJ:0 "State Of England"
+
 NOF_new_democrat:0 "Kingdom Of Northumbria"
 NOF_new_democrat_DEF:0 "Kingdom Of Northumbria"
 NOF_new_democrat_ADJ:0 "Kingdom Of Northumbria"

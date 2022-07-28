@@ -128,8 +128,9 @@
  ENG_communist_party:0 "The National British Party (Hardliners)"
 
 ENG_New_Labour:0 "New Labour"
-Peoples_United_Force:0 "The United Peoples Army"
-
+ENG_Peoples_United_Force:0 "The United Peoples Army"
+ENG_republic_of_england:0 "National Party of England"
+ENG_republic_of_england_long:0 "National Party of England"
 
  SOV_fascist_party:0 "Mladorossi"
  SOV_nationalist_party:0 "Mladorossi"

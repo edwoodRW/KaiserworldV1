@@ -135,7 +135,11 @@
  gatesism:0 "Gatesism"
  gatesism_desc:0 "Gatesism advocates for the abolition of trade unions, replaced by a conglomerate of industrial leaders who rule directly through an elected central government. It is labelled by opponents as a communist oligarchy, while supporters believe it is necessary to strengthen the economy and ensure it is maintained through capable hands."
  national_communism:0 "National Communism"
-national_communism_desc:0 "National Communism is an ideology developed by General Secretary Nicolae Ceausescu of the Romanian Communist Party, beginning with the July Theses and the Romanian Cultural Revolution. National Communism is built on a mixture of Marxist-Leninist principles and extreme nationalism, seeing Romanian history as a 2000-year struggle for unity and independence. "
+national_communism_desc:0 "National Communism is an ideology developed by General Secretary Nicolae Ceausescu of the Romanian Communist Party, beginning with the July Theses and the Romanian Cultural Revolution. National Communism is built on a mixture of Marxist-Leninist principles and extreme nationalism, seeing Romanian history as a 2000-year struggle for unity and independence."
+military_junta:0 "Military Junta"
+military_junta_desc:0 "A military junta is a government led by a committee of military leaders. A junta often comes to power as a result of a coup d'état. Military dictatorships may gradually restore significant components of civilian government while the senior military commander still maintains executive political power. Military regimes tend to portray themselves as non-partisan, as a "neutral" party that can provide interim leadership in times of turmoil, and also tend to portray civilian politicians as corrupt and ineffective. One of the almost universal characteristics of a military government is the institution of martial law or a permanent state of emergency."
+
+
  fascist_drift:0 "Drift to National Populism"
  nationalist_drift:0 "Drift to Authoritarian Democracy"
  monarchist_drift:0 "Drift to Autocracy"

@@ -1,5 +1,18 @@
 spriteTypes = {
 	
+
+	spriteType = {
+		name = "showing_our_power_properly_evnt"
+		texturefile = "gfx/event_pictures/report_event/showing_our_power_properly_evnt.dds"
+	}
+	
+
+	spriteType = {
+		name = "patrick_plans_out_event"
+		texturefile = "gfx/event_pictures/report_event/patrick_plans_out_event.dds"
+	}
+	
+	
 	spriteType = {
 		name = "arresting_protesters_event"
 		texturefile = "gfx/event_pictures/report_event/arresting_protesters_event.dds"

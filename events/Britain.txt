@@ -2058,7 +2058,10 @@ country_event = {
 		}
 
 		COW = {			
-		
+			load_focus_tree = {
+				tree = uk_McDonnell_Tree
+				keep_completed = yes
+			}
 			set_cosmetic_tag = ENG_COW
 			set_politics = {
 				ruling_party = moderate_socialist 

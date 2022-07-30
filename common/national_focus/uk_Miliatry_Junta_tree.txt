@@ -119,6 +119,176 @@ focus_tree = {
 	}
 
 
+	focus = {
+		id = ENG_Work_With_Johnson
+		icon = martial_law_icon
+		cost = 5
+		x = 8
+		y = 4
+		prerequisite = { focus = ENG_For_The_Crimes_Of_Others  }
+		prerequisite = { focus = ENG_Sowing_Distrust_With_All_Sides  }
+
+		completion_reward = {
+			country_event = {
+				id = England.245
+			}
+		}
+
+	}
+
+	focus = {
+		id = ENG_Talks_About_Defending_states
+		icon = martial_law_icon
+		cost = 5
+		x = 7
+		y = 5
+		prerequisite = { focus = ENG_Work_With_Johnson  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_A_strong_Military_pact
+		icon = martial_law_icon
+		cost = 5
+		x = 9
+		y = 5
+		prerequisite = { focus = ENG_Work_With_Johnson  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Kennedy_Is_The_TRue_Enemy
+		icon = martial_law_icon
+		cost = 5
+		x = 8
+		y = 6
+		prerequisite = { focus = ENG_A_strong_Military_pact  }
+		prerequisite = { focus = ENG_Talks_About_Defending_states  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Sit_Down_And_Talk
+		icon = martial_law_icon
+		cost = 5
+		x = 8
+		y = 7
+		prerequisite = { focus = ENG_Kennedy_Is_The_TRue_Enemy  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Prepare_For_The_Red_Menace
+		icon = martial_law_icon
+		cost = 5
+		x = 8
+		y = 8
+		prerequisite = { focus = ENG_Sit_Down_And_Talk  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+
+
+	focus = {
+		id = ENG_Meeting_McDonnell
+		icon = martial_law_icon
+		cost = 5
+		x = 12
+		y = 4
+		prerequisite = { focus = ENG_Forgetting_Syndicalism  }
+		prerequisite = { focus = ENG_Sowing_Distrust_With_All_Sides  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+
+
+	focus = {
+		id = ENG_Invest_In_Social_Sectors
+		icon = martial_law_icon
+		cost = 5
+		x = 11
+		y = 5
+		prerequisite = { focus = ENG_Meeting_McDonnell  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_Building_A_Strong_Economy
+		icon = martial_law_icon
+		cost = 5
+		x = 13
+		y = 5
+		prerequisite = { focus = ENG_Meeting_McDonnell  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+	focus = {
+		id = ENG_The_Socialists_And_Junta_Can_Work
+		icon = martial_law_icon
+		cost = 5
+		x = 12
+		y = 6
+		prerequisite = { focus = ENG_Building_A_Strong_Economy  }
+		prerequisite = { focus = ENG_Invest_In_Social_Sectors  }
+
+		completion_reward = {
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

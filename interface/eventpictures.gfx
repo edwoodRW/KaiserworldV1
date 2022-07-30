@@ -1,5 +1,40 @@
 spriteTypes = {
 	
+	spriteType = {
+		name = "prepare_for_dissolution_event"
+		texturefile = "gfx/event_pictures/report_event/prepare_for_dissolution_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "locking_down_cities_event"
+		texturefile = "gfx/event_pictures/report_event/locking_down_cities_event.dds"
+	}
+	
+	spriteType = {
+		name = "they_all_go_independent_event"
+		texturefile = "gfx/event_pictures/report_event/they_all_go_independent_event.dds"
+	}
+
+	spriteType = {
+		name = "north_independece_event"
+		texturefile = "gfx/event_pictures/report_event/north_independece_event.dds"
+	}
+	
+	spriteType = {
+		name = "congress_shut_down_Event"
+		texturefile = "gfx/event_pictures/report_event/congress_shut_down_Event.dds"
+	}
+	
+	spriteType = {
+		name = "5th_nov_coup_event"
+		texturefile = "gfx/event_pictures/report_event/5th_nov_coup_event.dds"
+	}
+
+	spriteType = {
+		name = "boris_meetings_sanders_event"
+		texturefile = "gfx/event_pictures/report_event/boris_meetings_sanders_event.dds"
+	}
 
 	spriteType = {
 		name = "showing_our_power_properly_evnt"

@@ -1952,11 +1952,27 @@ country_event = {
 	id = England.150
 	title = England.150.t
 	desc = England.150.d
-	picture = talks_for_unification_event
+	picture = 5th_nov_coup_event
 	is_triggered_only = yes
 	option = {
 		name = England.150.o1
+		set_cosmetic_tag = ENG_the_military_takes_over
+		set_party_name = { ideology = fascist long_name = Peoples_United_Force name = Peoples_United_Force }
 
+		add_stability = -0.15
+		set_politics = {
+			ruling_party = fascist 
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = British_Facism
+			popularity = 0.55
+		}
+		create_country_leader = {
+			name = "General Administration"
+			picture = "general_admin.dds"
+			ideology = fascist
+		}
 	}
 }
 
@@ -1964,7 +1980,7 @@ country_event = {
 	id = England.151
 	title = England.151.t
 	desc = England.151.d
-	picture = talks_for_unification_event
+	picture = congress_shut_down_Event
 	is_triggered_only = yes
 	option = {
 		name = England.151.o1
@@ -1976,7 +1992,7 @@ country_event = {
 	id = England.152
 	title = England.152.t
 	desc = England.152.d
-	picture = talks_for_unification_event
+	picture = north_independece_event
 	is_triggered_only = yes
 	option = {
 		name = England.152.o1
@@ -2015,7 +2031,7 @@ country_event = {
 	id = England.153
 	title = England.153.t
 	desc = England.153.d
-	picture = talks_for_unification_event
+	picture = they_all_go_independent_event
 	is_triggered_only = yes
 	option = {
 		name = England.153.o1
@@ -3480,11 +3496,48 @@ country_event = {
 
 }
 
+country_event = {
+	id = England.245
+	title = England.245.t
+	desc = England.245.d
+	picture = boris_meetings_sanders_event
+	is_triggered_only = yes
+	option = {
+		name = England.245.o1
+
+	}
+
+}
 
 
 
 
+country_event = {
+	id = England.246
+	title = England.246.t
+	desc = England.246.d
+	picture = locking_down_cities_event
+	is_triggered_only = yes
+	option = {
+		name = England.246.o1
 
+	}
+
+}
+
+
+country_event = {
+	id = England.247
+	title = England.247.t
+	desc = England.247.d
+	picture = prepare_for_dissolution_event
+	is_triggered_only = yes
+	option = {
+		name = England.247.o1
+
+	}
+
+}
 
 
 

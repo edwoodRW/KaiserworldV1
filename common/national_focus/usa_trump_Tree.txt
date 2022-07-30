@@ -197,7 +197,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_The_New_American_Dream
-		icon = unkown
+		icon = Icon_The_New_American_Dream_KW
 		x = 10
 		y = 5
 		cost = 5
@@ -215,7 +215,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_The_African_Travel_Ban
-		icon = unkown
+		icon = Icon_The_African_Travel_Ban_KW
 		x = 10
 		y = 6
 		cost = 5
@@ -232,7 +232,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Invest_In_American_Business
-		icon = unkown
+		icon = Icon_Invest_in_American_Buisness_KW
 		x = 7
 		y = 7
 		cost = 5
@@ -249,7 +249,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Invest_In_The_American_Tech_Sector
-		icon = unkown
+		icon = Icon_Invest_in_the_American_Technology_Sector_KW
 		x = 7
 		y = 8
 		cost = 5
@@ -267,7 +267,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Lower_Taxes_On_Corporations
-		icon = unkown
+		icon = Icon_Lower_Taxes_on_Corporations_KW
 		x = 10
 		y = 7
 		cost = 5
@@ -283,7 +283,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Lower_Taxes_On_The_Middle_Class
-		icon = unkown
+		icon = Icon_Lower_Taxes_on_the_Middle_Class_KW
 		x = 10
 		y = 8
 		cost = 5
@@ -301,7 +301,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Vilify_The_Clintons
-		icon = unkown
+		icon = Icon_Vilify_the_Clintons_KW
 		x = 13
 		y = 7
 		cost = 5
@@ -317,7 +317,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Reach_Out_To_The_Royal_Party
-		icon = unkown
+		icon = Icon_Reach_Out_to_the_Royal_Party_KW
 		x = 13
 		y = 8
 		cost = 5
@@ -334,7 +334,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Reduce_Reliance_On_Mexico
-		icon = unkown
+		icon = Icon_Reduce_Reliance_on_Mexico_KW
 		x = 10
 		y = 9
 		cost = 5

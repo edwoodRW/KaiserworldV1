@@ -9718,9 +9718,56 @@ SpriteType = {
 		name = "Icon_Improve_Youth_Organizations_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Improve_Youth_Organizations_KW.dds"			
 		}	
-		
-		
 
+		
+	SpriteType = {
+		name = "Icon_The_New_American_Dream_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_New_American_Dream_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_The_African_Travel_Ban_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_African_Travel_Ban_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Invest_in_American_Buisness_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Invest_in_American_Buisness_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Lower_Taxes_on_Corporations_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Lower_Taxes_on_Corporations_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Vilify_the_Clintons_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Vilify_the_Clintons_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Invest_in_the_American_Technology_Sector_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Invest_in_the_American_Technology_Sector_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Lower_Taxes_on_the_Middle_Class_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Lower_Taxes_on_the_Middle_Class_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Reach_Out_to_the_Royal_Party_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Reach_Out_to_the_Royal_Party_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Reduce_Reliance_on_Mexico_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Reduce_Reliance_on_Mexico_KW.dds"			
+		}	
+	
+
+				
+		
 
 	#### UAPR TREE ####
 	

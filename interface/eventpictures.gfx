@@ -1,6 +1,47 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "the_edinburgh_meeting_Event"
+		texturefile = "gfx/event_pictures/report_event/the_edinburgh_meeting_Event.dds"
+	}
+
+	spriteType = {
+		name = "a_new_england_event"
+		texturefile = "gfx/event_pictures/report_event/a_new_england_event.dds"
+	}
+	
+	spriteType = {
+		name = "peace_talks_fail_event"
+		texturefile = "gfx/event_pictures/report_event/peace_talks_fail_event.dds"
+	}
+	
+	spriteType = {
+		name = "dublin_talks_event"
+		texturefile = "gfx/event_pictures/report_event/dublin_talks_event.dds"
+	}
+	
+	spriteType = {
+		name = "peace_talks_event"
+		texturefile = "gfx/event_pictures/report_event/peace_talks_event.dds"
+	}
+	
+	spriteType = {
+		name = "refugees_enter_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/refugees_enter_scotland_event.dds"
+	}
+
+	spriteType = {
+		name = "abc_news_liverpool"
+		texturefile = "gfx/event_pictures/report_event/abc_news_liverpool.dds"
+	}
+	
+	spriteType = {
+		name = "northumberland_reaching_out_event"
+		texturefile = "gfx/event_pictures/report_event/northumberland_reaching_out_event.dds"
+	}
+	
+	
+	spriteType = {
 		name = "a_new_bill_event"
 		texturefile = "gfx/event_pictures/report_event/a_new_bill_event.dds"
 	}

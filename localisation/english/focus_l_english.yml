@@ -2210,6 +2210,53 @@ IRE_Ratify_The_Constitution_desc:0 "We have planned out how our administration w
 
 
 
+#NORTHUMBERLAND####
+NOF_The_End_Of_6th_English_Civil_War:0 "The End Of The 6th English Civil War"
+NOF_The_End_Of_6th_English_Civil_War_desc:0 "Its over..its finally over..the civil war is finally over and now the North stands tall over England. Although the other factions still exist, their states are weak and will take years to return to a military power they once were. Now we can begin moving forward with rebuilding the North in our own vision."
+NOF_We_Won_But_Were_Not_That_Strong:0 "We Won But We're Not That Strong"
+NOF_We_Won_But_Were_Not_That_Strong_desc:0 "Although we have won the civil war, we lost a lot of good men and now our armies manpower is low and cannot be ready for another war. We must use the men we have to stand at a defensive line on our borders while we being to rebuild our military."
+NOF_Look_For_International_Protection:0 "Look For International Protection"
+NOF_Look_For_International_Protection_desc:0 "Its time we reach out to others and ask for help, we need to prepare for anything the south throws at us. Their anger to us for winning shall only get worse over time and we cannot defeat them ourselves."
+NOF_Reach_Out_To_The_Canadians:0 "Reach Out To Canadians"
+NOF_Reach_Out_To_The_Canadians_desc:0 "Canada helped us with the civil war giving us equipment and advising us on how to win against those who fought against us, reaching out to them and receiving their help will allow us to rebuild and create a strong economic state ready to stand on its own two feet."
+NOF_Welcome_The_Royal_Family_Back:0 "Welcome The Royal Family Back"
+NOF_Welcome_The_Royal_Family_Back_desc:0 "Her royal majesty has flown from Canada to Liverpool to see the North after its victory against the South. She has not set foot on British soil since her father took her and her family away during the troubled times. Now the Queen returns back to her home."
+NOF_Canadian_Funds_English_Business:0 "Canadian Funds, English Businesses"
+NOF_Canadian_Funds_English_Business_desc:0 "Canada has accepted our need for its help, the Canadian government will guide us on rebuilding our state and working with its businesses and economic advisors. The nation has also given us loans to help build up our businesses and start our economy again."
+NOF_Resettling_Refugee_Populations:0 "Resettling Refugee Populations"
+NOF_Resettling_Refugee_Populations_desc:0 ""
+NOF_With_Canada_Well_Bring_Democracy_Back_To_The_Isle:0 "With Canada We'll Bring Democracy Back"
+NOF_With_Canada_Well_Bring_Democracy_Back_To_The_Isle_desc:0 ""
+NOF_Weeks_Help_From_Our_Scottish_Neighbours:0 "Seek Help From Our Scottish Neighbours"
+NOF_Weeks_Help_From_Our_Scottish_Neighbours_desc:0 ""
+NOF_The_Treaty_Of_Inverness:0 "The Treaty Of Inverness"
+NOF_The_Treaty_Of_Inverness_desc:0 ""
+NOF_Dismantling_The_Wall:0 "Dismantling The Wall"
+NOF_Dismantling_The_Wall_desc:0 ""
+NOF_Building_A_Northumbrian_Identity:0 "Building A Northumbrian Identity"
+NOF_Building_A_Northumbrian_Identity_desc:0 ""
+NOF_Under_The_Saltire_Well_Survive:0 "Under The Saltire We'll Survive"
+NOF_Under_The_Saltire_Well_Survive_desc:0 ""
+NOF_An_Offer_To_The_Germans:0 "An Offer To The Germans"
+NOF_An_Offer_To_The_Germans_desc:0 ""
+NOF_Joining_Mittle_Europa:0 "Joining Mittle Europa"
+NOF_Joining_Mittle_Europa_desc:0 ""
+NOF_A_Delegation_to_the_Kaiserreich:0 "A Delegation To The Kaiserreich"
+NOF_A_Delegation_to_the_Kaiserreich_desc:0 ""
+NOF_The_Limits_Of_German_Influence:0 "The Limits Of German Influence"
+NOF_The_Limits_Of_German_Influence_desc:0 ""
+NOF_Un_Das_English_Reich:0 "Un Das English Reich"
+NOF_Un_Das_English_Reich_desc:0 ""
+
+
+
+
+
+
+
+
+
+
 
  ### TECH BONUSES ###
  air_doctrine_bonus:0 "Air doctrine bonus"

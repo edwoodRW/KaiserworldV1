@@ -6542,9 +6542,9 @@ NOF_new_democrat:0 "Kingdom Of Northumbria"
 NOF_new_democrat_DEF:0 "Kingdom Of Northumbria"
 NOF_new_democrat_ADJ:0 "Kingdom Of Northumbria"
 
-ENG_EAG:0 "Johnsonite Front"
-ENG_EAG_DEF:0 "Johnsonite Front"
-ENG_EAG_ADJ:0 "Johnsonite Front"
+ENG_EAG:0 "Democratic Republic of Norwich"
+ENG_EAG_DEF:0 "Democratic Republic of Norwich"
+ENG_EAG_ADJ:0 "Democratic Republic of Norwich"
 
 ENG_EMI:0 "Union Of England"
 ENG_EMI_DEF:0 "Union Of England"
@@ -6561,6 +6561,13 @@ ENG_the_military_has_power_ADJ:0 "State Of England"
 ENG_New_Union_England:0 "United Socialist British Republic"
 ENG_New_Union_England_DEF:0 "United Socialist British Republic"
 ENG_New_Union_England_ADJ:0 "United Socialist British Republic"
+
+
+ENG_GLA:0 "Greater London State"
+ENG_GLA_DEF:0 "Greater London State"
+
+
+
 
 WAL_fascist_new:0 "National State Of Wales"
 WAL_fascist_new_DEF:0 "National State Of Wales"

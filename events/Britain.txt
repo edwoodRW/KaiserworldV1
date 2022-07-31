@@ -2093,7 +2093,22 @@ country_event = {
 
 		}
 
+		GLA = {			
+	
+			set_cosmetic_tag = ENG_GLA
+			set_politics = {
+				ruling_party = communist
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Dermot Hudson"
+				picture = "dermot_hudson.dds"
+				ideology = totalism
+			}
+	
+			transfer_state = 126
 
+		}
 
 	}
 }
@@ -3669,6 +3684,201 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = England.257
+	title = England.257.t
+	desc = England.257.d
+	picture = northumberland_reaching_out_event
+	is_triggered_only = yes
+	option = {
+		name = England.257.o1
+
+	}
+
+}
+
+country_event = {
+	id = England.258
+	title = England.258.t
+	desc = England.258.d
+	picture = abc_news_liverpool
+	is_triggered_only = yes
+	option = {
+		name = England.258.o1
+
+	}
+
+}
+
+country_event = {
+	id = England.259
+	title = England.259.t
+	desc = England.259.d
+	picture = refugees_enter_scotland_event
+	is_triggered_only = yes
+	option = {
+		name = England.259.o1
+
+	}
+
+}
+
+country_event = {
+	id = England.260
+	title = England.260.t
+	desc = England.260.d
+	picture = peace_talks_event
+	is_triggered_only = yes
+	option = {
+		name = England.260.o1
+		NOF = {
+			country_event = { days = 10 id = England.261 } 
+		}
+
+	}
+	####peacetalks declined####
+	option = {
+		name = England.260.o2
+		NOF = {
+			country_event = { days = 10 id = England.264 } 
+		}
+	}
+}
+
+
+country_event = {
+	id = England.261
+	title = England.261.t
+	desc = England.261.d
+	picture = peace_talks_event
+	is_triggered_only = yes
+	option = { ##Peace temporary achieved
+		name = England.261.o1
+		NOF = {
+		country_event = { days = 10 id = England.262 } 
+		}
+	}
+	##war begins
+	option = {
+		name = England.261.o2
+		ENG = {
+			declare_war_on = { target = EMI type = annex_everything }
+			declare_war_on = { target = NOF type = annex_everything }
+			declare_war_on = { target = EAG type = annex_everything }
+			declare_war_on = { target = COW type = annex_everything }
+			declare_war_on = { target = GLA type = annex_everything }
+
+		}
+
+		EMI = {
+			declare_war_on = { target = ENG type = annex_everything }
+			declare_war_on = { target = NOF type = annex_everything }
+			declare_war_on = { target = EAG type = annex_everything }
+			declare_war_on = { target = COW type = annex_everything }
+			declare_war_on = { target = GLA type = annex_everything }
+		}
+
+		NOF = {
+			declare_war_on = { target = ENG type = annex_everything }
+			declare_war_on = { target = EMI type = annex_everything }
+			declare_war_on = { target = EAG type = annex_everything }
+			declare_war_on = { target = COW type = annex_everything }
+			declare_war_on = { target = GLA type = annex_everything }
+		}
+
+		EAG = {
+			declare_war_on = { target = ENG type = annex_everything }
+			declare_war_on = { target = EMI type = annex_everything }
+			declare_war_on = { target = NOF type = annex_everything }
+			declare_war_on = { target = COW type = annex_everything }
+			declare_war_on = { target = GLA type = annex_everything }
+		}
+
+		COW = {
+			declare_war_on = { target = ENG type = annex_everything }
+			declare_war_on = { target = EMI type = annex_everything }
+			declare_war_on = { target = NOF type = annex_everything }
+			declare_war_on = { target = EAG type = annex_everything }
+			declare_war_on = { target = GLA type = annex_everything }
+		}
+
+		GLA = {
+			declare_war_on = { target = ENG type = annex_everything }
+			declare_war_on = { target = EMI type = annex_everything }
+			declare_war_on = { target = NOF type = annex_everything }
+			declare_war_on = { target = EAG type = annex_everything }
+			declare_war_on = { target = COW type = annex_everything }
+		}
+
+
+	}
+
+}
+
+
+country_event = {
+	id = England.262
+	title = England.262.t
+	desc = England.262.d
+	picture = dublin_talks_event
+	is_triggered_only = yes
+	option = {
+		name = England.262.o1
+		NOF = {
+			country_event = { days = 2 id = England.263 } 
+			}
+	}
+
+}
+
+country_event = {
+	id = England.263
+	title = England.263.t
+	desc = England.263.d
+	picture = a_new_england_event
+	is_triggered_only = yes
+	option = {
+		name = England.263.o1
+
+		NOF = {
+			load_focus_tree = {
+				tree = 	nof_United_Kingdom_Of_Northumbria_Tree
+				keep_completed = yes
+			}
+		}
+	}
+}
+
+
+country_event = {
+	id = England.264
+	title = England.264.t
+	desc = England.264.d
+	picture = peace_talks_fail_event
+	is_triggered_only = yes
+	option = {
+		name = England.264.o1
+
+	}
+
+}
+
+country_event = {
+	id = England.265
+	title = England.265.t
+	desc = England.265.d
+	picture = the_edinburgh_meeting_Event
+	is_triggered_only = yes
+	option = {
+		name = England.265.o1
+
+
+		
+	}
+
+}
+
 
 
 

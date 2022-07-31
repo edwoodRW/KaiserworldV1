@@ -16,7 +16,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		completion_reward = {
-			
+		
 		}
 	}
 	focus = {
@@ -27,7 +27,9 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = ENG_Down_With_The_Syndicalists  }
 		completion_reward = {
-
+			country_event = {
+				id = England.257
+			}
 		}
 
 	}
@@ -53,7 +55,9 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = ENG_Liberating_Northern_Camps  }
 		completion_reward = {
-
+			country_event = {
+				id = England.258
+			}
 		}
 
 	}
@@ -136,7 +140,9 @@ focus_tree = {
 		y = 7
 		prerequisite = { focus = ENG_Liberating_Older_Weapons  }
 		completion_reward = {
-
+			country_event = {
+				id = England.265
+			}
 		}
 
 	}
@@ -178,7 +184,9 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = ENG_Reaching_Out_To_Canada  }
 		completion_reward = {
-
+			country_event = {
+				id = England.259
+			}
 		}
 
 	}
@@ -209,7 +217,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_Employ_Massive_Propaganda_Campaigns  }
 		prerequisite = { focus = ENG_Drafting_Rules_Of_War  }
 		completion_reward = {
-
+			country_event = {
+				id = England.260
+			}
 		}
 
 	}

@@ -2155,9 +2155,9 @@ ENG_Northern_Restoration_Front:0 "Restoration Front"
 ENG_Northern_Restoration_Front_DEF:0 "Restoration Front"
 ENG_Northern_Restoration_Front_ADJ:0 "Restoration Front"
 
-ENG_EAG:0 "Johnsonite Front"
-ENG_EAG_DEF:0 "Johnsonite Front"
-ENG_EAG_ADJ:0 "Johnsonite Front"
+ENG_EAG:0 "Democratic Republic of Norwich"
+ENG_EAG_DEF:0 "Democratic Republic of Norwich"
+ENG_EAG_ADJ:0 "Democratic Republic of Norwich"
 
 ENG_COW:0 "Syndicalist Republic of England"
 ENG_COW_DEF:0 "Syndicalist Republic of England"
@@ -2183,6 +2183,11 @@ ENG_united_kingdom_ADJ:0 "The United Kingdom"
 SCO_Totalist_state:0 "The Union Of Scotland"
 SCO_Totalist_state_DEF:0 "The Union Of Scotland"
 SCO_Totalist_state_ADJ:0 "The Union Of Scotland"
+
+
+ENG_GLA:0 "Greater London State"
+ENG_GLA_DEF:0 "Greater London State"
+ENG_GLA_ADJ:0 "Greater London State"
 
 FRA_Commune_Of_France:0 "Commune Of France"
 FRA_Commune_Of_France_DEF:0 "Commune Of France"

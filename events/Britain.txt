@@ -3540,10 +3540,135 @@ country_event = {
 }
 
 
+country_event = {
+	id = England.248
+	title = England.248.t
+	desc = England.248.d
+	picture = defending_states_event
+	is_triggered_only = yes
+	option = {
+		name = England.248.o1
+
+	}
+
+}
 
 
+country_event = {
+	id = England.249
+	title = England.249.t
+	desc = England.249.d
+	picture = kennedy_takes_over_event
+	is_triggered_only = yes
+	option = {
+		name = England.249.o1
+
+	}
+
+}
+
+country_event = {
+	id = England.250
+	title = England.250.t
+	desc = England.250.d
+	picture = sit_down_and_talk_meeting_event
+	is_triggered_only = yes
+	option = {
+		name = England.250.o1
+
+	}
+
+}
+
+country_event = {
+	id = England.251
+	title = England.251.t
+	desc = England.251.d
+	picture = sanders_prepare_for_war_event
+	is_triggered_only = yes
+	option = {
+		name = England.251.o1
+		ENG = {
+			country_event = { days = 50 id = England.252 } 
+		}
+	}
+
+}
+
+country_event = {
+	id = England.252
+	title = England.252.t
+	desc = England.252.d
+	picture = movement_for_war_event
+	is_triggered_only = yes
+	option = {
+		name = England.252.o1
+		ENG = {
+			country_event = { days = 5 id = England.253 } 
+		}
+	}
+
+}
+
+country_event = {
+	id = England.253
+	title = England.253.t
+	desc = England.253.d
+	picture = troops_cross_midlands_border_Event
+	is_triggered_only = yes
+	option = {
+		name = England.253.o1
+		ENG = {
+			country_event = { days = 5 id = England.254 } 
+		}
+
+	}
+
+}
 
 
+country_event = {
+	id = England.254
+	title = England.254.t
+	desc = England.254.d
+	picture = first_kennedy_broadcast_event
+	is_triggered_only = yes
+	option = {
+		name = England.254.o1
+		EMI = {
+			declare_war_on = { target = EAG type = annex_everything }
+		}
+		
+
+	}
+
+}
+
+country_event = {
+	id = England.255
+	title = England.255.t
+	desc = England.255.d
+	picture = meeting_john_event
+	is_triggered_only = yes
+	option = {
+		name = England.255.o1
+
+	}
+
+}
+
+country_event = {
+	id = England.256
+	title = England.256.t
+	desc = England.256.d
+	picture = a_new_bill_event
+	is_triggered_only = yes
+	option = {
+		name = England.256.o1
+
+	}
+
+}
 
 
 

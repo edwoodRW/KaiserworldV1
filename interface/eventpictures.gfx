@@ -1,6 +1,45 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "a_new_bill_event"
+		texturefile = "gfx/event_pictures/report_event/a_new_bill_event.dds"
+	}
+	
+	spriteType = {
+		name = "meeting_john_event"
+		texturefile = "gfx/event_pictures/report_event/meeting_john_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "troops_cross_midlands_border_Event"
+		texturefile = "gfx/event_pictures/report_event/troops_cross_midlands_border_Event.dds"
+	}
+	
+
+	spriteType = {
+		name = "movement_for_war_event"
+		texturefile = "gfx/event_pictures/report_event/movement_for_war_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "sanders_prepare_for_war_event"
+		texturefile = "gfx/event_pictures/report_event/sanders_prepare_for_war_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "sit_down_and_talk_meeting_event"
+		texturefile = "gfx/event_pictures/report_event/sit_down_and_talk_meeting_event.dds"
+	}
+	
+	spriteType = {
+		name = "defending_states_event"
+		texturefile = "gfx/event_pictures/report_event/defending_states_event.dds"
+	}
+
+	spriteType = {
 		name = "prepare_for_dissolution_event"
 		texturefile = "gfx/event_pictures/report_event/prepare_for_dissolution_event.dds"
 	}

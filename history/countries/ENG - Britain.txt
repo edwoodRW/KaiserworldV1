@@ -2,7 +2,7 @@
 
 oob = "ENG_1936"
  
-load_focus_tree = "5th_nov_coup"
+load_focus_tree = "uk_Miliatry_Junta_tree"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

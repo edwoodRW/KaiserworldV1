@@ -41,6 +41,44 @@ spriteTypes = {
 	##England###
 	
 	SpriteType = {
+		name = "Icon_Forgetting_Syndicalism_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Forgetting_Syndicalism_KW.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "Icon_Sowing_Distrust_WIth_All_Sides_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Sowing_Distrust_WIth_All_Sides_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_For_the_Crimes_of_Others_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_For_the_Crimes_of_Others_KW.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "Icon_Detente_with_Wales_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Detente_with_Wales_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_Promising_Complete_Neutrality_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Promising_Complete_Neutrality_KW.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "Icon_We_Will_not_Be_Tried_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_We_Will_not_Be_Tried_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_Entrenching_our_Position_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Entrenching_our_Position_KW.dds"			
+	}
+	
+	SpriteType = {
 		name = "Icon_A_Meeting_with_Johnson_KW"
 		texturefile = "gfx/interface/goals/eng/Icon_A_Meeting_with_Johnson_KW.dds"			
 	}

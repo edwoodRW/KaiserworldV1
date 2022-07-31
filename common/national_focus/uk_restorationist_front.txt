@@ -16,7 +16,7 @@ focus_tree = {
 		x = 10
 		y = 0
 		completion_reward = {
-
+			
 		}
 	}
 	focus = {
@@ -91,6 +91,9 @@ focus_tree = {
 		cost = 5
 		x = 8
 		y = 4
+		mutually_exclusive = {
+			focus = ENG_Propose_Peace
+		}
 		prerequisite = { focus = ENG_Invite_Outside_Media  }
 		prerequisite = { focus = ENG_Taking_The_Enemy_Alive  }
 		completion_reward = {
@@ -200,6 +203,9 @@ focus_tree = {
 		cost = 5
 		x = 12
 		y = 4
+		mutually_exclusive = {
+			focus = ENG_Garnering_International_Support
+		}
 		prerequisite = { focus = ENG_Employ_Massive_Propaganda_Campaigns  }
 		prerequisite = { focus = ENG_Drafting_Rules_Of_War  }
 		completion_reward = {

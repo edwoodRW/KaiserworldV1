@@ -341,6 +341,30 @@ ENG_republic_of_england_long:0 "National Party of England"
  WAL_revolutionary_socialist_party_long:0 "Radical Socialist Party"
  WAL_communist_party:0 "Plaid Cyfanswmyddol Cymru"
  WAL_communist_party_long:0 "Totalist Party - Wales Branch"
+
+
+
+NOF_fascist_party:0 "Radical Northern Movement"
+NOF_nationalist_party:0 "Northern Nationalist Party"
+NOF_monarchist_party:0 "House Of Percy"
+NOF_national_bolshevik_party:0 "Extremist Union Party"
+NOF_national_conservative_party:0 "Northern Tories"
+NOF_centrist_party:0 "Moderate Democratic Coalition"
+NOF_liberal_party:0 "Liberal Independents"
+NOF_new_democrat_party:0 "Northern Progressive Independence Party"
+NOF_moderate_socialist_party:0 "United Peoples Union"
+NOF_revolutionary_socialist_party:0 "Radical Labour Party"
+NOF_communist_party:0 "Northern Totalist Branch"
+
+
+
+
+
+
+
+
+
+
  ITA_fascist_party:0 "Italian Social Movement"
  ITA_nationalist_party:0 "Italian Brotherhood"
  ITA_monarchist_party:0 "House of Savoy"

@@ -160,41 +160,39 @@ add_equipment_to_stockpile = {
 }
 
 create_country_leader = {
-	name = "Alex Salmond"
-	desc = "POLITICS_Alex_Salmond_DESC"
-	picture = "Portrait_SCO_Alex_Salmond.dds"
+	name = "Jonathan Arnott"
+	picture = "Jonathan_Arnott.dds"
 	ideology = nationalist_ideology
 }
 
 create_country_leader = {
-	name = "David Owen"
-	desc = "POLITICS_DAVID_OWEN_DESC"
-	picture = "Portrait_ENG_David_Owen.dds"
+	name = "Ian Lavery"
+	picture = "Ian_Lavery.dds"
 	ideology = social_liberal
 }
 
 create_country_leader = {
-	name = "Owen Paterson"
+	name = "James Wharton"
 	picture = "Portrait_ENG_Owen_Paterson.dds"
 	ideology = european_conservative
 }
 
 create_country_leader = {
-	name = "Robert Griffiths"
-	picture = "Portrait_ENG_Robert_Griffiths.dds"
+	name = "Harold Elletson"
+	picture = "Harold_Elletson.dds"
 	ideology = marxist
 }
 
 create_country_leader = {
-	name = "Paul Golding"
-	picture = "Portrait_ENG_Paul_Golding.dds"
+	name = "Mark Peart"
+	picture = "Mark_Peart.dds"
 	ideology = fascist_ideology
 }
 
 
 create_country_leader = {
-	name = "Elizabeth II"
-	picture = "Portrait_ENG_Elizabeth_Second.dds"
+	name = "Ralph Percy"
+	picture = "Ralph_Percy.dds"
 	ideology = absolute_monarchist
 }
 

@@ -25,7 +25,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_Entrenching_Our_Position
-		icon = martial_law_icon
+		icon = Icon_Entrenching_our_Position_KW
 		cost = 5
 		x = 10
 		y = 1
@@ -41,7 +41,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_Promising_Full_Neutrality
-		icon = martial_law_icon
+		icon = Icon_Promising_Complete_Neutrality_KW
 		cost = 5
 		x = 10
 		y = 2
@@ -54,7 +54,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_Sowing_Distrust_With_All_Sides
-		icon = martial_law_icon
+		icon = Icon_Sowing_Distrust_WIth_All_Sides_KW
 		cost = 5
 		x = 10
 		y = 3
@@ -67,7 +67,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_We_Will_Not_Be_Tried
-		icon = martial_law_icon
+		icon = Icon_We_Will_not_Be_Tried_KW
 		cost = 5
 		x = 7
 		y = 2
@@ -81,7 +81,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_For_The_Crimes_Of_Others
-		icon = martial_law_icon
+		icon = Icon_For_the_Crimes_of_Others_KW
 		cost = 5
 		x = 7
 		y = 3
@@ -94,7 +94,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_Detente_With_Wales
-		icon = martial_law_icon
+		icon = Icon_Detente_with_Wales_KW
 		cost = 5
 		x = 13
 		y = 2
@@ -107,7 +107,7 @@ focus_tree = {
 
 	focus = {
 		id = ENG_Forgetting_Syndicalism
-		icon = martial_law_icon
+		icon = Icon_Forgetting_Syndicalism_KW
 		cost = 5
 		x = 13
 		y = 3
@@ -145,7 +145,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_Work_With_Johnson  }
 
 		completion_reward = {
-
+			country_event = {
+				id = England.248
+			}
 		}
 
 	}
@@ -159,7 +161,11 @@ focus_tree = {
 		prerequisite = { focus = ENG_Work_With_Johnson  }
 
 		completion_reward = {
-
+			ENG = {
+			Create_faction = "United English Coalition"
+			Add_to_faction = EAG
+			}
+			
 		}
 
 	}
@@ -174,7 +180,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_Talks_About_Defending_states  }
 
 		completion_reward = {
-
+			country_event = {
+				id = England.249
+			}
 		}
 
 	}
@@ -188,7 +196,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_Kennedy_Is_The_TRue_Enemy  }
 
 		completion_reward = {
-
+			country_event = {
+				id = England.250
+			}
 		}
 
 	}
@@ -202,7 +212,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_Sit_Down_And_Talk  }
 
 		completion_reward = {
-
+			country_event = {
+				id = England.250
+			}
 		}
 
 	}
@@ -219,7 +231,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_Sowing_Distrust_With_All_Sides  }
 
 		completion_reward = {
-
+			country_event = {
+				id = England.255
+			}
 		}
 
 	}
@@ -264,7 +278,9 @@ focus_tree = {
 		prerequisite = { focus = ENG_Invest_In_Social_Sectors  }
 
 		completion_reward = {
-
+			country_event = {
+				id = England.256
+			}
 		}
 
 	}

@@ -2207,6 +2207,11 @@ WAL_fascist_new:0 "National State Of Wales"
 WAL_fascist_new_DEF:0 "National State Of Wales"
 WAL_fascist_new_ADJ:0 "National State Of Wales"
 
+NOF_Kingdom_Of_Northumbria:0 "Kingdom Of Northumbria"
+NOF_Kingdom_Of_Northumbria_DEF:0 "Kingdom Of Northumbria"
+NOF_Kingdom_Of_Northumbria_ADJ:0 "Kingdom Of Northumbria"
+
+
 military_ireland_flag:0 "State Of Ireland"
 military_ireland_flag_DEF:0 "State Of Ireland"
 military_ireland_flag_ADJ:0 "State Of Ireland"

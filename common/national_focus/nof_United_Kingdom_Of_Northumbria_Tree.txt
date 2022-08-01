@@ -16,7 +16,9 @@ focus_tree = {
 		x = 10
 		y = 0
 		completion_reward = {
-
+			country_event = {
+				id = Northumberland.1
+			}
 		}
 	}
 	focus = {
@@ -27,7 +29,7 @@ focus_tree = {
 		y = 1
 		prerequisite = { focus = NOF_The_End_Of_6th_English_Civil_War  }
 		completion_reward = {
-
+		
 		}
 	}
 
@@ -40,7 +42,9 @@ focus_tree = {
 		y = 2
 		prerequisite = { focus = NOF_We_Won_But_Were_Not_That_Strong  }
 		completion_reward = {
-
+			country_event = {
+				id = Northumberland.2
+			}
 		}
 	}
 
@@ -48,6 +52,9 @@ focus_tree = {
 		id = NOF_Reach_Out_To_The_Canadians
 		icon = Icon_Reach_out_to_the_Canadians_KW
 		cost = 5
+		available = {
+		has_country_flag = Canada_flag
+		}
 		mutually_exclusive = {
 			focus = NOF_Weeks_Help_From_Our_Scottish_Neighbours
 		}
@@ -70,7 +77,9 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = NOF_Reach_Out_To_The_Canadians  }
 		completion_reward = {
-
+			country_event = {
+				id = Northumberland.5
+			}
 		}
 	}
 
@@ -119,6 +128,9 @@ focus_tree = {
 		cost = 5
 		x = 10
 		y = 3
+		available = {
+		has_country_flag = Scotland_flag
+		}
 		mutually_exclusive = {
 			focus = NOF_Reach_Out_To_The_Canadians
 		}
@@ -190,6 +202,9 @@ focus_tree = {
 		cost = 5
 		x = 13
 		y = 3
+		available = {
+		has_country_flag = Germany_flag
+		}
 		mutually_exclusive = {
 			focus = NOF_Reach_Out_To_The_Canadians
 		}

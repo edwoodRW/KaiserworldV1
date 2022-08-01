@@ -1,6 +1,34 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "queen_visits_northumberland_event"
+		texturefile = "gfx/event_pictures/report_event/queen_visits_northumberland_event.dds"
+	}
+	
+	spriteType = {
+		name = "duke_becomes_king_event"
+		texturefile = "gfx/event_pictures/report_event/duke_becomes_king_event.dds"
+	}
+
+	spriteType = {
+		name = "duke_ralph_comes_event"
+		texturefile = "gfx/event_pictures/report_event/duke_ralph_comes_event.dds"
+	}
+
+
+	spriteType = {
+		name = "choosing_a_side_event"
+		texturefile = "gfx/event_pictures/report_event/choosing_a_side_event.dds"
+	}
+
+	
+	spriteType = {
+		name = "northumberland_is_free_event"
+		texturefile = "gfx/event_pictures/report_event/northumberland_is_free_event.dds"
+	}
+
+	
+	spriteType = {
 		name = "the_edinburgh_meeting_Event"
 		texturefile = "gfx/event_pictures/report_event/the_edinburgh_meeting_Event.dds"
 	}

@@ -41,6 +41,64 @@ spriteTypes = {
 	##England###
 	
 	SpriteType = {
+		name = "Icon_Prepare_for_the_Red_Menace_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Prepare_for_the_Red_Menace_KW.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "Icon_Sit_Down_and_Talk_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Sit_Down_and_Talk_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_The_Socialists_and_the_Junta_Can_Work_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_The_Socialists_and_the_Junta_Can_Work_KW.dds"			
+	}
+
+	SpriteType = {
+		name = "Icon_Kennedy_is_the_True_Ennemy_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Kennedy_is_the_True_Ennemy_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_Building_a_Strong_Economy_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Building_a_Strong_Economy_KW.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "Icon_Invest_in_Social_Sectors_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Invest_in_Social_Sectors_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_A_Strong_Military_Pact_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_A_Strong_Military_Pact_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_Talk_About_Defending_States_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Talk_About_Defending_States_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_Meeting_McDonnell_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Meeting_McDonnell_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_The_Military_and_their_Iron_Fist_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_The_Military_and_their_Iron_Fist_KW.dds"			
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Work_with_Johnson_KW"
+		texturefile = "gfx/interface/goals/eng/Icon_Work_with_Johnson_KW.dds"			
+	}
+
+	SpriteType = {
 		name = "Icon_Forgetting_Syndicalism_KW"
 		texturefile = "gfx/interface/goals/eng/Icon_Forgetting_Syndicalism_KW.dds"			
 	}

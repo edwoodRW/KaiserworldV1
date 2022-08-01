@@ -1,6 +1,334 @@
 spriteTypes = {
 	
 	SpriteType = {
+		name = "Icon_Prepare_for_the_Red_Menace_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_Prepare_for_the_Red_Menace_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Prepare_for_the_Red_Menace_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Prepare_for_the_Red_Menace_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = {
+		name = "Icon_Sit_Down_and_Talk_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_Sit_Down_and_Talk_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Sit_Down_and_Talk_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Sit_Down_and_Talk_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "Icon_The_Socialists_and_the_Junta_Can_Work_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_The_Socialists_and_the_Junta_Can_Work_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_The_Socialists_and_the_Junta_Can_Work_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_The_Socialists_and_the_Junta_Can_Work_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = {
+		name = "Icon_Kennedy_is_the_True_Ennemy_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_Kennedy_is_the_True_Ennemy_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Kennedy_is_the_True_Ennemy_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Kennedy_is_the_True_Ennemy_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "Icon_Building_a_Strong_Economy_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_Building_a_Strong_Economy_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Building_a_Strong_Economy_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Building_a_Strong_Economy_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Invest_in_Social_Sectors_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_Invest_in_Social_Sectors_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Invest_in_Social_Sectors_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Invest_in_Social_Sectors_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	
+	SpriteType = {
+		name = "Icon_A_Strong_Military_Pact_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_A_Strong_Military_Pact_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_A_Strong_Military_Pact_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_A_Strong_Military_Pact_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Talk_About_Defending_States_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_Talk_About_Defending_States_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Talk_About_Defending_States_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Talk_About_Defending_States_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Meeting_McDonnell_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_Meeting_McDonnell_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Meeting_McDonnell_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Meeting_McDonnell_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+
+	SpriteType = {
+		name = "Icon_The_Military_and_their_Iron_Fist_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_The_Military_and_their_Iron_Fist_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_The_Military_and_their_Iron_Fist_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_The_Military_and_their_Iron_Fist_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	
+	SpriteType = {
 		name = "Icon_Forgetting_Syndicalism_KW_shine"
 		texturefile = "gfx/interface/goals/eng/Icon_Forgetting_Syndicalism_KW.dds"				
 		effectFile = "gfx/FX/buttonstate.lua"
@@ -163,6 +491,40 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	
+	
+	SpriteType = {
+		name = "Icon_Work_with_Johnson_KW_shine"
+		texturefile = "gfx/interface/goals/eng/Icon_Work_with_Johnson_KW.dds"				
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Work_with_Johnson_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/eng/Icon_Work_with_Johnson_KW.dds"				
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+
 
 	SpriteType = {
 		name = "Icon_Entrenching_our_Position_KW_shine"
@@ -5640,7 +6002,7 @@ spriteTypes = {
 			animationtype = "scrolling"      #scrolling, rotating, pulsing
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 		}	
-	
+	}
 	SpriteType = {
 		name = "Standing_In_The_Midlands_icon_shine"
 		texturefile = "gfx/interface/goals/eng/Standing_In_The_Midlands_icon.dds"				
@@ -5670,7 +6032,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "Defend_the_New_Hadrians_Wall_icon_shine"
 		texturefile = "gfx/interface/goals/eng/Defend_the_New_Hadrians_Wall_icon.dds"				
@@ -5700,7 +6062,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "preparing_for_unifcation_icon_shine"
 		texturefile = "gfx/interface/goals/eng/preparing_for_unifcation_icon.dds"				
@@ -5717,7 +6079,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 		animation = {
 			animationmaskfile = "gfx/interface/goals/eng/preparing_for_unifcation_icon.dds"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
@@ -5730,7 +6092,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "the_irish_cowards_icon_shine"
 		texturefile = "gfx/interface/goals/eng/the_irish_cowards_icon.dds"				
@@ -5761,7 +6123,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 	
-	
+	}
 	SpriteType = {
 		name = "take_wales_you_stay_out_icon_shine"
 		texturefile = "gfx/interface/goals/eng/take_wales_you_stay_out_icon.dds"				
@@ -5791,7 +6153,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 
 	SpriteType = {
 		name = "sit_down_with_ireland_icon_shine"
@@ -5822,7 +6184,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 
 	SpriteType = {
 		name = "leave_the_state_icon_shine"
@@ -5853,7 +6215,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "guard_northern_ireland_icon_shine"
 		texturefile = "gfx/interface/goals/eng/guard_northern_ireland_icon.dds"				
@@ -5883,7 +6245,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "we_want_reparations_icon_shine"
 		texturefile = "gfx/interface/goals/eng/we_want_reparations_icon.dds"				
@@ -5913,7 +6275,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "threathen_the_irish_involvement_icon_shine"
 		texturefile = "gfx/interface/goals/eng/threathen_the_irish_involvement_icon.dds"				
@@ -5943,7 +6305,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "prepare_for_irish_invasion_icon_shine"
 		texturefile = "gfx/interface/goals/eng/prepare_for_irish_invasion_icon.dds"				
@@ -5973,7 +6335,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	
 	SpriteType = {
 		name = "perpare_for_Welsh_surrender_icon_shine"
@@ -6004,7 +6366,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "destroy_st_davids_icon_shine"
 		texturefile = "gfx/interface/goals/eng/destroy_st_davids_icon.dds"				
@@ -6034,7 +6396,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "swansea_for_our_navy_icon_shine"
 		texturefile = "gfx/interface/goals/eng/swansea_for_our_navy_icon.dds"				
@@ -6064,7 +6426,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "taking_newton_icon_shine"
 		texturefile = "gfx/interface/goals/eng/taking_newton_icon.dds"				
@@ -6094,7 +6456,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "cardiff_in_kennedys_hands_icon_shine"
 		texturefile = "gfx/interface/goals/eng/cardiff_in_kennedys_hands_icon.dds"				
@@ -6124,7 +6486,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "taking_back_welsh_cities_icon_shine"
 		texturefile = "gfx/interface/goals/eng/taking_back_welsh_cities_icon.dds"				
@@ -6154,7 +6516,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "scotland_no_more_icon_shine"
 		texturefile = "gfx/interface/goals/eng/scotland_no_more_icon.dds"				
@@ -6184,7 +6546,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "execute_scottish_targets_icon_shine"
 		texturefile = "gfx/interface/goals/eng/execute_scottish_targets_icon.dds"				
@@ -6215,7 +6577,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 
-	
+	}
 	SpriteType = {
 		name = "a_plan_to_take_our_old_state_icon_shine"
 		texturefile = "gfx/interface/goals/eng/a_plan_to_take_our_old_state_icon.dds"				
@@ -6246,7 +6608,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 
-
+	}
 	SpriteType = {
 		name = "claims_on_northern_ireland_icon_shine"
 		texturefile = "gfx/interface/goals/eng/claims_on_northern_ireland_icon.dds"				
@@ -6276,7 +6638,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "no_one_stops_blair_iocn_shine"
 		texturefile = "gfx/interface/goals/eng/no_one_stops_blair_iocn.dds"				
@@ -6306,7 +6668,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "we_have_the_power_now_canada_icon_shine"
 		texturefile = "gfx/interface/goals/eng/we_have_the_power_now_canada_icon.dds"				
@@ -6336,7 +6698,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "threats_to_empire_of_america_icon_shine"
 		texturefile = "gfx/interface/goals/eng/threats_to_empire_of_america_icon.dds"				
@@ -6353,7 +6715,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	
 		animation = {
 			animationmaskfile = "gfx/interface/goals/eng/threats_to_empire_of_america_icon.dds"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
@@ -6366,7 +6728,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "move_weapons_to_barbados_icon_shine"
 		texturefile = "gfx/interface/goals/eng/move_weapons_to_barbados_icon.dds"				
@@ -6396,7 +6758,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "strike_down_a_satellite_icon_shine"
 		texturefile = "gfx/interface/goals/eng/strike_down_a_satellite_icon.dds"				
@@ -6413,7 +6775,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	
 		animation = {
 			animationmaskfile = "gfx/interface/goals/eng/strike_down_a_satellite_icon.dds"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
@@ -6426,7 +6788,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "build_the_first_union_rocket_icon_shine"
 		texturefile = "gfx/interface/goals/eng/build_the_first_union_rocket_icon.dds"				
@@ -6456,7 +6818,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "challenge_other_nations_icon_shine"
 		texturefile = "gfx/interface/goals/eng/challenge_other_nations_icon.dds"				
@@ -6486,7 +6848,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "compete_with_the_rest_of_the_world_icon_shine"
 		texturefile = "gfx/interface/goals/eng/compete_with_the_rest_of_the_world_icon.dds"				
@@ -6516,7 +6878,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "the_future_of_the_union_icon_shine"
 		texturefile = "gfx/interface/goals/eng/the_future_of_the_union_icon.dds"				
@@ -6547,7 +6909,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 
-
+	}
 	SpriteType = {
 		name = "new_social_transport_programs_icons_shine"
 		texturefile = "gfx/interface/goals/eng/new_social_transport_programs_icons.dds"				
@@ -6578,7 +6940,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 
-
+	}
 	SpriteType = {
 		name = "feed_the_poor_icon_shine"
 		texturefile = "gfx/interface/goals/eng/feed_the_poor_icon.dds"				
@@ -6609,7 +6971,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 
-	
+	}
 	SpriteType = {
 		name = "new_housing_progrma_icon_shine"
 		texturefile = "gfx/interface/goals/eng/new_housing_progrma_icon.dds"				
@@ -6640,7 +7002,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 
-
+	}
 	SpriteType = {
 		name = "the_peoples_economy_icon_shine"
 		texturefile = "gfx/interface/goals/eng/the_peoples_economy_icon.dds"				
@@ -6670,7 +7032,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "allow_oil_treade_icon_shine"
 		texturefile = "gfx/interface/goals/eng/allow_oil_treade_icon.dds"				
@@ -6700,7 +7062,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "restricted_investment_from_nations_icon_shine"
 		texturefile = "gfx/interface/goals/eng/restricted_investment_from_nations_icon.dds"				
@@ -6730,7 +7092,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "limited_owned_business_icon_shine"
 		texturefile = "gfx/interface/goals/eng/limited_owned_business_icon.dds"				
@@ -6760,7 +7122,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "convert_military_factories_icon_shine"
 		texturefile = "gfx/interface/goals/eng/convert_military_factories_icon.dds"				
@@ -6790,7 +7152,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "new_farming_materials_icon_shine"
 		texturefile = "gfx/interface/goals/eng/new_farming_materials_icon.dds"				
@@ -6821,7 +7183,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 
-
+	}
 	SpriteType = {
 		name = "a_failed_economy_icon_shine"
 		texturefile = "gfx/interface/goals/eng/a_failed_economy_icon.dds"				
@@ -6851,7 +7213,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "reset_laws_of_the_land_icon_shine"
 		texturefile = "gfx/interface/goals/eng/reset_laws_of_the_land_icon.dds"				
@@ -6882,7 +7244,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 	
-	
+	}
 	SpriteType = {
 		name = "time_of_peace_and_working_together_icon_shine"
 		texturefile = "gfx/interface/goals/eng/time_of_peace_and_working_together_icon.dds"				
@@ -6913,7 +7275,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
 	
-	
+	}
 	SpriteType = {
 		name = "remove_english_navy_from_channel_icon_shine"
 		texturefile = "gfx/interface/goals/eng/remove_english_navy_from_channel_icon.dds"				
@@ -6943,7 +7305,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	
 	SpriteType = {
 		name = "invest_in_defensive_weaponry_shine"
@@ -6961,7 +7323,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 		animation = {
 			animationmaskfile = "gfx/interface/goals/eng/invest_in_defensive_weaponry.dds"				
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
@@ -6974,7 +7336,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "change_attitudes_icon_shine"
 		texturefile = "gfx/interface/goals/eng/change_attitudes_icon.dds"				
@@ -7004,7 +7366,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-
+	}
 	SpriteType = {
 		name = "no_more_goals_to_celts_icon_shine"
 		texturefile = "gfx/interface/goals/eng/no_more_goals_to_celts_icon.dds"				
@@ -7034,7 +7396,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "remove_armed_borders_icon_shine"
 		texturefile = "gfx/interface/goals/eng/remove_armed_borders_icon.dds"				
@@ -7064,7 +7426,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	
 	SpriteType = {
 		name = "defending_the_union_icon_shine"
@@ -7095,7 +7457,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "a_defensive_military_icon_shine"
 		texturefile = "gfx/interface/goals/eng/a_defensive_military_icon.dds"				
@@ -7125,7 +7487,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	
 	SpriteType = {
 		name = "fixing_the_past_icon_shine"
@@ -7156,7 +7518,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}
-	
+	}
 	SpriteType = {
 		name = "a_meeting_in_wales_icon_shine"
 		texturefile = "gfx/interface/goals/eng/a_meeting_in_wales_icon.dds"				
@@ -7186,7 +7548,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 	SpriteType = {
 		name = "restore_order_to_the_land_icon_shine"
 		texturefile = "gfx/interface/goals/eng/restore_order_to_the_land_icon.dds"				
@@ -7216,7 +7578,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}		
-	
+	}
 	SpriteType = {
 		name = "purge_the_unfit_kennedy_icon_shine"
 		texturefile = "gfx/interface/goals/eng/purge_the_unfit_kennedy_icon.dds"				
@@ -7246,7 +7608,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}		
-	
+	}
 	SpriteType = {
 		name = "expanding_the_camps_kennedy_icon_shine"
 		texturefile = "gfx/interface/goals/eng/expanding_the_camps_kennedy_icon.dds"				
@@ -7276,7 +7638,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 	SpriteType = {
 		name = "what_is_scotland_icon_shine"
 		texturefile = "gfx/interface/goals/eng/what_is_scotland_icon.dds"				
@@ -7306,7 +7668,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 	SpriteType = {
 		name = "the_scottish_throne_is_ours_icon_shine"
 		texturefile = "gfx/interface/goals/eng/the_scottish_throne_is_ours_icon.dds"				
@@ -7336,7 +7698,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-	
+	}
 	SpriteType = {
 		name = "destroy_wallace_monument_icon_shine"
 		texturefile = "gfx/interface/goals/eng/destroy_wallace_monument_icon.dds"				
@@ -7366,6 +7728,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
+	}
 
 	SpriteType = {
 		name = "taking_the_highlands_icon_shine"
@@ -7396,7 +7759,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 	
 	
 	SpriteType = {
@@ -7428,7 +7791,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 
 	SpriteType = {
 		name = "edinburgh_is_ours_icon_shine"
@@ -7460,6 +7823,7 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
 
+	}
 	SpriteType = {
 		name = "and_we_will_be_ready_icon_shine"
 		texturefile = "gfx/interface/goals/eng/and_we_will_be_ready_icon.dds"				
@@ -7489,6 +7853,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
+	}
 
 	SpriteType = {
 		name = "they_will_come_icon_shine"
@@ -7519,6 +7884,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
+	}
 
 	SpriteType = {
 		name = "cement_our_postion_iocn_shine"
@@ -7549,7 +7915,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 
 	SpriteType = {
 		name = "prepare_for_dissolution_icon_shine"
@@ -7580,7 +7946,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 
 	SpriteType = {
 		name = "prepare_for_unification_icon_shine"
@@ -7611,7 +7977,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 
 	SpriteType = {
 		name = "welcome_the_britons_icon_shine"
@@ -7642,7 +8008,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 
 	SpriteType = {
 		name = "open_borde_gates_icon_shine"
@@ -7673,7 +8039,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 
 	SpriteType = {
 		name = "remove_the_borders_icon_shine"
@@ -7735,7 +8101,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
-
+	}
 
 	SpriteType = {
 		name = "the_king_agrees_icon_shine"
@@ -7766,6 +8132,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
+	}
 
 	SpriteType = {
 		name = "the_peace_border_icon_shine"
@@ -7796,6 +8163,7 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
 		}	
+	}
 
 	SpriteType = {
 		name = "the_cardiff_agreement_icon_shine"
@@ -7825,7 +8193,8 @@ spriteTypes = {
 			animationtype = "scrolling"      #scrolling, rotating, pulsing
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}	
+		}
+	}	
 
 	SpriteType = {
 		name = "not_today_but_sactions_will_work_icon_shine"
@@ -63961,8 +64330,6 @@ SpriteType = {
 
 	}
 	
-	
-
 
 
 

@@ -353,8 +353,8 @@ shared_focus = {
 		}
 		ENG = {
 			add_opinion_modifier = {
-				target = KOR
-				modifier = declaration_of_friendship
+				target = PRK
+				modifier = medium_increase
 			}
 		}	
 	}	
@@ -392,7 +392,7 @@ shared_focus = {
 		ENG = {
 			add_opinion_modifier = {
 				target = SOV
-				modifier = declaration_of_friendship
+				modifier = medium_increase
 			}
 		}	
 	}	
@@ -571,13 +571,13 @@ shared_focus = {
 		ENG = {
 			add_opinion_modifier = {
 				target = WAL
-				modifier = declaration_of_hostility
+				modifier = medium_decrease
 			}
 		}
 		ENG = {
 			add_opinion_modifier = {
 				target = SCO
-				modifier = declaration_of_hostility
+				modifier = medium_decrease
 			}
 		}
 	}
@@ -849,7 +849,7 @@ shared_focus = {
 		ENG = {
 			add_opinion_modifier = {
 				target = WAL
-				modifier = declaration_of_friendship
+				modifier = small_increase
 			}
 		}
 	}
@@ -1593,7 +1593,7 @@ shared_focus = {
 		ENG = {
 			add_opinion_modifier = {
 				target = SCO
-				modifier = declaration_of_hostility
+				modifier = small_decrease
 			}
 		}
 	}

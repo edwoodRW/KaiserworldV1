@@ -40,10 +40,6 @@ spriteTypes = {
 	
 	##England###
 	
-	SpriteType = {
-		name = "Icon_Prepare_for_the_Red_Menace_KW"
-		texturefile = "gfx/interface/goals/eng/Icon_Prepare_for_the_Red_Menace_KW.dds"			
-	}
 	
 	
 	SpriteType = {
@@ -2960,6 +2956,82 @@ SpriteType = {
 	}
 	
 	#NORTHUMBERLAND#
+	
+		
+	SpriteType = {
+		name = "Icon_Un_Das_Englisch_Reich_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_Un_Das_Englisch_Reich_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_Under_the_Saltire_Well_Survive_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_Under_the_Saltire_Well_Survive_KW.dds"			
+	}
+	
+		
+	SpriteType = {
+		name = "Icon_With_Canada_Well_Bring_Democracy_Back_to_the_Isle_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_With_Canada_Well_Bring_Democracy_Back_to_the_Isle_KW.dds"			
+	}
+	
+	SpriteType = {
+		name = "Icon_The_Limits_of_the_German_Influence_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_The_Limits_of_the_German_Influence_KW.dds"			
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Building_A_Northumbrian_Identity_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_Building_A_Northumbrian_Identity_KW.dds"			
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Resettling_Refugee_Population_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_Resettling_Refugee_Population_KW.dds"			
+	}
+
+	
+	SpriteType = {
+		name = "Icon_A_Delegation_to_the_Kaiserreich_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_A_Delegation_to_the_Kaiserreich_KW.dds"			
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Dismantling_the_Wall_CKW"
+		texturefile = "gfx/interface/goals/nof/Icon_Dismantling_the_Wall_CKW.dds"			
+	}
+
+		
+	SpriteType = {
+		name = "Icon_Canadian_Funded_English_Businesses_CKW"
+		texturefile = "gfx/interface/goals/nof/Icon_Canadian_Funded_English_Businesses_CKW.dds"			
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Joining_MittelEuropa_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_Joining_MittelEuropa_KW.dds"			
+	}
+
+
+	SpriteType = {
+		name = "Icon_The_Treaty_of_Inverness_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_The_Treaty_of_Inverness_KW.dds"			
+	}
+
+	
+	SpriteType = {
+		name = "Icon_Welcome_the_Royal_Family_Back_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_Welcome_the_Royal_Family_Back_KW.dds"			
+	}
+
+	SpriteType = {
+		name = "Icon_Prepare_for_the_Red_Menace_KW"
+		texturefile = "gfx/interface/goals/nof/Icon_Prepare_for_the_Red_Menace_KW.dds"			
+	}
+	
 	
 	SpriteType = {
 		name = "Icon_Weeks_Help_From_Our_Scottish_Neighbours_KW"

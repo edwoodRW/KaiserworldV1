@@ -91,12 +91,70 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = Northumberland.6
+	title = Northumberland.6.t
+	desc = Northumberland.6.d
+	picture = scotland_Agreement_event
+	is_triggered_only = yes
+	option = {
+		name = Northumberland.6.o1
+		add_opinion_modifier = { target = SCO modifier = medium_increase }
+	 
+	}
+}
 
 
+country_event = {
+	id = Northumberland.7
+	title = Northumberland.7.t
+	desc = Northumberland.7.d
+	picture = queen_visits_northumberland_event
+	is_triggered_only = yes
+	option = {
+		name = Northumberland.7.o1
+
+	}
+}
 
 
+country_event = {
+	id = Northumberland.8
+	title = Northumberland.8.t
+	desc = Northumberland.8.d
+	picture = welcome_to_Scotland_northumberland_event
+	is_triggered_only = yes
+	option = {
+		name = Northumberland.8.o1
+
+	}
+}
 
 
+country_event = {
+	id = Northumberland.9
+	title = Northumberland.9.t
+	desc = Northumberland.9.d
+	picture = mittle_europa_event
+	is_triggered_only = yes
+	option = {
+		name = Northumberland.9.o1
+
+	}
+}
+
+
+country_event = {
+	id = Northumberland.10
+	title = Northumberland.10.t
+	desc = Northumberland.10.d
+	picture = northumberland_meets_germany_event
+	is_triggered_only = yes
+	option = {
+		name = Northumberland.10.o1
+
+	}
+}
 
 
 

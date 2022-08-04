@@ -71,7 +71,7 @@ focus_tree = {
 
 	focus = {
 		id = NOF_Welcome_The_Royal_Family_Back
-		icon = tear_treaty
+		icon = Icon_Welcome_the_Royal_Family_Back_KW
 		cost = 5
 		x = 7
 		y = 4
@@ -85,7 +85,7 @@ focus_tree = {
 
 	focus = {
 		id = NOF_Canadian_Funds_English_Business
-		icon = tear_treaty
+		icon = Icon_Canadian_Funded_English_Businesses_CKW
 		cost = 5
 		x = 7
 		y = 5
@@ -98,7 +98,7 @@ focus_tree = {
 
 	focus = {
 		id = NOF_Resettling_Refugee_Populations
-		icon = tear_treaty
+		icon = Icon_Resettling_Refugee_Population_KW
 		cost = 5
 		x = 7
 		y = 6
@@ -111,13 +111,13 @@ focus_tree = {
 
 	focus = {
 		id = NOF_With_Canada_Well_Bring_Democracy_Back_To_The_Isle
-		icon = tear_treaty
+		icon = Icon_With_Canada_Well_Bring_Democracy_Back_to_the_Isle_KW
 		cost = 5
 		x = 7
 		y = 8
 		prerequisite = { focus = NOF_Resettling_Refugee_Populations  }
 		completion_reward = {
-
+		
 		}
 	}
 
@@ -146,33 +146,37 @@ focus_tree = {
 
 	focus = {
 		id = NOF_The_Treaty_Of_Inverness
-		icon = tear_treaty
+		icon = Icon_The_Treaty_of_Inverness_KW
 		cost = 5
 		x = 10
 		y = 4
 		prerequisite = { focus = NOF_Weeks_Help_From_Our_Scottish_Neighbours  }
 		completion_reward = {
-
+			country_event = {
+				id = Northumberland.7
+			}
 		}
 	}
 
 
 	focus = {
 		id = NOF_Dismantling_The_Wall
-		icon = tear_treaty
+		icon = Icon_Dismantling_the_Wall_CKW
 		cost = 5
 		x = 10
 		y = 5
 		prerequisite = { focus = NOF_The_Treaty_Of_Inverness  }
 		completion_reward = {
-
+			country_event = {
+				id = Northumberland.8
+			}
 		}
 	}
 
 
 	focus = {
 		id = NOF_Building_A_Northumbrian_Identity
-		icon = tear_treaty
+		icon = Icon_Building_A_Northumbrian_Identity_KW
 		cost = 5
 		x = 10
 		y = 6
@@ -184,7 +188,7 @@ focus_tree = {
 
 	focus = {
 		id = NOF_Under_The_Saltire_Well_Survive
-		icon = tear_treaty
+		icon = Icon_Under_the_Saltire_Well_Survive_KW
 		cost = 5
 		x = 10
 		y = 8
@@ -219,19 +223,21 @@ focus_tree = {
 
 	focus = {
 		id = NOF_Joining_Mittle_Europa
-		icon = tear_treaty
+		icon = Icon_Joining_MittelEuropa_KW
 		cost = 5
 		x = 13
 		y = 4
 		prerequisite = { focus = NOF_An_Offer_To_The_Germans  }
 		completion_reward = {
-
+			country_event = {
+				id = Northumberland.9
+			}
 		}
 	}
 
 	focus = {
 		id = NOF_A_Delegation_to_the_Kaiserreich 
-		icon = tear_treaty
+		icon = Icon_A_Delegation_to_the_Kaiserreich_KW
 		cost = 5
 		x = 13
 		y = 5
@@ -244,7 +250,7 @@ focus_tree = {
 
 	focus = {
 		id = NOF_The_Limits_Of_German_Influence
-		icon = tear_treaty
+		icon = Icon_The_Limits_of_the_German_Influence_KW
 		cost = 5
 		x = 13
 		y = 6
@@ -256,7 +262,7 @@ focus_tree = {
 
 	focus = {
 		id = NOF_Un_Das_English_Reich
-		icon = tear_treaty
+		icon = Icon_Un_Das_Englisch_Reich_KW
 		cost = 5
 		x = 13
 		y = 8

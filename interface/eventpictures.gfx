@@ -1,5 +1,27 @@
 spriteTypes = {
 	
+	
+	spriteType = {
+		name = "northumberland_meets_germany_event"
+		texturefile = "gfx/event_pictures/report_event/northumberland_meets_germany_event.dds"
+	}
+	
+	spriteType = {
+		name = "mittle_europa_event"
+		texturefile = "gfx/event_pictures/report_event/mittle_europa_event.dds"
+	}
+	
+	spriteType = {
+		name = "welcome_to_Scotland_northumberland_event"
+		texturefile = "gfx/event_pictures/report_event/welcome_to_Scotland_northumberland_event.dds"
+	}
+
+
+	spriteType = {
+		name = "scotland_Agreement_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_Agreement_event.dds"
+	}
+
 	spriteType = {
 		name = "queen_visits_northumberland_event"
 		texturefile = "gfx/event_pictures/report_event/queen_visits_northumberland_event.dds"

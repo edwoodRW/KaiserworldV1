@@ -1,0 +1,51 @@
+focus_tree = {
+	id = usa_Noam_Chomsky
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_Continue_The_Commonwealth_Plan
+		icon = unknown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_Perfect_Bernies_Policies
+		icon = unkown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_The_Commonwealth_Plan  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+}

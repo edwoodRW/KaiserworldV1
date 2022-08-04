@@ -38,6 +38,495 @@ focus_tree = {
 
 	}
 
+	focus = {
+		id = USA_Increase_Corporate_Taxes
+		icon = unkown
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Perfect_Bernies_Policies  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Raise_Business_Tax
+		icon = unkown
+		x = 5
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Increase_Corporate_Taxes  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Promote_Social_Justice_Reforms
+		icon = unkown
+		x = 8
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Perfect_Bernies_Policies  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Increase_Government_Power
+		icon = unkown
+		x = 8
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_Social_Justice_Reforms  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Expand_The_Definition_Of_Healthcare
+		icon = unkown
+		x = 12
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Perfect_Bernies_Policies  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_A_New_Civil_Rights_Bill
+		icon = unkown
+		x = 12
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_The_Definition_Of_Healthcare  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Create_A_Workers_Parliament
+		icon = unkown
+		x = 15
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Perfect_Bernies_Policies  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Nobody_Left_Behind
+		icon = unkown
+		x = 15
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Create_A_Workers_Parliament  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Pro_Worker_Legislation
+		icon = unkown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Perfect_Bernies_Policies  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Nationalize_Farming
+		icon = unkown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Pro_Worker_Legislation  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_A_New_Constitutional_Convention
+		icon = unkown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Nationalize_Farming  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Side_By_Side
+		icon = unkown
+		x = 5
+		y = 5
+		mutually_exclusive = {
+			focus = USA_Sideline_The_Parliament
+			focus =  USA_Prepare_For_The_Revolution 
+		}
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Constitutional_Convention
+		 }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Restrict_Non_Syndicalist_Speech
+		icon = unkown
+		x = 5
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Side_By_Side  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Create_A_State_Media_Network
+		icon = unkown
+		x = 5
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Restrict_Non_Syndicalist_Speech  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_The_Emperor_And_Worker
+		icon = unkown
+		x = 7
+		y = 5
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_Sideline_The_Parliament 
+			focus =  USA_Prepare_For_The_Revolution 		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Constitutional_Convention  
+ }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_American_Monarcho_Bolshevism
+		icon = unkown
+		x = 7
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Emperor_And_Worker  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Federalize_All_Police_Forces
+		icon = unkown
+		x = 7
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_American_Monarcho_Bolshevism  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_A_New_Age_For_The_Proletariat
+		icon = unkown
+		x = 6
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Create_A_State_Media_Network  }
+		prerequisite = { focus =  USA_Federalize_All_Police_Forces  }
+		
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Sideline_The_Parliament
+		icon = unkown
+		x = 13
+		y = 5
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_The_Emperor_And_Worker
+			focus = USA_Side_By_Side
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Constitutional_Convention  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_The_Jack_Reed_Project
+		icon = unkown
+		x = 13
+		y = 6
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sideline_The_Parliament  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Control_Social_Media
+		icon = unkown
+		x = 13
+		y = 7
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Jack_Reed_Project  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+
+
+	focus = {
+		id = USA_Prepare_For_The_Revolution
+		icon = unkown
+		x = 15
+		y = 5
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_The_Emperor_And_Worker
+			focus = USA_Side_By_Side
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Constitutional_Convention  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	
+	focus = {
+		id = USA_Anti-Capitalist_Legislation
+		icon = unkown
+		x = 15
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Prepare_For_The_Revolution  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Ally_With_Big_Tech
+		icon = unkown
+		x = 15
+		y = 7
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Anti-Capitalist_Legislation  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_The_New_Better_Revolution
+		icon = unkown
+		x = 14
+		y = 8
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Ally_With_Big_Tech  }
+		prerequisite = { focus =  USA_Control_Social_Media  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_A_New_Internationale
+		icon = unknown
+		x = 30
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Russo-American_Cooperation
+		icon = unknown
+		x = 30
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_A_New_Internationale  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Condemn_The_Totalists
+		icon = unknown
+		x = 30
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_Russo-American_Cooperation  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
 
 
 

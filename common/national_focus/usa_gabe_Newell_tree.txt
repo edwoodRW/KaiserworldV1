@@ -8,8 +8,8 @@ focus_tree = {
 	default = no
 
 	focus = {
-		id = USA_The_Newell/Howard_Administration
-		icon = unknown
+		id = USA_The_Newell_Howard_Administration
+		icon = Icon_The_Newell_Howard_Administration_KW
 		x = 10
 		y = 0
 		cost = 5
@@ -24,14 +24,14 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_It_Just_Works
-		icon = unkown
+		icon = Icon_It_Just_Works_KW
 		x = 10
 		y = 1
 		cost = 5
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus =  USA_The_Newell/Howard_Administration  }
+		prerequisite = { focus =  USA_The_Newell_Howard_Administration  }
 		completion_reward = {
 	
 		}
@@ -41,7 +41,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Fixing_Bernies_Mistakes
-		icon = unkown
+		icon = Icon_Fixing_Bernies_Mistakes_KW
 		x = 7
 		y = 2
 		cost = 5
@@ -57,7 +57,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_De_Regulate_Wall_Street
-		icon = unkown
+		icon = Icon_Deregulate_Wall_Street_KW
 		x = 7
 		y = 3
 		cost = 5
@@ -106,7 +106,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Funding_The_Technology_Sector
-		icon = unkown
+		icon = Icon_Funding_the_Technology_Sector_KW
 		x = 10
 		y = 2
 		cost = 5
@@ -123,7 +123,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Refunding_NASA
-		icon = unkown
+		icon = Icon_Refunding_NASA_KW
 		x = 10
 		y = 3
 		cost = 5
@@ -175,7 +175,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Encourage_Working_In_STEM
-		icon = unkown
+		icon = Icon_Encourage_Working_in_STEM_KW
 		x = 13
 		y = 2
 		cost = 5
@@ -191,7 +191,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Subsidize_Technology_In_School
-		icon = unkown
+		icon = Icon_Subsidize_Technology_in_Schools_KW
 		x = 13
 		y = 3
 		cost = 5

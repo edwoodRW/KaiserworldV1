@@ -6084,6 +6084,7 @@ SpriteType = {
 		
 
 	#### REMNANTS TREE ####
+
 	
 	SpriteType = {
 	name = "operation_new_england"
@@ -9601,6 +9602,53 @@ SpriteType = {
 	texturefile = "gfx/interface/goals/usa/usa_shaking_hands.dds"			
 	}
 	
+	SpriteType = {
+		name = "Icon_Subsidize_Technology_in_Schools_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Subsidize_Technology_in_Schools_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Refunding_NASA_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Refunding_NASA_KW.dds"			
+		}
+
+	
+	SpriteType = {
+		name = "Icon_Deregulate_Wall_Street_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Deregulate_Wall_Street_KW.dds"			
+		}
+
+	
+	SpriteType = {
+		name = "Icon_Encourage_Working_in_STEM_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Encourage_Working_in_STEM_KW.dds"			
+		}
+
+	
+	SpriteType = {
+		name = "Icon_Funding_the_Technology_Sector_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Funding_the_Technology_Sector_KW.dds"			
+		}
+
+
+	
+	SpriteType = {
+		name = "Icon_Fixing_Bernies_Mistakes_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Fixing_Bernies_Mistakes_KW.dds"			
+		}
+
+	
+	SpriteType = {
+		name = "Icon_It_Just_Works_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_It_Just_Works_KW.dds"			
+		}
+
+	
+	SpriteType = {
+		name = "Icon_The_Newell_Howard_Administration_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Newell_Howard_Administration_KW.dds"			
+		}
+
 	SpriteType = {
 		name = "Icon_The_Situation_in_Alaska_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_The_Situation_in_Alaska_KW.dds"			

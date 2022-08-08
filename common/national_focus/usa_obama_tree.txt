@@ -1,0 +1,573 @@
+focus_tree = {
+	id = USA_obama_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_Obama_Administration
+		icon = unkown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_Protecting_America_At_All_Costs
+		icon = unkown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Obama_Administration  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_From_The_Inside_Or_Out
+		icon = unkown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Protecting_America_At_All_Costs  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Establish_The_NSA
+		icon = unkown
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_From_The_Inside_Or_Out  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Continue_Bernies_Work
+		icon = unkown
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Establish_The_NSA  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_More_Power_To_The_Federal_Government
+		icon = unkown
+		x = 7
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_Bernies_Work  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expand_CIA_Jurisdictions
+		icon = unkown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_From_The_Inside_Or_Out  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Midnight_Raids
+		icon = unkown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_CIA_Jurisdictions  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Loosen_Immigration_Restrictions
+		icon = unkown
+		x = 13
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Midnight_Raids  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Sanctioning_Of_Syndicalist_Media
+		icon = unkown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_From_The_Inside_Or_Out  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Pass_Enviromentalist_Legislation
+		icon = unkown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_From_The_Inside_Or_Out  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Praise_Normal_Citizens
+		icon = unkown
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Pass_Enviromentalist_Legislation  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Reform_Bernie_Care
+		icon = unkown
+		x = 10
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Praise_Normal_Citizens  }
+		prerequisite = { focus =  USA_More_Power_To_The_Federal_Government  }
+		prerequisite = { focus =  USA_Loosen_Immigration_Restrictions  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Fund_Green_Energy
+		icon = unkown
+		x = 7
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reform_Bernie_Care  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Rebuild_Midwest_Industries
+		icon = unkown
+		x = 7
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fund_Green_Energy  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Legalize_Gay_Marriage
+		icon = unkown
+		x = 13
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reform_Bernie_Care  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_New_Civil_Rights_Movement
+		icon = unkown
+		x = 13
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Legalize_Gay_Marriage  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Legalize_Cannabis
+		icon = unkown
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reform_Bernie_Care  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Lower_Taxes_On_The_Lower_Class
+		icon = unkown
+		x = 10
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Legalize_Cannabis  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Promote_Healthy_Food
+		icon = unkown
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Lower_Taxes_On_The_Lower_Class  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Pro_Worker_Legislation
+		icon = unkown
+		x = 7
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_Healthy_Food  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Common_Core_Standards
+		icon = unkown
+		x = 7
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Pro_Worker_Legislation  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Expand_Internet_Access
+		icon = unkown
+		x = 7
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Common_Core_Standards  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Pro_Veteran_Legislation
+		icon = unkown
+		x = 10
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_Healthy_Food  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Improve_Military_Standards
+		icon = unkown
+		x = 10
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Pro_Veteran_Legislation  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Create_The_Space_Force
+		icon = unkown
+		x = 10
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Improve_Military_Standards  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Sideline_The_Electoral_College
+		icon = unkown
+		x = 13
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_Healthy_Food  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Better_Black_Lives
+		icon = unkown
+		x = 13
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sideline_The_Electoral_College  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Encourage_Minority_Votes
+		icon = unkown
+		x = 13
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Better_Black_Lives  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expanding_The_Obama_Doctrine
+		icon = unkown
+		x = 30
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Iran_Theater
+		icon = unkown
+		x = 30
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Expanding_The_Obama_Doctrine  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -206,6 +206,200 @@ focus_tree = {
 	
 	}
 
+	focus = {
+		id = USA_Defer_Student_Loans
+		icon = unkown
+		x = 7
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bridge_The_Gap_Between_Parties  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Disability_Rights
+		icon = unkown
+		x = 7
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Defer_Student_Loans  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Workers_Rights_Are_A_Priority
+		icon = unkown
+		x = 7
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Disability_Rights  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Continue_Fighting_Climate_Change
+		icon = unkown
+		x = 10
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bridge_The_Gap_Between_Parties  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Reform_The_Justice_System
+		icon = unkown
+		x = 10
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Continue_Fighting_Climate_Change  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Tackle_The_Mental_Health_Crisis
+		icon = unkown
+		x = 10
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Reform_The_Justice_System  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Increase_Wealth_Tax
+		icon = unkown
+		x = 13
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bridge_The_Gap_Between_Parties  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Introduce_Federal_Housing
+		icon = unkown
+		x = 13
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Increase_Wealth_Tax  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Expand_NSA_Powers
+		icon = unkown
+		x = 13
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Introduce_Federal_Housing  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Renew_The_American_Dream
+		icon = unkown
+		x = 10
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_NSA_Powers  }
+		prerequisite = { focus =  USA_Tackle_The_Mental_Health_Crisis  }
+		prerequisite = { focus =  USA_Workers_Rights_Are_A_Priority  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

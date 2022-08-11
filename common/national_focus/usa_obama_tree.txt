@@ -528,7 +528,7 @@ focus_tree = {
 	focus = {
 		id = USA_Iran_Theater
 		icon = unkown
-		x = 30
+		x = 25
 		y = 1
 		cost = 5
 		prerequisite = { focus =  USA_Expanding_The_Obama_Doctrine  }
@@ -541,6 +541,1312 @@ focus_tree = {
 		}
 	
 	}
+
+	
+
+	focus = {
+		id = USA_Supply_The_Democratic_Republic
+		icon = unkown
+		x = 27
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_Iran_Theater  }
+		mutually_exclusive = {
+			focus = USA_Direct_Intervention
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_send_Military_advisors2
+		icon = unkown
+		x = 27
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Supply_The_Democratic_Republic  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Sell_Equipment_To_The_Republic
+		icon = unkown
+		x = 27
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_send_Military_advisors2  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Assassinate_Syndicalist_Leadership
+		icon = unkown
+		x = 27
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Sell_Equipment_To_The_Republic  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Sabotage_Syndicalist_Infrastructure
+		icon = unkown
+		x = 27
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Assassinate_Syndicalist_Leadership  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Direct_Intervention
+		icon = unkown
+		x = 23
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_Iran_Theater  }
+		mutually_exclusive = {
+			focus = USA_Supply_The_Democratic_Republic
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Send_Dissidents_Across_The_Border
+		icon = unkown
+		x = 23
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Iran_Theater  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Train_The_Iranian_Military
+		icon = unkown
+		x = 23
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Send_Dissidents_Across_The_Border  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Build_New_Airbases
+		icon = unkown
+		x = 23
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Train_The_Iranian_Military  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Supply_The_Aranian_Airforce
+		icon = unkown
+		x = 23
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Build_New_Airbases  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Operation_Ajax
+		icon = unkown
+		x = 23
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Supply_The_Aranian_Airforce  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Blitz_For_Tehran
+		icon = unkown
+		x = 20
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Operation_Ajax  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Drop_Propaganda_Leaflets
+		icon = unkown
+		x = 20
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Blitz_For_Tehran  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Drone_Strike_Syndicalist_Infrastructure
+		icon = unkown
+		x = 23
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Operation_Ajax  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Take_Out_Key_Generals
+		icon = unkown
+		x = 23
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Drone_Strike_Syndicalist_Infrastructure  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Strike_Their_Oil_Refineries
+		icon = unkown
+		x = 26
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Operation_Ajax  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Take_Down_Their_Electrial_Grid
+		icon = unkown
+		x = 26
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Strike_Their_Oil_Refineries  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_The_Problem_Of_Central_America
+		icon = unkown
+		x = 35
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Expanding_The_Obama_Doctrine  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Break_It_Apart
+		icon = unkown
+		x = 37
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_The_Problem_Of_Central_America  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Take_Advantage_Of_The_Chaos
+		icon = unkown
+		x = 33
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_The_Problem_Of_Central_America  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Promise_Liberation
+		icon = unkown
+		x = 33
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Take_Advantage_Of_The_Chaos  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Drone_Strikes_On_New_Washington
+		icon = unkown
+		x = 33
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Promise_Liberation  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Taking_Panama
+		icon = unkown
+		x = 33
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Drone_Strikes_On_New_Washington  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_Trial_Of_James_Comey
+		icon = unkown
+		x = 30
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Taking_Panama  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Take_Control_Of_The_Canal
+		icon = unkown
+		x = 30
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_The_Trial_Of_James_Comey  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Pacify_The_Rebels
+		icon = unkown
+		x = 33
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Taking_Panama  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Seize_Drug_Stores
+		icon = unkown
+		x = 33
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Pacify_The_Rebels  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Re_Establish_Local_Policing
+		icon = unkown
+		x = 33
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Seize_Drug_Stores  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Set_Up_A_New_Duchy
+		icon = unkown
+		x = 31
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Re_Establish_Local_Policing  }
+		mutually_exclusive = {
+			focus = USA_Set_Up_A_Provisional_Government
+		}
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Set_Up_A_Provisional_Government
+		icon = unkown
+		x = 35
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Re_Establish_Local_Policing  }
+		mutually_exclusive = {
+			focus = USA_Set_Up_A_New_Duchy
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+	focus = {
+		id = USA_Arrest_FBI_Members
+		icon = unkown
+		x = 36
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Taking_Panama  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Hunt_For_Escobar
+		icon = unkown
+		x = 36
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Arrest_FBI_Members  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Welcome_To_North_Africa
+		icon = unkown
+		x = 45
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Expanding_The_Obama_Doctrine  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_They_Have_WMDS
+		icon = unkown
+		x = 45
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_Welcome_To_North_Africa  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Strike_Quick_Win_Fast
+		icon = unkown
+		x = 42
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_They_Have_WMDS  }
+		mutually_exclusive = {
+			focus = USA_Sow_The_Seeds_Of_Discord
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Secure_The_Coast
+		icon = unkown
+		x = 42
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Strike_Quick_Win_Fast  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Bomb_The_Congress
+		icon = unkown
+		x = 42
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Secure_The_Coast  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Move_To_Secure_The_Ruins
+		icon = unkown
+		x = 42
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Bomb_The_Congress  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Capture_Hoover
+		icon = unkown
+		x = 42
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Move_To_Secure_The_Ruins  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	
+	focus = {
+		id = USA_Sow_The_Seeds_Of_Discord
+		icon = unkown
+		x = 48
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_They_Have_WMDS  }
+		mutually_exclusive = {
+			focus = USA_Strike_Quick_Win_Fast
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Assassinate_The_Last_Hoover
+		icon = unkown
+		x = 48
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Sow_The_Seeds_Of_Discord  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Send_Weapons_To_The_Rebels
+		icon = unkown
+		x = 48
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Assassinate_The_Last_Hoover  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Train_Pilots
+		icon = unkown
+		x = 48
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Send_Weapons_To_The_Rebels  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Drone_Strike_The_Airport
+		icon = unkown
+		x = 48
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Train_Pilots  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Reclaim_Our_Old_Colony
+		icon = unkown
+		x = 39
+		y = 8
+		cost = 5
+		prerequisite = {
+			focus =  USA_Capture_Hoover
+			focus =  USA_Drone_Strike_The_Airport
+		  }
+
+		
+		mutually_exclusive = {
+			focus = USA_Promote_A_New_American_Dream
+			focus = USA_Call_For_Dissolvement
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+	focus = {
+		id = USA_Promote_A_New_American_Dream
+		icon = unkown
+		x = 45
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Capture_Hoover 
+		focus =  USA_Drone_Strike_The_Airport }
+		mutually_exclusive = {
+			focus = USA_Reclaim_Our_Old_Colony
+			focus = USA_Call_For_Dissolvement
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Call_For_Dissolvement
+		icon = unkown
+		x = 50
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Capture_Hoover  
+		focus =  USA_Drone_Strike_The_Airport
+	}
+		mutually_exclusive = {
+			focus = USA_Reclaim_Our_Old_Colony
+			focus = USA_Promote_A_New_American_Dream
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Eliminating_The_Russian_Threat
+		icon = unkown
+		x = 58
+		y = 1
+		cost = 5
+		prerequisite = { focus =  USA_Expanding_The_Obama_Doctrine  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Contact_RIM
+		icon = unkown
+		x = 58
+		y = 2
+		cost = 5
+		prerequisite = { focus =  USA_Eliminating_The_Russian_Threat  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Arranging_A_Conference_With_Others
+		icon = unkown
+		x = 58
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Contact_RIM  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Contacting_Dissatisfied_Generals
+		icon = unkown
+		x = 58
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Arranging_A_Conference_With_Others  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Cease_Mldarossi_Relations
+		icon = unkown
+		x = 56
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Contacting_Dissatisfied_Generals  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Promote_Anti_Russian_Sentiment
+		icon = unkown
+		x = 56
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Cease_Mldarossi_Relations  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Reopen_Radio_Free_Europe
+		icon = unkown
+		x = 56
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Promote_Anti_Russian_Sentiment  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Cease_Russian_Oil_Trades
+		icon = unkown
+		x = 58
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Contacting_Dissatisfied_Generals  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Embargo_Russia
+		icon = unkown
+		x = 58
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Cease_Russian_Oil_Trades  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Radicalize_Russian_Youth
+		icon = unkown
+		x = 58
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Embargo_Russia  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Denounce_The_Current_Russian_Regime
+		icon = unkown
+		x = 60
+		y = 5
+		cost = 5
+		prerequisite = { focus =  USA_Contacting_Dissatisfied_Generals  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Replace_Russian_Products
+		icon = unkown
+		x = 60
+		y = 6
+		cost = 5
+		prerequisite = { focus =  USA_Denounce_The_Current_Russian_Regime  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Ruin_The_Russian_Image
+		icon = unkown
+		x = 60
+		y = 7
+		cost = 5
+		prerequisite = { focus =  USA_Replace_Russian_Products  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Encourage_Political_Violence
+		icon = unkown
+		x = 58
+		y = 8
+		cost = 5
+		prerequisite = { focus =  USA_Ruin_The_Russian_Image  }
+		prerequisite = { focus =  USA_Radicalize_Russian_Youth  }
+		prerequisite = { focus =  USA_Reopen_Radio_Free_Europe  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Assassinate_Russian_Politicians
+		icon = unkown
+		x = 56
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Encourage_Political_Violence  }
+
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Its_Time
+		icon = unkown
+		x = 56
+		y = 10
+		cost = 5
+		prerequisite = { focus =  USA_Assassinate_Russian_Politicians  }
+
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Ship_Weapons_To_Rebels
+		icon = unkown
+		x = 58
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Encourage_Political_Violence  }
+
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Stoke_New_Riots
+		icon = unkown
+		x = 58
+		y = 10
+		cost = 5
+		prerequisite = { focus =  USA_Ship_Weapons_To_Rebels  }
+
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Sabotage_Russian_Infrastructure
+		icon = unkown
+		x = 60
+		y = 9
+		cost = 5
+		prerequisite = { focus =  USA_Encourage_Political_Violence  }
+
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Sabotage_Russian_Nuclear_Plants
+		icon = unkown
+		x = 60
+		y = 10
+		cost = 5
+		prerequisite = { focus =  USA_Sabotage_Russian_Infrastructure  }
+
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Another_Revolution_In_Russia
+		icon = unkown
+		x = 58
+		y = 11
+		cost = 5
+		prerequisite = { focus =  USA_Sabotage_Russian_Nuclear_Plants  }
+		prerequisite = { focus =  USA_Stoke_New_Riots  }
+		prerequisite = { focus =  USA_Its_Time  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Backstab_The_Imperials
+		icon = unkown
+		x = 58
+		y = 12
+		cost = 5
+		prerequisite = { focus =  USA_Another_Revolution_In_Russia  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Pass_The_New_Russia_Act
+		icon = unkown
+		x = 58
+		y = 13
+		cost = 5
+		prerequisite = { focus =  USA_Backstab_The_Imperials  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Ally_The_New_Russia
+		icon = unkown
+		x = 58
+		y = 14
+		cost = 5
+		prerequisite = { focus =  USA_Pass_The_New_Russia_Act  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
 
 
 

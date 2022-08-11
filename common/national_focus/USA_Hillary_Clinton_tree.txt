@@ -1,0 +1,212 @@
+focus_tree = {
+	id = USA_Hillary_Clinton_tree
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+	focus = {
+		id = USA_A_New_Day_For_Woman
+		icon = unkown
+		x = 10
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_A_New_Day_For_America
+		icon = unkown
+		x = 10
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_For_Woman  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expanding_The_Welfare_State
+		icon = unkown
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_For_America  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Securing_Access_To_Food
+		icon = unkown
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expanding_The_Welfare_State  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expand_Healthcare_Programs
+		icon = unkown
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Securing_Access_To_Food  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Enshrine_LGBTQ_Rights_Into_Law
+		icon = unkown
+		x = 10
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_For_America  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Roll_Back_Oil_Drilling
+		icon = unkown
+		x = 10
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Enshrine_LGBTQ_Rights_Into_Law  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Cancel_All_Current_Pipelines
+		icon = unkown
+		x = 10
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Roll_Back_Oil_Drilling  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Eliminate_The_Pink_Tax
+		icon = unkown
+		x = 13
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_For_America  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Expand_Title_IX_Protections
+		icon = unkown
+		x = 13
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Eliminate_The_Pink_Tax  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Fight_Traditional_Gender_Idenitites
+		icon = unkown
+		x = 13
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_Title_IX_Protections  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	
+	focus = {
+		id = USA_Bridge_The_Gap_Between_Parties
+		icon = unkown
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fight_Traditional_Gender_Idenitites  }
+		prerequisite = { focus =  USA_Expand_Healthcare_Programs  }
+		prerequisite = { focus =  USA_Cancel_All_Current_Pipelines  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+}

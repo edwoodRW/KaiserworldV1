@@ -9629,8 +9629,42 @@ SpriteType = {
 		name = "Icon_Funding_the_Technology_Sector_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Funding_the_Technology_Sector_KW.dds"			
 		}
+		
+	
+		SpriteType = {
+	name = "Icon_The_Smart_Home_Generation_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_The_Smart_Home_Generation_KW.dds"			
+	}
+	
 
+	SpriteType = {
+	name = "Icon_Robots_Stoke_A_Technology_Race_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Robots_Stoke_A_Technology_Race_KW.dds"			
+	}
+	
+		
+	SpriteType = {
+	name = "Icon_Soliciting_A_Bipartisan_Legislation_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Soliciting_A_Bipartisan_Legislation_KW.dds"			
+	}
+	
 
+	SpriteType = {
+	name = "Icon_Subsidize_The_Green_Industry_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Subsidize_The_Green_Industry_KW.dds"			
+	}
+	
+		
+	SpriteType = {
+	name = "Icon_Robot_Soldiers_Closer_Than_You_Think_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Robot_Soldiers_Closer_Than_You_Think_KW.dds"			
+	}
+	
+	
+SpriteType = {
+	name = "Icon_Lower_Taxes_on_the_One_Percent_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Lower_Taxes_on_the_One_Percent_KW.dds"			
+	}
 	
 	SpriteType = {
 		name = "Icon_Fixing_Bernies_Mistakes_KW"

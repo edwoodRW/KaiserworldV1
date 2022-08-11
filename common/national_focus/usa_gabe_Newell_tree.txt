@@ -73,7 +73,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Lower_Taxes_on_The_1_percent
-		icon = unkown
+		icon = Icon_Lower_Taxes_on_the_One_Percent_KW
 		x = 7
 		y = 4
 		cost = 5
@@ -89,7 +89,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Soliciting_Bipartisan_Legislation
-		icon = unkown
+		icon = Icon_Soliciting_A_Bipartisan_Legislation_KW
 		x = 7
 		y = 5
 		cost = 5
@@ -140,7 +140,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Robot_Soldiers_Closer_Than_You_Think
-		icon = unkown
+		icon = Icon_Robot_Soldiers_Closer_Than_You_Think_KW
 		x = 10
 		y = 4
 		cost = 5
@@ -157,7 +157,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Robot_Stoke_A_Technology_Race
-		icon = unkown
+		icon = Icon_Robots_Stoke_A_Technology_Race_KW
 		x = 10
 		y = 5
 		cost = 5
@@ -207,7 +207,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Subsidize_The_Green_Industry
-		icon = unkown
+		icon = Icon_Subsidize_The_Green_Industry_KW
 		x = 13
 		y = 4
 		cost = 5
@@ -225,7 +225,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_The_Smart_Home_Generation
-		icon = unkown
+		icon = Icon_The_Smart_Home_Generation_KW
 		x = 13
 		y = 5
 		cost = 5

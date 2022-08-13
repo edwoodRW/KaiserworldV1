@@ -384,14 +384,607 @@ focus_tree = {
 
 
 
+	focus = {
+		id = USA_A_New_Light_On_Top_Of_The_Hill
+		icon = unkown
+		x = 30
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Life_Liberty_Decolonization
+		icon = unkown
+		x = 26
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Light_On_Top_Of_The_Hill  }
+
+		completion_reward = {
+	
+		}
+	
+	}
 
 
 
 
+	focus = {
+		id = USA_Self_Determination_For_All
+		icon = unkown
+		x = 26
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Life_Liberty_Decolonization  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Call_For_Sweeping_Decolonization
+		icon = unkown
+		x = 26
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Self_Determination_For_All  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Compensate_Colonial_Losses
+		icon = unkown
+		x = 24
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Call_For_Sweeping_Decolonization  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Prevent_The_Further_Spread_Of_African_Syndicalism
+		icon = unkown
+		x = 24
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Compensate_Colonial_Losses  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Call_For_International_Investment
+		icon = unkown
+		x = 24
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Prevent_The_Further_Spread_Of_African_Syndicalism  }
+
+		completion_reward = {
+	
+		}
+	
+	}
 
 
 
+	focus = {
+		id = USA_Ensure_Access_To_Healthcare
+		icon = unkown
+		x = 24
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Call_For_International_Investment  }
 
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Promote_African_Democracy
+		icon = unkown
+		x = 28
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Call_For_Sweeping_Decolonization  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Fund_African_Infrastructure
+		icon = unkown
+		x = 28
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_African_Democracy  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Repatriate_African_Exiles
+		icon = unkown
+		x = 28
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fund_African_Infrastructure  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Ensure_Ethic_Representation
+		icon = unkown
+		x = 28
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Repatriate_African_Exiles  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_Safe_World_Is_A_Free_World
+		icon = unkown
+		x = 26
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Ensure_Ethic_Representation  }
+		prerequisite = { focus =  USA_Ensure_Access_To_Healthcare  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Expand_Democracy_To_The_World
+		icon = unkown
+		x = 35
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Light_On_Top_Of_The_Hill  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_New_Faction
+		icon = unkown
+		x = 35
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_Democracy_To_The_World  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Promote_Democratic_Reforms
+		icon = unkown
+		x = 35
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Faction  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Fund_The_Adenauer_Movement
+		icon = unkown
+		x = 33
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_Democratic_Reforms  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Put_Diplomatic_Pressure_On_Germany
+		icon = unkown
+		x = 33
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fund_The_Adenauer_Movement  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Demand_German_Repatriation
+		icon = unkown
+		x = 33
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_Diplomatic_Pressure_On_Germany  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Supply_The_Marquises
+		icon = unkown
+		x = 37
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Promote_Democratic_Reforms  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Put_Dipmomatic_Pressure_On_France
+		icon = unkown
+		x = 37
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Supply_The_Marquises  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Demand_French_Repatriation
+		icon = unkown
+		x = 37
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_Dipmomatic_Pressure_On_France  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Focus_On_Asia
+		icon = unkown
+		x = 35
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Demand_French_Repatriation  }
+		prerequisite = { focus =  USA_Demand_German_Repatriation  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Contacting_The_Descendant_Of_Ghandi
+		icon = unkown
+		x = 33
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Focus_On_Asia  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bolster_His_Political_Influence
+		icon = unkown
+		x = 33
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Contacting_The_Descendant_Of_Ghandi  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Put_Pressure_On_The_Indian_Regime
+		icon = unkown
+		x = 33
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bolster_His_Political_Influence  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Push_For_Indian_Elections
+		icon = unkown
+		x = 31
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_Pressure_On_The_Indian_Regime  }
+		mutually_exclusive = {
+			focus = USA_Train_Indian_Exiles
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Rig_The_Elections
+		icon = unkown
+		x = 31
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Push_For_Indian_Elections  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Train_Indian_Exiles
+		icon = unkown
+		x = 35
+		y = 11
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_Push_For_Indian_Elections
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_Pressure_On_The_Indian_Regime  }
+		
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Aid_In_The_Indian_Revolt
+		icon = unkown
+		x = 35
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Train_Indian_Exiles  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Find_The_Decadent_Kim
+		icon = unkown
+		x = 38
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Focus_On_Asia  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Propagandize_Him
+		icon = unkown
+		x = 38
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Find_The_Decadent_Kim  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Instigate_A_Revolt
+		icon = unkown
+		x = 38
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Propagandize_Him  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Drone_Strike_The_Last_Airbase
+		icon = unkown
+		x = 38
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Instigate_A_Revolt  }
+
+		completion_reward = {
+	
+		}
+	
+	}
 
 
 

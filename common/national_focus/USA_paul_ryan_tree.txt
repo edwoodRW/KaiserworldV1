@@ -546,10 +546,498 @@ focus_tree = {
 	}
 
 
+	focus = {
+		id = USA_A_Conservative_Foreign_Policy
+		icon = unknown
+		x = 30
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
 
 
 
+	focus = {
+		id = USA_Fall_Back_To_Hoover
+		icon = unknown
+		x = 25
+		y = 1
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_A_New_Fortress_On_The_Hill
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_A_Conservative_Foreign_Policy
+		}
+		completion_reward = {
+	
+		}
+	
+	}
 
+	focus = {
+		id = USA_Neutral_Trade_Policies
+		icon = unknown
+		x = 25
+		y = 2
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Fall_Back_To_Hoover
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Continue_The_Syndicalist_Embargoes
+		icon = unknown
+		x = 25
+		y = 3
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Neutral_Trade_Policies
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Encourage_Foreign_Investment
+		icon = unknown
+		x = 22
+		y = 4
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Continue_The_Syndicalist_Embargoes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Extradite_Criminals
+		icon = unknown
+		x = 22
+		y = 5
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Continue_The_Syndicalist_Embargoes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_German_Food_Deals
+		icon = unknown
+		x = 23
+		y = 6
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Extradite_Criminals
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Invest_In_Canada
+		icon = unknown
+		x = 25
+		y = 4
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Continue_The_Syndicalist_Embargoes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Invest_In_Germany
+		icon = unknown
+		x = 25
+		y = 5
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Invest_In_Canada
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_Neutral_Grounds_In_America
+		icon = unknown
+		x = 28
+		y = 4
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Continue_The_Syndicalist_Embargoes
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Brng_Peace_To_Both_Factions
+		icon = unknown
+		x = 28
+		y = 5
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Neutral_Grounds_In_America
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Canadian_Military_Deals
+		icon = unknown
+		x = 27
+		y = 6
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Brng_Peace_To_Both_Factions
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Never_Another_Weltkrieg
+		icon = unknown
+		x = 25
+		y = 7
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Canadian_Military_Deals
+		}
+		prerequisite = { 
+			focus =  USA_German_Food_Deals
+		}
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_A_New_Fortress_On_The_Hill
+		icon = unknown
+		x = 35
+		y = 1
+		cost = 5
+		mutually_exclusive = {
+			focus = USA_Fall_Back_To_Hoover
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_A_Conservative_Foreign_Policy
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_The_Third_Power
+		icon = unknown
+		x = 35
+		y = 2
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_A_New_Fortress_On_The_Hill
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Set_up_American_Bases_Overseas
+		icon = unknown
+		x = 35
+		y = 3
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_The_Third_Power
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Free_Movement_Between_Members
+		icon = unknown
+		x = 32
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_up_American_Bases_Overseas
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Set_Up_Joint_Battalions
+		icon = unknown
+		x = 35
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_up_American_Bases_Overseas
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Push_For_French_Membership
+		icon = unknown
+		x = 38
+		y = 4
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_up_American_Bases_Overseas
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Push_For_International_Detente
+		icon = unknown
+		x = 35
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_Up_Joint_Battalions
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Cultural_Exchange_Between_The_Memebers
+		icon = unknown
+		x = 32
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_Up_Joint_Battalions
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Reach_Out_To_The_Benelux
+		icon = unknown
+		x = 38
+		y = 5
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Set_Up_Joint_Battalions
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Secure_True_Freedom
+		icon = unknown
+		x = 35
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Push_For_International_Detente
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Lower_Tarrifs_For_Members
+		icon = unknown
+		x = 32
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Push_For_International_Detente
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Tame_The_Iberians
+		icon = unknown
+		x = 38
+		y = 6
+		cost = 5
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { 
+			focus =  USA_Push_For_International_Detente
+		}
+		completion_reward = {
+	
+		}
+	
+	}
 
 
 

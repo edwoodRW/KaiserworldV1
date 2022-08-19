@@ -3029,7 +3029,7 @@ SpriteType = {
 
 	SpriteType = {
 		name = "Icon_Prepare_for_the_Red_Menace_KW"
-		texturefile = "gfx/interface/goals/nof/Icon_Prepare_for_the_Red_Menace_KW.dds"			
+		texturefile = "gfx/interface/goals/eng/Icon_Prepare_for_the_Red_Menace_KW.dds"			
 	}
 	
 	

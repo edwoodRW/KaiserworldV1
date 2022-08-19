@@ -3,6 +3,7 @@ add_namespace = England
 
 
 
+
 country_event = {
 	id = England.3
 	title = England.3.t
@@ -502,9 +503,9 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = England.43.o1
-		ENG = {
-			declare_war_on = { target = WAL type = annex_everything }
-		}
+	#	ENG = {
+	#		declare_war_on = { target = WAL type = annex_everything }
+	#	}
 	}
 }
 
@@ -513,27 +514,28 @@ country_event = {
 	id = England.44
 	title = England.44.t
 	desc = England.44.d
-	picture = wales_has_fallen_event
+	picture = teh_dragons_head_event
 	fire_only_once = yes
 	option = {
 		name = England.44.o1
-		ENG = {
-		release_puppet = WAL
-		}
-		WAL = {
-			set_politics = {
-				ruling_party = communist
-				elections_allowed = no
-			}
-			create_country_leader = {
-				name = "Michael Portillo"
-				picture = "wal_michael_portillo.dds"
-				ideology = marxist
-			}
-			set_cosmetic_tag = WAL_wales_communist		
+	#		WAL = {
+	#			set_politics = {
+	#				ruling_party = communist
+	#				elections_allowed = no
+	#			}
+	#			create_country_leader = {
+	#				name = "Michael Portillo"
+	#				picture = "wal_michael_portillo.dds"
+	#				ideology = marxist
+	#			}
+	#			set_cosmetic_tag = WAL_wales_communist		
+	#		}
+	#		ENG = {
+	#			release_puppet = WAL
+	#			}
 		}
 	}
-}
+
 
 
 
@@ -802,9 +804,7 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = England.62.o1
-			ENG = {
-				country_event = { days = 5 id = England.73 } 
-			}
+	
 	
 	}
 }
@@ -833,8 +833,17 @@ country_event = {
 	option = {
 		name = England.64.o1
 		set_cosmetic_tag = ENG_new_england_flag
+		create_country_leader = {
+			name = "Boris Johnson"
+			picture = "big_boris.dds"
+			ideology = revolutionary_socialist_ideology
+		}
+		set_politics = {
+			ruling_party = revolutionary_socialist
+			elections_allowed = no
+			}
 		load_focus_tree = {
-			tree = uk_johnson_reforms_continue
+			tree =  uk_Johnson_stabilised_focus
 			keep_completed = yes
 		}
 	}
@@ -963,25 +972,14 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.72.o1
-		 load_focus_tree = {
-			tree = uk_johnson_reforms_continue
+		 load_focus_tree = uk_johnson_reforms_continue
 			keep_completed = yes
-		}
 	}
 }
 
 
-country_event = {
-	id = England.73
-	title = England.73.t
-	desc = England.73.d
-	picture = boris_and_his_cola_event
-	is_triggered_only = yes
-	option = {
-		name = England.73.o1
 
-	}
-}
+
 
 country_event = {
 	id = England.74
@@ -1845,7 +1843,9 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.141.o1
-
+		ENG = {
+			country_event = { days = 5 id = England.268 } 
+		}
 	}
 }
 
@@ -1944,7 +1944,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.149.o1
-
+		load_focus_tree = {
+			tree = british_Unifying_Britain
+			keep_completed = yes
+		}	
 	}
 }
 
@@ -2343,7 +2346,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.167.o1
-
+		load_focus_tree = {
+			tree = 	british_future_of_union
+			keep_completed = yes
+		}
 	}
 }
 
@@ -3295,7 +3301,7 @@ country_event = {
 		create_country_leader = {
 			name = "David Miliband"
 			picture = "david_milliband.dds"
-			ideology = new_democrat_ideology
+			ideology = social_democracy
 		}
 
 	}
@@ -3304,7 +3310,7 @@ country_event = {
 		create_country_leader = {
 			name = "Diana Spence"
 			picture = "diana_spence.dds"
-			ideology = new_democrat_ideology
+			ideology = social_democracy
 		}
 	}
 
@@ -3877,6 +3883,200 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = England.266
+	title = England.266.t
+	desc = England.266.desc
+	picture = End_of_the_war_event
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		ENG = {
+			has_government = monarchist
+			owns_state = 129
+		}
+		OR = {
+		EAG = {	
+			has_government = revolutionary_socialist
+		}
+		}
+	}
+
+	option = { 
+		name = England.266.a
+	
+		ENG = {
+			country_event = { days = 10 id = England.267 } 
+			}
+	}
+
+
+}
+
+
+
+country_event = {
+	id = England.267
+	title = England.267.t
+	desc = England.267.d
+	picture = war_is_over_event
+	is_triggered_only = yes
+	option = {
+
+		name = England.267.o1
+		annex_country = { target = EMI transfer_troops = yes }
+		annex_country = { target = EAG transfer_troops = yes }
+		set_cosmetic_tag = ENG_United_Republic_of_Britannia
+	}
+
+}
+
+
+
+country_event = {
+	id = England.268
+	title = England.268.t
+	desc = England.268.d
+	picture = boris_and_his_cola_event
+	is_triggered_only = yes
+	option = {
+		name = England.268.o1
+
+	}
+}
+
+
+country_event = {
+	id = England.269
+	title = England.269.t
+	desc = England.269.d
+	picture = the_new_elections_return_event
+	is_triggered_only = yes
+	option = {
+		name = England.269.o1
+		ENG = {
+			country_event = { days = 10 id = England.270 } 
+			}
+	}
+}
+
+
+country_event = {
+	id = England.270
+	title = England.270.t
+	desc = England.270.d
+	picture = selecting_parties_event
+	is_triggered_only = yes
+	option = {
+		name = England.270.o1
+		ENG = {
+			country_event = { days = 10 id = England.271 } 
+			}
+	}
+}
+
+
+country_event = {
+	id = England.271
+	title = England.271.t
+	desc = England.271.d
+	picture = first_commonwealth_election_event
+	is_triggered_only = yes
+	option = {
+		name = England.271.o1
+		set_politics = {
+		ruling_party = national_conservative
+		elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_conservative 
+			popularity = 0.52
+		}
+		create_country_leader = {
+			name = "William Hague"
+			picture = "william_hague.dds"
+			ideology = fiscal_conservative
+		}
+		set_cosmetic_tag = ENG_commonwealth_of_england
+	}
+	option = {
+		name = England.271.o2
+		set_politics = {
+			ruling_party = new_democrat
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = new_democrat 
+				popularity = 0.52
+			}
+			set_cosmetic_tag = ENG_commonwealth_of_england
+	}
+	option = {
+		name = England.271.o3
+		set_politics = {
+			ruling_party = liberal
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = liberal 
+				popularity = 0.52
+			}
+			create_country_leader = {
+				name = "Keir Starmer"
+				picture = "keir_starmer.dds"
+				ideology = social_liberal
+			}
+			set_cosmetic_tag = ENG_commonwealth_of_england
+	}
+	option = {
+		name = England.271.o4
+		set_politics = {
+			ruling_party = fascist
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = fascist 
+				popularity = 0.52
+			}
+			create_country_leader = {
+				name = "Robin Tilbrook"
+				picture = "robin_tilbrook.dds"
+				ideology = fascist_ideology 
+			}
+			set_cosmetic_tag = ENG_commonwealth_of_england
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

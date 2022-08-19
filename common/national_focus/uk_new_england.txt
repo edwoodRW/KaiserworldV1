@@ -771,6 +771,13 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Harvest_Scottish_And_Welsh_Land  }
 		prerequisite = { focus =  ENG_Execute_The_Royals  }
+		available = {
+			has_completed_focus = ENG_The_Industry_Of_Tomorrow
+		}
+
+		available = {
+			has_completed_focus = ENG_Order_The_Civil_War
+		}
 
 		completion_reward = {
 			country_event = {
@@ -921,13 +928,6 @@ focus_tree = {
 		x = 30
 		y = 14
 		cost = 5
-		available = {
-			has_completed_focus = ENG_The_Industry_Of_Tomorrow
-		}
-
-		available = {
-			has_completed_focus = ENG_Only_England
-		}
 
 		search_filters = {
 		}

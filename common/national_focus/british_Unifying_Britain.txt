@@ -638,7 +638,9 @@ focus_tree = {
 
 
 		completion_reward = {
-
+			country_event = {
+				id = england.269
+			}
 		}
 
 	

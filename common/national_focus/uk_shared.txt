@@ -10,14 +10,14 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	completion_reward = {
-	
 		country_event = {
-			id = england.4
+			id = england.4		
 		}
 		add_ideas = legacy_of_foot
-		add_stability = 0.05
+			add_stability = 0.05
 	}
 }
+
 shared_focus = {
 	id = ENG_blairs_iron_fist
 	icon = blairs_iron_fist
@@ -28,13 +28,17 @@ shared_focus = {
 		FOCUS_FILTER_POLITICAL
 	}
 	prerequisite = { focus = ENG_legacy_of_foot  }
+
 	completion_reward = {
+		
+		add_ideas = blairs_iron_fist
 		country_event = {
 			id = england.5
 		}
-		add_ideas = blairs_iron_fist
 	}
+	
 }
+
 shared_focus = {
 	id = ENG_fixing_the_budget
 	icon = The_Budget_in_the_union
@@ -47,7 +51,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_legacy_of_foot  }
 	completion_reward = {
 		country_event = {
-			id = england.10
+			id = England.10
 		}
 		add_ideas = fixing_the_budget
 	}
@@ -63,7 +67,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_legacy_of_foot  }
 	completion_reward = {
 		country_event = {
-			id = england.13
+			id = England.13
 		}
 		add_ideas = scotland_and_wales
 	}
@@ -112,7 +116,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_arming_the_nation  }
 	completion_reward = {
 		country_event = {
-			id = england.6
+			id = England.6
 		}
 		add_ideas = weapon_research
 	}
@@ -237,7 +241,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_watch_our_citizens  focus = ENG_the_punishments  }
 	completion_reward = {
 		country_event = {
-			id = england.8
+			id = England.8
 		}
 		add_ideas = Blairs_personality
 	}
@@ -255,7 +259,7 @@ shared_focus = {
 	completion_reward = {
 	add_timed_idea = {
 		country_event = {
-			id = england.7
+			id = England.7
 		}
 		idea = The_new_weapons
 		days = 50
@@ -293,7 +297,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		country_event = {
-			id = england.17
+			id = England.17
 		}
 	}
 }
@@ -309,7 +313,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_the_people_must_serve  focus = ENG_the_elite_first  }
 	completion_reward = {
 		country_event = {
-			id = england.9
+			id = England.9
 		}
 		add_popularity = {
 			ideology = communist
@@ -349,7 +353,7 @@ shared_focus = {
 	mutually_exclusive = { focus = ENG_on_our_own  }
 	completion_reward = {
 		country_event = {
-			id = england.11
+			id = England.11
 		}
 		ENG = {
 			add_opinion_modifier = {
@@ -387,7 +391,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_diplomatic_relations_with_Korea  }
 	completion_reward = {
 		country_event = {
-			id = england.12
+			id = England.12
 		}
 		ENG = {
 			add_opinion_modifier = {
@@ -438,7 +442,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_scotland_and_wales  }
 	completion_reward = {
 		country_event = {
-			id = england.14
+			id = England.14
 		}
 		add_stability = 0.05
 		add_political_power = 100
@@ -505,7 +509,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_shoot_to_kill  }
 completion_reward = {
 country_event = {
-	id = england.15
+	id = England.15
 }
 }
 }
@@ -637,7 +641,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_forced_work_in_the_union  }
 	completion_reward = {
 	country_event = {
-		id = england.16
+		id = England.16
 	}
 }
 }
@@ -681,7 +685,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_The_Orders_For_England  }
 	completion_reward = {
 		country_event = {
-			id = england.22
+			id = England.22
 		}
 	}
 }
@@ -740,7 +744,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_The_Orders_For_England  }
 	completion_reward = {
 		country_event = {
-			id = england.18
+			id = England.18
 		}
 	}
 }
@@ -776,7 +780,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_English_Resources  }
 	completion_reward = {
 		country_event = {
-			id = england.19
+			id = England.19
 		}
 	}
 }
@@ -831,7 +835,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_The_Orders_For_England  }
 	completion_reward = {
 		country_event = {
-			id = england.20
+			id = England.20
 		}
 	}
 }
@@ -894,7 +898,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Cornwall_Needs_Treatment  }
 	completion_reward = {
 		country_event = {
-			id = england.21
+			id = England.21
 		}
 	}
 }
@@ -935,7 +939,7 @@ shared_focus = {
 		set_country_flag = ENG_glory_to_the_leader
 		mark_focus_tree_layout_dirty = yes	
 		country_event = {
-			id = england.23
+			id = England.23
 		}
 	}
 }
@@ -962,7 +966,7 @@ shared_focus = {
 	}
 	completion_reward = {
 		country_event = {
-			id = england.24
+			id = England.24
 		}
 	}
 }
@@ -978,7 +982,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_The_Union_Army  }
 	completion_reward = {
 		country_event = {
-			id = england.25
+			id = England.25
 		}
 	}
 }
@@ -1027,7 +1031,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Soldiers_Of_England  }
 	completion_reward = {
 		country_event = {
-			id = england.26
+			id = England.26
 		}
 	}
 }
@@ -1077,7 +1081,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Loyalty_To_Officers  }
 	completion_reward = {
 		country_event = {
-			id = england.27
+			id = England.27
 		}
 	}
 }
@@ -1095,7 +1099,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Defending_The_Island  }
 	completion_reward = {
 		country_event = {
-			id = england.28
+			id = England.28
 		}
 	}
 }
@@ -1111,7 +1115,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Airwing_Of_England  }
 	completion_reward = {
 		country_event = {
-			id = england.29
+			id = England.29
 		}
 	}
 }
@@ -1161,7 +1165,7 @@ shared_focus = {
 			category = radar_tech
 		}
 		country_event = {
-			id = england.30
+			id = England.30
 		}
 	}
 }
@@ -1177,7 +1181,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Defending_The_Island  }
 	completion_reward = {
 		country_event = {
-			id = england.31
+			id = England.31
 		}
 	}
 }
@@ -1209,7 +1213,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_The_North_Sea  }
 	completion_reward = {
 		country_event = {
-			id = england.32
+			id = England.32
 		}
 	}
 }
@@ -1304,7 +1308,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Lindisfarne_Drills  }
 	completion_reward = {
 		country_event = {
-			id = england.33
+			id = England.33
 		}
 	}
 }
@@ -1323,7 +1327,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Union_Propaganda_Leaflet_dropping  }
 	completion_reward = {
 		country_event = {
-			id = england.34
+			id = England.34
 		}
 	}
 }
@@ -1425,7 +1429,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Death_Squad_For_Petty_Crime  }
 	completion_reward = {
 		country_event = {
-			id = england.35
+			id = England.35
 		}
 	}
 }
@@ -1441,7 +1445,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Selected_work  }
 	completion_reward = {
 		country_event = {
-			id = england.36
+			id = England.36
 		}
 	}
 }
@@ -1500,7 +1504,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Work_For_The_Leader  }
 	completion_reward = {
 		country_event = {
-			id = england.37
+			id = England.37
 		}
 	}
 }
@@ -1521,7 +1525,7 @@ shared_focus = {
 		set_country_flag = ENG_rocket_man_flag
 		mark_focus_tree_layout_dirty = yes
 		country_event = {
-			id = england.38
+			id = England.38
 		}
 	}
 }
@@ -1561,7 +1565,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_Rocket_Man  }
 	completion_reward = {
 		country_event = {
-			id = england.39
+			id = England.39
 		}
 	}
 }
@@ -1669,7 +1673,7 @@ shared_focus = {
 	prerequisite = { focus = ENG_The_Rockets_Are_Ready  }
 	completion_reward = {
 		country_event = {
-			id = england.40
+			id = England.40
 		}
 	}
 }
@@ -1746,7 +1750,7 @@ shared_focus = {
 	prerequisite = { focus = The_Leader_Speaks_In_Birmingham  }
 	completion_reward = {
 		country_event = {
-			id = england.42
+			id = England.42
 		}
 	}
 
@@ -1764,7 +1768,7 @@ shared_focus = {
 	prerequisite = { focus = The_Leader_Speaks_In_Birmingham  }
 	completion_reward = {
 		country_event = {
-			id = england.41
+			id = England.41
 		}
 	}
 }
@@ -1784,7 +1788,7 @@ shared_focus = {
 		set_country_flag = ENG_Go_For_Wales
 		mark_focus_tree_layout_dirty = yes
 		country_event = {
-			id = england.43
+			id = England.43
 		}
 
 	}
@@ -1809,10 +1813,10 @@ shared_focus = {
 
 	available = {
 		owns_state = 122
-}
+	}
 	completion_reward = {
 		country_event = {			
-			id = england.44
+			id = England.44
 		}
 	}
 }
@@ -1865,7 +1869,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Remove_The_Welsh_Tongue  }
 	completion_reward = {
 		country_event = {
-			id = england.46
+			id = England.46
 		}
 	}
 }
@@ -1881,7 +1885,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Wales_Is_Ours  }
 	completion_reward = {
 		country_event = {
-			id = england.45
+			id = England.45
 		}
 	}
 }
@@ -1937,7 +1941,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Trials_Of_Wales  }
 	completion_reward = {
 		country_event = {
-			id = england.47
+			id = England.47
 		}
 	
 	}
@@ -1968,7 +1972,7 @@ shared_focus = {
 	completion_reward = {
 		
 		country_event = {
-			id = england.48
+			id = England.48
 		}
 	}
 }
@@ -2004,7 +2008,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Secure_Our_Borders  }
 	completion_reward = {
 		country_event = {
-			id = england.50
+			id = England.50
 		}
 	}
 
@@ -2023,7 +2027,7 @@ shared_focus = {
 
 	completion_reward = {
 		country_event = {
-			id = england.51
+			id = England.51
 		}
 	}
 }
@@ -2054,7 +2058,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Punish_The_Officers  }
 	completion_reward = {
 		country_event = {
-			id = england.49
+			id = England.49
 		}
 	}
 
@@ -2072,7 +2076,7 @@ shared_focus = {
 
 	completion_reward = {
 		country_event = {
-			id = england.52
+			id = England.52
 		}
 		set_country_flag = death_of_blair
 	}
@@ -2093,7 +2097,7 @@ shared_focus = {
 	completion_reward = {
 		add_political_power = -50
 		country_event = {
-			id = england.53
+			id = England.53
 		}
 	}
 }
@@ -2111,7 +2115,7 @@ shared_focus = {
 	completion_reward = {
 		add_stability = -0.2
 		country_event = {
-			id = england.54
+			id = England.54
 		}
 	}
 }
@@ -2129,7 +2133,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_The_Day_Of_Mourning  }
 	completion_reward = {
 		country_event = {
-			id = england.55
+			id = England.55
 		}
 	}
 
@@ -2146,7 +2150,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_The_Day_Of_Mourning  }
 	completion_reward = {
 		country_event = {
-			id = england.56
+			id = England.56
 		}
 	}
 
@@ -2195,7 +2199,7 @@ shared_focus = {
 	completion_reward = {
 		add_political_power = 100
 		country_event = {
-			id = england.58
+			id = England.58
 		}
 	}
 
@@ -2213,7 +2217,7 @@ shared_focus = {
 	completion_reward = {
 		add_stability = 0.10
 		country_event = {
-			id = england.61
+			id = England.61
 		}
 	}
 }
@@ -2229,7 +2233,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_The_Peoples_Government  }
 	completion_reward = {
 		country_event = {
-			id = england.63
+			id = England.63
 		}
 	}
 }
@@ -2263,7 +2267,7 @@ shared_focus = {
 			days = 90
 	}
 		country_event = {
-			id = england.62
+			id = England.62
 		}
 	}
 }
@@ -2325,7 +2329,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_End_National_Service  }
 	completion_reward = {
 		country_event = {
-			id = england.64
+			id = England.64
 		}
 	}
 }
@@ -2353,7 +2357,7 @@ shared_focus = {
 	completion_reward = {
 		add_political_power = 40
 		country_event = {
-			id = england.60
+			id = England.60
 		}
 	}
 
@@ -2449,7 +2453,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Restore_Order  }
 	completion_reward = {
 		country_event = {
-			id = england.65
+			id = England.65
 		}
 	}
 
@@ -2482,7 +2486,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Strengthen_Relations_With_Other_Totalists  }
 	completion_reward = {
 		country_event = {
-			id = england.66
+			id = England.66
 		}
 	}
 }
@@ -2510,7 +2514,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Choosing_The_Replacement  }
 	completion_reward = {
 		country_event = {
-			id = england.59
+			id = England.59
 		}
 	}
 
@@ -2555,7 +2559,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_The_Peoples_Health_Network  }
 	completion_reward = {
 		country_event = {
-			id = england.67
+			id = England.67
 		}
 	}
 }
@@ -2636,7 +2640,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Open_Relations_With_Scotland_And_Wales  }
 	completion_reward = {
 		country_event = {
-			id = england.68
+			id = England.68
 		}
 	}
 }
@@ -2665,7 +2669,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Choosing_The_Replacement  }
 	completion_reward = {
 		country_event = {
-			id = england.69
+			id = England.69
 		}
 	}
 }
@@ -2733,7 +2737,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_Wales_Will_Be_Ours  }
 	completion_reward = {
 		country_event = {
-			id = england.70
+			id = England.70
 		}
 	}
 
@@ -2799,7 +2803,7 @@ shared_focus = {
 	prerequisite = { focus =  ENG_A_New_Cult_Of_Personality  }
 	completion_reward = {
 		country_event = {
-			id = england.71
+			id = England.71
 		}
 	}
 }

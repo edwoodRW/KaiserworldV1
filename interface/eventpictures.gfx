@@ -1,6 +1,31 @@
 spriteTypes = {
+
 	
+	spriteType = {
+		name = "first_commonwealth_election_event"
+		texturefile = "gfx/event_pictures/report_event/first_commonwealth_election_event.dds"
+	}
+
+	spriteType = {
+		name = "selecting_parties_event"
+		texturefile = "gfx/event_pictures/report_event/selecting_parties_event.dds"
+	}
 	
+	spriteType = {
+		name = "the_new_elections_return_event"
+		texturefile = "gfx/event_pictures/report_event/the_new_elections_return_event.dds"
+	}
+	
+	spriteType = {
+		name = "war_is_over_event"
+		texturefile = "gfx/event_pictures/report_event/war_is_over_event.dds"
+	}
+		
+	spriteType = {
+		name = "End_of_the_war_event"
+		texturefile = "gfx/event_pictures/report_event/End_of_the_war_event.dds"
+	}
+
 	spriteType = {
 		name = "northumberland_meets_germany_event"
 		texturefile = "gfx/event_pictures/report_event/northumberland_meets_germany_event.dds"

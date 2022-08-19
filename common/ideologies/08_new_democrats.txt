@@ -3,6 +3,9 @@ ideologies = {
 	new_democrat = {
 		
 		types = {
+
+			social_democracy = {
+			}
 		
 			new_democrat_ideology = {
 			}

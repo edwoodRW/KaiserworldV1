@@ -95,7 +95,7 @@ ideas = {
 					always = no
 				}
 				
-		
+				picture = the_legacy_of_foot
 				removal_cost = -1
 				
 				allowed_civil_war = {
@@ -106,8 +106,7 @@ ideas = {
 					mobilization_speed = 0.5
 					conscription_factor = 0.1
 					war_support_factor = 0.15
-					economy_cost_factor = 0.55
-					trade_laws_cost_factor = 0.55
+					economy_cost_factor = 0.55				trade_laws_cost_factor = 0.55
 					MONTHLY_POPULATION = 0.1
 					army_morale_factor = 0.1
 					non_core_manpower = -0.05
@@ -122,6 +121,7 @@ ideas = {
 					always = no
 				}
 				
+				picture = blairs_iron_fist
 				
 				removal_cost = -1
 				
@@ -140,7 +140,7 @@ ideas = {
 				allowed = {
 					always = no
 				}
-				
+				picture = fix_the_budget
 				
 				removal_cost = -1
 				
@@ -724,7 +724,6 @@ ideas = {
 		}
 
 
-	# TECHNOLOGY
 
 # TECHNOLOGY
 tank_manufacturer = { 

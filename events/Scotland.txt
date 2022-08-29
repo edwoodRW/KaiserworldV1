@@ -1,5 +1,5 @@
 add_namespace = Scotland
-##Grey Tuesday
+
 country_event = {
 	id = Scotland.1
 	title = Scotland.1.t
@@ -256,7 +256,7 @@ country_event = {
 		name = Scotland.21.o1
 		create_country_leader = {
 			name = "Richie Venton"
-			picture = "big_boris.dds"
+			picture = "Richie_Venton.dds"
 			ideology = revolutionary_socialist_ideology
 		}
 	}

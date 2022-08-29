@@ -216,9 +216,20 @@ nineties = {
 
 noughts = {
 
+}
+
+
+Keeping_The_Nation_Stable = {
+	
+	
+}
+
+	
+Stablising_The_Nation = {
+
 	ENG_Stablise_The_Nation = {
 
-		icon = generic_scorched_earth
+		icon = decision_generic_ignite_civil_war
 		is_good = no
 
 	   
@@ -253,17 +264,7 @@ noughts = {
 	}
 
 
-
-
-
-
-
-
-
-
-
-}
-
+} 
 
 
 

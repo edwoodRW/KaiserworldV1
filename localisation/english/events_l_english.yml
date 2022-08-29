@@ -121,12 +121,12 @@
  England.42.t:0 "The Talks Fail"
  England.42.d:0 "The Welsh Leaders have asked to sit down with us and try to find a diplomatic way to resolve this matter. It seems they are scared and wish to prevent war and invasion. Unfortunately, they wish for us to stay away from Wales. That isn’t an option.\n\nTHE LEADERS WILL NOT LEAVE US ALONE! THEY BEG AND PLEAD, “THINK OF THE INNOCENT LIVES THAT COULD BE LOST”. We just looked and shook our heads, its obvious they are weak and need to adapt to a new totalist life. Its decided, Wales will be ours and we will train the Welsh people to no longer fear death. "
  England.42.o1:0 "Were Done With This."
- England.43.t:0 "Take The Dragons Head"
- England.43.d:0 "General Blair has given the thumbs up, its war. After nearly 70 years of peace, the union has finally reached a point where it is now ready to shed blood again. The army has begun to walk through the hills of the English border and fired at the border walls on the Welsh side. As guard towers collapsed and the Welsh soldiers tried to fire at us, it seemed that already the war was turning against them. Our soldiers opened fire as union fighter jets roared over the skies of Wales."
- England.43.o1:0 "Its Time To Unite The Union."
- England.44.t:0 "Wales Has Fallen"
- England.44.d:0 "The war as predicated was short and a strong easy win. Once we marched into the city of Cardiff the Welsh Ministry started peace talks and finally agreed a transfer of power. The Welsh State will for now become a temporary transitional state until we have rebuilt the state and we are ready to bring the state of Wales under the totalist banner. Some rebel groups have tried to fight back but their fighting as been put down quick. General Blair has been heard to have celebrated by asking for some Welsh people to be brought to his palace and shot at while he watches and drinks with his generals."
- England.44.o1:0 "We Finally Take The Dragon."
+ England.272.t:0 "Take The Dragons Head"
+ England.272.d:0 "General Blair has given the thumbs up, its war. After nearly 70 years of peace, the union has finally reached a point where it is now ready to shed blood again. The army has begun to walk through the hills of the English border and fired at the border walls on the Welsh side. As guard towers collapsed and the Welsh soldiers tried to fire at us, it seemed that already the war was turning against them. Our soldiers opened fire as union fighter jets roared over the skies of Wales."
+ England.272.o1:0 "Its Time To Unite The Union."
+ England.273.t:0 "Wales Has Fallen"
+ England.273.d:0 "The war as predicated was short and a strong easy win. Once we marched into the city of Cardiff the Welsh Ministry started peace talks and finally agreed a transfer of power. The Welsh State will for now become a temporary transitional state until we have rebuilt the state and we are ready to bring the state of Wales under the totalist banner. Some rebel groups have tried to fight back but their fighting as been put down quick. General Blair has been heard to have celebrated by asking for some Welsh people to be brought to his palace and shot at while he watches and drinks with his generals."
+ England.273.o1:0 "We Finally Take The Dragon."
  England.45.t:0 "Down Goes The Flag"
  England.45.d:0 "The red dragon and the Welsh flag will now be icons of an illegal protest and anyone who waves those will be arrested. Now the new flag has been raised of the cities in Wales as streets and towns slowly begin to transform into totalist propaganda with the sword and hammer being featured over advertisement boards and images of General Blair being put on display in cities. Already cinemas are showing movies about the U.S.B.R and life of our great leader."
  England.45.o1:0 "The Removal Of Welsh Nationalism Begins."
@@ -804,7 +804,9 @@
  England.271.o2:0 "The Labour Party Knows Whats Best For The People Of Britain"
  England.271.o3:0 "The First State Liberals Will Keep Britain Working For All"
  England.271.o4:0 "The English First Party Will Put The Brits First!"
-
+ England.274.t:0 "The Arrest Of David Owen" 
+ England.274.d:0 "David Owen has been arrested for conspiracy to overthrow the leader general Blair and push for a coup d’etat, after an unnamed member of the congress reported him to the unions secret service. It was discovered Owen was secretly working with other high-level members of the congress to make plans to either poison Blair or overthrow him in a military coup. Owen was a highly respected scientist who helped create the first nuclear missile in the U.S.B.R and helped advance the technology industry in the union. Once Owen had completed his tasks, he was moved away from government positions back to public work.\n\nConfessing to the secret services he said that was feeling betrayed and started drawing up plans with other members of the congress who also were unhappy with Blair they began to start plotting ways to remove him from power and install a stable leader who wasn’t so invested in complete power. It is believed Owen will face a televised trial and could face some of the harshest punishments due to refusing to name the other members who plotted to remove Blair."
+ England.274.o1:0 "Who Else Wants Blair Removed?"
 
 
 

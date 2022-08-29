@@ -352,6 +352,451 @@ focus_tree = {
 
 
 
+
+	focus = {
+		id = USA_A_New_Age_For_America
+		icon = unknown
+		x = 33
+		y = 0
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_A_New_Faction_For_The_World
+		icon = unknown
+		x = 29
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Age_For_America  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bastion_Against_The_Entente
+		icon = unknown
+		x = 27
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Faction_For_The_World  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Speak_Out_Against_Entente_Globalism
+		icon = unknown
+		x = 27
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bastion_Against_The_Entente  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Invite_Ireland
+		icon = unknown
+		x = 27
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Speak_Out_Against_Entente_Globalism  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Invite_Southern_Iran
+		icon = unknown
+		x = 27
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invite_Ireland  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Poach_Former_Dominions
+		icon = unknown
+		x = 27
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invite_Southern_Iran  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Bastion_Against_The_Reichspakt
+		icon = unknown
+		x = 31
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Faction_For_The_World  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_America_First_Trade_Deals
+		icon = unknown
+		x = 31
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bastion_Against_The_Reichspakt  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Invite_The_French
+		icon = unknown
+		x = 31
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_America_First_Trade_Deals  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Fortify_The_Rhine
+		icon = unknown
+		x = 31
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Invite_The_French  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_A_Meeting_With_The_Kaiser
+		icon = unknown
+		x = 31
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Fortify_The_Rhine  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Sovereignty_Secured
+		icon = unknown
+		x = 29
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Meeting_With_The_Kaiser  }
+		prerequisite = { focus =  USA_Poach_Former_Dominions  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Bolstering_The_Empire_Economy
+		icon = unknown
+		x = 36
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Age_For_America  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Increase_American_Exports
+		icon = unknown
+		x = 35
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bolstering_The_Empire_Economy  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Increase_Buying_Power
+		icon = unknown
+		x = 35
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Increase_American_Exports  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_De_Regulate_Wall_Street
+		icon = unknown
+		x = 35
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Increase_Buying_Power  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+	focus = {
+		id = USA_A_Canadian_American_Pipeline
+		icon = unknown
+		x = 37
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bolstering_The_Empire_Economy  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Subsidize_The_Tech_Sector
+		icon = unknown
+		x = 37
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_Canadian_American_Pipeline  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Industrialize_The_Midwest
+		icon = unknown
+		x = 37
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Subsidize_The_Tech_Sector  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Pax_Americanus
+		icon = unknown
+		x = 36
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Industrialize_The_Midwest  }
+		prerequisite = { focus =  USA_De_Regulate_Wall_Street  }
+
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Expand_The_Empires_Of_Freedom
+		icon = unknown
+		x = 41
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Age_For_America  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_Greenland_Purchase
+		icon = unknown
+		x = 41
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Expand_The_Empires_Of_Freedom  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_The_Haiti_Deal
+		icon = unknown
+		x = 41
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Greenland_Purchase  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Create_The_Guantanamo_Protectorate
+		icon = unknown
+		x = 41
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Haiti_Deal  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_The_Status_Of_Puerti_Rico
+		icon = unknown
+		x = 41
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Create_The_Guantanamo_Protectorate  }
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #######If Parliament Dissolved############
 focus = {
 	id = USA_The_Trump_Crisis

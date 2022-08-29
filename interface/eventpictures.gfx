@@ -1,5 +1,81 @@
 spriteTypes = {
 
+	spriteType = {
+		name = "the_peoples_palace_decsion"
+		texturefile = "gfx/event_pictures/report_event/the_peoples_palace_decsion.dds"
+	}
+	
+	spriteType = {
+		name = "scotland_protest_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_protest_event.dds"
+	}
+		
+	spriteType = {
+		name = "anti_missile_weapon_event"
+		texturefile = "gfx/event_pictures/report_event/anti_missile_weapon_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "welcome_to_Scotland_event"
+		texturefile = "gfx/event_pictures/report_event/welcome_to_Scotland_event.dds"
+	}
+	
+	spriteType = {
+		name = "scottish_armed_bordeR_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_armed_bordeR_event.dds"
+	}
+	
+	spriteType = {
+		name = "scottish_soldiers_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_soldiers_event.dds"
+	}
+	
+	spriteType = {
+		name = "scotlands_soldiers_stand_ready_Event"
+		texturefile = "gfx/event_pictures/report_event/scotlands_soldiers_stand_ready_Event.dds"
+	}
+
+	
+	spriteType = {
+		name = "solidarity_movement_event"
+		texturefile = "gfx/event_pictures/report_event/solidarity_movement_event.dds"
+	}
+
+	spriteType = {
+		name = "arresting_far_left_event"
+		texturefile = "gfx/event_pictures/report_event/arresting_far_left_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_shared_parliament_event"
+		texturefile = "gfx/event_pictures/report_event/the_shared_parliament_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_Agreement_event"
+		texturefile = "gfx/event_pictures/report_event/the_Agreement_event.dds"
+	}
+		
+	spriteType = {
+		name = "the_scottish_coup_event"
+		texturefile = "gfx/event_pictures/report_event/the_scottish_coup_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_welsh_appointment_event"
+		texturefile = "gfx/event_pictures/report_event/the_welsh_appointment_event.dds"
+	}
+
+	spriteType = {
+		name = "the_king_in_his_counting_house_event"
+		texturefile = "gfx/event_pictures/report_event/the_king_in_his_counting_house_event.dds"
+	}
+	
+	spriteType = {
+		name = "owen_arrested_event"
+		texturefile = "gfx/event_pictures/report_event/owen_arrested_event.dds"
+	}
 	
 	spriteType = {
 		name = "first_commonwealth_election_event"

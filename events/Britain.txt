@@ -495,46 +495,7 @@ country_event = {
 }
 
 
-country_event = {
-	id = England.43
-	title = England.43.t
-	desc = England.43.d
-	picture = teh_dragons_head_event
-	fire_only_once = yes
-	option = {
-		name = England.43.o1
-	#	ENG = {
-	#		declare_war_on = { target = WAL type = annex_everything }
-	#	}
-	}
-}
 
-
-country_event = {
-	id = England.44
-	title = England.44.t
-	desc = England.44.d
-	picture = teh_dragons_head_event
-	fire_only_once = yes
-	option = {
-		name = England.44.o1
-	#		WAL = {
-	#			set_politics = {
-	#				ruling_party = communist
-	#				elections_allowed = no
-	#			}
-	#			create_country_leader = {
-	#				name = "Michael Portillo"
-	#				picture = "wal_michael_portillo.dds"
-	#				ideology = marxist
-	#			}
-	#			set_cosmetic_tag = WAL_wales_communist		
-	#		}
-	#		ENG = {
-	#			release_puppet = WAL
-	#			}
-		}
-	}
 
 
 
@@ -3125,7 +3086,12 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.219.o1
-		
+		ENG = {
+			Create_faction = "United Isle Federation"
+			Add_to_faction = SCO
+			Add_to_faction = WAL
+			Add_to_faction = IRE
+		}
 	}
 
 }
@@ -3449,7 +3415,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		tag = USA
+		tag = ENG
 		date > 2011.7.1
 		date < 2011.7.10
 	}
@@ -4052,8 +4018,79 @@ country_event = {
 
 
 
+country_event = {
+	id = England.272
+	title = England.272.t
+	desc = England.272.d
+	picture = teh_dragons_head_event
+	is_triggered_only = yes
+	option = {
+		name = England.272.o1
+		ENG = {
+			declare_war_on = { target = WAL type = annex_everything }
+		}
+	}
+}
 
 
+
+country_event = {
+	id = England.273
+	title = England.273.t
+	desc = England.273.d
+	picture = teh_dragons_head_event
+	is_triggered_only = yes
+	option = {
+		name = England.273.o1
+		WAL = {
+			set_politics = {
+				ruling_party = communist
+				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Michael Portillo"
+				picture = "wal_michael_portillo.dds"
+				ideology = marxist
+			}
+			set_cosmetic_tag = WAL_wales_communist		
+		}
+		ENG = {
+			release_puppet = WAL
+			}
+	}
+}
+
+
+country_event = {
+	id = England.274
+	title = England.274.t
+	desc = England.274.d
+	picture = owen_arrested_event
+	is_triggered_only = yes
+	option = {
+		name = England.274.o1
+	
+		trigger = {
+			tag = ENG
+			date > 2010.7.1
+			date < 2010.7.10
+		}
+	}
+}
+
+
+##to be added
+country_event = {
+	id = England.275
+	title = England.275.t
+	desc = England.275.d
+	picture = owen_arrested_event
+	is_triggered_only = yes
+	option = {
+		name = England.275.o1
+	 
+	}
+}
 
 
 

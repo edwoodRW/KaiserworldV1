@@ -2090,7 +2090,7 @@ shared_focus = {
 	x = 24
 	y = 0
 	cost = 10
-
+	set_country_flag = keeping_things_stable
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
@@ -2099,6 +2099,7 @@ shared_focus = {
 		country_event = {
 			id = England.53
 		}
+
 	}
 }
 
@@ -2165,12 +2166,12 @@ shared_focus = {
 	search_filters = {
 		FOCUS_FILTER_POLITICAL
 	}
-	set_country_flag =  choosing_the_replacement_flag
+	set_country_flag =  choosing_the_replacement_flag	
 	prerequisite = { focus =  ENG_A_Funeral_Fit_For_A_King  }
 	prerequisite = { focus =  ENG_Lowering_The_Flag  }
 	completion_reward = {
 		activate_targeted_decision = { target = ENG decision = ENG_Stablise_The_Nation }
-					
+			
 	}
 }
 

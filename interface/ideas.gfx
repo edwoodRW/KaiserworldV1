@@ -23,6 +23,23 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ENG/hadrians_wall_idea.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_the_legacy_of_foot"
+		texturefile = "gfx/interface/ideas/ENG/the_legacy_of_foot.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_blairs_iron_fist"
+		texturefile = "gfx/interface/ideas/ENG/blairs_iron_fist.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_fix_the_budget"
+		texturefile = "gfx/interface/ideas/ENG/fix_the_budget.dds"
+	}
+
+	
+
 	###SCOTLAND##
 	spriteType = {
 		name = "GFX_idea_scottish_resources"

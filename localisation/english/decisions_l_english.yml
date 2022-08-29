@@ -31,6 +31,21 @@
 
  parliament_gui_decision_category:0 "Congress Seats"
  parliament_gui_decision_category_desc:0 "Below Shows Size Of Party In The Workers Congress"
+ 
+ Keeping_The_Nation_Stable:0 "Keeping The Union Stable"
+ Keeping_The_Nation_Stable_desc:0 "Blair is dead, we must ensure that our union can remain stable until a successor has been chosen"
+ Stablising_The_Nation:0 "Stablising The Nation"
+ Stablising_The_Nation_desc:0 "We must do what we can to try and stablise the union before it collapses"
+ ENG_Deploy_The_Military:0 "Deploy The Military"
+ ENG_Sideline_The_Police:0 "Sideline The Police"
+ ENG_Converting_Apartments_To_Barracks:0 "Converting Apartments To Barracks"
+ ENG_Shutting_Down_State_Industries:0 "Shutting Down State Industries"
+ ENG_Enforce_A_state_At_Home_Policy:0 "Enforce A 'State At Home' Policy"
+ ENG_Censoring_Media:0 "Censoring Media"
+ ENG_NationalPPropaganda_Campaign:0 "National Propaganda Campaign"
+ ENG_Deploy_The_Police:0 "Deploy The Police"
+ ENG_A_New_National_Holiday:0 "A New National Holiday"
+ ENG_Rewarding_Political_Supporters:0 "Rewarding Political Supporters"
 
 
 

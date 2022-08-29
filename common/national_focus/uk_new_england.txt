@@ -18,6 +18,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
+			add_political_power = 20
 			country_event = {
 				id = england.155
 			}
@@ -53,7 +54,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_A_New_England  }
 		completion_reward = {
-
+			add_command_power = 20
 		}
 
 	}

@@ -641,7 +641,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Breaking_Away_From_The_German_Chains
-		icon = unknown
+		icon = breaking_Away_from_german_chains_icon
 		cost = 10
 		x = 43
 		y = 0
@@ -655,7 +655,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Francis_Is_Ready_For_Reforms
-		icon = unknown
+		icon = francis_ready_for_reforms_icon
 		cost = 10
 		x = 43
 		y = 1
@@ -669,7 +669,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Opening_Up_The_Economy
-		icon = unknown
+		icon = opening_up_the_Scottish_market_icon
 		cost = 10
 		x = 37
 		y = 2
@@ -684,7 +684,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_New_Business_Agreements
-		icon = unknown
+		icon = new_business_agreements_icon
 		cost = 10
 		x = 35
 		y = 3
@@ -698,7 +698,7 @@ focus_tree = {
 	
 	focus = {
 		id = SCO_Invest_In_Renewable_Energy
-		icon = unknown
+		icon = invest_in_renewable_energy_icon
 		cost = 10
 		x = 35
 		y = 4
@@ -712,7 +712,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Join_The_OSTA
-		icon = unknown
+		icon = join_the_OSTA_icon
 		cost = 10
 		x = 39
 		y = 3
@@ -726,7 +726,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Create_A_Celtic_Research_Industry
-		icon = unknown
+		icon = celtic_research_industry_icon
 		cost = 10
 		x = 39
 		y = 4
@@ -740,7 +740,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Rule_Out_Joining_The_German_Economic_Zone
-		icon = unknown
+		icon = rule_out_joining_european_economic_zone_icon
 		cost = 10
 		x = 37
 		y = 5
@@ -756,7 +756,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_The_New_Social_Security_System
-		icon = unknown
+		icon = new_social_security_system_icon
 		cost = 10
 		x = 43
 		y = 2
@@ -785,7 +785,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_A_New_Healthcare_System
-		icon = unknown
+		icon = SHS_icon
 		cost = 10
 		x = 43
 		y = 3
@@ -799,7 +799,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Invest_In_Our_Towns
-		icon = unknown
+		icon = invest_in_the_Towns_icon
 		cost = 10
 		x = 41
 		y = 4
@@ -814,7 +814,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Free_State_Education
-		icon = unknown
+		icon = free_state_education_icon
 		cost = 10
 		x = 45
 		y = 4
@@ -828,7 +828,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Help_For_The_Unemployed
-		icon = unknown
+		icon = help_for_unemployed_icon
 		cost = 10
 		x = 43
 		y = 5
@@ -844,7 +844,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Looking_Out
-		icon = unknown
+		icon = looking_out_icon
 		cost = 10
 		x = 49
 		y = 2
@@ -859,7 +859,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Reduce_The_German_Influence
-		icon = unknown
+		icon = reduce_german_influence_icon
 		cost = 10
 		x = 49
 		y = 3
@@ -873,7 +873,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Align_Closer_To_The_Scottish_Nationals
-		icon = unknown
+		icon = align_closer_to_scottish_nationals_icon
 		cost = 10
 		x = 49
 		y = 4
@@ -888,7 +888,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Allow_Parliament_More_Powers
-		icon = unknown
+		icon = parliament_more_powers_icon
 		cost = 10
 		x = 47
 		y = 5
@@ -902,7 +902,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Remove_German_Ministers_From_Parliament
-		icon = unknown
+		icon = remvoing_german_ministers_from_parliament_icon
 		cost = 10
 		x = 51
 		y = 5
@@ -917,7 +917,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_A_True_Independent_Scotland
-		icon = unknown
+		icon = true_independent_scotland_icon
 		cost = 10
 		x = 43
 		y = 7
@@ -1170,7 +1170,19 @@ focus_tree = {
 
 	}
 
+	focus = {
+		id = SCO_Return_The_Land_To_Its_Germanic_Roots
+		icon = unknown
+		cost = 10
+		x = 26
+		y = 19
+		prerequisite = { focus = SCO_Removing_The_Totalist_Head  }
 
+		completion_reward = {
+	
+		}
+
+	}
 
 	focus = {
 		id = SCO_The_German_Direction_For_Scotland
@@ -1342,7 +1354,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Scotland_Breaks_Free
-		icon = unknown
+		icon = scotland_breaks_free_icon
 		cost = 10
 		x = 49
 		y = 8
@@ -1358,7 +1370,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_A_Plan_For_Scotlands_Future
-		icon = unknown
+		icon = a_paln_for_scotlands_future_iocn
 		cost = 10
 		x = 49
 		y = 9
@@ -1372,7 +1384,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Meet_With_Parliament
-		icon = unknown
+		icon = meet_with_parliament_icon
 		cost = 10
 		x = 49
 		y = 10
@@ -1386,7 +1398,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Tear_Out_Corruption
-		icon = unknown
+		icon = tear_out_corruption_icon
 		cost = 10
 		x = 47
 		y = 11
@@ -1400,7 +1412,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Look_Into_The_Far_Right
-		icon = unknown
+		icon = look_into_far_right_icon
 		cost = 10
 		x = 46
 		y = 12
@@ -1415,7 +1427,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Investigate_The_Far_Left
-		icon = unknown
+		icon = investigate_the_far_left_icon
 		cost = 10
 		x = 48
 		y = 12
@@ -1429,7 +1441,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Parliament_Is_Cleansed
-		icon = unknown
+		icon = parliament_is_cleansed_icon
 		cost = 10
 		x = 47
 		y = 13
@@ -1445,7 +1457,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_What_To_Do_With_Germany
-		icon = unknown
+		icon = what_to_do_with_germany_icon
 		cost = 10
 		x = 51
 		y = 11
@@ -1459,7 +1471,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Work_With_Our_European_Friends
-		icon = unknown
+		icon = work_with_our_european_friends_icon
 		cost = 10
 		x = 50
 		y = 12
@@ -1476,7 +1488,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Our_English_Border_Is_A_European_Border
-		icon = unknown
+		icon = our_english_border_is_euro_border_icon
 		cost = 10
 		x = 52
 		y = 12
@@ -1492,7 +1504,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Scotland_Stands_On_Its_Own_Two_Legs
-		icon = unknown
+		icon = scotlnad_on_own_two_legs
 		cost = 10
 		x = 51
 		y = 13
@@ -1508,7 +1520,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_The_Bells_Of_Freedom_Call
-		icon = unknown
+		icon = bells_of_freedom_call_icon
 		cost = 10
 		x = 49
 		y = 14
@@ -1523,7 +1535,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Francis_Speaks_To_Parliament
-		icon = unknown
+		icon = francis_speaks_to_parliament_icon
 		cost = 10
 		x = 49
 		y = 15
@@ -1538,7 +1550,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_The_King_Moves_Over
-		icon = unknown
+		icon = king_moves_over_icon
 		cost = 10
 		x = 47
 		y = 16
@@ -1553,7 +1565,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_The_People_Are_Ready_To_Vote
-		icon = unknown
+		icon = election_now_icon
 		cost = 10
 		x = 51
 		y = 16
@@ -1569,7 +1581,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_The_Battlots_Are_Counted
-		icon = unknown
+		icon = ballots_are_counted_scotland_icon.png
 		cost = 10
 		x = 49
 		y = 17

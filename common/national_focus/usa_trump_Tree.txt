@@ -355,7 +355,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_New_Age_For_America
-		icon = unknown
+		icon = Icon_A_New_Age_for_America_KW
 		x = 33
 		y = 0
 		cost = 5
@@ -370,7 +370,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_A_New_Faction_For_The_World
-		icon = unknown
+		icon = Icon_A_New_Faction_For_the_World_KW
 		x = 29
 		y = 1
 		cost = 5
@@ -386,7 +386,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Bastion_Against_The_Entente
-		icon = unknown
+		icon = Icon_Bastion_Against_the_Entente_KW
 		x = 27
 		y = 2
 		cost = 5
@@ -403,7 +403,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Speak_Out_Against_Entente_Globalism
-		icon = unknown
+		icon = Icon_Speak_Out_Against_Entente_Globalism_KW
 		x = 27
 		y = 3
 		cost = 5
@@ -419,7 +419,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Invite_Ireland
-		icon = unknown
+		icon = Icon_Invite_Ireland_KW
 		x = 27
 		y = 4
 		cost = 5
@@ -435,7 +435,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Invite_Southern_Iran
-		icon = unknown
+		icon = Icon_Invite_Southern_Iran_KW
 		x = 27
 		y = 5
 		cost = 5
@@ -467,7 +467,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Bastion_Against_The_Reichspakt
-		icon = unknown
+		icon = Icon_Bastion_Against_the_Reichspakt_KW
 		x = 31
 		y = 2
 		cost = 5
@@ -484,7 +484,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_America_First_Trade_Deals
-		icon = unknown
+		icon = Icon_America_First_Trade_Deals_KW
 		x = 31
 		y = 3
 		cost = 5
@@ -501,7 +501,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Invite_The_French
-		icon = unknown
+		icon = Icon_Invite_France_KW
 		x = 31
 		y = 4
 		cost = 5
@@ -517,7 +517,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Fortify_The_Rhine
-		icon = unknown
+		icon = Icon_Fortify_the_Rhine_KW
 		x = 31
 		y = 5
 		cost = 5
@@ -568,7 +568,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Bolstering_The_Empire_Economy
-		icon = unknown
+		icon = Icon_Bolstering_the_Empires_Economy_KW
 		x = 36
 		y = 1
 		cost = 5
@@ -585,7 +585,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Increase_American_Exports
-		icon = unknown
+		icon = Icon_Increase_American_Exports_KW
 		x = 35
 		y = 2
 		cost = 5
@@ -602,7 +602,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Increase_Buying_Power
-		icon = unknown
+		icon = Icon_Increase_Buying_Power_KW
 		x = 35
 		y = 4
 		cost = 5
@@ -637,7 +637,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_Canadian_American_Pipeline
-		icon = unknown
+		icon = Icon_A_Canadian-American_Pipeline_KW
 		x = 37
 		y = 2
 		cost = 5
@@ -653,7 +653,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Subsidize_The_Tech_Sector
-		icon = unknown
+		icon = Icon_Subsidize_the_Technology_Sector_KW
 		x = 37
 		y = 4
 		cost = 5

@@ -657,6 +657,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/eng/a_night_with_blair_icon.dds"			
 	}
 	
+
+
 	SpriteType = {
 		name = "scottish_and_welsh_labour_service_icon"
 		texturefile = "gfx/interface/goals/eng/scottish_and_welsh_labour_service_icon.dds"			
@@ -3067,6 +3069,199 @@ SpriteType = {
 
 		#SCOTLAND#
 		
+		SpriteType = {
+			name = "ballots_are_counted_scotland_icon"
+			texturefile = "gfx/interface/goals/sco/ballots_are_counted_scotland_icon.dds"			
+		}
+			
+		SpriteType = {
+			name = "election_now_icon"
+			texturefile = "gfx/interface/goals/sco/election_now_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "king_moves_over_icon"
+			texturefile = "gfx/interface/goals/sco/king_moves_over_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "francis_speaks_to_parliament_icon"
+			texturefile = "gfx/interface/goals/sco/francis_speaks_to_parliament_icon.dds"			
+		}
+
+		
+		SpriteType = {
+			name = "bells_of_freedom_call_icon"
+			texturefile = "gfx/interface/goals/sco/bells_of_freedom_call_icon.dds"			
+		}
+
+		
+		SpriteType = {
+			name = "scotlnad_on_own_two_legs"
+			texturefile = "gfx/interface/goals/sco/scotlnad_on_own_two_legs.dds"			
+		}
+
+		
+		SpriteType = {
+			name = "our_english_border_is_euro_border_icon"
+			texturefile = "gfx/interface/goals/sco/our_english_border_is_euro_border_icon.dds"			
+		}
+
+		SpriteType = {
+			name = "work_with_our_european_friends_icon"
+			texturefile = "gfx/interface/goals/sco/work_with_our_european_friends_icon.dds"			
+		}	
+				
+		SpriteType = {
+			name = "what_to_do_with_germany_icon"
+			texturefile = "gfx/interface/goals/sco/what_to_do_with_germany_icon.dds"			
+		}	
+		
+		SpriteType = {
+			name = "parliament_is_cleansed_icon"
+			texturefile = "gfx/interface/goals/sco/parliament_is_cleansed_icon.dds"			
+		}	
+		
+		SpriteType = {
+			name = "investigate_the_far_left_icon"
+			texturefile = "gfx/interface/goals/sco/investigate_the_far_left_icon.dds"			
+		}	
+
+		SpriteType = {
+			name = "look_into_far_right_icon"
+			texturefile = "gfx/interface/goals/sco/look_into_far_right_icon.dds"			
+		}	
+		
+		SpriteType = {
+			name = "tear_out_corruption_icon"
+			texturefile = "gfx/interface/goals/sco/tear_out_corruption_icon.dds"			
+		}	
+		
+		SpriteType = {
+			name = "meet_with_parliament_icon"
+			texturefile = "gfx/interface/goals/sco/meet_with_parliament_icon.dds"			
+		}	
+		
+		SpriteType = {
+			name = "a_paln_for_scotlands_future_iocn"
+			texturefile = "gfx/interface/goals/sco/a_paln_for_scotlands_future_iocn.dds"			
+		}	
+		
+		SpriteType = {
+			name = "scotland_breaks_free_icon"
+			texturefile = "gfx/interface/goals/sco/scotland_breaks_free_icon.dds"			
+		}	
+
+		SpriteType = {
+			name = "true_independent_scotland_icon"
+			texturefile = "gfx/interface/goals/sco/true_independent_scotland_icon.dds"			
+		}	
+		
+		SpriteType = {
+			name = "remvoing_german_ministers_from_parliament_icon"
+			texturefile = "gfx/interface/goals/sco/remvoing_german_ministers_from_parliament_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "parliament_more_powers_icon"
+			texturefile = "gfx/interface/goals/sco/parliament_more_powers_icon.dds"			
+		}	
+		
+
+		SpriteType = {
+			name = "align_closer_to_scottish_nationals_icon"
+			texturefile = "gfx/interface/goals/sco/align_closer_to_scottish_nationals_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "reduce_german_influence_icon"
+			texturefile = "gfx/interface/goals/sco/reduce_german_influence_icon.dds"			
+		}	
+		
+
+		SpriteType = {
+			name = "looking_out_icon"
+			texturefile = "gfx/interface/goals/sco/looking_out_icon.dds"			
+		}	
+		
+				
+		SpriteType = {
+			name = "help_for_unemployed_icon"
+			texturefile = "gfx/interface/goals/sco/help_for_unemployed_icon.dds"			
+		}	
+		
+		SpriteType = {
+			name = "free_state_education_icon"
+			texturefile = "gfx/interface/goals/sco/free_state_education_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "invest_in_the_Towns_icon"
+			texturefile = "gfx/interface/goals/sco/invest_in_the_Towns_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "SHS_icon"
+			texturefile = "gfx/interface/goals/sco/SHS_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "new_social_security_system_icon"
+			texturefile = "gfx/interface/goals/sco/new_social_security_system_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "rule_out_joining_european_economic_zone_icon"
+			texturefile = "gfx/interface/goals/sco/rule_out_joining_european_economic_zone_icon.dds"			
+		}	
+		
+		SpriteType = {
+			name = "celtic_research_industry_icon"
+			texturefile = "gfx/interface/goals/sco/celtic_research_industry_icon.dds"			
+		}	
+
+		
+		SpriteType = {
+			name = "join_the_OSTA_icon"
+			texturefile = "gfx/interface/goals/sco/join_the_OSTA_icon.dds"			
+		}	
+
+		SpriteType = {
+			name = "invest_in_renewable_energy_icon"
+			texturefile = "gfx/interface/goals/sco/invest_in_renewable_energy_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "new_business_agreements_icon"
+			texturefile = "gfx/interface/goals/sco/new_business_agreements_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "opening_up_the_Scottish_market_icon"
+			texturefile = "gfx/interface/goals/sco/opening_up_the_Scottish_market_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "francis_ready_for_reforms_icon"
+			texturefile = "gfx/interface/goals/sco/francis_ready_for_reforms_icon.dds"			
+		}	
+		
+		
+		SpriteType = {
+			name = "breaking_Away_from_german_chains_icon"
+			texturefile = "gfx/interface/goals/sco/breaking_Away_from_german_chains_icon.dds"			
+		}	
+		
+
 		SpriteType = {
 			name = "defending_scotland_icon"
 			texturefile = "gfx/interface/goals/sco/defending_scotland_icon.dds"			
@@ -9598,10 +9793,90 @@ SpriteType = {
 	}
 	
 	SpriteType = {
+		name = "Icon_Fortify_the_Rhine_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Fortify_the_Rhine_KW.dds"			
+		}
+	
+	SpriteType = {
+		name = "Icon_Invite_Southern_Iran_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Invite_Southern_Iran_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Subsidize_the_Technology_Sector_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Subsidize_the_Technology_Sector_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Increase_Buying_Power_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Increase_Buying_Power_KW.dds"			
+		}
+
+
+	SpriteType = {
+		name = "Icon_Invite_France_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Invite_France_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Invite_Ireland_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Invite_Ireland_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_America_First_Trade_Deals_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_America_First_Trade_Deals_KW.dds"			
+		}
+	
+	
+	SpriteType = {
+		name = "Icon_Speak_Out_Against_Entente_Globalism_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Speak_Out_Against_Entente_Globalism_KW.dds"			
+		}
+	
+	SpriteType = {
+		name = "Icon_A_Canadian-American_Pipeline_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_A_Canadian-American_Pipeline_KW.dds"			
+		}
+
+	SpriteType = {
 	name = "usa_shaking_hands"
 	texturefile = "gfx/interface/goals/usa/usa_shaking_hands.dds"			
 	}
 	
+	SpriteType = {
+		name = "Icon_Increase_American_Exports_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Increase_American_Exports_KW.dds"			
+		}
+	
+	SpriteType = {
+		name = "Icon_Bastion_Against_the_Reichspakt_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Bastion_Against_the_Reichspakt_KW.dds"			
+		}
+	
+	
+	SpriteType = {
+		name = "Icon_Bastion_Against_the_Entente_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Bastion_Against_the_Entente_KW.dds"			
+		}
+	
+	SpriteType = {
+		name = "Icon_Bolstering_the_Empires_Economy_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Bolstering_the_Empires_Economy_KW.dds"			
+		}
+
+	
+	SpriteType = {
+		name = "Icon_A_New_Faction_For_the_World_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_A_New_Faction_For_the_World_KW.dds"			
+		}
+
+
+	SpriteType = {
+		name = "Icon_A_New_Age_for_America_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_A_New_Age_for_America_KW.dds"			
+		}
+
 	SpriteType = {
 		name = "Icon_Subsidize_Technology_in_Schools_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Subsidize_Technology_in_Schools_KW.dds"			

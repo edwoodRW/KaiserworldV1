@@ -10,6 +10,11 @@ if = {
 	}
 }
 
+add_ideas = {
+   Entente_Cordiale_idea
+}
+
+
 set_research_slots = 4
 set_convoys = 500
 set_stability = 0.7

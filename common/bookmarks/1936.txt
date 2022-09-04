@@ -108,7 +108,7 @@ bookmarks = {
 			history = "OTHER_1936_DESC"
 		}
 		
-		"ETH"={
+		"CAN"={
 			minor = yes
 			history = "CAN_1936_DESC"
 			ideology = monarchist
@@ -127,7 +127,7 @@ bookmarks = {
 				
 			}
 		}
-		"UAR"={
+		"FRA"={
 			minor = yes
 			history = "JAP_1936_DESC"
 			ideology = monarchist

@@ -9,6 +9,10 @@ set_war_support = 0.1
 
 set_country_flag = was_in_british_empire
 
+add_ideas = {
+   Entente_Cordiale_idea
+}
+
 
 set_technology = {
 	support_weapons = 1

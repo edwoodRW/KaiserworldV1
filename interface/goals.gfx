@@ -3070,6 +3070,156 @@ SpriteType = {
 		#SCOTLAND#
 		
 		SpriteType = {
+			name = "we_have_lift_off_icon"
+			texturefile = "gfx/interface/goals/sco/we_have_lift_off_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "prepare_for_launch_icon"
+			texturefile = "gfx/interface/goals/sco/prepare_for_launch_icon.dds"			
+		}
+
+		SpriteType = {
+			name = "scotland_reach_the_stars_icon"
+			texturefile = "gfx/interface/goals/sco/scotland_reach_the_stars_icon.dds"			
+		}
+		
+
+		SpriteType = {
+			name = "create_virgin_galatic_icon"
+			texturefile = "gfx/interface/goals/sco/create_virgin_galatic_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "create_dyson_park_icon"
+			texturefile = "gfx/interface/goals/sco/create_dyson_park_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "branson_make_scotland_tech_hub_icon"
+			texturefile = "gfx/interface/goals/sco/branson_make_scotland_tech_hub_icon.dds"			
+		}
+		
+		
+		SpriteType = {
+			name = "invite_james_dyson_icon"
+			texturefile = "gfx/interface/goals/sco/invite_james_dyson_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "become_tech_powerhouse_icon"
+			texturefile = "gfx/interface/goals/sco/become_tech_powerhouse_icon.dds"			
+		}
+
+		SpriteType = {
+			name = "build_the_celtic_crossing_icon"
+			texturefile = "gfx/interface/goals/sco/build_the_celtic_crossing_icon.dds"			
+		}
+		
+		
+		SpriteType = {
+			name = "open_scotland_for_tourism_icon"
+			texturefile = "gfx/interface/goals/sco/open_scotland_for_tourism_icon.dds"			
+		}
+		
+		
+		SpriteType = {
+			name = "inverness_watch_the_north_icon"
+			texturefile = "gfx/interface/goals/sco/inverness_watch_the_north_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "glasgow_will_be_our_second_city_icon"
+			texturefile = "gfx/interface/goals/sco/glasgow_will_be_our_second_city_icon.dds"			
+		}
+		
+		
+		SpriteType = {
+			name = "aberdeen_is_our_industrial_heartland_icon"
+			texturefile = "gfx/interface/goals/sco/aberdeen_is_our_industrial_heartland_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "edinburgh_is_not_only_city_icon"
+			texturefile = "gfx/interface/goals/sco/edinburgh_is_not_only_city_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "building_the_kingdom_icon"
+			texturefile = "gfx/interface/goals/sco/building_the_kingdom_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "perform_berwick_beach_landings_icon"
+			texturefile = "gfx/interface/goals/sco/perform_berwick_beach_landings_icon.dds"			
+		}
+		
+
+		SpriteType = {
+			name = "scramble_jets_over_the_border_icon"
+			texturefile = "gfx/interface/goals/sco/scramble_jets_over_the_border_icon.dds"			
+		}
+		
+				
+		SpriteType = {
+			name = "celtic_warships_in_north_sea_icon"
+			texturefile = "gfx/interface/goals/sco/celtic_warships_in_north_sea_icon.dds"			
+		}
+		
+		
+		SpriteType = {
+			name = "a_show_of_force_on_the_border_icon"
+			texturefile = "gfx/interface/goals/sco/a_show_of_force_on_the_border_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "military_exercises_against_england_icon"
+			texturefile = "gfx/interface/goals/sco/military_exercises_against_england_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "create_an_allaince_scotland_icon"
+			texturefile = "gfx/interface/goals/sco/create_an_allaince_scotland_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "unite_the_armies_icon"
+			texturefile = "gfx/interface/goals/sco/unite_the_armies_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "wales_joins_brothers_icon"
+			texturefile = "gfx/interface/goals/sco/wales_joins_brothers_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "invite_ireland_to_security_partnership_cion"
+			texturefile = "gfx/interface/goals/sco/invite_ireland_to_security_partnership_cion.dds"			
+		}
+		
+		SpriteType = {
+			name = "sphere_of_democracy_icon"
+			texturefile = "gfx/interface/goals/sco/sphere_of_democracy_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "working_with_the_empire_icon"
+			texturefile = "gfx/interface/goals/sco/working_with_the_empire_icon.dds"			
+		}
+		
+		SpriteType = {
+			name = "oh_canada_icon"
+			texturefile = "gfx/interface/goals/sco/oh_canada_icon.dds"			
+		}
+			
+		
+		SpriteType = {
+			name = "ties_with_the_west_icon"
+			texturefile = "gfx/interface/goals/sco/ties_with_the_west_icon.dds"			
+		}
+			
+		
+		SpriteType = {
 			name = "ballots_are_counted_scotland_icon"
 			texturefile = "gfx/interface/goals/sco/ballots_are_counted_scotland_icon.dds"			
 		}

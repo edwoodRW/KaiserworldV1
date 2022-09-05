@@ -1581,7 +1581,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_The_Battlots_Are_Counted
-		icon = ballots_are_counted_scotland_icon.png
+		icon = ballots_are_counted_scotland_icon
 		cost = 10
 		x = 49
 		y = 17
@@ -1598,7 +1598,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Ties_With_The_West
-		icon = unknown
+		icon = ties_with_the_west_icon
 		cost = 10
 		x = 56
 		y = 9
@@ -1612,7 +1612,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_OH_CANADA
-		icon = unknown
+		icon = oh_canada_icon
 		cost = 10
 		x = 55
 		y = 10
@@ -1626,7 +1626,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Working_With_The_Empire
-		icon = unknown
+		icon = working_with_the_empire_icon
 		cost = 10
 		x = 57
 		y = 10
@@ -1641,7 +1641,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Sphere_Of_Democracy
-		icon = unknown
+		icon = sphere_of_democracy_icon
 		cost = 10
 		x = 58
 		y = 11
@@ -1657,7 +1657,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Invite_Ireland_To_A_Secruity_Partnership
-		icon = unknown
+		icon = invite_ireland_to_security_partnership_cion
 		cost = 10
 		x = 58
 		y = 12
@@ -1673,7 +1673,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Wales_Joins_Its_Brothers
-		icon = unknown
+		icon = wales_joins_brothers_icon
 		cost = 10
 		x = 56
 		y = 13
@@ -1688,7 +1688,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Unite_the_Armies
-		icon = unknown
+		icon = unite_the_armies_icon
 		cost = 10
 		x = 60
 		y = 13
@@ -1705,7 +1705,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Create_An_Alliance
-		icon = unknown
+		icon = create_an_allaince_scotland_icon
 		cost = 10
 		x = 58
 		y = 14
@@ -1720,7 +1720,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Military_Exercuse_Against_England
-		icon = unknown
+		icon = military_exercises_against_england_icon
 		cost = 10
 		x = 58
 		y = 15
@@ -1735,7 +1735,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_A_Show_Of_Force_On_The_Border
-		icon = unknown
+		icon = a_show_of_force_on_the_border_icon
 		cost = 10
 		x = 58
 		y = 16
@@ -1750,7 +1750,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Celtic_Warships_In_The_North_Sea
-		icon = unknown
+		icon = celtic_warships_in_north_sea_icon
 		cost = 10
 		x = 56
 		y = 17
@@ -1765,7 +1765,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Scramble_Jets_Over_The_Border
-		icon = unknown
+		icon = scramble_jets_over_the_border_icon
 		cost = 10
 		x = 58
 		y = 17
@@ -1780,7 +1780,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Perform_Berwick_Beach_Landings
-		icon = unknown
+		icon = perform_berwick_beach_landings_icon
 		cost = 10
 		x = 60
 		y = 17
@@ -1796,7 +1796,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Building_The_Kingdom
-		icon = unknown
+		icon = building_the_kingdom_icon
 		cost = 10
 		x = 65
 		y = 10
@@ -1825,7 +1825,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Edinburgh_Is_Not_The_Only_City
-		icon = unknown
+		icon = edinburgh_is_not_only_city_icon
 		cost = 10
 		x = 65
 		y = 11
@@ -1839,7 +1839,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Aberdeen_Is_Our_Industrial_Heartland
-		icon = unknown
+		icon = aberdeen_is_our_industrial_heartland_icon
 		cost = 10
 		x = 63
 		y = 12
@@ -1854,7 +1854,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Glasgow_Will_Be_Our_Second_Capital
-		icon = unknown
+		icon = glasgow_will_be_our_second_city_icon
 		cost = 10
 		x = 65
 		y = 12
@@ -1868,7 +1868,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Inverness_Will_WAtch_The_North_Of_Scotland
-		icon = unknown
+		icon = inverness_watch_the_north_icon
 		cost = 10
 		x = 67
 		y = 12
@@ -1883,7 +1883,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Open_Scotland_For_Tourism
-		icon = unknown
+		icon = open_scotland_for_tourism_icon
 		cost = 10
 		x = 64
 		y = 13
@@ -1899,7 +1899,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Build_The_Celtic_Crossing
-		icon = unknown
+		icon = build_the_celtic_crossing_icon
 		cost = 10
 		x = 66
 		y = 13
@@ -1915,7 +1915,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Become_The_Technology_Powerhouse
-		icon = unknown
+		icon = become_tech_powerhouse_icon
 		cost = 10
 		x = 65
 		y = 14
@@ -1931,7 +1931,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Invite_James_Dyson_To_Scotland
-		icon = unknown
+		icon = invite_james_dyson_icon
 		cost = 10
 		x = 64
 		y = 15
@@ -1948,7 +1948,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Create_The_Dyson_Park
-		icon = unknown
+		icon = create_dyson_park_icon
 		cost = 10
 		x = 64
 		y = 16
@@ -1963,7 +1963,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Richard_Branson_Will_Make_Scotland_A_Technological_Hub
-		icon = unknown
+		icon = branson_make_scotland_tech_hub_icon
 		cost = 10
 		x = 66
 		y = 15
@@ -1980,7 +1980,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Create_Virgin_Galactic
-		icon = unknown
+		icon = create_virgin_galatic_icon
 		cost = 10
 		x = 66
 		y = 16
@@ -1996,7 +1996,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Scotland_Will_Reach_The_Stars
-		icon = unknown
+		icon = scotland_reach_the_stars_icon
 		cost = 10
 		x = 65
 		y = 17
@@ -2013,7 +2013,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_Prepare_For_Launch
-		icon = unknown
+		icon = prepare_for_launch_icon
 		cost = 10
 		x = 65
 		y = 18
@@ -2029,7 +2029,7 @@ focus_tree = {
 
 	focus = {
 		id = SCO_WE_HAVE_LIFT_OFF
-		icon = unknown
+		icon = we_have_lift_off_icon
 		cost = 10
 		x = 65
 		y = 19

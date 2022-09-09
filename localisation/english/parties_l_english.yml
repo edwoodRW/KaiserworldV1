@@ -309,17 +309,18 @@ ENG_republic_of_england_long:0 "National Party of England"
 
 
 
- SCO_fascist_party:0 "Scotland Forward"
- SCO_nationalist_party:0 "The National Party"
+ SCO_fascist_party:0 "Scottish Dawn"
+ SCO_nationalist_party:0 "Siol nan Gaidheal"
+ SCO_nationalist_party_long:0 "Seed of the Gaels"
  SCO_monarchist_party:0 "House of Stuart"
  SCO_national_bolshevik_party:0 "Trade Unionists"
  SCO_national_conservative_party:0 "Scottish Conservatives"
  SCO_centrist_party:0 "Scotland United"
  SCO_liberal_party:0 "Scottish Liberal Wing"
  SCO_new_democrat_party:0 "Scottish Social Democrats"
- SCO_moderate_socialist_party:0 "Scotland's Left Alliance"
- SCO_revolutionary_socialist_party:0 "Solidarity"
- SCO_communist_party:0 "The Totalist Party Of Scotland"
+ SCO_moderate_socialist_party:0 "Solidarity"
+ SCO_revolutionary_socialist_party:0 "Scottish Peoples Party"
+ SCO_communist_party:0 "Scottish Peoples Party (Hardliner)"
 
 
 

@@ -340,6 +340,145 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = Scotland.28
+	title = Scotland.28.t
+	desc = Scotland.28.d
+	picture = breaking_way_from_germany_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.28.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.29
+	title = Scotland.29.t
+	desc = Scotland.29.d
+	picture = ready_for_reforms_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.29.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.30
+	title = Scotland.30.t
+	desc = Scotland.30.d
+	picture = create_celtic_research_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.30.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.31
+	title = Scotland.31.t
+	desc = Scotland.31.d
+	picture = rule_out_joining_GEZ_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.31.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.32
+	title = Scotland.32.t
+	desc = Scotland.32.d
+	picture = join_the_OSTA_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.32.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.33
+	title = Scotland.33.t
+	desc = Scotland.33.d
+	picture = the_SHS_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.33.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.34
+	title = Scotland.34.t
+	desc = Scotland.34.d
+	picture = scottish_welfare_system_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.34.o1
+	
+	}
+}
+
+
+
+country_event = {
+	id = Scotland.35
+	title = Scotland.35.t
+	desc = Scotland.35.d
+	picture = scottish_job_training_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.35.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.36
+	title = Scotland.36.t
+	desc = Scotland.36.d
+	picture = scotland_reduce_germna_influnence_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.36.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.37
+	title = Scotland.37.t
+	desc = Scotland.37.d
+	picture = scottish_far_right_party_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.37.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.38
+	title = Scotland.38.t
+	desc = Scotland.38.d
+	picture = scotland_removes_german_ministers_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.38.o1
+	
+	}
+}
+
+
+
 
 
 

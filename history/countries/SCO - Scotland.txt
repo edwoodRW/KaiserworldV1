@@ -118,8 +118,8 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Bruce Ogilvie"
-	picture = "Bruce_Ogilvie_kw_leader.dds"
+	name = "Nicholas Waugh"
+	picture = "Nicholas_Waugh.dds"
 	ideology = fascist_ideology
 }
 

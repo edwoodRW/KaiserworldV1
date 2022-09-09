@@ -1,4 +1,59 @@
 spriteTypes = {
+	
+	spriteType = {
+		name = "scotland_removes_german_ministers_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_removes_german_ministers_event.dds"
+	}
+	
+	spriteType = {
+		name = "scottish_far_right_party_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_far_right_party_event.dds"
+	}
+	
+	spriteType = {
+		name = "scotland_reduce_germna_influnence_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_reduce_germna_influnence_event.dds"
+	}
+		
+	spriteType = {
+		name = "scottish_job_training_Event"
+		texturefile = "gfx/event_pictures/report_event/scottish_job_training_Event.dds"
+	}
+		
+	spriteType = {
+		name = "scottish_welfare_system_event"
+		texturefile = "gfx/event_pictures/report_event/scottish_welfare_system_event.dds"
+	}
+	
+	spriteType = {
+		name = "the_SHS_event"
+		texturefile = "gfx/event_pictures/report_event/the_SHS_event.dds"
+	}
+	
+	spriteType = {
+		name = "join_the_OSTA_event"
+		texturefile = "gfx/event_pictures/report_event/join_the_OSTA_event.dds"
+	}
+	
+		spriteType = {
+		name = "rule_out_joining_GEZ_event"
+		texturefile = "gfx/event_pictures/report_event/rule_out_joining_GEZ_event.dds"
+	}
+
+	spriteType = {
+		name = "create_celtic_research_event"
+		texturefile = "gfx/event_pictures/report_event/create_celtic_research_event.dds"
+	}
+
+	spriteType = {
+		name = "ready_for_reforms_Event"
+		texturefile = "gfx/event_pictures/report_event/ready_for_reforms_Event.dds"
+	}
+	
+	spriteType = {
+		name = "breaking_way_from_germany_event"
+		texturefile = "gfx/event_pictures/report_event/breaking_way_from_germany_event.dds"
+	}
 
 	spriteType = {
 		name = "the_peoples_palace_decsion"

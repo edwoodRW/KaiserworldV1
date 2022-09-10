@@ -1374,7 +1374,9 @@ focus_tree = {
 			focus = SCO_Germany_Removes_Francis
 		}
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.39
+			}
 		}
 
 	}
@@ -1402,7 +1404,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_A_Plan_For_Scotlands_Future  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.40
+			}
 		}
 
 	}
@@ -1430,7 +1434,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Tear_Out_Corruption  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.41
+			}
 		}
 
 	}
@@ -1445,7 +1451,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Tear_Out_Corruption  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.42
+			}
 		}
 
 	}
@@ -1491,7 +1499,9 @@ focus_tree = {
 			focus = SCO_Our_English_Border_Is_A_European_Border
 		}
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.43
+			}
 		}
 
 	}
@@ -1508,7 +1518,9 @@ focus_tree = {
 			focus = SCO_Work_With_Our_European_Friends
 		}
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.44
+			}
 		}
 
 	}
@@ -1554,7 +1566,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.45
+			}
 		}
 
 	}
@@ -1601,7 +1615,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.46
+			}
 		}
 
 	}
@@ -1616,7 +1632,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Scotland_Breaks_Free  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.47
+			}
 		}
 
 	}
@@ -1676,7 +1694,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.48
+			}
 		}
 
 	}
@@ -1724,7 +1744,7 @@ focus_tree = {
 		prerequisite = { focus = SCO_Wales_Joins_Its_Brothers  }
 
 		completion_reward = {
-	
+		
 		}
 
 	}
@@ -1739,7 +1759,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.49
+			}
 		}
 
 	}
@@ -1814,7 +1836,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Ties_With_The_West  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.50
+			}
 		}
 
 	}
@@ -1919,7 +1943,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Aberdeen_Is_Our_Industrial_Heartland  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.51
+			}
 		}
 
 	}

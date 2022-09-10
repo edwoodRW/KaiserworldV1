@@ -1,5 +1,70 @@
 spriteTypes = {
 	
+	
+	spriteType = {
+		name = "The_celtic_crossing_event"
+		texturefile = "gfx/event_pictures/report_event/The_celtic_crossing_event.dds"
+	}
+
+
+	spriteType = {
+		name = "modern_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/modern_scotland_event.dds"
+	}
+
+
+	spriteType = {
+		name = "military_exercises_against_england_Event"
+		texturefile = "gfx/event_pictures/report_event/military_exercises_against_england_Event.dds"
+	}
+
+	spriteType = {
+		name = "ireland_security_partnership_Event"
+		texturefile = "gfx/event_pictures/report_event/ireland_security_partnership_Event.dds"
+	}
+
+	spriteType = {
+		name = "expanding_scotlands_relations_event"
+		texturefile = "gfx/event_pictures/report_event/expanding_scotlands_relations_event.dds"
+	}
+	
+	spriteType = {
+		name = "ballots_are_counted_Event"
+		texturefile = "gfx/event_pictures/report_event/ballots_are_counted_Event.dds"
+	}
+			
+	spriteType = {
+		name = "francis_announces_elections_Event"
+		texturefile = "gfx/event_pictures/report_event/francis_announces_elections_Event.dds"
+	}
+		
+	spriteType = {
+		name = "the_new_border_event"
+		texturefile = "gfx/event_pictures/report_event/the_new_border_event.dds"
+	}
+
+	spriteType = {
+		name = "germany_and_scotland_relations_event"
+		texturefile = "gfx/event_pictures/report_event/germany_and_scotland_relations_event.dds"
+	}
+		
+	spriteType = {
+		name = "investigate_far_left_event"
+		texturefile = "gfx/event_pictures/report_event/investigate_far_left_event.dds"
+	}
+		
+	spriteType = {
+		name = "removing_the_far_right_Event_sc"
+		texturefile = "gfx/event_pictures/report_event/removing_the_far_right_Event_sc.dds"
+	}
+	
+
+	spriteType = {
+		name = "meeting_scottish_parliament_event"
+		texturefile = "gfx/event_pictures/report_event/meeting_scottish_parliament_event.dds"
+	}
+	
+	
 	spriteType = {
 		name = "scotland_removes_german_ministers_event"
 		texturefile = "gfx/event_pictures/report_event/scotland_removes_german_ministers_event.dds"

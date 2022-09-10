@@ -478,6 +478,209 @@ country_event = {
 }
 
 
+country_event = {
+	id = Scotland.39
+	title = Scotland.39.t
+	desc = Scotland.39.d
+	picture = scotland_removes_german_ministers_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.39.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.40
+	title = Scotland.40.t
+	desc = Scotland.40.d
+	picture = meeting_scottish_parliament_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.40.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.41
+	title = Scotland.41.t
+	desc = Scotland.41.d
+	picture = removing_the_far_right_Event_sc
+	fire_only_once = yes
+	option = {
+		name = Scotland.41.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.42
+	title = Scotland.42.t
+	desc = Scotland.42.d
+	picture = investigate_far_left_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.42.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.43
+	title = Scotland.43.t
+	desc = Scotland.43.d
+	picture = germany_and_scotland_relations_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.43.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.44
+	title = Scotland.44.t
+	desc = Scotland.44.d
+	picture = the_new_border_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.44.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.45
+	title = Scotland.45.t
+	desc = Scotland.45.d
+	picture = francis_announces_elections_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.45.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.46
+	title = Scotland.46.t
+	desc = Scotland.46.d
+	picture = ballots_are_counted_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.46.o1
+		set_politics = {
+			ruling_party = national_conservative
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = national_conservative 
+				popularity = 0.52
+			}
+	}
+	option = {
+		name = Scotland.46.o2
+		set_politics = {
+			ruling_party = centrist
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = centrist 
+				popularity = 0.52
+			}
+	}
+	option = {
+		name = Scotland.46.o3
+		set_politics = {
+			ruling_party = liberal
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = liberal 
+				popularity = 0.52
+			}
+	}
+	option = {
+		name = Scotland.46.o4
+		set_politics = {
+			ruling_party = new_democrat
+			elections_allowed = no
+			}
+			add_popularity = {
+				ideology = new_democrat 
+				popularity = 0.52
+			}
+	}
+
+}
+
+country_event = {
+	id = Scotland.47
+	title = Scotland.47.t
+	desc = Scotland.47.d
+	picture = expanding_scotlands_relations_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.47.o1
+	
+	}
+}
+
+
+country_event = {
+	id = Scotland.48
+	title = Scotland.48.t
+	desc = Scotland.48.d
+	picture = ireland_security_partnership_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.48.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.49
+	title = Scotland.49.t
+	desc = Scotland.49.d
+	picture = military_exercises_against_england_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.49.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.50
+	title = Scotland.50.t
+	desc = Scotland.50.d
+	picture = modern_scotland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.50.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.51
+	title = Scotland.51.t
+	desc = Scotland.51.d
+	picture = The_celtic_crossing_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.51.o1
+	
+	}
+}
+
 
 
 

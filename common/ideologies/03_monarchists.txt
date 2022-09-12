@@ -3,6 +3,8 @@ ideologies = {
 	monarchist = {
 		
 		types = {
+			Constitutional_monarchist = {
+			}
 		
 			absolute_monarchist = {
 			}

@@ -10,6 +10,10 @@ oob = "RAJ_2000"
 #	}
 #}
 
+
+create_faction = "Asian Socialist Pact"
+add_to_faction = RAJ
+
 add_ideas = {
     idea_capitalism_with_indian_characteristics
     idea_raj_naxalite_insurgency

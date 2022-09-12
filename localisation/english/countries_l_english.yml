@@ -6534,6 +6534,10 @@
  SCO_revolutionary_socialist_ADJ:0 "Scottish"
  SCO_communist_ADJ:0 "Scottish"
 
+Sco_German_Scotland:0 "Reichspakt Occupied Scotland"
+Sco_German_Scotland_DEF:0 "Reichspakt Occupied Scotland"
+Sco_German_Scotland_ADJ:0 "Reichspakt Occupied Scotland"
+
 CSC_communist:0 "Union Of Scotland"
 CSC_communist_DEF:0 "Union Of Scotland"
 CSC_communist_ADJ:0 "Union Of Scotland"

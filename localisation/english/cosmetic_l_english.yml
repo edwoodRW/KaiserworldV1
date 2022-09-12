@@ -2184,6 +2184,9 @@ SCO_Totalist_state:0 "The Union Of Scotland"
 SCO_Totalist_state_DEF:0 "The Union Of Scotland"
 SCO_Totalist_state_ADJ:0 "The Union Of Scotland"
 
+Sco_German_Scotland:0 "Reichspakt Occupied Scotland"
+Sco_German_Scotland_DEF:0 "Reichspakt Occupied Scotland"
+Sco_German_Scotland_ADJ:0 "Reichspakt Occupied Scotland"
 
 ENG_GLA:0 "Greater London State"
 ENG_GLA_DEF:0 "Greater London State"

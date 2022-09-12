@@ -682,14 +682,251 @@ country_event = {
 }
 
 
+country_event = {
+	id = Scotland.52
+	title = Scotland.52.t
+	desc = Scotland.52.d
+	picture = scotland_technology_powerhouse_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.52.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.53
+	title = Scotland.53.t
+	desc = Scotland.53.d
+	picture = dyson_comes_to_Scland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.53.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.54
+	title = Scotland.54.t
+	desc = Scotland.54.d
+	picture = branson_in_scotland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.54.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.55
+	title = Scotland.55.t
+	desc = Scotland.55.d
+	picture = spaceport_in_scotland_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.55.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.56
+	title = Scotland.56.t
+	desc = Scotland.56.d
+	picture = preparing_For_launch_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.56.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.57
+	title = Scotland.57.t
+	desc = Scotland.57.d
+	picture = we_have_lift_off_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.57.o1
+	
+	}
+}
+
+country_event = {
+	id = Scotland.58
+	title = Scotland.58.t
+	desc = Scotland.58.d
+	picture = germany_removes_francis_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.58.o1
+	
+
+
+	}
+}
 
 
 
+country_event = {
+	id = Scotland.59
+	title = Scotland.59.t
+	desc = Scotland.59.d
+	picture = the_german_puppet_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.59.o1
+		set_cosmetic_tag = Sco_German_Scotland
+		
+
+		create_country_leader = {
+			name = "Francis IV"
+			picture = "francis_german_IV.dds"
+			ideology = absolute_monarchist
+		}
+		set_politics = {
+			ruling_party = monarchist 
+			elections_allowed = no
+		}
 
 
+	}
+}
+
+country_event = {
+	id = Scotland.60
+	title = Scotland.60.t
+	desc = Scotland.60.d
+	picture = removing_the_radicals_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.60.o1
+	
 
 
+	}
+}
+
+country_event = {
+	id = Scotland.61
+	title = Scotland.61.t
+	desc = Scotland.61.d
+	picture = removing_the_radicals_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.61.o1
+		add_popularity = {
+			ideology = revolutionary_socialist 
+			popularity = -0.50
+		}
+	}
+
+	option = {
+		name = Scotland.61.o2
+		add_popularity = {
+			ideology = revolutionary_socialist 
+			popularity = 0.10
+		}
+	}
 
 
+}
+
+country_event = {
+	id = Scotland.62
+	title = Scotland.62.t
+	desc = Scotland.62.d
+	picture = the_royal_party_unites_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.62.o1
+	}
+}
+
+country_event = {
+	id = Scotland.63
+	title = Scotland.63.t
+	desc = Scotland.63.d
+	picture = electing_pro_german_party_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.63.o1
+	
+		set_party_name = { ideology = monarchist long_name = The_Scottish_Royal_Party name = The_Scottish_Royal_Party }
+
+
+	}
+}
+
+
+country_event = {
+	id = Scotland.64
+	title = Scotland.64.t
+	desc = Scotland.64.d
+	picture = direction_of_scotland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.64.o1
+	}
+}
+
+country_event = {
+	id = Scotland.65
+	title = Scotland.65.t
+	desc = Scotland.65.d
+	picture = german_and_scottish_manufacturing_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.65.o1
+	}
+}
+
+
+country_event = {
+	id = Scotland.66
+	title = Scotland.66.t
+	desc = Scotland.66.d
+	picture = scotland_joins_europakt_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.66.o1
+	}
+}
+
+
+country_event = {
+	id = Scotland.67
+	title = Scotland.67.t
+	desc = Scotland.67.d
+	picture = moving_weapons_to_scotland_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.67.o1
+	}
+}
+
+country_event = {
+	id = Scotland.68
+	title = Scotland.68.t
+	desc = Scotland.68.d
+	picture = old_scottish_ministers_gone_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.68.o1
+	}
+}
+
+country_event = {
+	id = Scotland.69
+	title = Scotland.69.t
+	desc = Scotland.69.d
+	picture = a_new_prussian_constitution_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.69.o1
+	}
+}
 
 

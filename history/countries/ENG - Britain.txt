@@ -26,12 +26,12 @@ add_ideas = {
 	
 }
 
-add_opinion_modifier = { target = SOV modifier = declaration_of_friendship }
-add_opinion_modifier = { target = KOR modifier = declaration_of_friendship }
-add_opinion_modifier = { target = CAN modifier = rival }
-add_opinion_modifier = { target = USA modifier = rival }
-add_opinion_modifier = { target = SCO modifier = declaration_of_hostility }
-add_opinion_modifier = { target = WAL modifier = declaration_of_hostility }
+add_opinion_modifier = { target = SOV modifier = large_increase }
+add_opinion_modifier = { target = KOR modifier = large_increase }
+add_opinion_modifier = { target = CAN modifier = small_decrease }
+add_opinion_modifier = { target = USA modifier = small_decrease }
+add_opinion_modifier = { target = SCO modifier = medium_decrease }
+add_opinion_modifier = { target = WAL modifier = medium_decrease }
 
 set_research_slots = 4
 set_convoys = 1000

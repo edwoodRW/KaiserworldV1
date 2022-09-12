@@ -2,6 +2,11 @@
 
 oob = "GRE_2000"
 
+
+create_faction = "Pax Romana"
+add_to_faction = GRE
+
+
 set_research_slots = 4
 set_convoys = 500
 set_stability = 0.7

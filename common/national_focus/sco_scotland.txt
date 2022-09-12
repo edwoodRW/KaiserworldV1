@@ -957,12 +957,10 @@ focus_tree = {
 			focus = SCO_Scotland_Breaks_Free
 		}
 		completion_reward = {
-
-			create_country_leader = {
-				name = "Francis IV"
-				picture = "francis_german_IV.dds"
-				ideology = monarchist
+			country_event = {
+				id = Scotland.58
 			}
+		
 
 
 			
@@ -979,7 +977,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Germany_Removes_Francis  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.59
+			}
 		}
 
 	}
@@ -1010,7 +1010,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_A_Matter_That_Must_Be_Solved  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.60
+			}
 		}
 
 	}
@@ -1024,7 +1026,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_A_Plan_To_Remove_The_Radicals  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.61
+			}
 		}
 
 	}
@@ -1099,7 +1103,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Allow_The_Liberals_Into_Parliament  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.62
+			}
 		}
 
 	}
@@ -1117,7 +1123,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Cut_Off_Elections_For_Now  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.63
+			}
 		}
 
 	}
@@ -1132,7 +1140,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Elect_The_Pro_German_Party  }
 
 		completion_reward = {
-	
+			GER = {
+				Add_to_faction = WAL
+			}
 		}
 
 	}
@@ -1204,7 +1214,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_A_Matter_That_Must_Be_Solved  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.64
+			}
 		}
 
 	}
@@ -1234,7 +1246,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Prepare_To_Combine_The_Economies  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.65
+			}
 		}
 
 	}
@@ -1264,7 +1278,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_The_German_Direction_For_Scotland  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.68
+			}
 		}
 
 	}
@@ -1322,7 +1338,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Unite_Scotland_With_Europe  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.66
+			}
 		}
 
 	}
@@ -1336,7 +1354,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_A_Seat_In_The_EuroPakt  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.67
+			}
 		}
 
 	}
@@ -1354,7 +1374,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Remove_The_Recent_Reforms  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.69
+			}
 		}
 
 	}
@@ -1531,8 +1553,9 @@ focus_tree = {
 		cost = 10
 		x = 51
 		y = 13
-		prerequisite = { focus = SCO_Our_English_Border_Is_A_European_Border  }
-		prerequisite = { focus = SCO_Work_With_Our_European_Friends  }
+		prerequisite = { focus = SCO_Our_English_Border_Is_A_European_Border
+						 focus = SCO_Work_With_Our_European_Friends 	}
+	
 
 		completion_reward = {
 	
@@ -1961,7 +1984,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.52
+			}
 		}
 
 	}
@@ -1977,7 +2002,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.53
+			}
 		}
 
 	}
@@ -2009,7 +2036,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.54
+			}
 		}
 
 	}
@@ -2043,7 +2072,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.55
+			}
 		}
 
 	}
@@ -2059,7 +2090,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.56
+			}
 		}
 
 	}
@@ -2075,7 +2108,9 @@ focus_tree = {
 
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.57
+			}
 		}
 
 	}

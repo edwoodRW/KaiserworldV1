@@ -132,7 +132,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Francis I"
 	picture = "Portrait_SCO_Franz_First.dds"
-	ideology = absolute_monarchist
+	ideology = Constitutional_monarchist
 }
 
 create_country_leader = {

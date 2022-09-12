@@ -37,9 +37,14 @@
  british_totalism:0 "British Totalist"
  british_totalism_noun:0 "British Totalism"
  british_totalism_desc:0 "British Totalism is a form of Juché"
+ Constitutional_monarchist:0 "Constitutional Monarchy"
+ Constitutional_monarchist_noun:0 "Constitutional Monarchy"
+ Constitutional_monarchist_desc:0 "A constitutional monarchy, parliamentary monarchy, or democratic monarchy is a form of monarchy in which the monarch exercises their authority in accordance with a constitution and is not alone in deciding."
+
  communist:0 "Totalist"
  communist_noun:0 "Totalism"
  communist_desc:0 "Totalist Regime"
+
  national_socialist:0 "National Socialism"
  national_socialist_desc:0 "National Socialism is the ideology and practice characterised as a form of fascism that incorporates scientific racism and antisemitism. It subscribes to theories of racial heirarchy, supposedly aiming to overcome social divisions and create a society unified on the basis of racial purity."
  fascist_ideology:0 "Fascism"

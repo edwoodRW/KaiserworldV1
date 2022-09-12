@@ -1,5 +1,94 @@
 spriteTypes = {
 	
+		
+	spriteType = {
+		name = "a_new_prussian_constitution_event"
+		texturefile = "gfx/event_pictures/report_event/a_new_prussian_constitution_event.dds"
+	}
+	
+	spriteType = {
+		name = "old_scottish_ministers_gone_event"
+		texturefile = "gfx/event_pictures/report_event/old_scottish_ministers_gone_event.dds"
+	}
+
+	spriteType = {
+		name = "moving_weapons_to_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/moving_weapons_to_scotland_event.dds"
+	}
+	
+		
+	spriteType = {
+		name = "scotland_joins_europakt_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_joins_europakt_event.dds"
+	}
+	
+	spriteType = {
+		name = "german_and_scottish_manufacturing_event"
+		texturefile = "gfx/event_pictures/report_event/german_and_scottish_manufacturing_event.dds"
+	}
+	
+	spriteType = {
+		name = "direction_of_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/direction_of_scotland_event.dds"
+	}
+	
+	spriteType = {
+		name = "electing_pro_german_party_event"
+		texturefile = "gfx/event_pictures/report_event/electing_pro_german_party_event.dds"
+	}
+			
+	spriteType = {
+		name = "the_royal_party_unites_event"
+		texturefile = "gfx/event_pictures/report_event/the_royal_party_unites_event.dds"
+	}
+		
+	spriteType = {
+		name = "removing_the_radicals_event"
+		texturefile = "gfx/event_pictures/report_event/removing_the_radicals_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "the_german_puppet_event"
+		texturefile = "gfx/event_pictures/report_event/the_german_puppet_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "germany_removes_francis_event"
+		texturefile = "gfx/event_pictures/report_event/germany_removes_francis_event.dds"
+	}
+	
+	spriteType = {
+		name = "we_have_lift_off_event"
+		texturefile = "gfx/event_pictures/report_event/we_have_lift_off_event.dds"
+	}
+
+	spriteType = {
+		name = "preparing_For_launch_event"
+		texturefile = "gfx/event_pictures/report_event/preparing_For_launch_event.dds"
+	}
+
+	spriteType = {
+		name = "spaceport_in_scotland_Event"
+		texturefile = "gfx/event_pictures/report_event/spaceport_in_scotland_Event.dds"
+	}
+
+	spriteType = {
+		name = "branson_in_scotland_event"
+		texturefile = "gfx/event_pictures/report_event/branson_in_scotland_event.dds"
+	}
+	
+	spriteType = {
+		name = "dyson_comes_to_Scland_event"
+		texturefile = "gfx/event_pictures/report_event/dyson_comes_to_Scland_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "scotland_technology_powerhouse_event"
+		texturefile = "gfx/event_pictures/report_event/scotland_technology_powerhouse_event.dds"
+	}
 	
 	spriteType = {
 		name = "The_celtic_crossing_event"

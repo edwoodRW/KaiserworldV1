@@ -10,6 +10,9 @@ if = {
 	}
 }
 
+create_faction = "Nanjing Axis"
+
+
 set_research_slots = 4
 set_convoys = 500
 set_stability = 0.7

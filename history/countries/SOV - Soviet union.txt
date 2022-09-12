@@ -4,6 +4,9 @@ oob = "SOV_1939"
 
 load_focus_tree = Russia_Intro
 
+
+
+
 add_ideas = {
     UN_Member_idea
 }
@@ -144,8 +147,6 @@ add_opinion_modifier = {
 	modifier = rival
 }
 
-create_faction = warsaw_pact
-add_to_faction = MON
 
 create_country_leader = {
 	name = "Maria I"

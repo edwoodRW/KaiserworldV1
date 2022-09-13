@@ -1,6 +1,30 @@
 spriteTypes = {
 	
-		
+	
+	spriteType = {
+		name = "england_breaks_apart_event"
+		texturefile = "gfx/event_pictures/report_event/england_breaks_apart_event.dds"
+	}
+	spriteType = {
+		name = "germans_fight_back_Event"
+		texturefile = "gfx/event_pictures/report_event/germans_fight_back_Event.dds"
+	}
+
+	spriteType = {
+		name = "england_returns_fire_event"
+		texturefile = "gfx/event_pictures/report_event/england_returns_fire_event.dds"
+	}
+
+	spriteType = {
+		name = "germany_orders_england_to_stop_event"
+		texturefile = "gfx/event_pictures/report_event/germany_orders_england_to_stop_event.dds"
+	}
+
+	spriteType = {
+		name = "The_welsh_offer_event"
+		texturefile = "gfx/event_pictures/report_event/The_welsh_offer_event.dds"
+	}
+
 	spriteType = {
 		name = "a_new_prussian_constitution_event"
 		texturefile = "gfx/event_pictures/report_event/a_new_prussian_constitution_event.dds"

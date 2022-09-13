@@ -6534,9 +6534,9 @@
  SCO_revolutionary_socialist_ADJ:0 "Scottish"
  SCO_communist_ADJ:0 "Scottish"
 
-Sco_German_Scotland:0 "Reichspakt Occupied Scotland"
-Sco_German_Scotland_DEF:0 "Reichspakt Occupied Scotland"
-Sco_German_Scotland_ADJ:0 "Reichspakt Occupied Scotland"
+Sco_German_Scotland:0 "Reichskommissariat Occupied Scotland"
+Sco_German_Scotland_DEF:0 "Reichskommissariat Occupied Scotland"
+Sco_German_Scotland_ADJ:0 "Reichskommissariat Occupied Scotland"
 
 CSC_communist:0 "Union Of Scotland"
 CSC_communist_DEF:0 "Union Of Scotland"
@@ -6573,6 +6573,10 @@ ENG_United_Republic_of_Britannia_ADJ:0 "United Republic of England"
 ENG_GLA:0 "Greater London State"
 ENG_GLA_DEF:0 "Greater London State"
 
+ENG_Reichskommissariat_Occupied_Angland:0 "ReichskommissariatOccupied Angland"
+ENG_Reichskommissariat_Occupied_Angland_DEF:0 "ReichskommissariatOccupied Angland"
+
+
 
 NOF_Kingdom_Of_Northumbria:0 "Kingdom Of Northumbria"
 NOF_Kingdom_Of_Northumbria_DEF:0 "Kingdom Of Northumbria"
@@ -6581,6 +6585,11 @@ NOF_Kingdom_Of_Northumbria_ADJ:0 "Kingdom Of Northumbria"
 
 WAL_fascist_new:0 "National State Of Wales"
 WAL_fascist_new_DEF:0 "National State Of Wales"
+
+
+WAL_Reichskommissariat_welsch:0 "Reichskommissariat Welsch"
+WAL_Reichskommissariat_welsch_DEF:0 "Reichskommissariat Welsch"
+
 
 
 WAL_fascist:0 "National State Of Wales"

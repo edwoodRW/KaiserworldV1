@@ -173,7 +173,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Alex Salmond"
+	name = "Jack McConnell"
 	picture = "alex_salmond_kw.dds"
 	ideology = revolutionary_socialist_ideology
+}
+
+create_country_leader = {
+	name = "Alex Salmond"
+	picture = "alex_salmond_kw.dds"
+	ideology = democratic_socialist
 }

@@ -1140,6 +1140,8 @@ focus_tree = {
 		prerequisite = { focus = SCO_Elect_The_Pro_German_Party  }
 
 		completion_reward = {
+
+
 			GER = {
 				Add_to_faction = WAL
 			}
@@ -1158,7 +1160,10 @@ focus_tree = {
 		prerequisite = { focus = SCO_A_Prussian_Constitution  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.70
+			}
+			
 		}
 
 	}
@@ -1172,7 +1177,10 @@ focus_tree = {
 		prerequisite = { focus = SCO_Offer_Wales_Protection  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.71
+			}
+			
 		}
 
 	}
@@ -1183,10 +1191,15 @@ focus_tree = {
 		cost = 10
 		x = 26
 		y = 18
+		
 		prerequisite = { focus = SCO_Order_England_To_Cease_All_Actions_Against_States  }
-
+		available = {
+			has_country_flag = SCO_rockets_away
+			}
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.74
+			}
 		}
 
 	}
@@ -1200,7 +1213,9 @@ focus_tree = {
 		prerequisite = { focus = SCO_Removing_The_Totalist_Head  }
 
 		completion_reward = {
-	
+			country_event = {
+				id = Scotland.76
+			}
 		}
 
 	}

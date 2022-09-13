@@ -762,7 +762,7 @@ country_event = {
 	fire_only_once = yes
 	option = {
 		name = Scotland.58.o1
-	
+		remove_ideas = idea_Francis_Of_Scotland 
 
 
 	}
@@ -779,7 +779,9 @@ country_event = {
 	option = {
 		name = Scotland.59.o1
 		set_cosmetic_tag = Sco_German_Scotland
-		
+		GER = {
+			puppet = SCO
+		}
 
 		create_country_leader = {
 			name = "Francis IV"
@@ -928,5 +930,128 @@ country_event = {
 		name = Scotland.69.o1
 	}
 }
+
+
+country_event = {
+	id = Scotland.70
+	title = Scotland.70.t
+	desc = Scotland.70.d
+	picture = The_welsh_offer_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.70.o1
+
+		GER = {
+			puppet = WAL
+		}
+
+		WAL = {
+			create_country_leader = {
+				name = "Tywysog Llywelyn Jones Cymru"
+				picture = "Tywysog_Llywelyn_Jones_Cymru.dds"
+				ideology = absolute_monarchist
+			}
+			set_cosmetic_tag = WAL_Reichskommissariat_welsch
+			}
+	
+
+	}
+}
+
+country_event = {
+	id = Scotland.71
+	title = Scotland.71.t
+	desc = Scotland.71.d
+	picture = germany_orders_england_to_stop_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.71.o1
+		SCO = {
+			country_event = { days = 10 id = Scotland.72 } 
+			}
+	}
+}
+
+
+country_event = {
+	id = Scotland.72
+	title = Scotland.72.t
+	desc = Scotland.72.d
+	picture = england_returns_fire_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.72.o1
+		SCO = {
+			country_event = { days = 10 id = Scotland.73 } 
+			}
+	}
+}
+
+
+
+country_event = {
+	id = Scotland.73
+	title = Scotland.73.t
+	desc = Scotland.73.d
+	picture = germans_fight_back_Event
+	fire_only_once = yes
+	option = {
+		name = Scotland.73.o1
+		GER = {
+			declare_war_on = { type = annex_everything    target = ENG }
+			}	
+
+		declare_war_on = { type = annex_everything    target = ENG }
+
+		WAL = {
+		declare_war_on = { type = annex_everything    target = ENG }
+		}	
+
+		SCO = {
+			country_event = { days = 10 id = England.74 } 
+			}
+	}
+}
+
+
+country_event = {
+	id = Scotland.74
+	title = Scotland.74.t
+	desc = Scotland.74.d
+	picture = england_breaks_apart_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.74.o1
+		set_country_flag = SCO_rockets_away
+		SCO = {
+			country_event = { days = 10 id = England.75 } 
+			}
+	}
+}
+
+
+country_event = {
+	id = Scotland.75
+	title = Scotland.75.t
+	desc = Scotland.75.d
+	picture = a_new_prussian_constitution_event
+	fire_only_once = yes
+	option = {
+		name = Scotland.75.o1
+		GER = {
+			puppet = ENG
+		}
+
+		ENG = {
+			create_country_leader = {
+				name = "Kaiser Georg"
+				picture = "Tywysog_Llywelyn_Jones_Cymru.dds"
+				ideology = military_junta
+			}
+			set_cosmetic_tag = ENG_Reichskommissariat_Occupied_Angland
+			}
+	}
+}
+
 
 

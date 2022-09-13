@@ -2180,13 +2180,20 @@ ENG_united_kingdom:0 "The United Kingdom"
 ENG_united_kingdom_DEF:0 "The United Kingdom"
 ENG_united_kingdom_ADJ:0 "The United Kingdom"
 
+ENG_Reichskommissariat_Occupied_Angland:0 "ReichskommissariatOccupied Angland"
+ENG_Reichskommissariat_Occupied_Angland_DEF:0 "ReichskommissariatOccupied Angland"
+ENG_Reichskommissariat_Occupied_Angland_ADJ:0 "ReichskommissariatOccupied Angland"
+
+
+
+
 SCO_Totalist_state:0 "The Union Of Scotland"
 SCO_Totalist_state_DEF:0 "The Union Of Scotland"
 SCO_Totalist_state_ADJ:0 "The Union Of Scotland"
 
-Sco_German_Scotland:0 "Reichspakt Occupied Scotland"
-Sco_German_Scotland_DEF:0 "Reichspakt Occupied Scotland"
-Sco_German_Scotland_ADJ:0 "Reichspakt Occupied Scotland"
+Sco_German_Scotland:0 "Reichskommissariat Occupied Scotland"
+Sco_German_Scotland_DEF:0 "Reichskommissariat Occupied Scotland"
+Sco_German_Scotland_ADJ:0 "Reichskommissariat Occupied Scotland"
 
 ENG_GLA:0 "Greater London State"
 ENG_GLA_DEF:0 "Greater London State"
@@ -2204,6 +2211,9 @@ WAL_fascist:0 "National State Of Wales"
 WAL_fascist_DEF:0 "National State Of Wales"
 WAL_fascist_ADJ:0 "National State Of Wales"
 
+WAL_Reichskommissariat_welsch:0 "Reichskommissariat Welsch"
+WAL_Reichskommissariat_welsch_DEF:0 "Reichskommissariat Welsch"
+WAL_Reichskommissariat_welsch_ADJ:0 "Reichskommissariat Welsch"
 
  WAL_wales_communist:0 "Union Of Wales"
  WAL_wales_communist_DEF:0 "Union Of Wales"

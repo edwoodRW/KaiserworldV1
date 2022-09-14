@@ -2184,7 +2184,9 @@ ENG_Reichskommissariat_Occupied_Angland:0 "ReichskommissariatOccupied Angland"
 ENG_Reichskommissariat_Occupied_Angland_DEF:0 "ReichskommissariatOccupied Angland"
 ENG_Reichskommissariat_Occupied_Angland_ADJ:0 "ReichskommissariatOccupied Angland"
 
-
+ENG_Reichskommissariat_Britannia:0 "Reichskommissariat Britannia"
+ENG_Reichskommissariat_Britannia_DEF:0 "Reichskommissariat Britannia"
+ENG_Reichskommissariat_Britannia_ADJ:0 "Reichskommissariat Britannia"
 
 
 SCO_Totalist_state:0 "The Union Of Scotland"

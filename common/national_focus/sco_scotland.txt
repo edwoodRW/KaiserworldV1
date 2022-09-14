@@ -646,6 +646,7 @@ focus_tree = {
 		x = 43
 		y = 0
 		completion_reward = {
+			add_political_power = 20
 			country_event = {
 				id = Scotland.28
 			}
@@ -664,6 +665,7 @@ focus_tree = {
 		prerequisite = { focus = SCO_Breaking_Away_From_The_German_Chains  }
 
 		completion_reward = {
+			add_stability = 0.05
 			country_event = {
 				id = Scotland.29
 			}
@@ -867,9 +869,16 @@ focus_tree = {
 		y = 3
 		prerequisite = { focus = SCO_Looking_Out  }
 
+
 		completion_reward = {
 			country_event = {
 				id = Scotland.36
+			}
+			SCO = {
+				add_opinion_modifier = {
+					target = GER
+					modifier = small_decrease
+				}
 			}
 		}
 
@@ -884,6 +893,10 @@ focus_tree = {
 		prerequisite = { focus = SCO_Reduce_The_German_Influence  }
 
 		completion_reward = {
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.05
+			}
 			country_event = {
 				id = Scotland.37
 			}
@@ -915,6 +928,7 @@ focus_tree = {
 		prerequisite = { focus = SCO_Align_Closer_To_The_Scottish_Nationals  }
 
 		completion_reward = {
+			add_stability = 0.10
 			country_event = {
 				id = Scotland.38
 			}
@@ -1214,8 +1228,9 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = {
-				id = Scotland.76
+				id = Scotland.75
 			}
+
 		}
 
 	}

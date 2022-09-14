@@ -1,0 +1,320 @@
+focus_tree = {
+	id = british_Unifying_Britain
+	country = {
+		factor = 0
+	}
+
+	continuous_focus_position = { x = 50 y = 3500 }
+	default = no
+
+
+focus = {
+    id = ENG_Ive_Done_All_I_Can_Done
+    icon = the_united_military_Service_icon
+    x = 25
+    y = 12
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_An_Old_Island_To_Rebuild   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+
+
+focus = {
+    id = ENG_Looking_For_A_New_Successor
+    icon = the_united_military_Service_icon
+    x = 25
+    y = 13
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Ive_Done_All_I_Can_Done   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+
+focus = {
+    id = ENG_Theresas_Republican_Plan
+    icon = the_united_military_Service_icon
+    x = 15
+    y = 14
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Looking_For_A_New_Successor   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+focus = {
+    id = ENG_I_Have_A_Few_Things_To_Change
+    icon = the_united_military_Service_icon
+    x = 15
+    y = 15
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Theresas_Republican_Plan   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+focus = {
+    id = ENG_Introduce_The_First_National_Parks
+    icon = the_united_military_Service_icon
+    x = 13
+    y = 16
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_I_Have_A_Few_Things_To_Change   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+focus = {
+    id = ENG_Fund_Community_Projects
+    icon = the_united_military_Service_icon
+    x = 13
+    y = 17
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Introduce_The_First_National_Parks   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+
+focus = {
+    id = ENG_Nationalise_The_Powergrid
+    icon = the_united_military_Service_icon
+    x = 17
+    y = 16
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_I_Have_A_Few_Things_To_Change   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+focus = {
+    id = ENG_Increase_The_Means_Of_Mass_Production
+    icon = the_united_military_Service_icon
+    x = 17
+    y = 17
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Nationalise_The_Powergrid   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+focus = {
+    id = ENG_Uniting_The_Party
+    icon = the_united_military_Service_icon
+    x = 15
+    y = 18
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Increase_The_Means_Of_Mass_Production   }
+    prerequisite = { focus = ENG_Fund_Community_Projects   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+
+focus = {
+    id = ENG_Work_With_The_Social_Democrats
+    icon = the_united_military_Service_icon
+    x = 14
+    y = 19
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Uniting_The_Party   }
+
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+focus = {
+    id = ENG_Unite_With_The_Unions
+    icon = the_united_military_Service_icon
+    x = 16
+    y = 19
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Uniting_The_Party   }
+
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+focus = {
+    id = ENG_A_Renewed_Parliament
+    icon = the_united_military_Service_icon
+    x = 15
+    y = 20
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Work_With_The_Social_Democrats   }
+
+    prerequisite = { focus = ENG_Unite_With_The_Unions   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+focus = {
+    id = ENG_Stephen_Cottrells_New_Direction
+    icon = the_united_military_Service_icon
+    x = 22
+    y = 14
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Looking_For_A_New_Successor   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+
+focus = {
+    id = ENG_Galloways_Ruling
+    icon = the_united_military_Service_icon
+    x = 29
+    y = 14
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Looking_For_A_New_Successor   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+focus = {
+    id = ENG_Farage_Will_Change_The_Face_Of_Politics
+    icon = the_united_military_Service_icon
+    x = 34
+    y = 14
+    cost = 3
+    search_filters = {
+        FOCUS_FILTER_POLITICAL
+    }
+    prerequisite = { focus = ENG_Looking_For_A_New_Successor   }
+
+    completion_reward = {
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

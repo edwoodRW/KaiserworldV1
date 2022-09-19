@@ -40,7 +40,295 @@ spriteTypes = {
 	
 	##England###
 	
+	SpriteType = {
+		name = "traditional_english_roles_icon"
+		texturefile = "gfx/interface/goals/eng/traditional_english_roles_icon.dds"			
+	}
 	
+
+	SpriteType = {
+		name = "reopen_the_pubs_icon"
+		texturefile = "gfx/interface/goals/eng/reopen_the_pubs_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "walk_out_of_congress_icon"
+		texturefile = "gfx/interface/goals/eng/walk_out_of_congress_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "build_pact_With_church_of_england_icon"
+		texturefile = "gfx/interface/goals/eng/build_pact_With_church_of_england_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "limit_rest_of_congress_icon"
+		texturefile = "gfx/interface/goals/eng/limit_rest_of_congress_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "restructure_the_party_icon"
+		texturefile = "gfx/interface/goals/eng/restructure_the_party_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "pre_revolutionary_days_icon"
+		texturefile = "gfx/interface/goals/eng/pre_revolutionary_days_icon.dds"			
+	}
+		
+	SpriteType = {
+		name = "invite_populists_in_icon"
+		texturefile = "gfx/interface/goals/eng/invite_populists_in_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "first_scot_to_be_english_leader_icon"
+		texturefile = "gfx/interface/goals/eng/first_scot_to_be_english_leader_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "block_congress_icon"
+		texturefile = "gfx/interface/goals/eng/block_congress_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "demand_boris_gives_galloway_the_top_job_icon"
+		texturefile = "gfx/interface/goals/eng/demand_boris_gives_galloway_the_top_job_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "breaking_up_the_other_parties_icon"
+		texturefile = "gfx/interface/goals/eng/breaking_up_the_other_parties_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "influence_the_media_icon"
+		texturefile = "gfx/interface/goals/eng/influence_the_media_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "create_a_new_tv_station_icon"
+		texturefile = "gfx/interface/goals/eng/create_a_new_tv_station_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "march_on_london_icon"
+		texturefile = "gfx/interface/goals/eng/march_on_london_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "young_spread_galloways_message_icon"
+		texturefile = "gfx/interface/goals/eng/young_spread_galloways_message_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "use_influencers_to_spread_galloway_ideals_icon"
+		texturefile = "gfx/interface/goals/eng/use_influencers_to_spread_galloway_ideals_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "creating_propaganda_icon"
+		texturefile = "gfx/interface/goals/eng/creating_propaganda_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "best_for_britain_icon"
+		texturefile = "gfx/interface/goals/eng/best_for_britain_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "move_Away_from_old_ruling_style_icon"
+		texturefile = "gfx/interface/goals/eng/move_Away_from_old_ruling_style_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "galloway_can_Create_a_real_socialists_paradise_icon"
+		texturefile = "gfx/interface/goals/eng/galloway_can_Create_a_real_socialists_paradise_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "rewrite_rules_of_syndicalism_icon"
+		texturefile = "gfx/interface/goals/eng/rewrite_rules_of_syndicalism_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "book_how_to_fixA_nation"
+		texturefile = "gfx/interface/goals/eng/book_how_to_fixA_nation.dds"			
+	}
+	
+	SpriteType = {
+		name = "church_of_england_consolidates_power_icon"
+		texturefile = "gfx/interface/goals/eng/church_of_england_consolidates_power_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "send_missionaires_to_Scotland_icon"
+		texturefile = "gfx/interface/goals/eng/send_missionaires_to_Scotland_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "a_relationship_with_the_welsh_icon"
+		texturefile = "gfx/interface/goals/eng/a_relationship_with_the_welsh_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "rebuild_old_christian_nation_icon"
+		texturefile = "gfx/interface/goals/eng/rebuild_old_christian_nation_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "reeducate_the_popualtion_icon"
+		texturefile = "gfx/interface/goals/eng/reeducate_the_popualtion_icon.dds"			
+	}
+	
+		
+	SpriteType = {
+		name = "the_right_and_nationals_shall_remain_icon"
+		texturefile = "gfx/interface/goals/eng/the_right_and_nationals_shall_remain_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "remove_liberal_agenda_icon"
+		texturefile = "gfx/interface/goals/eng/remove_liberal_agenda_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "create_a_new_tradition_icon"
+		texturefile = "gfx/interface/goals/eng/create_a_new_tradition_icon.dds"			
+	}
+	
+		
+	SpriteType = {
+		name = "invite_far_right_into_power_icon"
+		texturefile = "gfx/interface/goals/eng/invite_far_right_into_power_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "church_consolidates_power_icon"
+		texturefile = "gfx/interface/goals/eng/church_consolidates_power_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "church_education_icon"
+		texturefile = "gfx/interface/goals/eng/church_education_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "crack_down_on_radicals_icon"
+		texturefile = "gfx/interface/goals/eng/crack_down_on_radicals_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "clergy_to_government_ministers_icon"
+		texturefile = "gfx/interface/goals/eng/clergy_to_government_ministers_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "a_conservative_outlook_icon"
+		texturefile = "gfx/interface/goals/eng/a_conservative_outlook_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "leftism_failed_us_icon"
+		texturefile = "gfx/interface/goals/eng/leftism_failed_us_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "church_of_england_will_guide_us_icon"
+		texturefile = "gfx/interface/goals/eng/church_of_england_will_guide_us_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "a_renewed_arplaiment_icon"
+		texturefile = "gfx/interface/goals/eng/a_renewed_arplaiment_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "unite_with_the_unions_icon"
+		texturefile = "gfx/interface/goals/eng/unite_with_the_unions_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "work_with_social_democrats_icon"
+		texturefile = "gfx/interface/goals/eng/work_with_social_democrats_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "uniting_the_party_icon"
+		texturefile = "gfx/interface/goals/eng/uniting_the_party_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "increase_means_of_mass_production_icon"
+		texturefile = "gfx/interface/goals/eng/increase_means_of_mass_production_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "nationalise_powergrid_icon"
+		texturefile = "gfx/interface/goals/eng/nationalise_powergrid_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "fund_community_projects_icon"
+		texturefile = "gfx/interface/goals/eng/fund_community_projects_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "first_national_parks_icon"
+		texturefile = "gfx/interface/goals/eng/first_national_parks_icon.dds"			
+	}
+	
+		
+	SpriteType = {
+		name = "i_have_a_few_things_to_change_cion"
+		texturefile = "gfx/interface/goals/eng/i_have_a_few_things_to_change_cion.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "farage_will_change_politics_icon"
+		texturefile = "gfx/interface/goals/eng/farage_will_change_politics_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "galloway_ruling_icon"
+		texturefile = "gfx/interface/goals/eng/galloway_ruling_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "stephen_cottrell_direction_icon"
+		texturefile = "gfx/interface/goals/eng/stephen_cottrell_direction_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "theresa_may_republican_plan_icon"
+		texturefile = "gfx/interface/goals/eng/theresa_may_republican_plan_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "looking_for_a_successor_icon"
+		texturefile = "gfx/interface/goals/eng/looking_for_a_successor_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "ive_done_all_i_can_icon"
+		texturefile = "gfx/interface/goals/eng/ive_done_all_i_can_icon.dds"			
+	}
 	
 	SpriteType = {
 		name = "Icon_Sit_Down_and_Talk_KW"

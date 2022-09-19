@@ -115,22 +115,7 @@
  GER_moderate_socialist_party:0 "New Left"
  GER_revolutionary_socialist_party:0 "German Revolution Movement"
  GER_communist_party:0 "Socialist Unity Party"
- ENG_fascist_party:0 "English First"
- ENG_nationalist_party:0 "Reform UK"
- ENG_monarchist_party:0 "Constitutional United Party"
- ENG_national_bolshevik_party:0 "Federal Uniformity Union"
- ENG_national_conservative_party:0 "Free Democratic Coalition"
- ENG_centrist_party:0 "Universal Administration Party"
- ENG_liberal_party:0 "First State Party"
- ENG_new_democrat_party:0 "The Labour League"
- ENG_moderate_socialist_party:0 "The National British Party (Reformist)"
- ENG_revolutionary_socialist_party:0 "The National British Party (Moderate)"
- ENG_communist_party:0 "The National British Party (Hardliners)"
 
-ENG_New_Labour:0 "New Labour"
-ENG_Peoples_United_Force:0 "The United Peoples Army"
-ENG_republic_of_england:0 "National Party of England"
-ENG_republic_of_england_long:0 "National Party of England"
 
  SOV_fascist_party:0 "Mladorossi"
  SOV_nationalist_party:0 "Mladorossi"
@@ -276,6 +261,40 @@ ENG_republic_of_england_long:0 "National Party of England"
  BEN_revolutionary_socialist_party:0 "International Revolution"
  BEN_communist_party:0 "People's Party"
  BEN_communist_party_long:0 "People's Revolutionary Party of Benin"
+
+
+
+
+
+
+ ENG_fascist_party:0 "English First"
+ ENG_nationalist_party:0 "Reform England"
+ ENG_monarchist_party:0 "Constitutional United Party"
+ ENG_national_bolshevik_party:0 "Federal Uniformity Union"
+ ENG_national_conservative_party:0 "Free Democratic Coalition"
+ ENG_centrist_party:0 "Universal Administration Party"
+ ENG_liberal_party:0 "First State Party"
+ ENG_new_democrat_party:0 "The Labour League"
+ ENG_moderate_socialist_party:0 "The National British Party (Reformist)"
+ ENG_revolutionary_socialist_party:0 "The National British Party (Moderate)"
+ ENG_communist_party:0 "The National British Party (Hardliners)"
+
+ENG_New_Labour:0 "New Labour"
+ENG_Peoples_United_Force:0 "The United Peoples Army"
+ENG_republic_of_england:0 "National Party of England"
+ENG_republic_of_england_long:0 "National Party of England"
+
+
+
+
+
+
+
+
+
+
+
+
 
  IRE_fascist_party:0 "Lia Fail"
  IRE_nationalist_party:0 "Fine Gael(Paisleyites)"

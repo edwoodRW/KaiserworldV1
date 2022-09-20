@@ -1,5 +1,14 @@
 spriteTypes = {
 	
+	spriteType = {
+		name = "looking_for_a_successor_event"
+		texturefile = "gfx/event_pictures/report_event/looking_for_a_successor_event.dds"
+	}
+	
+	spriteType = {
+		name = "done_All_i_can_event"
+		texturefile = "gfx/event_pictures/report_event/done_All_i_can_event.dds"
+	}
 	
 	spriteType = {
 		name = "england_breaks_apart_event"

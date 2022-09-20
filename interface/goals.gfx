@@ -41,6 +41,67 @@ spriteTypes = {
 	##England###
 	
 	SpriteType = {
+		name = "a_national_populist_england_icon"
+		texturefile = "gfx/interface/goals/eng/a_national_populist_england_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "plan_for_a_new_economy_icon"
+		texturefile = "gfx/interface/goals/eng/plan_for_a_new_economy_icon.dds"			
+	}
+	
+
+	SpriteType = {
+		name = "bring_back_union_flag_icon"
+		texturefile = "gfx/interface/goals/eng/bring_back_union_flag_icon.dds"			
+	}
+		
+	SpriteType = {
+		name = "force_an_election_icon"
+		texturefile = "gfx/interface/goals/eng/force_an_election_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "control_england_through_fear_icon"
+		texturefile = "gfx/interface/goals/eng/control_england_through_fear_icon.dds"			
+	}
+
+	SpriteType = {
+		name = "work_with_reichspakt_icon"
+		texturefile = "gfx/interface/goals/eng/work_with_reichspakt_icon.dds"			
+	}
+	
+		
+	SpriteType = {
+		name = "restrict_peoples_rights_bill_icon"
+		texturefile = "gfx/interface/goals/eng/restrict_peoples_rights_bill_icon.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "cut_Welfare_spending_icon_nigel"
+		texturefile = "gfx/interface/goals/eng/cut_Welfare_spending_icon_nigel.dds"			
+	}
+	
+	
+	SpriteType = {
+		name = "introduce_competitive_education_icon"
+		texturefile = "gfx/interface/goals/eng/introduce_competitive_education_icon.dds"			
+	}
+	
+	SpriteType = {
+		name = "bring_back_national_holidays_icon"
+		texturefile = "gfx/interface/goals/eng/bring_back_national_holidays_icon.dds"			
+	}
+	
+		
+	SpriteType = {
+		name = "night_of_the_broken_star_icon"
+		texturefile = "gfx/interface/goals/eng/night_of_the_broken_star_icon.dds"			
+	}
+	
+	SpriteType = {
 		name = "traditional_english_roles_icon"
 		texturefile = "gfx/interface/goals/eng/traditional_english_roles_icon.dds"			
 	}

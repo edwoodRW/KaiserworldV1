@@ -4079,18 +4079,49 @@ country_event = {
 }
 
 
-##to be added
+
+
+
 country_event = {
 	id = England.275
 	title = England.275.t
 	desc = England.275.d
-	picture = owen_arrested_event
+	picture = done_All_i_can_event
 	is_triggered_only = yes
 	option = {
 		name = England.275.o1
 	 
 	}
 }
+
+country_event = {
+	id = England.276
+	title = England.276.t
+	desc = England.276.d
+	picture = looking_for_a_successor_event
+	is_triggered_only = yes
+	option = {
+		name = England.276.o1
+	 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

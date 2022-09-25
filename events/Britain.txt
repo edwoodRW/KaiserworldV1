@@ -4098,7 +4098,7 @@ country_event = {
 	id = England.276
 	title = England.276.t
 	desc = England.276.d
-	picture = looking_for_a_successor_event
+	picture = johnson_done_all_can_event
 	is_triggered_only = yes
 	option = {
 		name = England.276.o1
@@ -4107,15 +4107,103 @@ country_event = {
 }
 
 
+country_event = {
+	id = England.277
+	title = England.277.t
+	desc = England.277.d
+	picture = republican_plan_theresa_event
+	is_triggered_only = yes
+	option = {
+		name = England.277.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.278
+	title = England.278.t
+	desc = England.278.d
+	picture = theresa_may_changes_event
+	is_triggered_only = yes
+	option = {
+		name = England.278.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.279
+	title = England.279.t
+	desc = England.279.d
+	picture = theresa_nationalises_power_event
+	is_triggered_only = yes
+	option = {
+		name = England.279.o1
+	 
+	}
+}
 
 
+country_event = {
+	id = England.280
+	title = England.280.t
+	desc = England.280.d
+	picture = bringing_back_national_parks_event
+	is_triggered_only = yes
+	option = {
+		name = England.280.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.281
+	title = England.281.t
+	desc = England.281.d
+	picture = renewed_congress_event
+	is_triggered_only = yes
+	option = {
+		name = England.281.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.282
+	title = England.282.t
+	desc = England.282.d
+	picture = stephen_cottrells_event
+	is_triggered_only = yes
+	option = {
+		name = England.282.o1
+	 
+	}
+}
 
 
+country_event = {
+	id = England.283
+	title = England.283.t
+	desc = England.283.d
+	picture = church_of_england_guide_us_event
+	is_triggered_only = yes
+	option = {
+		name = England.283.o1
+	 
+	}
+}
 
-
-
-
-
+country_event = {
+	id = England.284
+	title = England.284.t
+	desc = England.284.d
+	picture = conservative_outlook_event
+	is_triggered_only = yes
+	option = {
+		name = England.284.o1
+	 
+	}
+}
 
 
 

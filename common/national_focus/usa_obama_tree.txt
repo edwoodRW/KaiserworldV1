@@ -9,7 +9,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Obama_Administration
-		icon = unkown
+		icon = Icon_Obama_Administration_KW
 		x = 10
 		y = 0
 		cost = 5
@@ -24,7 +24,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_Protecting_America_At_All_Costs
-		icon = unkown
+		icon = Icon_Protecting_America_at_All_Costs_KW
 		x = 10
 		y = 1
 		cost = 5
@@ -41,7 +41,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_From_The_Inside_Or_Out
-		icon = unkown
+		icon = Icon_From_the_Inside_or_Out_KW
 		x = 10
 		y = 2
 		cost = 5
@@ -57,7 +57,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Establish_The_NSA
-		icon = unkown
+		icon = Icon_Establish_the_NSA_KW
 		x = 7
 		y = 3
 		cost = 5
@@ -74,7 +74,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Continue_Bernies_Work
-		icon = unkown
+		icon = Icon_Continue_Bernies_Work_KW
 		x = 7
 		y = 4
 		cost = 5
@@ -91,7 +91,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_More_Power_To_The_Federal_Government
-		icon = unkown
+		icon = Icon_More_Power_to_the_Government_KW
 		x = 7
 		y = 5
 		cost = 5
@@ -107,7 +107,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Expand_CIA_Jurisdictions
-		icon = unkown
+		icon = Icon_Expand_CIA_Jurisdiction_KW
 		x = 13
 		y = 3
 		cost = 5
@@ -123,7 +123,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Midnight_Raids
-		icon = unkown
+		icon = Icon_Midnight_Raids_KW
 		x = 13
 		y = 4
 		cost = 5
@@ -139,7 +139,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Loosen_Immigration_Restrictions
-		icon = unkown
+		icon = Icon_Loosen_Immigration_Restrictions_KW
 		x = 13
 		y = 5
 		cost = 5
@@ -155,7 +155,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Sanctioning_Of_Syndicalist_Media
-		icon = unkown
+		icon = Icon_Sanctionning_of_Syndicalist_Media_KW
 		x = 10
 		y = 3
 		cost = 5
@@ -171,7 +171,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Pass_Enviromentalist_Legislation
-		icon = unkown
+		icon = Icon_Pass_the_Environmentalist_Legislation_KW
 		x = 10
 		y = 4
 		cost = 5
@@ -189,7 +189,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Praise_Normal_Citizens
-		icon = unkown
+		icon = Icon_Praise_Normal_People_KW
 		x = 10
 		y = 5
 		cost = 5
@@ -208,7 +208,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Reform_Bernie_Care
-		icon = unkown
+		icon = Icon_Reform_BernieCare_KW
 		x = 10
 		y = 6
 		cost = 5
@@ -228,7 +228,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Fund_Green_Energy
-		icon = unkown
+		icon = Icon_Fund_Green_Energy_KW
 		x = 7
 		y = 7
 		cost = 5
@@ -245,7 +245,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Rebuild_Midwest_Industries
-		icon = unkown
+		icon = Icon_Rebuild_Midwestern_Industries_KW
 		x = 7
 		y = 8
 		cost = 5
@@ -282,7 +282,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_New_Civil_Rights_Movement
-		icon = unkown
+		icon = Icon_New_Civil_Rights_Movements_KW
 		x = 13
 		y = 8
 		cost = 5
@@ -300,7 +300,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Legalize_Cannabis
-		icon = unkown
+		icon = Icon_Legalize_Cannabis_KW
 		x = 10
 		y = 7
 		cost = 5
@@ -318,7 +318,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Lower_Taxes_On_The_Lower_Class
-		icon = unkown
+		icon = Icon_Lower_Taxes_on_the_Lower_Class_KW
 		x = 10
 		y = 8
 		cost = 5
@@ -335,7 +335,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Promote_Healthy_Food
-		icon = unkown
+		icon = Icon_Promote_Healthy_Food_KW
 		x = 10
 		y = 9
 		cost = 5

@@ -10817,6 +10817,106 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/usa/Icon_Cooperate_with_the_Alaskan_Military_KW.dds"			
 		}
 		
+SpriteType = {
+		name = "Icon_Promote_Healthy_Food_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Promote_Healthy_Food_KW.dds"			
+		}
+				
+	SpriteType = {
+		name = "Icon_New_Civil_Rights_Movements_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_New_Civil_Rights_Movements_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Lower_Taxes_on_the_Lower_Class_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Lower_Taxes_on_the_Lower_Class_KW.dds"			
+		}
+			
+			
+	SpriteType = {
+		name = "Icon_Rebuild_Midwestern_Industries_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Rebuild_Midwestern_Industries_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Legalize_Cannabis_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Legalize_Cannabis_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Fund_Green_Energy_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Fund_Green_Energy_KW.dds"			
+		}
+
+	SpriteType = {
+	name = "Icon_Reform_BernieCare_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Reform_BernieCare_KW.dds"			
+	}
+
+	SpriteType = {
+	name = "Icon_Loosen_Immigration_Restrictions_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Loosen_Immigration_Restrictions_KW.dds"			
+	}
+
+
+	SpriteType = {
+	name = "Icon_Praise_Normal_People_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Praise_Normal_People_KW.dds"			
+	}
+
+		
+	SpriteType = {
+	name = "Icon_More_Power_to_the_Government_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_More_Power_to_the_Government_KW.dds"			
+	}
+
+		
+	SpriteType = {
+	name = "Icon_Midnight_Raids_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Midnight_Raids_KW.dds"			
+	}
+
+		
+	SpriteType = {
+	name = "Icon_Pass_the_Environmentalist_Legislation_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Pass_the_Environmentalist_Legislation_KW.dds"			
+	}
+
+		SpriteType = {
+	name = "Icon_Continue_Bernies_Work_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Continue_Bernies_Work_KW.dds"			
+	}
+				
+	SpriteType = {
+	name = "Icon_Expand_CIA_Jurisdiction_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Expand_CIA_Jurisdiction_KW.dds"			
+	}
+
+	SpriteType = {
+	name = "Icon_Sanctionning_of_Syndicalist_Media_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Sanctionning_of_Syndicalist_Media_KW.dds"			
+			}
+
+	SpriteType = {
+	name = "Icon_Establish_the_NSA_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Establish_the_NSA_KW.dds"			
+			}
+		
+	SpriteType = {
+	name = "Icon_From_the_Inside_or_Out_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_From_the_Inside_or_Out_KW.dds"			
+			}
+		
+	SpriteType = {
+	name = "Icon_Protecting_America_at_All_Costs_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Protecting_America_at_All_Costs_KW.dds"			
+			}
+	
+		
+	SpriteType = {
+	name = "Icon_Obama_Administration_KW"
+	texturefile = "gfx/interface/goals/usa/Icon_Obama_Administration_KW.dds"			
+			}
 
 	SpriteType = {
 		name = "Icon_Alaska_and_America_Push_Foward_Together_KW"

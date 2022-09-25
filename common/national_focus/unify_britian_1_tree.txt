@@ -70,7 +70,9 @@ focus = {
     }
  
     completion_reward = {
-
+        country_event = {
+            id = england.277
+        }
     }
 
 
@@ -89,7 +91,9 @@ focus = {
     prerequisite = { focus = ENG_Theresas_Republican_Plan   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.278
+        }
     }
 
 
@@ -107,7 +111,9 @@ focus = {
     prerequisite = { focus = ENG_I_Have_A_Few_Things_To_Change   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.280
+        }
     }
 
 
@@ -146,7 +152,9 @@ focus = {
     prerequisite = { focus = ENG_I_Have_A_Few_Things_To_Change   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.279
+        }
     }
 
 
@@ -245,7 +253,9 @@ focus = {
     prerequisite = { focus = ENG_Unite_With_The_Unions   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.281
+        }
     }
 
 
@@ -269,9 +279,10 @@ focus = {
     }
  
     completion_reward = {
-
+        country_event = {
+            id = england.282
+        }
     }
-
 
 }
 
@@ -287,7 +298,9 @@ focus = {
     prerequisite = { focus = ENG_Stephen_Cottrells_New_Direction   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.283
+        }
     }
 
 
@@ -362,7 +375,9 @@ focus = {
     prerequisite = { focus = ENG_The_Church_Of_England_Will_Guide_Us   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.284
+        }
     }
 
 

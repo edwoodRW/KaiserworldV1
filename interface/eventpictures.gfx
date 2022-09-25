@@ -1,6 +1,54 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "conservative_outlook_event"
+		texturefile = "gfx/event_pictures/report_event/conservative_outlook_event.dds"
+	}
+
+
+	spriteType = {
+		name = "church_of_england_guide_us_event"
+		texturefile = "gfx/event_pictures/report_event/church_of_england_guide_us_event.dds"
+	}
+
+	spriteType = {
+		name = "stephen_cottrells_event"
+		texturefile = "gfx/event_pictures/report_event/stephen_cottrells_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "renewed_congress_event"
+		texturefile = "gfx/event_pictures/report_event/renewed_congress_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "bringing_back_national_parks_event"
+		texturefile = "gfx/event_pictures/report_event/bringing_back_national_parks_event.dds"
+	}
+	
+	spriteType = {
+		name = "theresa_nationalises_power_event"
+		texturefile = "gfx/event_pictures/report_event/theresa_nationalises_power_event.dds"
+	}
+	
+	spriteType = {
+		name = "theresa_may_changes_event"
+		texturefile = "gfx/event_pictures/report_event/theresa_may_changes_event.dds"
+	}
+
+	spriteType = {
+		name = "johnson_done_all_can_event"
+		texturefile = "gfx/event_pictures/report_event/johnson_done_all_can_event.dds"
+	}
+	
+	spriteType = {
+		name = "republican_plan_theresa_event"
+		texturefile = "gfx/event_pictures/report_event/republican_plan_theresa_event.dds"
+	}
+	
+	spriteType = {
 		name = "looking_for_a_successor_event"
 		texturefile = "gfx/event_pictures/report_event/looking_for_a_successor_event.dds"
 	}

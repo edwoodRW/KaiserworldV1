@@ -9,7 +9,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Bernies_Time_To_Shine
-		icon = unknown
+		icon = focus_prime_minister_bernie
 		x = 10
 		y = 0
 		cost = 5
@@ -262,7 +262,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = USA_Bernies_Decolonization_Policy
+		id = USA_The_Culmination_Of_The_Commonwealth_Ideals
 		icon = unknown
 		x = 25
 		y = 0
@@ -282,12 +282,12 @@ focus_tree = {
 
 
 	focus = {
-		id = USA_The_Issues_Of_Baja
+		id = USA_International_Decolonization
 		icon = unknown
-		x = 21
+		x = 25
 		y = 1
 		cost = 5
-		prerequisite = { focus =  USA_Bernies_Decolonization_Policy  }
+		prerequisite = { focus =  USA_The_Culmination_Of_The_Commonwealth_Ideals  }
 
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -299,13 +299,14 @@ focus_tree = {
 	}
 
 
+
 	focus = {
-		id = USA_A_Hawaiian_Brotherhood
+		id = USA_Set_The_Example
 		icon = unknown
-		x = 21
+		x = 25
 		y = 2
 		cost = 5
-		prerequisite = { focus =  USA_The_Issues_Of_Baja  }
+		prerequisite = { focus =  USA_International_Decolonization  }
 
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -314,25 +315,573 @@ focus_tree = {
 	
 		}
 	
+	}
+
+	focus = {
+		id = USA_Overtures_To_Germany
+		icon = unknown
+		x = 22
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Set_The_Example  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+	focus = {
+		id = USA_Set_A_Far_Off_Deadline
+		icon = unknown
+		x = 22
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Overtures_To_Germany  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Further_Relations_With_Russia
+		icon = unknown
+		x = 25
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Set_The_Example  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Push_For_Native_Autonomy
+		icon = unknown
+		x = 25
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_Further_Relations_With_Russia  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_A_Talk_With_Portugal
+		icon = unknown
+		x = 28
+		y = 3
+		cost = 5
+		prerequisite = { focus =  USA_Set_The_Example  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+	focus = {
+		id = USA_Embargo_The_Portugese
+		icon = unknown
+		x = 28
+		y = 4
+		cost = 5
+		prerequisite = { focus =  USA_A_Talk_With_Portugal  }
+
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+
+
+
+
+
+	focus = {
+		id = USA_A_New_Day_A_New_Crisis_For_Africa
+		icon = unknown
+		x = 15
+		y = 10
+		cost = 5
+	
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+	
+		}
+	
+	}
+	focus = {
+		id = USA_Put_The_Embassy_On_Alert
+		icon = unkown
+		x = 15
+		y = 11
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_A_New_Day_A_New_Crisis_For_Africa  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Discuss_With_The_Cabinet
+		icon = unkown
+		x = 15
+		y = 12
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Put_The_Embassy_On_Alert  }
+		completion_reward = {
+	
+		}
+
 	}
 
 
 
 	focus = {
-		id = USA_Take_It_To_The_European_Powers
-		icon = unknown
-		x = 29
-		y = 1
+		id = USA_The_Obama_Doctrine
+		icon = focus_obama_choice
+		x = 7
+		y = 13
 		cost = 5
-		prerequisite = { focus =  USA_Bernies_Decolonization_Policy  }
-
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		prerequisite = { focus =  USA_Discuss_With_The_Cabinet  }
 		completion_reward = {
 	
 		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Securing_A_Coastal_FOB
+		icon = focus_get_land
+		x = 7
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_The_Obama_Doctrine  }
+		completion_reward = {
 	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Securing_Supply_Lines
+		icon = unkown
+		x = 4
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Securing_A_Coastal_FOB  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Drone_Strikes_On_Government_Positions
+		icon = unkown
+		x = 5
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Securing_Supply_Lines  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Hearts_And_Minds_Campaigns
+		icon = unkown
+		x = 7
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Securing_A_Coastal_FOB  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Bring_Relief_To_Africa
+		icon = unkown
+		x = 10
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Securing_A_Coastal_FOB  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Destroy_Government_Legitimacy
+		icon = unkown
+		x = 9
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Bring_Relief_To_Africa  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_New_Better_African_Regimes
+		icon = unkown
+		x = 7
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Destroy_Government_Legitimacy  }
+		prerequisite = { focus =  USA_Drone_Strikes_On_Government_Positions  }
+		prerequisite = { focus =  USA_Hearts_And_Minds_Campaigns  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Intervene_On_The_Rebels_Behalf
+		icon = unkown
+		x = 15
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Discuss_With_The_Cabinet  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Sending_An_Intervention_Force
+		icon = unkown
+		x = 15
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Intervene_On_The_Rebels_Behalf  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Grant_Temporary_Visas
+		icon = unkown
+		x = 12
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sending_An_Intervention_Force  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Promote_Civilian_Safety
+		icon = unkown
+		x = 13
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Grant_Temporary_Visas  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+
+	focus = {
+		id = USA_Promoting_Democracy_Abroad
+		icon = unkown
+		x = 15
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sending_An_Intervention_Force  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Set_Up_Red_Cross_Hospitals
+		icon = unkown
+		x = 18
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sending_An_Intervention_Force  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Drone_Strikes_Government_Positions
+		icon = unkown
+		x = 17
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Set_Up_Red_Cross_Hospitals  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Establish_Relations_With_The_New_Regime
+		icon = unkown
+		x = 15
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Drone_Strikes_Government_Positions  }
+		prerequisite = { focus =  USA_Promote_Civilian_Safety  }
+
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Support_The_Legitmate_Government
+		icon = unkown
+		x = 23
+		y = 13
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Discuss_With_The_Cabinet  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Sanction_Rebel_Groups
+		icon = unkown
+		x = 23
+		y = 14
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Support_The_Legitmate_Government  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Provide_Military_Aid
+		icon = unkown
+		x = 20
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sanction_Rebel_Groups  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Provide_Economic_Aid
+		icon = unkown
+		x = 21
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Provide_Military_Aid  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Protect_The_Embassy
+		icon = unkown
+		x = 23
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sanction_Rebel_Groups  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Send_Military_Advisors
+		icon = unkown
+		x = 26
+		y = 15
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Sanction_Rebel_Groups  }
+		completion_reward = {
+	
+		}
+
+	}
+
+
+	focus = {
+		id = USA_Drone_Strikes_On_Rebels
+		icon = unkown
+		x = 25
+		y = 16
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Send_Military_Advisors  }
+		completion_reward = {
+	
+		}
+
+	}
+
+	focus = {
+		id = USA_Stabilize_The_Regime
+		icon = unkown
+		x = 23
+		y = 17
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus =  USA_Drone_Strikes_On_Rebels  }
+		prerequisite = { focus =  USA_Provide_Economic_Aid  }
+
+		completion_reward = {
+	
+		}
+
 	}
 
 
@@ -351,6 +900,24 @@ focus_tree = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 }

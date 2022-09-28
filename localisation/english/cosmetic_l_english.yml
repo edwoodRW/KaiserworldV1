@@ -2188,6 +2188,13 @@ ENG_Reichskommissariat_Britannia:0 "Reichskommissariat Britannia"
 ENG_Reichskommissariat_Britannia_DEF:0 "Reichskommissariat Britannia"
 ENG_Reichskommissariat_Britannia_ADJ:0 "Reichskommissariat Britannia"
 
+ENG_Theresa_republic:0 "Republic Of England"
+ENG_Theresa_republic_DEF:0 "Republic Of England"
+ENG_Theresa_republic_ADJ:0 "Republic Of England"
+
+ENG_Church_Of_England:0 "Kingdom Of England"
+ENG_Church_Of_England_DEF:0 "Kingdom Of England"
+ENG_Church_Of_England_ADJ:0 "Kingdom Of England"
 
 SCO_Totalist_state:0 "The Union Of Scotland"
 SCO_Totalist_state_DEF:0 "The Union Of Scotland"

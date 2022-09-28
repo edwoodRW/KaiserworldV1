@@ -4115,7 +4115,17 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.277.o1
-	 
+		set_cosmetic_tag = ENG_Theresa_republic
+		set_politics = {
+			ruling_party = moderate_socialist 
+			elections_allowed = no
+		}
+
+		create_country_leader = {
+			name = "Theresa May"
+			picture = "theresa_may_republic_icon.dds"
+			ideology = peoples_socialist_democracy
+		}
 	}
 }
 
@@ -4176,7 +4186,22 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.282.o1
-	 
+		set_cosmetic_tag = ENG_Church_Of_England
+		set_politics = {
+			ruling_party = monarchist
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = monarchist 
+			popularity = 0.32
+		}
+		create_country_leader = {
+			name = "Stephen Cottrell"
+			picture = "Stephen_Cottrell.dds"
+			ideology =  Theocratic_dictatorship
+		}
+		set_party_name = { ideology = monarchist long_name = ENG_Republican_Church name = ENG_Republican_Church }
+
 	}
 }
 
@@ -4205,12 +4230,67 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = England.285
+	title = England.285.t
+	desc = England.285.d
+	picture = church_consolidates_power_event
+	is_triggered_only = yes
+	option = {
+		name = England.285.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.286
+	title = England.286.t
+	desc = England.286.d
+	picture = invite_national_pop_event
+	is_triggered_only = yes
+	option = {
+		name = England.286.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.287
+	title = England.287.t
+	desc = England.287.d
+	picture = camera_in_church_Event
+	is_triggered_only = yes
+	option = {
+		name = England.287.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.288
+	title = England.288.t
+	desc = England.288.d
+	picture = england_and_wales_new_relationship_event
+	is_triggered_only = yes
+	option = {
+		name = England.288.o1
+	 
+	}
+}
 
 
 
-
-
-
+country_event = {
+	id = England.289
+	title = England.289.t
+	desc = England.289.d
+	picture = stephen_cottrell_complete_control_event
+	is_triggered_only = yes
+	option = {
+		name = England.289.o1
+	 
+	}
+}
 
 
 

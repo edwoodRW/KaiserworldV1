@@ -1,6 +1,31 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "stephen_cottrell_complete_control_event"
+		texturefile = "gfx/event_pictures/report_event/stephen_cottrell_complete_control_event.dds"
+	}
+	
+	spriteType = {
+		name = "england_and_wales_new_relationship_event"
+		texturefile = "gfx/event_pictures/report_event/england_and_wales_new_relationship_event.dds"
+	}
+
+	spriteType = {
+		name = "camera_in_church_Event"
+		texturefile = "gfx/event_pictures/report_event/camera_in_church_Event.dds"
+	}
+	
+	spriteType = {
+		name = "invite_national_pop_event"
+		texturefile = "gfx/event_pictures/report_event/invite_national_pop_event.dds"
+	}
+
+	spriteType = {
+		name = "church_consolidates_power_event"
+		texturefile = "gfx/event_pictures/report_event/church_consolidates_power_event.dds"
+	}
+
+	spriteType = {
 		name = "conservative_outlook_event"
 		texturefile = "gfx/event_pictures/report_event/conservative_outlook_event.dds"
 	}

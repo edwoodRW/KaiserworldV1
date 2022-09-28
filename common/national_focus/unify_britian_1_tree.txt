@@ -279,6 +279,7 @@ focus = {
     }
  
     completion_reward = {
+        
         country_event = {
             id = england.282
         }
@@ -355,7 +356,9 @@ focus = {
     prerequisite = { focus = ENG_Crack_Down_On_The_Radical   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.286
+        }
     }
 
 
@@ -452,7 +455,9 @@ focus = {
     prerequisite = { focus = ENG_The_Clergy_To_Government_Mninisters   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.285
+        }
     }
 
 
@@ -511,7 +516,9 @@ focus = {
     prerequisite = { focus = ENG_Remove_The_Liberal_Agenda   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.287
+        }
     }
 
 
@@ -551,7 +558,9 @@ focus = {
     prerequisite = { focus = ENG_Only_The_Right_And_Nationals_Shall_Remain   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.288
+        }
     }
 
 
@@ -572,7 +581,7 @@ focus = {
     prerequisite = { focus = ENG_Only_The_Right_And_Nationals_Shall_Remain   }
 
     completion_reward = {
-
+    
     }
 
 
@@ -592,7 +601,9 @@ focus = {
 
 
     completion_reward = {
-
+        country_event = {
+            id = england.289
+        }
     }
 
 

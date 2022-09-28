@@ -11,6 +11,9 @@ ideologies = {
 
 			military_junta = {
 			}
+
+			Theocratic_dictatorship = {
+			}
 			
 		}
 		

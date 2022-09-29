@@ -627,7 +627,9 @@ focus = {
         focus = ENG_Farage_Will_Change_The_Face_Of_Politics
     }
     completion_reward = {
-
+        country_event = {
+            id = england.290
+        }
     }
 
 
@@ -646,7 +648,9 @@ focus = {
     prerequisite = { focus = ENG_Galloways_Ruling   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.291
+        }
     }
 
 
@@ -665,7 +669,9 @@ focus = {
     prerequisite = { focus = ENG_A_Book_Of_How_To_Fix_A_Nation   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.293
+        }
     }
 
 
@@ -723,7 +729,9 @@ focus = {
     prerequisite = { focus = ENG_Move_Away_From_The_Old_Ruling_Style   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.292
+        }
     }
 
 
@@ -742,7 +750,7 @@ focus = {
     prerequisite = { focus = ENG_Galloways_Ruling   }
 
     completion_reward = {
-
+    
     }
 
 
@@ -761,7 +769,9 @@ focus = {
     prerequisite = { focus = ENG_Creating_Propaganda   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.294
+        }
     }
 
 
@@ -815,7 +825,9 @@ focus = {
     prerequisite = { focus = ENG_Create_A_New_TV_Station   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.295
+        }
     }
 
 
@@ -835,7 +847,9 @@ focus = {
     prerequisite = { focus = ENG_The_Young_Spread_Galloways_Message   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.296
+        }
     }
 
 
@@ -854,7 +868,9 @@ focus = {
     prerequisite = { focus = ENG_The_Best_For_Britain   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.297
+        }
     }
 
 

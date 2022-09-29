@@ -1,6 +1,49 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "galloway_march_on_london_event"
+		texturefile = "gfx/event_pictures/report_event/galloway_march_on_london_event.dds"
+	}
+	
+	spriteType = {
+		name = "breakin_other_parties_event"
+		texturefile = "gfx/event_pictures/report_event/breakin_other_parties_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "influence_the_media_event"
+		texturefile = "gfx/event_pictures/report_event/influence_the_media_event.dds"
+	}
+	
+	spriteType = {
+		name = "galloway_influence_event"
+		texturefile = "gfx/event_pictures/report_event/galloway_influence_event.dds"
+	}
+
+
+	spriteType = {
+		name = "galloway_rewrite_draft_event"
+		texturefile = "gfx/event_pictures/report_event/galloway_rewrite_draft_event.dds"
+	}
+
+	spriteType = {
+		name = "galloway_gains_popularity_event"
+		texturefile = "gfx/event_pictures/report_event/galloway_gains_popularity_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "galloways_book_event"
+		texturefile = "gfx/event_pictures/report_event/galloways_book_event.dds"
+	}
+	
+	spriteType = {
+		name = "galloway_ruling_event"
+		texturefile = "gfx/event_pictures/report_event/galloway_ruling_event.dds"
+	}
+
+	spriteType = {
 		name = "stephen_cottrell_complete_control_event"
 		texturefile = "gfx/event_pictures/report_event/stephen_cottrell_complete_control_event.dds"
 	}

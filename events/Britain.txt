@@ -4293,15 +4293,103 @@ country_event = {
 }
 
 
+country_event = {
+	id = England.290
+	title = England.290.t
+	desc = England.290.d
+	picture = galloway_ruling_event
+	is_triggered_only = yes
+	option = {
+		name = England.290.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.291
+	title = England.291.t
+	desc = England.291.d
+	picture = galloways_book_event
+	is_triggered_only = yes
+	option = {
+		name = England.291.o1
+	 
+	}
+}
 
 
+country_event = {
+	id = England.292
+	title = England.292.t
+	desc = England.292.d
+	picture = galloway_gains_popularity_event
+	is_triggered_only = yes
+	option = {
+		name = England.292.o1
+	 
+	}
+}
 
 
+country_event = {
+	id = England.293
+	title = England.293.t
+	desc = England.293.d
+	picture = galloway_rewrite_draft_event
+	is_triggered_only = yes
+	option = {
+		name = England.293.o1
+	 
+	}
+}
 
+country_event = {
+	id = England.294
+	title = England.294.t
+	desc = England.294.d
+	picture = galloway_influence_event
+	is_triggered_only = yes
+	option = {
+		name = England.294.o1
+	 
+	}
+}
 
+country_event = {
+	id = England.295
+	title = England.295.t
+	desc = England.295.d
+	picture = influence_the_media_event
+	is_triggered_only = yes
+	option = {
+		name = England.295.o1
+	 
+	}
+}
 
+country_event = {
+	id = England.296
+	title = England.296.t
+	desc = England.296.d
+	picture = breakin_other_parties_event
+	is_triggered_only = yes
+	option = {
+		name = England.296.o1
+	 
+	}
+}
 
-
+country_event = {
+	id = England.297
+	title = England.297.t
+	desc = England.297.d
+	picture = galloway_march_on_london_event
+	is_triggered_only = yes
+	option = {
+		name = England.297.o1
+	 
+	}
+}
 
 
 

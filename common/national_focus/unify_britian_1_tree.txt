@@ -890,7 +890,9 @@ focus = {
 
 
     completion_reward = {
-
+        country_event = {
+            id = england.299
+        }
     }
 
 
@@ -909,7 +911,9 @@ focus = {
 
 
     completion_reward = {
-
+        country_event = {
+            id = england.298
+        }
     }
 
 
@@ -930,7 +934,9 @@ focus = {
 
 
     completion_reward = {
-
+        country_event = {
+            id = england.300
+        }
     }
 
 
@@ -955,7 +961,9 @@ focus = {
         focus = ENG_Galloways_Ruling
     }
     completion_reward = {
-
+        country_event = {
+            id = england.301
+        }
     }
 
 
@@ -974,7 +982,9 @@ focus = {
     prerequisite = { focus = ENG_Farage_Will_Change_The_Face_Of_Politics   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.302
+        }
     }
 
 
@@ -994,7 +1004,9 @@ focus = {
     prerequisite = { focus = ENG_Invite_The_Populists_In   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.303
+        }
     }
 
 
@@ -1048,7 +1060,9 @@ focus = {
     prerequisite = { focus = ENG_Limit_The_Rest_Of_The_Congress   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.304
+        }
     }
 
 
@@ -1069,7 +1083,9 @@ focus = {
     prerequisite = { focus = ENG_Build_A_Pact_With_The_Church_Of_England   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.305
+        }
     }
 
 
@@ -1089,7 +1105,9 @@ focus = {
 
     
     completion_reward = {
-
+        country_event = {
+            id = england.306
+        }
     }
 
 
@@ -1129,9 +1147,10 @@ focus = {
     prerequisite = { focus = ENG_Pre_Revolutionary_Days   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.307
+        }
     }
-
 
 }
 
@@ -1222,7 +1241,9 @@ focus = {
     prerequisite = { focus = ENG_Bring_Back_National_Holidays   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.308
+        }
     }
 
 
@@ -1264,7 +1285,9 @@ focus = {
     prerequisite = { focus = ENG_Restrict_The_Freedom_of_Peoples_Rights_Bill   }
 
     completion_reward = {
-
+        country_event = {
+            id = england.309
+        }
     }
 
 
@@ -1285,7 +1308,7 @@ focus = {
 
 
     completion_reward = {
-
+        set_cosmetic_tag = ENG_England_union_flag
     }
 
 
@@ -1305,7 +1328,9 @@ focus = {
 
 
     completion_reward = {
-
+        country_event = {
+            id = england.310
+        }
     }
 
 
@@ -1325,7 +1350,9 @@ focus = {
 
 
     completion_reward = {
-
+        country_event = {
+            id = england.311
+        }
     }
 
 

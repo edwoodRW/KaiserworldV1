@@ -4391,14 +4391,216 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = England.298
+	title = England.298.t
+	desc = England.298.d
+	picture = blocking_congress_event
+	is_triggered_only = yes
+	option = {
+		name = England.298.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.299
+	title = England.299.t
+	desc = England.299.d
+	picture = boris_give_up_job_event
+	is_triggered_only = yes
+	option = {
+		name = England.299.o1
+	 
+	}
+}
+
+country_event = {
+	id = England.300
+	title = England.300.t
+	desc = England.300.d
+	picture = galloway_becomes_leader_event
+	is_triggered_only = yes
+	option = {
+		name = England.300.o1
+		set_cosmetic_tag = ENG_Peoples_State_Of_The_Republic_Of_England
+		set_politics = {
+			ruling_party = national_bolshevik
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = national_bolshevik 
+			popularity = 0.32
+		}
+		create_country_leader = {
+			name = "George Galloway"
+			picture = "george_galloway_KW.dds"
+			ideology =  Galloism
+		}
+		set_party_name = { ideology = national_bolshevik long_name = ENG_English_Social_Movement name = ENG_English_Social_Movement }
+
+	}
+}
+
+country_event = {
+	id = England.301
+	title = England.301.t
+	desc = England.301.d
+	picture = galloway_becomes_leader_event
+	is_triggered_only = yes
+	option = {
+		name = England.301.o1
+		set_cosmetic_tag = ENG_England
+		set_politics = {
+			ruling_party = nationalist
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = nationalist 
+			popularity = 0.32
+		}
+		create_country_leader = {
+			name = "Nigel Farage"
+			picture = "Nigel_Farage_KW.dds"
+			ideology =  British_nationalism
+		}
+
+	}
+}
 
 
 
 
+country_event = {
+	id = England.302
+	title = England.302.t
+	desc = England.302.d
+	picture = inviting_far_right_in_event
+	is_triggered_only = yes
+	option = {
+		name = England.302.o1
+		
+
+	}
+}
+
+country_event = {
+	id = England.303
+	title = England.303.t
+	desc = England.303.d
+	picture = restructure_the_party_event
+	is_triggered_only = yes
+	option = {
+		name = England.303.o1
+		
+
+	}
+}
+
+country_event = {
+	id = England.304
+	title = England.304.t
+	desc = England.304.d
+	picture = walking_out_of_congress_event
+	is_triggered_only = yes
+	option = {
+		name = England.304.o1
+		
+
+	}
+}
 
 
+country_event = {
+	id = England.305
+	title = England.305.t
+	desc = England.305.d
+	picture = night_of_broken_star_event
+	is_triggered_only = yes
+	option = {
+		name = England.305.o1
+		
 
+	}
+}
 
+country_event = {
+	id = England.306
+	title = England.306.t
+	desc = England.306.d
+	picture = forcing_an_election_event
+	is_triggered_only = yes
+	option = {
+		name = England.306.o1
+		
+
+	}
+}
+
+country_event = {
+	id = England.307
+	title = England.307.t
+	desc = England.307.d
+	picture = nigel_brings_back_pubs_event
+	is_triggered_only = yes
+	option = {
+		name = England.307.o1
+		
+
+	}
+}
+
+country_event = {
+	id = England.308
+	title = England.308.t
+	desc = England.308.d
+	picture = peoples_bill_removed_event
+	is_triggered_only = yes
+	option = {
+		name = England.308.o1
+		
+
+	}
+}
+
+country_event = {
+	id = England.309
+	title = England.309.t
+	desc = England.309.d
+	picture = control_through_fear_event
+	is_triggered_only = yes
+	option = {
+		name = England.309.o1
+		
+
+	}
+}
+
+country_event = {
+	id = England.310
+	title = England.310.t
+	desc = England.310.d
+	picture = new_economy_plan_event
+	is_triggered_only = yes
+	option = {
+		name = England.310.o1
+		
+
+	}
+}
+
+country_event = {
+	id = England.311
+	title = England.311.t
+	desc = England.311.d
+	picture = national_populist_england_event
+	is_triggered_only = yes
+	option = {
+		name = England.311.o1
+		
+
+	}
+}
 
 
 

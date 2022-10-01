@@ -2196,6 +2196,18 @@ ENG_Church_Of_England:0 "Kingdom Of England"
 ENG_Church_Of_England_DEF:0 "Kingdom Of England"
 ENG_Church_Of_England_ADJ:0 "Kingdom Of England"
 
+ENG_Peoples_State_Of_The_Republic_Of_England:0 "Peoples State Of The Republic Of England"
+ENG_Peoples_State_Of_The_Republic_Of_England_DEF:0 "The Peoples State Of The Republic Of England"
+ENG_Peoples_State_Of_The_Republic_Of_England_ADJ:0 "The Peoples State Of The Republic Of England"
+
+ENG_England:0 "England"
+ENG_England_DEF:0 "State Of England"
+ENG_England_ADJ:0 "State Of England"
+
+ENG_England_union_flag:0 "England"
+ENG_England_union_flag_DEF:0 "England"
+ENG_England_union_flag_ADJ:0 "England"
+
 SCO_Totalist_state:0 "The Union Of Scotland"
 SCO_Totalist_state_DEF:0 "The Union Of Scotland"
 SCO_Totalist_state_ADJ:0 "The Union Of Scotland"

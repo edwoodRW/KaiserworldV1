@@ -4,6 +4,8 @@ ideologies = {
 		
 		types = {
 		
+			
+
 			revolutionary_socialist_ideology = {
 			}
 			

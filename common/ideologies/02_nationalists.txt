@@ -4,6 +4,9 @@ ideologies = {
 		
 		types = {
 		
+			British_nationalism = {
+			}		
+	
 			nationalist_ideology = {
 			}
 

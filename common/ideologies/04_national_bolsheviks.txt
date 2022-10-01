@@ -3,6 +3,9 @@ ideologies = {
 	national_bolshevik = {
 		
 		types = {
+
+			Galloism = {
+			}
 			
 			national_bolshevik_ideology = {
 			}

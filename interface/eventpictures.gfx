@@ -1,6 +1,79 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "national_populist_england_event"
+		texturefile = "gfx/event_pictures/report_event/national_populist_england_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "new_economy_plan_event"
+		texturefile = "gfx/event_pictures/report_event/new_economy_plan_event.dds"
+	}
+	
+	spriteType = {
+		name = "control_through_fear_event"
+		texturefile = "gfx/event_pictures/report_event/control_through_fear_event.dds"
+	}
+
+	spriteType = {
+		name = "peoples_bill_removed_event"
+		texturefile = "gfx/event_pictures/report_event/peoples_bill_removed_event.dds"
+	}
+	
+	spriteType = {
+		name = "nigel_brings_back_pubs_event"
+		texturefile = "gfx/event_pictures/report_event/nigel_brings_back_pubs_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "forcing_an_election_event"
+		texturefile = "gfx/event_pictures/report_event/forcing_an_election_event.dds"
+	}
+	
+
+	spriteType = {
+		name = "night_of_broken_star_event"
+		texturefile = "gfx/event_pictures/report_event/night_of_broken_star_event.dds"
+	}
+	
+		
+	spriteType = {
+		name = "walking_out_of_congress_event"
+		texturefile = "gfx/event_pictures/report_event/walking_out_of_congress_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "restructure_the_party_event"
+		texturefile = "gfx/event_pictures/report_event/restructure_the_party_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "inviting_far_right_in_event"
+		texturefile = "gfx/event_pictures/report_event/inviting_far_right_in_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "galloway_becomes_leader_event"
+		texturefile = "gfx/event_pictures/report_event/galloway_becomes_leader_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "boris_give_up_job_event"
+		texturefile = "gfx/event_pictures/report_event/boris_give_up_job_event.dds"
+	}
+	
+	spriteType = {
+		name = "blocking_congress_event"
+		texturefile = "gfx/event_pictures/report_event/blocking_congress_event.dds"
+	}
+
+	spriteType = {
 		name = "galloway_march_on_london_event"
 		texturefile = "gfx/event_pictures/report_event/galloway_march_on_london_event.dds"
 	}

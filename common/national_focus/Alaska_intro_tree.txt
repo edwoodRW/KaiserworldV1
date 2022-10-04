@@ -21,7 +21,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
+			country_event = {	
 			id = Alaska.5
+			}
 		}
 	
 	}
@@ -36,9 +38,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_The_Situation_In_Alaska  }
 		completion_reward = {
-			country_event = {			
-			
-			}
+		add_command_power = 20
 		}
 	
 	}
@@ -160,6 +160,8 @@ focus_tree = {
 			country_event = {			
 				id = Alaska.6
 			}
+			set_country_flag = USA_Alaska_Crisis
+			mark_focus_tree_layout_dirty = yes
 		}
 	
 	}
@@ -369,6 +371,8 @@ focus_tree = {
 			country_event = {			
 				id = Alaska.6
 			}
+			set_country_flag = USA_Alaska_Crisis
+			mark_focus_tree_layout_dirty = yes
 		}
 	
 	}
@@ -471,10 +475,18 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = USA_A_Successful_Withdrawal
 		}
+							#trigger = {
+		#	has_country_flag = USA_Alaska_Crisis
+	#	}
+		#allow_branch = {
+		#	has_country_flag = USA_Alaska_Crisis
+		#	USA_Alaska_Crisis = yes
+	#	}
 		completion_reward = {
 			country_event = {			
 				id = Alaska.1
 			}
+			
 		}
 	
 	}
@@ -737,6 +749,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = USA_The_Anchorage_Crsis
 		}
+							#trigger = {
+		#	has_country_flag = USA_Alaska_Crisis
+	#	}
+		#allow_branch = {
+		#	has_country_flag = USA_Alaska_Crisis
+		#	USA_Alaska_Crisis = yes
+	#	}
 		completion_reward = {
 	
 		}

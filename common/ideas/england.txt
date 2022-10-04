@@ -1,6 +1,311 @@
 ideas = {
 
 		country = {	
+			
+			Increase_Mass_Production = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				industrial_capacity_factory = 0.04
+				industrial_capacity_dockyard = 0.03
+				production_speed_infrastructure_factor = 0.10
+			
+				}
+			}
+
+			
+			The_Commonwealth_Army = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+
+				research_bonus = {
+					electronics = -0.20
+				}	
+
+
+				modifier = {
+					acclimatization_hot_climate_gain_factor = 0.1
+					acclimatization_cold_climate_gain_factor = 0.1
+					training_time_factor = 0.1
+					naval_detection = 0.15
+					spotting_chance = 0.1
+					air_ace_generation_chance_factor = 0.3
+					experience_gain_air_factor = 0.1
+					air_range_factor = 0.4
+
+				}
+			}
+			
+			New_Military_Research = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+
+				research_bonus = {
+					electronics = -0.20
+				}	
+
+
+				modifier = {
+				army_speed_factor = 0.5
+				mobilization_speed = 0.5
+				unit_limit_bonus = 2
+				experience_gain_army_unit_factor = 0.01
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+
+				}
+			}
+			
+			Oversea_Training = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+
+				research_bonus = {
+					electronics = 0.20
+				}	
+
+
+				modifier = {
+					drift_defence_factor = 1.50
+					foreign_subversive_activites = 0.90
+					decryption = 2
+					encryption = 2
+					planning_speed = 0.20
+
+				}
+			}
+			
+					
+			new_training_opportunities = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+
+				research_bonus = {
+					electronics = 0.20
+				}	
+
+
+				modifier = {
+				industrial_capacity_factory = 0.03
+				consumer_goods_factor = 0.04
+				stability_factor = 0.02
+			
+
+				}
+			}
+			
+					
+			Reformed_education = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				opinion_gain_monthly_same_ideology = 2
+				stability_factor = 0.08
+				monthly_population = 0.30
+
+				}
+			}
+			
+			The_New_Budget = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				local_resources_factor = 0.04
+				trade_opinion_factor = 0.10
+				consumer_goods_factor = 0.04
+				stability_weekly = 0.002
+				political_power_factor = 0.03
+
+
+				}
+			}
+			
+
+			London_stock_market = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				production_speed_buildings_factor = 0.02
+				political_power_factor = 0.02
+				research_speed_factor = 0.02
+				local_resources_factor = 0.02
+
+
+				}
+			}
+			
+			more_trade_routes = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					economy_cost_factor = 0.35				
+					trade_laws_cost_factor = 0.15
+					trade_opinion_factor = 0.25
+			
+				}
+			}
+
+			local_manufacturing = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				industrial_capacity_factory = 0.01
+				industrial_capacity_dockyard = 0.01
+				production_speed_infrastructure_factor = 0.10
+			
+				}
+			}
+
+
+			ENG_private_land_on_cheap = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					consumer_goods_factor = 0.02
+					industrial_capacity_factory = 0.03
+			
+				}
+			}
+
+
+			Duel_Military_coop = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					training_time_army_factor = 0.09
+					conscription = 0.01
+					experience_gain_army_factor = 0.10
+					military_leader_cost_factor = 0.10
+			
+				}
+			}
+
+			
+			Economic_Projects = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					consumer_goods_factor = 0.15
+					production_speed_industrial_complex_factor = 0.04
+					production_speed_arms_factory_factor = 0.04
+					conversion_cost_civ_to_mil_factor= 0.02
+					conversion_cost_mil_to_civ_factor = 0.04
+			
+				}
+			}
 
 			idea_memories_of_Michael_foot = {
 				allowed = {
@@ -106,7 +411,8 @@ ideas = {
 					mobilization_speed = 0.5
 					conscription_factor = 0.1
 					war_support_factor = 0.15
-					economy_cost_factor = 0.55				trade_laws_cost_factor = 0.55
+					economy_cost_factor = 0.55				
+					trade_laws_cost_factor = 0.55
 					MONTHLY_POPULATION = 0.1
 					army_morale_factor = 0.1
 					non_core_manpower = -0.05

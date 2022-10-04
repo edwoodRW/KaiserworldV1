@@ -35,7 +35,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_A_Talk_With_Wales_And_Scotland  }
 		completion_reward = {
-
+			add_stability = 0.05
 		}
 
 	
@@ -52,7 +52,12 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_People_Are_Ready_For_Change  }
 		completion_reward = {
-
+			ENG = {
+				add_opinion_modifier = {
+					target = SCO
+					modifier = small_increase
+				}
+			}
 		}
 
 	
@@ -69,7 +74,12 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_People_Are_Ready_For_Change  }
 		completion_reward = {
-
+			ENG = {
+				add_opinion_modifier = {
+					target = WAL
+					modifier = small_increase
+				}
+			}
 		}
 
 	
@@ -90,6 +100,7 @@ focus_tree = {
 			country_event = {
 				id = england.213
 			}
+			add_political_power = 20
 		}
 
 	
@@ -180,7 +191,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ENG_Britain_Is_Back   }
 		completion_reward = {
-
+			add_stability = 0.015
 		}
 
 	
@@ -214,7 +225,8 @@ focus_tree = {
 		}
 		prerequisite = { focus = ENG_Bring_Back_Old_History   }
 		completion_reward = {
-
+			add_political_power = 10
+			add_stability = 0.05
 		}
 
 	
@@ -279,7 +291,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = ENG_Hold_The_Unification_Referendum   }
 		completion_reward = {
-
+			add_stability = -0.15
 		}
 
 	
@@ -298,7 +310,7 @@ focus_tree = {
 
 		prerequisite = { focus = ENG_The_Disunited_Kingdom   }
 		completion_reward = {
-
+			add_ideas = Economic_Projects
 		}
 
 	
@@ -317,7 +329,7 @@ focus_tree = {
 
 		prerequisite = { focus = ENG_The_Disunited_Kingdom   }
 		completion_reward = {
-
+			add_ideas = Duel_Military_coop
 		}
 
 	
@@ -361,7 +373,7 @@ focus_tree = {
 
 
 		completion_reward = {
-		
+		add_political_power = 10
 		}
 
 	
@@ -405,6 +417,8 @@ focus_tree = {
 			country_event = {
 				id = england.222
 			}
+			add_political_power = 10
+			add_stability = 0.05
 		}
 
 	
@@ -425,7 +439,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_The_Commonwealth_Of_Britain   }
 
 		completion_reward = {
-
+			add_stability = 0.05
 		}
 
 	
@@ -443,7 +457,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_An_Old_Island_To_Rebuild   }
 
 		completion_reward = {
-
+			add_political_power = 10
 		}
 
 	
@@ -481,7 +495,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Reintroduce_The_BBC   }
 
 		completion_reward = {
-
+			add_political_power = 10
 		}
 
 	
@@ -500,7 +514,8 @@ focus_tree = {
 		prerequisite = { focus = ENG_Open_Up_To_Outside_Television   }
 
 		completion_reward = {
-
+			add_stability = 0.10
+			add_political_power = 30
 		}
 
 	
@@ -518,7 +533,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Life_In_the_United_Isle   }
 
 		completion_reward = {
-
+			add_ideas = Reformed_education
 		}
 
 	
@@ -578,7 +593,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Life_In_the_United_Isle   }
 
 		completion_reward = {
-
+			add_stability = 0.03
 		}
 
 	
@@ -596,7 +611,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Cheaper_Housing   }
 
 		completion_reward = {
-
+			add_ideas = new_training_opportunities
 		}
 
 	
@@ -658,7 +673,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_An_Old_Island_To_Rebuild   }
 
 		completion_reward = {
-
+			add_command_power = 20
 		}
 
 	
@@ -696,6 +711,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Welcome_back_The_Scot_And_Welsh_Guard   }
 
 		completion_reward = {
+			add_political_power = 50
 
 		}
 
@@ -715,7 +731,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Integrate_The_Military_Into_One   }
 
 		completion_reward = {
-
+			add_ideas = Oversea_Training
 		}
 
 	
@@ -734,7 +750,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_The_Soon_To_Be_Best_Soldiers_In_The_World   }
 
 		completion_reward = {
-
+			add_ideas = The_Commonwealth_Army
 		}
 
 	
@@ -753,7 +769,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_The_United_Military_Service   }
 
 		completion_reward = {
-
+			add_ideas = New_Military_Research
 		}
 
 	
@@ -772,7 +788,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Begin_Work_Into_New_Military_Research   }
 
 		completion_reward = {
-
+			add_command_power = 10
 		}
 
 	
@@ -811,7 +827,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_An_Old_Island_To_Rebuild   }
 
 		completion_reward = {
-
+			add_political_power = 10
 		}
 
 	
@@ -829,7 +845,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Fixing_The_Economy   }
 
 		completion_reward = {
-
+			add_political_power = 20
 		}
 
 	
@@ -869,7 +885,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Create_A_Tax_Bracket   }
 
 		completion_reward = {
-
+			add_ideas = local_manufacturing
 		}
 
 	
@@ -888,7 +904,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Local_Manufacturing   }
 
 		completion_reward = {
-
+			add_ideas = more_trade_routes
 		}
 
 	
@@ -907,7 +923,8 @@ focus_tree = {
 		prerequisite = { focus = ENG_Fixing_The_Economy   }
 
 		completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.015
 		}
 
 	
@@ -925,7 +942,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Create_The_Pound   }
 
 		completion_reward = {
-
+			add_ideas = London_stock_market
 		}
 
 	
@@ -943,7 +960,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Create_The_Pound   }
 
 		completion_reward = {
-
+			add_political_power = 20
 		}
 
 	
@@ -966,6 +983,7 @@ focus_tree = {
 			country_event = {
 				id = england.229
 			}
+			add_ideas = The_New_Budget
 		}
 
 	
@@ -1003,7 +1021,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Open_Shop_Here   }
 
 		completion_reward = {
-
+			add_political_power = 10
 		}
 
 	
@@ -1022,7 +1040,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Open_Shop_Here   }
 
 		completion_reward = {
-
+			add_ideas = ENG_private_land_on_cheap
 		}
 
 	
@@ -1041,7 +1059,7 @@ focus_tree = {
 		prerequisite = { focus = ENG_Take_Advantage_Of_Cheap_Tax_Deals   }
 
 		completion_reward = {
-
+			add_stability = 0.10
 		}
 
 	

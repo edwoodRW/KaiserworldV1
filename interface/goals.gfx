@@ -10816,6 +10816,34 @@ SpriteType = {
 		name = "Icon_Cooperate_with_the_Alaskan_Military_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Cooperate_with_the_Alaskan_Military_KW.dds"			
 		}
+
+	SpriteType = {
+		name = "Icon_Bernies_Time_to_Shine_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Bernies_Time_to_Shine_KW.dds"			
+		}
+		
+		
+	SpriteType = {
+		name = "Icon_Subsidize_Healthcare_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Subsidize_Healthcare_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Increase_Minimum_Wage_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Increase_Minimum_Wage_KW.dds"			
+		}
+
+		
+	SpriteType = {
+		name = "Icon_Deal_with_the_Military_Industrial_Complex_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Deal_with_the_Military_Industrial_Complex_KW.dds"			
+		}
+
+		
+	SpriteType = {
+		name = "Icon_Bernies_New_Deal_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Bernies_New_Deal_KW.dds"			
+		}
 		
 SpriteType = {
 		name = "Icon_Promote_Healthy_Food_KW"

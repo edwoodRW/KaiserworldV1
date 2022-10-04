@@ -23,6 +23,7 @@ focus = {
         country_event = {
             id = england.275
         }
+    add_political_power = -20
     }
 
 
@@ -46,6 +47,7 @@ focus = {
         country_event = {
             id = england.276
         }
+        add_stability = -0.10
     }
 
 
@@ -132,6 +134,7 @@ focus = {
     prerequisite = { focus = ENG_Introduce_The_First_National_Parks   }
 
     completion_reward = {
+        add_stability = 0.10
 
     }
 
@@ -172,7 +175,7 @@ focus = {
     prerequisite = { focus = ENG_Nationalise_The_Powergrid   }
 
     completion_reward = {
-
+        add_ideas = Increase_Mass_Production
     }
 
 
@@ -191,7 +194,7 @@ focus = {
     prerequisite = { focus = ENG_Fund_Community_Projects   }
 
     completion_reward = {
-
+        add_political_power = 30
     }
 
 
@@ -212,7 +215,10 @@ focus = {
 
 
     completion_reward = {
-
+        add_popularity = {
+			ideology = new_democrat
+			popularity = 0.05
+		}
     }
 
 
@@ -232,7 +238,14 @@ focus = {
 
 
     completion_reward = {
-
+        add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.05
+		}
+        add_popularity = {
+			ideology = moderate_socialist
+			popularity = 0.05
+		}
     }
 
 
@@ -256,6 +269,8 @@ focus = {
         country_event = {
             id = england.281
         }
+        add_political_power = 10
+        add_stability = 0.05
     }
 
 

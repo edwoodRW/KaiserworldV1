@@ -9,7 +9,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Bernies_Time_To_Shine
-		icon = focus_prime_minister_bernie
+		icon = Icon_Bernies_Time_to_Shine_KW
 		x = 10
 		y = 0
 		cost = 5
@@ -24,7 +24,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_Bernies_New_Deal
-		icon = unkown
+		icon = Icon_Bernies_New_Deal_KW
 		x = 10
 		y = 1
 		cost = 5
@@ -42,7 +42,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Pushing_back_Against_The_Military_Industrial_Complex
-		icon = unkown
+		icon = Icon_Deal_with_the_Military_Industrial_Complex_KW
 		x = 7
 		y = 2
 		cost = 5
@@ -79,7 +79,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Raise_Minimum_Wage
-		icon = unkown
+		icon = Icon_Increase_Minimum_Wage_KW
 		x = 10
 		y = 2
 		cost = 5
@@ -114,7 +114,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Subsidize_Healthcare
-		icon = unkown
+		icon = Icon_Subsidize_Healthcare_KW
 		x = 13
 		y = 2
 		cost = 5

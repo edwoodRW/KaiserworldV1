@@ -58,7 +58,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Regulate_Wall_Street
-		icon = unkown
+		icon = Icon_Regulate_Wall_Street_KW
 		x = 7
 		y = 3
 		cost = 5
@@ -96,7 +96,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_Increase_Taxes_On_The_Aristocracy
-		icon = unkown
+		icon = Icon_Increase_Taxes_on_the_Aristocracy_KW
 		x = 10
 		y = 3
 		cost = 5
@@ -130,7 +130,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Work_With_The_Banks
-		icon = unkown
+		icon = Icon_Work_With_the_Banks_KW
 		x = 13
 		y = 3
 		cost = 5
@@ -146,7 +146,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Onto_The_Real_Work
-		icon = unkown
+		icon = Icon_Onto_the_Real_Work_KW
 		x = 10
 		y = 4
 		cost = 5
@@ -166,7 +166,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Free_Schooling_For_All
-		icon = unkown
+		icon = Icon_Free_Schooling_for_All_KW
 		x = 7
 		y = 5
 		cost = 5
@@ -182,7 +182,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Big_Pharma_And_Socialism
-		icon = unkown
+		icon = Icon_Big_Pharma_and_Socialism_KW
 		x = 7
 		y = 6
 		cost = 5
@@ -198,7 +198,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Protect_Unions
-		icon = unkown
+		icon = Icon_Protect_Unions_KW
 		x = 10
 		y = 5
 		cost = 5
@@ -214,7 +214,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Workplace_Democracy
-		icon = unkown
+		icon = Icon_Workplace_Democracy_KW
 		x = 10
 		y = 6
 		cost = 5
@@ -230,7 +230,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_Roof_Over_Everyones_Head
-		icon = unkown
+		icon = Icon_A_Roof_Over_Everyones_Head_KW
 		x = 13
 		y = 5
 		cost = 5
@@ -247,7 +247,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_End_The_Prison_Pipeline
-		icon = unkown
+		icon = Icon_End_the_Prison_Pipeline_KW
 		x = 13
 		y = 6
 		cost = 5

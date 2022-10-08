@@ -10822,6 +10822,58 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/usa/Icon_Bernies_Time_to_Shine_KW.dds"			
 		}
 		
+				
+	SpriteType = {
+		name = "Icon_End_the_Prison_Pipeline_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_End_the_Prison_Pipeline_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Workplace_Democracy_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Workplace_Democracy_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Big_Pharma_and_Socialism_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Big_Pharma_and_Socialism_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_A_Roof_Over_Everyones_Head_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_A_Roof_Over_Everyones_Head_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Protect_Unions_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Protect_Unions_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Free_Schooling_for_All_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Free_Schooling_for_All_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Onto_the_Real_Work_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Onto_the_Real_Work_KW.dds"			
+		}
+				
+	SpriteType = {
+		name = "Icon_Work_With_the_Banks_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Work_With_the_Banks_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Increase_Taxes_on_the_Aristocracy_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Increase_Taxes_on_the_Aristocracy_KW.dds"			
+		}
+
+
+	SpriteType = {
+		name = "Icon_Regulate_Wall_Street_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Regulate_Wall_Street_KW.dds"			
+		}
+
 		
 	SpriteType = {
 		name = "Icon_Subsidize_Healthcare_KW"

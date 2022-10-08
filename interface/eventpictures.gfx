@@ -1,6 +1,18 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "diana_comes_to_england_event"
+		texturefile = "gfx/event_pictures/report_event/diana_comes_to_england_event.dds"
+	}
+	
+	
+	spriteType = {
+		name = "charles_and_diana_split_event"
+		texturefile = "gfx/event_pictures/report_event/charles_and_diana_split_event.dds"
+	}
+	
+
+	spriteType = {
 		name = "national_populist_england_event"
 		texturefile = "gfx/event_pictures/report_event/national_populist_england_event.dds"
 	}

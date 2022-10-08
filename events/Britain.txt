@@ -3087,13 +3087,13 @@ country_event = {
 	option = {
 		name = England.219.o1
 		ENG = {
+			annex_country = { target = SCO transfer_troops = yes }
+			annex_country = { target = WAL transfer_troops = yes }
+			}
+		ENG = {
 			Create_faction = "United Isle Federation"
-			Add_to_faction = SCO
-			Add_to_faction = WAL
-			Add_to_faction = IRE
-		}
+			}
 	}
-
 }
 
 country_event = {
@@ -4375,7 +4375,15 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.296.o1
-	 
+		add_popularity = {
+			ideology = new_democrat
+			popularity = -0.50
+		}
+		add_popularity = {
+			ideology = liberal
+			popularity = -0.50
+		}
+
 	}
 }
 
@@ -4603,8 +4611,46 @@ country_event = {
 }
 
 
+country_event = {
+	id = England.312
+	title = England.312.t
+	desc = England.312.d
+	picture = charles_and_diana_split_event
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		date > 2010.4.1
+		date < 2010.4.30
+	}
+	
+	option = {
+		name = England.312.o1
+
+	}
+
+}
 
 
+country_event = {
+	id = England.313
+	title = England.313.t
+	desc = England.313.d
+	picture = diana_comes_to_england_event
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		date > 2010.5.1
+		date < 2010.5.30
+	}
+	
+	option = {
+		name = England.313.o1
+
+	}
+
+}
 
 
 

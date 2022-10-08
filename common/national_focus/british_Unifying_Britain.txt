@@ -101,6 +101,18 @@ focus_tree = {
 				id = england.213
 			}
 			add_political_power = 20
+			add_popularity = {
+				ideology = new_democrat
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = liberal
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = national_conservative
+				popularity = 0.10
+			}
 		}
 
 	
@@ -263,11 +275,13 @@ focus_tree = {
 		}
 		prerequisite = { focus = ENG_Bring_Back_Parliament   }
 		prerequisite = { focus = ENG_Keep_Welsh_And_Scottish_Parliaments   }
-
+		
 		completion_reward = {
 			country_event = {
 				id = england.219
 			}
+			set_country_flag = ENG_The_Commonwealth
+			mark_focus_tree_layout_dirty = yes
 		}
 
 	
@@ -351,7 +365,7 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = {
-				id = england.220
+				id = England.220
 			}
 		}
 
@@ -397,6 +411,8 @@ focus_tree = {
 			country_event = {
 				id = england.221
 			}
+			set_country_flag = ENG_Broken_Nation
+			mark_focus_tree_layout_dirty = yes
 		}
 
 	
@@ -412,8 +428,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-
+		trigger = {
+			has_country_flag = ENG_The_Commonwealth
+		}
+		allow_branch = {
+			has_country_flag = ENG_The_Commonwealth
+			ENG_The_Commonwealth = yes
+		}
 		completion_reward = {
+			set_country_flag = ENG_The_Commonwealth
+			mark_focus_tree_layout_dirty = yes
 			country_event = {
 				id = england.222
 			}
@@ -441,7 +465,9 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 		}
-
+		set_country_flag = ENG_The_Commonwealth
+		mark_focus_tree_layout_dirty = yes
+		
 	
 	}
 
@@ -1065,6 +1091,1474 @@ focus_tree = {
 	
 	}
 
+
+
+
+
+
+
+	focus = {
+		id = ENG_Ive_Done_All_I_Can_Done
+		icon = ive_done_all_i_can_icon
+		x = 25
+		y = 12
+		cost = 3
+		available = {
+			has_completed_focus = ENG_Ask_The_Irish_To_Work_With_Us
+		}
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_An_Old_Island_To_Rebuild   }
+		trigger = {
+			has_country_flag = ENG_Broken_Nation
+		}
+		allow_branch = {
+			has_country_flag = ENG_Broken_Nation
+		ENG_Broken_Nation = yes
+		}
+	
+		completion_reward = {
+			country_event = {
+				id = england.275
+			}
+		add_political_power = -20
+		}
+	
+	
+	}
+	
+	
+	
+	
+	focus = {
+		id = ENG_Looking_For_A_New_Successor
+		icon = looking_for_a_successor_icon
+		x = 25
+		y = 13
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Ive_Done_All_I_Can_Done   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.276
+			}
+			add_stability = -0.10
+		}
+	
+	
+	}
+	
+	
+	
+	focus = {
+		id = ENG_Theresas_Republican_Plan
+		icon = theresa_may_republican_plan_icon
+		x = 13
+		y = 14
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Looking_For_A_New_Successor   }
+		mutually_exclusive = {
+			focus = ENG_Stephen_Cottrells_New_Direction
+			focus = ENG_Galloways_Ruling
+			focus = ENG_Farage_Will_Change_The_Face_Of_Politics
+		}
+	 
+		completion_reward = {
+			country_event = {
+				id = england.277
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_I_Have_A_Few_Things_To_Change
+		icon = i_have_a_few_things_to_change_cion
+		x = 13
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Theresas_Republican_Plan   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.278
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Introduce_The_First_National_Parks
+		icon = first_national_parks_icon
+		x = 11
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_I_Have_A_Few_Things_To_Change   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.280
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Fund_Community_Projects
+		icon = fund_community_projects_icon
+		x = 11
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Introduce_The_First_National_Parks   }
+	
+		completion_reward = {
+			add_stability = 0.10
+	
+		}
+	
+	
+	}
+	
+	
+	
+	focus = {
+		id = ENG_Nationalise_The_Powergrid
+		icon = nationalise_powergrid_icon
+		x = 15
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_I_Have_A_Few_Things_To_Change   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.279
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Increase_The_Means_Of_Mass_Production
+		icon = increase_means_of_mass_production_icon
+		x = 15
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Nationalise_The_Powergrid   }
+	
+		completion_reward = {
+			add_ideas = Increase_Mass_Production
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Uniting_The_Party
+		icon = uniting_the_party_icon
+		x = 13
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Increase_The_Means_Of_Mass_Production   }
+		prerequisite = { focus = ENG_Fund_Community_Projects   }
+	
+		completion_reward = {
+			add_political_power = 30
+		}
+	
+	
+	}
+	
+	
+	
+	focus = {
+		id = ENG_Work_With_The_Social_Democrats
+		icon = work_with_social_democrats_icon
+		x = 12
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Uniting_The_Party   }
+	
+	
+		completion_reward = {
+			add_popularity = {
+				ideology = new_democrat
+				popularity = 0.05
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Unite_With_The_Unions
+		icon = unite_with_the_unions_icon
+		x = 14
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Uniting_The_Party   }
+	
+	
+		completion_reward = {
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = moderate_socialist
+				popularity = 0.05
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_A_Renewed_Parliament
+		icon = a_renewed_arplaiment_icon
+		x = 13
+		y = 20
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Work_With_The_Social_Democrats   }
+	
+		prerequisite = { focus = ENG_Unite_With_The_Unions   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.281
+			}
+			add_political_power = 10
+			add_stability = 0.05
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Stephen_Cottrells_New_Direction
+		icon = stephen_cottrell_direction_icon
+		x = 22
+		y = 14
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Looking_For_A_New_Successor   }
+		mutually_exclusive = {
+			focus = ENG_Theresas_Republican_Plan
+			focus = ENG_Galloways_Ruling
+			focus = ENG_Farage_Will_Change_The_Face_Of_Politics
+		}
+	 
+		completion_reward = {
+			
+			country_event = {
+				id = england.282
+			}
+		}
+	
+	}
+	
+	focus = {
+		id = ENG_The_Church_Of_England_Will_Guide_Us
+		icon = church_of_england_will_guide_us_icon
+		x = 22
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Stephen_Cottrells_New_Direction   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.283
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Leftism_Failed_Us
+		icon = leftism_failed_us_icon
+		x = 20
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Church_Of_England_Will_Guide_Us   }
+	
+		completion_reward = {
+			add_popularity = {
+				ideology = new_democrat
+				popularity = -0.50
+			}
+			add_popularity = {
+				ideology = moderate_socialist
+				popularity = -0.50
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.50
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Crack_Down_On_The_Radical
+		icon = crack_down_on_radicals_icon
+		x = 20
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Leftism_Failed_Us   }
+	
+		completion_reward = {
+			add_stability = 0.05
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Invite_Far_Right_Into_Power
+		icon = invite_far_right_into_power_icon
+		x = 20
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Crack_Down_On_The_Radical   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.286
+			}
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.10
+			}
+		}
+	
+	
+	}
+	
+	
+	
+	focus = {
+		id = ENG_A_Conservative_Outlook
+		icon = a_conservative_outlook_icon
+		x = 22
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Church_Of_England_Will_Guide_Us   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.284
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Church_Education
+		icon = church_education_icon
+		x = 22
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_A_Conservative_Outlook   }
+	
+		completion_reward = {
+			add_ideas = Church_Education
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Create_A_New_Tradition
+		icon = create_a_new_tradition_icon
+		x = 22
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_A_Conservative_Outlook   }
+	
+		completion_reward = {
+			add_ideas = A_New_Tradition
+	
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_The_Clergy_To_Government_Mninisters
+		icon = clergy_to_government_ministers_icon
+		x = 24
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Church_Of_England_Will_Guide_Us   }
+	
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_The_Church_Consolidates_Power
+		icon = church_consolidates_power_icon
+		x = 24
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Clergy_To_Government_Mninisters   }
+	
+		completion_reward = {
+			add_political_power = 10 
+			country_event = {
+				id = england.285
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Remove_The_Liberal_Agenda
+		icon = remove_liberal_agenda_icon
+		x = 24
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_The_Church_Consolidates_Power   }
+	
+		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.05
+			add_popularity = {
+				ideology = liberal
+				popularity = -0.50
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Only_The_Right_And_Nationals_Shall_Remain
+		icon = the_right_and_nationals_shall_remain_icon
+		x = 21
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Invite_Far_Right_Into_Power   }
+		prerequisite = { focus = ENG_Create_A_New_Tradition   }
+		prerequisite = { focus = ENG_Remove_The_Liberal_Agenda   }
+	
+		completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = nationalist
+				popularity = 0.20
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Reeducate_The_Population
+		icon = reeducate_the_popualtion_icon
+		x = 22
+		y = 20
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Invite_Far_Right_Into_Power   }
+		prerequisite = { focus = ENG_Create_A_New_Tradition   }
+		prerequisite = { focus = ENG_Remove_The_Liberal_Agenda   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.287
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Rebuild_The_Old_Christian_Nation
+		icon = rebuild_old_christian_nation_icon
+		x = 23
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Invite_Far_Right_Into_Power   }
+		prerequisite = { focus = ENG_Create_A_New_Tradition   }
+		prerequisite = { focus = ENG_Remove_The_Liberal_Agenda   }
+	
+		completion_reward = {
+			add_stability = 0.05
+			add_ideas = Rebuild_Old_Christian_Nation
+	
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_A_New_Relationship_With_The_Welsh
+		icon = a_relationship_with_the_welsh_icon
+		x = 21
+		y = 21
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Rebuild_The_Old_Christian_Nation   }
+		prerequisite = { focus = ENG_Reeducate_The_Population   }
+		prerequisite = { focus = ENG_Only_The_Right_And_Nationals_Shall_Remain   }
+	
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = WAL
+					modifier = small_increase
+				}
+			}
+			country_event = {
+				id = england.288
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Send_Missionaries_To_Scotland
+		icon = send_missionaires_to_Scotland_icon
+		x = 23
+		y = 21
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Rebuild_The_Old_Christian_Nation   }
+		prerequisite = { focus = ENG_Reeducate_The_Population   }
+		prerequisite = { focus = ENG_Only_The_Right_And_Nationals_Shall_Remain   }
+	
+		completion_reward = {
+			add_command_power = 10
+			add_political_power = 10
+			ENG = {
+				add_opinion_modifier = {
+					target = SCO
+					modifier = small_decrease
+				}
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_The_Church_Of_England_Consolidates_Power
+		icon = church_of_england_consolidates_power_icon
+		x = 22
+		y = 22
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Send_Missionaries_To_Scotland   }
+		prerequisite = { focus = ENG_A_New_Relationship_With_The_Welsh   }
+	
+	
+		completion_reward = {
+			add_political_power = 20
+			country_event = {
+				id = england.289
+			}
+		}
+	
+	
+	}
+	
+	
+	
+	focus = {
+		id = ENG_Galloways_Ruling
+		icon = galloway_ruling_icon
+		x = 30
+		y = 14
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Looking_For_A_New_Successor   }
+		mutually_exclusive = {
+			focus = ENG_Theresas_Republican_Plan
+			focus = ENG_Stephen_Cottrells_New_Direction
+			focus = ENG_Farage_Will_Change_The_Face_Of_Politics
+		}
+		completion_reward = {
+			country_event = {
+				id = england.290
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_A_Book_Of_How_To_Fix_A_Nation
+		icon = book_how_to_fixA_nation
+		x = 28
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Galloways_Ruling   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.291
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Rewrite_The_Rules_Of_Syndicalism
+		icon = rewrite_rules_of_syndicalism_icon
+		x = 27
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_A_Book_Of_How_To_Fix_A_Nation   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.293
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Only_Galloway_Can_Create_A_Real_Socialists_Paradise
+		icon = galloway_can_Create_a_real_socialists_paradise_icon
+		x = 29
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_A_Book_Of_How_To_Fix_A_Nation   }
+	
+		completion_reward = {
+			add_stability = 0.04
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Move_Away_From_The_Old_Ruling_Style
+		icon = move_Away_from_old_ruling_style_icon
+		x = 28
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Only_Galloway_Can_Create_A_Real_Socialists_Paradise   }
+		prerequisite = { focus = ENG_Rewrite_The_Rules_Of_Syndicalism   }
+	
+		completion_reward = {
+			add_ideas = Moving_From_Old_Ruling_Style
+			add_stability = 0.02
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_The_Best_For_Britain
+		icon = best_for_britain_icon
+		x = 29
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Move_Away_From_The_Old_Ruling_Style   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.292
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Creating_Propaganda
+		icon = creating_propaganda_icon
+		x = 32
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Galloways_Ruling   }
+	
+		completion_reward = {
+		add_political_power = 20
+		add_ideas = Creating_Propaganda
+	
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Use_Influencers_To_Spread_Galloways_Ideals
+		icon = use_influencers_to_spread_galloway_ideals_icon
+		x = 31
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Creating_Propaganda   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.294
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_The_Young_Spread_Galloways_Message
+		icon = young_spread_galloways_message_icon
+		x = 31
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Use_Influencers_To_Spread_Galloways_Ideals   }
+	
+		completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.05
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Create_A_New_TV_Station
+		icon = create_a_new_tv_station_icon
+		x = 33
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Creating_Propaganda   }
+	
+		completion_reward = {
+			add_ideas = New_TV_Station
+	
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Influence_The_Media
+		icon = influence_the_media_icon
+		x = 33
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Create_A_New_TV_Station   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.295
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Begin_To_Break_The_Other_Parties
+		icon = breaking_up_the_other_parties_icon
+		x = 31
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Influence_The_Media   }
+		prerequisite = { focus = ENG_The_Young_Spread_Galloways_Message   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.296
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_March_On_London
+		icon = march_on_london_icon
+		x = 30
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Begin_To_Break_The_Other_Parties   }
+		prerequisite = { focus = ENG_The_Best_For_Britain   }
+	
+		completion_reward = {
+			add_stability = 0.05
+			country_event = {
+				id = england.297
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Demand_Boris_Gives_Galloway_The_Top_Job
+		icon = demand_boris_gives_galloway_the_top_job_icon
+		x = 28
+		y = 20
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_March_On_London   }
+	
+	
+		completion_reward = {
+			country_event = {
+				id = england.299
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Block_Congress
+		icon = block_congress_icon
+		x = 32
+		y = 20
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_March_On_London   }
+	
+	
+		completion_reward = {
+			add_stability = -0.10
+			country_event = {
+				id = england.298
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_The_First_Scot_To_Be_An_English_Leader
+		icon = first_scot_to_be_english_leader_icon
+		x = 30
+		y = 21
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Block_Congress   }
+		prerequisite = { focus = ENG_Demand_Boris_Gives_Galloway_The_Top_Job   }
+	
+	
+		completion_reward = {
+			add_political_power = 50
+			country_event = {
+				id = england.300
+			}
+		}
+	
+	
+	}
+	
+	
+	
+	
+	focus = {
+		id = ENG_Farage_Will_Change_The_Face_Of_Politics
+		icon = farage_will_change_politics_icon
+		x = 41
+		y = 14
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Looking_For_A_New_Successor   }
+		mutually_exclusive = {
+			focus = ENG_Theresas_Republican_Plan
+			focus = ENG_Stephen_Cottrells_New_Direction
+			focus = ENG_Galloways_Ruling
+		}
+		completion_reward = {
+			country_event = {
+				id = england.301
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Invite_The_Populists_In
+		icon = invite_populists_in_icon
+		x = 38
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Farage_Will_Change_The_Face_Of_Politics   }
+	
+		completion_reward = {
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.10
+			}
+			country_event = {
+				id = england.302
+			}
+		}
+	
+	
+	}
+	
+	
+	
+	focus = {
+		id = ENG_Restructure_The_Party
+		icon = restructure_the_party_icon
+		x = 37
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Invite_The_Populists_In   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.303
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Build_A_Pact_With_The_Church_Of_England
+		icon = build_pact_With_church_of_england_icon
+		x = 37
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Restructure_The_Party   }
+	
+		completion_reward = {
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.10
+			}
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Limit_The_Rest_Of_The_Congress
+		icon = limit_rest_of_congress_icon
+		x = 39
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Invite_The_Populists_In   }
+	
+		completion_reward = {
+			add_political_power = 20
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Walk_Out_Of_Congress
+		icon = walk_out_of_congress_icon
+		x = 39
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Limit_The_Rest_Of_The_Congress   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.304
+			}
+		}
+	
+	
+	}
+	
+	
+	
+	focus = {
+		id = ENG_Night_Of_The_Broken_Star
+		icon = night_of_the_broken_star_icon
+		x = 38
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Walk_Out_Of_Congress   }
+		prerequisite = { focus = ENG_Build_A_Pact_With_The_Church_Of_England   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.305
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Force_An_Election
+		icon = force_an_election_icon
+		x = 39
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Night_Of_The_Broken_Star   }
+	
+		
+		completion_reward = {
+			country_event = {
+				id = england.306
+			}
+		}
+	
+	
+	}
+	
+	
+	
+	
+	focus = {
+		id = ENG_Pre_Revolutionary_Days
+		icon = pre_revolutionary_days_icon
+		x = 44
+		y = 15
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Farage_Will_Change_The_Face_Of_Politics   }
+	
+		completion_reward = {
+	
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Reopen_Pubs
+		icon = reopen_the_pubs_icon
+		x = 42
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Pre_Revolutionary_Days   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.307
+			}
+		}
+	
+	}
+	
+	focus = {
+		id = ENG_Introduce_Competitive_Education_And_Sports
+		icon = introduce_competitive_education_icon
+		x = 42
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Reopen_Pubs   }
+	
+		completion_reward = {
+			add_ideas = Competitive_Education
+	
+		}
+	
+	
+	}
+	
+	
+	
+	
+	focus = {
+		id = ENG_Traditional_English_Roles
+		icon = traditional_english_roles_icon
+		x = 44
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Pre_Revolutionary_Days   }
+	
+		completion_reward = {
+			add_ideas = Traditional_English_Roles
+	
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Cut_The_Welfare_Spending
+		icon = cut_Welfare_spending_icon_nigel
+		x = 44
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Traditional_English_Roles   }
+	
+		completion_reward = {
+			add_stability = -0.10
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Bring_Back_National_Holidays
+		icon = bring_back_national_holidays_icon
+		x = 46
+		y = 16
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Pre_Revolutionary_Days   }
+	
+		completion_reward = {
+			add_stability = 0.05
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Restrict_The_Freedom_of_Peoples_Rights_Bill
+		icon = restrict_peoples_rights_bill_icon
+		x = 46
+		y = 17
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Bring_Back_National_Holidays   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.308
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Work_With_The_Reichspakt
+		icon = work_with_reichspakt_icon
+		x = 43
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Introduce_Competitive_Education_And_Sports   }
+		prerequisite = { focus = ENG_Cut_The_Welfare_Spending   }
+		prerequisite = { focus = ENG_Restrict_The_Freedom_of_Peoples_Rights_Bill   }
+	
+		completion_reward = {
+			ENG = {
+				add_opinion_modifier = {
+					target = GER
+					modifier = small_increase
+				}
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Control_England_Through_Fear
+		icon = control_england_through_fear_icon
+		x = 45
+		y = 18
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Introduce_Competitive_Education_And_Sports   }
+		prerequisite = { focus = ENG_Cut_The_Welfare_Spending   }
+		prerequisite = { focus = ENG_Restrict_The_Freedom_of_Peoples_Rights_Bill   }
+	
+		completion_reward = {
+			country_event = {
+				id = england.309
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_Bring_Back_The_Union_Flag
+		icon = bring_back_union_flag_icon
+		x = 44
+		y = 19
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Control_England_Through_Fear   }
+		prerequisite = { focus = ENG_Work_With_The_Reichspakt   }
+	
+	
+		completion_reward = {
+			set_cosmetic_tag = ENG_England_union_flag
+			add_political_power = 20
+		}
+	
+	
+	}
+	
+	focus = {
+		id = ENG_Plan_For_The_New_Economy
+		icon = plan_for_a_new_economy_icon
+		x = 41
+		y = 20
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Bring_Back_The_Union_Flag   }
+		prerequisite = { focus = ENG_Force_An_Election   }
+	
+	
+		completion_reward = {
+			country_event = {
+				id = england.310
+				add_ideas = A_New_Economy
+	
+			}
+		}
+	
+	
+	}
+	
+	
+	focus = {
+		id = ENG_A_Nationalist_Populist_England
+		icon = a_national_populist_england_icon
+		x = 41
+		y = 21
+		cost = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = ENG_Bring_Back_The_Union_Flag   }
+	
+	
+		completion_reward = {
+			add_political_power = 20
+			add_popularity = {
+				ideology = fascist
+				popularity = 0.20
+			}
+			country_event = {
+				id = england.311
+			}
+		}
+	
+	
+	}
+	
+
+
+
+
+
+#####QUEEEEN RETURNS######
+
+
 	focus = {
 		id = ENG_Reach_Out_To_Canadian_Royalty
 		icon = reach_out_to_canadian_royalty_icon
@@ -1074,6 +2568,13 @@ focus_tree = {
 	
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
+		}
+		trigger = {
+			has_country_flag = ENG_The_Queen_Returns
+		}
+		allow_branch = {
+			has_country_flag = ENG_The_Queen_Returns
+			ENG_The_Queen_Returns = yes
 		}
 		completion_reward = {
 			country_event = {
@@ -1152,7 +2653,8 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-
+			add_stability = 0.05
+			add_political_power = 10
 		}
 	
 	}
@@ -1168,7 +2670,12 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-
+			ENG = {
+				add_opinion_modifier = {
+					target = SCO
+					modifier = small_increase
+				}
+			}
 		}
 	
 	}
@@ -1185,7 +2692,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-
+			add_stability = 0.05
 		}
 	
 	}
@@ -1201,7 +2708,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-
+			add_popularity = {
+				ideology = monarchist
+				popularity = 0.10
+			}
 		}
 	
 	}
@@ -1259,7 +2769,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-
+			add_stability = 0.05
 		}
 	
 	}

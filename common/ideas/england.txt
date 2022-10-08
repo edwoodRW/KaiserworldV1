@@ -2,6 +2,197 @@ ideas = {
 
 		country = {	
 			
+								
+			A_New_Economy = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+				consumer_goods_factor = 0.04
+				line_change_production_efficiency_factor = 0.10
+				political_power_factor = 0.05
+				industrial_capacity_factory = -0.05
+
+				}
+			}
+						
+			Competitive_Education = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					mobilization_speed = 0.5
+					stability_factor = 0.3
+					army_speed_factor = 0.05
+				}
+			}
+
+
+			Traditional_English_Roles = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					political_power_factor = 0.10
+					monthly_population = 0.20
+
+				}
+			}
+
+
+			New_TV_Station = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				research_bonus = {
+					electronics = 0.20
+				}
+	
+
+				modifier = {
+					production_speed_infrastructure_factor = 0.15
+					stability_factor = 0.02
+					intel_network_gain = 1
+
+				}
+			}
+
+
+			Creating_Propaganda = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					political_power_factor = 0.03
+					stability_factor = 0.04
+
+				}
+			}
+
+
+			Moving_From_Old_Ruling_Style = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					political_power_factor = 0.03
+					
+
+				}
+			}
+
+			Rebuild_Old_Christian_Nation = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					monthly_population = 0.10	
+					consumer_goods_factor = 0.01
+					political_power_factor = 0.03
+				}
+			}
+			
+			A_New_Tradition = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+					stability_factor = 0.03
+					political_power_factor = 0.02
+					stability_weekly  = 0.003
+				}
+			}
+			
+			Church_Education = {
+				allowed = {
+					always = no
+				}
+				
+			
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+				
+				modifier = {
+				political_power_factor = 0.10
+				monthly_population = 0.30
+				research_speed_factor = 0.08	
+
+				}
+			}
+
+			
 			Increase_Mass_Production = {
 				allowed = {
 					always = no

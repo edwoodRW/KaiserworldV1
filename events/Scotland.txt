@@ -770,32 +770,32 @@ country_event = {
 
 
 
-country_event = {
-	id = Scotland.59
-	title = Scotland.59.t
-	desc = Scotland.59.d
-	picture = the_german_puppet_event
-	fire_only_once = yes
-	option = {
-		name = Scotland.59.o1
-		set_cosmetic_tag = Sco_German_Scotland
-		GER = {
-			puppet = SCO
-		}
-
-		create_country_leader = {
-			name = "Francis IV"
-			picture = "francis_german_IV.dds"
-			ideology = absolute_monarchist
-		}
-		set_politics = {
-			ruling_party = monarchist 
-			elections_allowed = no
-		}
-
-
-	}
-}
+#country_event = {
+#	id = Scotland.59
+#	title = Scotland.59.t
+#	desc = Scotland.59.d
+#	picture = the_german_puppet_event
+#	fire_only_once = yes
+#	option = {
+##		name = Scotland.59.o1
+#		set_cosmetic_tag = Sco_German_Scotland
+#		GER = {
+#			puppet = SCO
+#		}
+#
+#		create_country_leader = {
+#			name = "Francis IV"
+#			picture = "francis_german_IV.dds"
+#			ideology = absolute_monarchist
+#		}
+#		set_politics = {
+#			ruling_party = monarchist 
+#			elections_allowed = no
+#		}
+#
+#
+#	}
+#}
 
 country_event = {
 	id = Scotland.60
@@ -932,31 +932,31 @@ country_event = {
 }
 
 
-country_event = {
-	id = Scotland.70
-	title = Scotland.70.t
-	desc = Scotland.70.d
-	picture = The_welsh_offer_event
-	fire_only_once = yes
-	option = {
-		name = Scotland.70.o1
+#country_event = {
+#	id = Scotland.70
+#	title = Scotland.70.t
+#	desc = Scotland.70.d
+#	picture = The_welsh_offer_event
+#	fire_only_once = yes
+#	option = {
+#		name = Scotland.70.o1
 
-		GER = {
-			puppet = WAL
-		}
-
-		WAL = {
-			create_country_leader = {
-				name = "Tywysog Llywelyn Jones Cymru"
-				picture = "Tywysog_Llywelyn_Jones_Cymru.dds"
-				ideology = absolute_monarchist
-			}
-			set_cosmetic_tag = WAL_Reichskommissariat_welsch
-			}
+#		GER = {
+#			puppet = WAL
+#		}
+#
+#		WAL = {
+#			create_country_leader = {
+#				name = "Tywysog Llywelyn Jones Cymru"
+#				picture = "Tywysog_Llywelyn_Jones_Cymru.dds"
+#				ideology = absolute_monarchist
+#			}
+#			set_cosmetic_tag = WAL_Reichskommissariat_welsch
+#			}
 	
-
-	}
-}
+#
+#	}
+#}
 
 country_event = {
 	id = Scotland.71
@@ -989,29 +989,29 @@ country_event = {
 
 
 
-country_event = {
-	id = Scotland.73
-	title = Scotland.73.t
-	desc = Scotland.73.d
-	picture = germans_fight_back_Event
-	fire_only_once = yes
-	option = {
-		name = Scotland.73.o1
-		GER = {
-			declare_war_on = { type = annex_everything    target = ENG }
-			}	
+#country_event = {
+#	id = Scotland.73
+#	title = Scotland.73.t
+#	desc = Scotland.73.d
+#	picture = germans_fight_back_Event
+#	fire_only_once = yes
+#	option = {
+##		name = Scotland.73.o1
+#		GER = {
+#			declare_war_on = { type = annex_everything    target = ENG }
+#			}	
+#
+#		declare_war_on = { type = annex_everything    target = ENG }
+#
+#		WAL = {
+#		declare_war_on = { type = annex_everything    target = ENG }
+#		}	
 
-		declare_war_on = { type = annex_everything    target = ENG }
-
-		WAL = {
-		declare_war_on = { type = annex_everything    target = ENG }
-		}	
-
-		SCO = {
-			country_event = { days = 10 id = England.74 } 
-			}
-	}
-}
+#		SCO = {
+#			country_event = { days = 10 id = England.74 } 
+#			}
+#	}
+#}
 
 
 country_event = {
@@ -1030,36 +1030,36 @@ country_event = {
 }
 
 
-country_event = {
-	id = Scotland.75
-	title = Scotland.75.t
-	desc = Scotland.75.d
-	picture = a_new_prussian_constitution_event
-	fire_only_once = yes
-	option = {
-		name = Scotland.75.o1
-		
-		ENG = { change_tag_from = SCO }
-
-		ENG = {
-		annex_country = { target = SCO transfer_troops = yes }
-		annex_country = { target = WAL transfer_troops = yes }
-		}
-
-		GER = {
-			puppet = ENG
-		}
-
-		ENG = {
-			create_country_leader = {
-				name = "Kaiser Georg Of Angland"
-				picture = "Kaiser_Georg_Of_Angland.dds"
-				ideology = military_junta
-			}
-			set_cosmetic_tag = ENG_Reichskommissariat_Britannia
-			}
-	}
-}
+#country_event = {
+#	id = Scotland.75
+#	title = Scotland.75.t
+#	desc = Scotland.75.d
+#	picture = a_new_prussian_constitution_event
+#	fire_only_once = yes
+#	option = {
+#		name = Scotland.75.o1
+#		
+#		ENG = { change_tag_from = SCO }
+#
+##		ENG = {
+#		annex_country = { target = SCO transfer_troops = yes }
+#		annex_country = { target = WAL transfer_troops = yes }
+#		}
+#
+#		GER = {
+#			puppet = ENG
+#		}
+#
+#		ENG = {
+#			create_country_leader = {
+#				name = "Kaiser Georg Of Angland"
+#				picture = "Kaiser_Georg_Of_Angland.dds"
+#				ideology = military_junta
+#			}
+#			set_cosmetic_tag = ENG_Reichskommissariat_Britannia
+#			}
+#	}
+#}
 
 
 

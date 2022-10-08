@@ -4454,7 +4454,7 @@ country_event = {
 	id = England.301
 	title = England.301.t
 	desc = England.301.d
-	picture = galloway_becomes_leader_event
+	picture = farage_elected_event
 	is_triggered_only = yes
 	option = {
 		name = England.301.o1
@@ -4647,6 +4647,27 @@ country_event = {
 	
 	option = {
 		name = England.313.o1
+
+	}
+
+}
+
+
+country_event = {
+	id = England.314
+	title = England.314.t
+	desc = England.314.d
+	picture = diana_first_kill_event
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		date > 2010.6.1
+		date < 2010.6.30
+	}
+	
+	option = {
+		name = England.314.o1
 
 	}
 

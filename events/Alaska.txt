@@ -79,3 +79,18 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = Alaska.7
+	title = Alaska.7.t
+	desc = Alaska.7.d
+	picture = alaska_and_america_push_forward_Event
+	fire_only_once = yes
+
+	option = {
+		name = Alaska.7.o1
+		load_focus_tree = {
+			tree = USA_intro_tree
+			keep_completed = yes
+		}
+	}
+}

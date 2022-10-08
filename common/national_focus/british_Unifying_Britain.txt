@@ -1109,7 +1109,7 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = ENG_An_Old_Island_To_Rebuild   }
+
 		trigger = {
 			has_country_flag = ENG_Broken_Nation
 		}

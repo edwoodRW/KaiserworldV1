@@ -1783,6 +1783,49 @@ spriteTypes = {
 	}
 
 	### USA IDEAS	
+	
+	spriteType = {
+		name = "GFX_idea_secure_old_airfields_idea"
+		texturefile = "gfx/interface/ideas/USA/secure_old_airfields_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_delegate_policing_alaskan_authorities_idea"
+		texturefile = "gfx/interface/ideas/USA/delegate_policing_alaskan_authorities_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_alaskan_self_defence_idea"
+		texturefile = "gfx/interface/ideas/USA/alaskan_self_defence_idea.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_encourage_american_investment_idea"
+		texturefile = "gfx/interface/ideas/USA/encourage_american_investment_idea.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_continue_building_up_government_idea"
+		texturefile = "gfx/interface/ideas/USA/continue_building_up_government_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_building_up_infrastucture_idea"
+		texturefile = "gfx/interface/ideas/USA/building_up_infrastucture_idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_norton_iv"
+		texturefile = "gfx/interface/ideas/USA/norton_iv.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_training_alaska_military_idea"
+		texturefile = "gfx/interface/ideas/USA/training_alaska_military_idea.dds"
+	}
+
 	spriteType = {
 		name = "GFX_idea_earl_browder"
 		texturefile = "gfx/interface/ideas/idea_earl_browder.dds"

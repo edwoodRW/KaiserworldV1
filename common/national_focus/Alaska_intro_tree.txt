@@ -57,7 +57,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Finally_Pull_Out_Of_Alaska  }
 		completion_reward = {
-	
+			add_political_power = 20
 		}
 	
 	}
@@ -73,7 +73,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Take_Our_Time_Withdraw_Slowly  }
 		completion_reward = {
-	
+			add_ideas = Training_Alaska_Military
 		}
 	
 	}
@@ -89,7 +89,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Continue_Training_The_Alaskan_Military  }
 		completion_reward = {
-	
+			add_stability = 0.05
 		}
 	
 	}
@@ -105,7 +105,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Fortify_the_consulate  }
 		completion_reward = {
-	
+			add_ideas = Continue_Building_Up_Infrastructure
 		}
 	
 	}
@@ -139,7 +139,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Start_Troop_Withdrawal  }
 		completion_reward = {
-	
+			add_command_power = 10
+			add_political_power = 20
 		}
 	
 	}
@@ -179,7 +180,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Take_Our_Time_Withdraw_Slowly  }
 		completion_reward = {
-	
+			add_ideas = building_up_the_governemnt
 		}
 	
 	}
@@ -196,7 +197,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Continue_Building_Up_The_Government  }
 		completion_reward = {
-	
+			add_ideas = Encouraging_american_Investment
 		}
 	
 	}
@@ -213,7 +214,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Encouraging_American_Investment  }
 		completion_reward = {
-	
+			add_stability = 0.03
 		}
 	
 	}
@@ -229,7 +230,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Continue_Secularization_Polcies  }
 		completion_reward = {
-	
+			add_political_power = 30
 		}
 	
 	}
@@ -246,7 +247,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Anti-Beringian_Propaganda  }
 		completion_reward = {
-	
+			add_political_power = 10
+			add_stability = -0.15
 		}
 	
 	}
@@ -268,7 +270,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Finally_Pull_Out_Of_Alaska  }
 		completion_reward = {
-	
+			add_command_power = 20
+			add_political_power = 20
 		}
 	
 	}
@@ -285,7 +288,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Its_long_Overdue_Get_Our_Boys_Home_Now  }
 		completion_reward = {
-	
+			add_stability = 0.10
 		}
 	
 	}
@@ -301,7 +304,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Set_A_4_Week_Timer  }
 		completion_reward = {
-	
+			add_ideas = Alaska_self_defense
+
 		}
 	
 	}
@@ -317,7 +321,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Push_For_Alaskan_Self_Defense  }
 		completion_reward = {
-	
+	         add_stability = -0.10                           
 		}
 	
 	}
@@ -334,7 +338,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Put_The_Embassy_On_High_Alert  }
 		completion_reward = {
-	
+			add_political_power = -10
 		}
 	
 	}
@@ -350,7 +354,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Remove_Our_Infrastructure  }
 		completion_reward = {
-	
+			add_stability = 0.10
+			add_political_power = 20
 		}
 	
 	}
@@ -406,7 +411,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Withdraw_Training_Instructors  }
 		completion_reward = {
-	
+			add_ideas = Policing_To_Alaskan_Authorities
 		}
 	
 	}
@@ -422,7 +427,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Delegate_Policing_To_Alaskan_Authorities  }
 		completion_reward = {
-	
+			add_political_power = 20
 		}
 	
 	}
@@ -438,7 +443,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Start_Evacuating_Soldiers  }
 		completion_reward = {
-	
+			add_stability = -0.05
 		}
 	
 	}
@@ -454,7 +459,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  USA_Give_A_Warning_To_Any_Civilians  }
 		completion_reward = {
-	
+			add_political_power = -20
+			add_stability = -0.10
 		}
 	
 	}
@@ -528,7 +534,8 @@ focus_tree = {
 		prerequisite = { focus =  USA_Operation_Rising_Eagle  }
 
 		completion_reward = {
-	
+			add_ideas = Securing_old_Airfields
+
 		}
 	
 	}
@@ -547,7 +554,8 @@ focus_tree = {
 		prerequisite = { focus =  USA_Secure_Old_Airfields  }
 
 		completion_reward = {
-	
+			add_command_power = 20
+			add_manpower = 2500
 		}
 	
 	}
@@ -565,7 +573,7 @@ focus_tree = {
 		prerequisite = { focus =  USA_Operation_Rising_Eagle  }
 
 		completion_reward = {
-	
+			add_political_power = 20
 		}
 	
 	}
@@ -583,7 +591,12 @@ focus_tree = {
 		prerequisite = { focus =  USA_Melt_The_Alaskan_Wilderness  }
 
 		completion_reward = {
-	
+			USA = {
+				add_opinion_modifier = {
+					target = CAN
+					modifier = Medium_increase
+				}
+			}
 		}
 	
 	}
@@ -603,7 +616,9 @@ focus_tree = {
 		prerequisite = { focus =  USA_The_Race_For_Anchorage  }
 
 		completion_reward = {
-	
+			USA = {
+				annex_country = { target = ALA transfer_troops = yes }
+			}
 		}
 	
 	}
@@ -636,7 +651,7 @@ focus_tree = {
 		prerequisite = { focus =  USA_The_Anchorage_Crsis  }
 
 		completion_reward = {
-	
+			add_political_power = 20
 		}
 	
 	}
@@ -654,7 +669,7 @@ focus_tree = {
 		prerequisite = { focus =  USA_Negotiate_For_Civilian_Safety  }
 
 		completion_reward = {
-	
+			add_stability = -0.15
 		}
 	
 	}
@@ -672,7 +687,8 @@ focus_tree = {
 		prerequisite = { focus =  USA_Release_Beringian_Figures  }
 
 		completion_reward = {
-	
+			add_manpower = 1000
+			add_command_power = 20
 		}
 	
 	}
@@ -690,7 +706,11 @@ focus_tree = {
 		prerequisite = { focus =  USA_Negotiate_For_Civilian_Safety  }
 
 		completion_reward = {
-	
+	add_stability = 10
+	add_popularity = {
+		ideology = moderate_socialist
+		popularity = 0.05
+	}
 		}
 	
 	}
@@ -708,7 +728,9 @@ focus_tree = {
 		prerequisite = { focus =  USA_Push_For_A_Democratic_Regime  }
 
 		completion_reward = {
-	
+			add_stability = 0.10
+			add_command_power = 10
+			add_manpower = 3500
 		}
 	
 	}
@@ -727,7 +749,8 @@ focus_tree = {
 		prerequisite = { focus =  USA_Secure_The_Anchorage_Airport  }
 
 		completion_reward = {
-	
+			add_stability = 0.10
+
 		}
 	
 	}
@@ -774,7 +797,7 @@ focus_tree = {
 		prerequisite = { focus =  USA_A_Successful_Withdrawal  }
 
 		completion_reward = {
-	
+			add_political_power = 20
 		}
 	
 	}
@@ -791,7 +814,9 @@ focus_tree = {
 		prerequisite = { focus =  USA_Continue_To_Support_Democracy_Aboard  }
 
 		completion_reward = {
-	
+	add_command_power = 10
+	add_stability = 0.10
+	add_political_power = 30
 		}
 	
 	}
@@ -808,7 +833,7 @@ focus_tree = {
 		prerequisite = { focus =  USA_Establish_A_New_Embassy  }
 
 		completion_reward = {
-	
+			add_manpower = 1000
 		}
 	
 	}
@@ -826,7 +851,9 @@ focus_tree = {
 		prerequisite = { focus =  USA_Cooperate_With_The_Alaskan_Military  }
 
 		completion_reward = {
-	
+			country_event = {			
+				id = Alaska.7
+			}
 		}
 	
 	}

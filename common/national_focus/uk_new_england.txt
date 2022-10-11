@@ -54,7 +54,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_A_New_England  }
 		completion_reward = {
-			add_command_power = 20
+			add_ideas = The_United_Army
 		}
 
 	}

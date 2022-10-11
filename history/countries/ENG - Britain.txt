@@ -2,7 +2,7 @@
 
 oob = "ENG_1936"
  
-load_focus_tree = british_Unifying_Britain
+load_focus_tree = british_new_england
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

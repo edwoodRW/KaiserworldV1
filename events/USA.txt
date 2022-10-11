@@ -252,3 +252,15 @@ country_event = {
 		name = usa.10.o1
 	}
 }
+
+country_event = {
+	id = usa.11
+	title = usa.11.t
+	desc = usa.11.d
+	picture = greenland_sells_event
+	is_triggered_only = yes
+	option = {
+		name = usa.11.o1
+	}
+}
+

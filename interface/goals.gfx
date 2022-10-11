@@ -10822,6 +10822,27 @@ SpriteType = {
 		texturefile = "gfx/interface/goals/usa/Icon_Bernies_Time_to_Shine_KW.dds"			
 		}
 		
+	SpriteType = {
+		name = "Icon_Overtures_to_Germany_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Overtures_to_Germany_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Set_the_Example_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Set_the_Example_KW.dds"			
+		}
+				
+		
+	SpriteType = {
+		name = "Icon_International_Decolonization_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_International_Decolonization_KW.dds"			
+		}
+				
+	SpriteType = {
+		name = "Icon_The_Culmination_of_the_Commonwealth_Ideals_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Culmination_of_the_Commonwealth_Ideals_KW.dds"			
+		}
+		
 				
 	SpriteType = {
 		name = "Icon_End_the_Prison_Pipeline_KW"

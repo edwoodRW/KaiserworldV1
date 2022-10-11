@@ -2081,12 +2081,11 @@ country_event = {
 	id = England.154
 	title = England.154.t
 	desc = England.154.d
-	picture = talks_for_unification_event
+	picture = scotland_revolts_event
 	is_triggered_only = yes
 	option = {
 		name = England.154.o1
-		SCO = {
-				
+		SCO = {			
 			start_civil_war = {
 				ideology = communist
 				size = 0.8
@@ -2122,28 +2121,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.155.o1
-		NOF = {			
-			set_politics = {
-				ruling_party = nationalist
-				elections_allowed = no
-			}
-			create_country_leader = {
-				name = "Council Of Restoration"
-				picture = "general_admin.dds"
-				ideology = nationalist_ideology
-				add_popularity = {
-					ideology = nationalist_ideology
-					popularity = 100
-				}
-			}
 
-			set_cosmetic_tag = ENG_Northern_Restoration_Front
-			transfer_state = 130
-			transfer_state = 131
-			transfer_state = 132
-
-
-		}
 	
 	}
 }
@@ -2217,7 +2195,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.161.o1
-
+	add_ideas = the_third_Internationale
 	}
 }
 

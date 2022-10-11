@@ -263,7 +263,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_The_Culmination_Of_The_Commonwealth_Ideals
-		icon = unknown
+		icon = Icon_The_Culmination_of_the_Commonwealth_Ideals_KW
 		x = 25
 		y = 0
 		cost = 5
@@ -283,7 +283,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_International_Decolonization
-		icon = unknown
+		icon = Icon_International_Decolonization_KW
 		x = 25
 		y = 1
 		cost = 5
@@ -302,7 +302,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Set_The_Example
-		icon = unknown
+		icon = Icon_Set_the_Example_KW
 		x = 25
 		y = 2
 		cost = 5
@@ -319,7 +319,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Overtures_To_Germany
-		icon = unknown
+		icon = Icon_Overtures_to_Germany_KW
 		x = 22
 		y = 3
 		cost = 5

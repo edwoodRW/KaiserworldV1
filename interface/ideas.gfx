@@ -1,6 +1,10 @@
 spriteTypes = {	
-
-
+	
+	spriteType = {
+		name = "GFX_idea_the_third_internationale_idea"
+		texturefile = "gfx/interface/ideas/ENG/the_third_internationale_idea.dds"
+	}
+	
 	spriteType = {
 		name = "GFX_idea_memories_of_Michael_foot"
 		texturefile = "gfx/interface/ideas/ENG/memories_of_Michael_foot.dds"
@@ -2129,6 +2133,7 @@ spriteTypes = {
 
 	
 	### BRITISH IDEAS	
+
 	spriteType = {
 		name = "GFX_idea_george_v"
 		texturefile = "gfx/interface/ideas/idea_george_v.dds"

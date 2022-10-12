@@ -18,7 +18,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-	
+			add_political_power = 20
 		}
 	
 	}
@@ -336,7 +336,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Set_A_Far_Off_Deadline
-		icon = unknown
+		icon = Icon_Set_a_Far_Off_Deadline_KW
 		x = 22
 		y = 4
 		cost = 5
@@ -354,7 +354,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Further_Relations_With_Russia
-		icon = unknown
+		icon = Icon_Further_Relations_with_Russia_KW
 		x = 25
 		y = 3
 		cost = 5
@@ -372,7 +372,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Push_For_Native_Autonomy
-		icon = unknown
+		icon = Icon_Push_for_Native_Autonomy_KW
 		x = 25
 		y = 4
 		cost = 5
@@ -390,7 +390,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_Talk_With_Portugal
-		icon = unknown
+		icon = Icon_A_Talk_with_Portugal_KW
 		x = 28
 		y = 3
 		cost = 5
@@ -408,7 +408,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Embargo_The_Portugese
-		icon = unknown
+		icon = Icon_Embargo_Portugal_KW
 		x = 28
 		y = 4
 		cost = 5

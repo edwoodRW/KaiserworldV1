@@ -10816,12 +10816,38 @@ SpriteType = {
 		name = "Icon_Cooperate_with_the_Alaskan_Military_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Cooperate_with_the_Alaskan_Military_KW.dds"			
 		}
+		
+				
+	SpriteType = {
+		name = "Icon_Embargo_Portugal_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Embargo_Portugal_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Push_for_Native_Autonomy_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Push_for_Native_Autonomy_KW.dds"			
+		}
+
+	SpriteType = {
+			name = "Icon_Set_a_Far_Off_Deadline_KW"
+			texturefile = "gfx/interface/goals/usa/Icon_Set_a_Far_Off_Deadline_KW.dds"			
+			}
 
 	SpriteType = {
 		name = "Icon_Bernies_Time_to_Shine_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Bernies_Time_to_Shine_KW.dds"			
 		}
 		
+	SpriteType = {
+		name = "Icon_A_Talk_with_Portugal_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_A_Talk_with_Portugal_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Further_Relations_with_Russia_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Further_Relations_with_Russia_KW.dds"			
+		}
+
 	SpriteType = {
 		name = "Icon_Overtures_to_Germany_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Overtures_to_Germany_KW.dds"			

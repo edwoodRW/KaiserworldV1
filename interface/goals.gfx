@@ -10813,10 +10813,56 @@ SpriteType = {
 		}
 		
 	SpriteType = {
+		name = "Icon_Better_Black_Lives_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Better_Black_Lives_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Better_Internet_Access_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Better_Internet_Access_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Encourage_Minority_Votes_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Encourage_Minority_Votes_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Create_the_Space_Force_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Create_the_Space_Force_KW.dds"			
+		}
+
+		
+	SpriteType = {
+		name = "Icon_Improve_Military_Standards_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Improve_Military_Standards_KW.dds"			
+		}
+
+	SpriteType = {
 		name = "Icon_Cooperate_with_the_Alaskan_Military_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Cooperate_with_the_Alaskan_Military_KW.dds"			
 		}
 		
+	SpriteType = {
+		name = "Icon_Common_Core_Standards_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Common_Core_Standards_KW.dds"			
+		}	
+
+
+	SpriteType = {
+		name = "Icon_Sideline_the_Electoral_College_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Sideline_the_Electoral_College_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Pro_Veterans_Legislation_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Pro_Veterans_Legislation_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Pro_Worker_Legislation_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Pro_Worker_Legislation_KW.dds"			
+		}
 				
 	SpriteType = {
 		name = "Icon_Embargo_Portugal_KW"

@@ -2228,6 +2228,10 @@ FRA_Commune_Of_France:0 "Commune Of France"
 FRA_Commune_Of_France_DEF:0 "Commune Of France"
 FRA_Commune_Of_France_ADJ:0 "Commune Of France"
 
+COF:0 "Commune Of France"
+COF_ADJ:0 "Commune Of France"
+COF_DEF:0 "Commune Of France"
+
 WAL_fascist:0 "National State Of Wales"
 WAL_fascist_DEF:0 "National State Of Wales"
 WAL_fascist_ADJ:0 "National State Of Wales"

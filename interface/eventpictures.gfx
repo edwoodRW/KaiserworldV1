@@ -1,6 +1,20 @@
 spriteTypes = {
 	
+	spriteType = {
+		name = "the_1997_election"
+		texturefile = "gfx/event_pictures/report_event/the_1997_election.dds"
+	}
 	
+	spriteType = {
+		name = "end_of_civil_war_event"
+		texturefile = "gfx/event_pictures/report_event/end_of_civil_war_event.dds"
+	}
+
+	spriteType = {
+		name = "english_famine_start_event"
+		texturefile = "gfx/event_pictures/report_event/english_famine_start_event.dds"
+	}
+
 	spriteType = {
 		name = "scotland_revolts_event"
 		texturefile = "gfx/event_pictures/report_event/scotland_revolts_event.dds"

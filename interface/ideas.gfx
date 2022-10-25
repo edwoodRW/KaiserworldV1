@@ -42,8 +42,44 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ENG/fix_the_budget.dds"
 	}
 
-	
+	spriteType = {
+		name = "GFX_idea_Military_exercises_together_idea"
+		texturefile = "gfx/interface/ideas/ENG/Military_exercises_together_idea.dds"
+	}
 
+	spriteType = {
+		name = "GFX_idea_economic_support_eng"
+		texturefile = "gfx/interface/ideas/ENG/economic_support_eng.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_building_scottish_industry"
+		texturefile = "gfx/interface/ideas/ENG/building_scottish_industry.dds"
+	}
+
+		
+	spriteType = {
+		name = "GFX_idea_duel_english_welsh_industries_idea"
+		texturefile = "gfx/interface/ideas/ENG/duel_english_welsh_industries_idea.dds"
+	}
+
+	
+	spriteType = {
+		name = "GFX_idea_expanding_the_camps_idea"
+		texturefile = "gfx/interface/ideas/ENG/expanding_the_camps_idea.dds"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_harvest_scottish_and_welsh_idea"
+		texturefile = "gfx/interface/ideas/ENG/harvest_scottish_and_welsh_idea.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_the_first_rocket_idea"
+		texturefile = "gfx/interface/ideas/ENG/the_first_rocket_idea.dds"
+	}
+
+	
 	###SCOTLAND##
 	spriteType = {
 		name = "GFX_idea_scottish_resources"

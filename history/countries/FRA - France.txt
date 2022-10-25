@@ -11,11 +11,11 @@ if = {
 }
 
 add_ideas = {
-    idea_eu_member
+    UN_Member_idea
 }
 
 
-create_faction = Continental System
+create_faction = "Continental System"
 add_to_faction = FRA
 
 
@@ -24,7 +24,7 @@ set_convoys = 1000
 set_stability = 0.3
 set_war_support = 0.1
 
-set_country_flag = catholic_nation
+
 
 set_technology = {
 	support_weapons = 1

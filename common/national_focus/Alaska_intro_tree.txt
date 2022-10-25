@@ -481,13 +481,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = USA_A_Successful_Withdrawal
 		}
-							#trigger = {
-		#	has_country_flag = USA_Alaska_Crisis
-	#	}
-		#allow_branch = {
-		#	has_country_flag = USA_Alaska_Crisis
-		#	USA_Alaska_Crisis = yes
-	#	}
+		trigger = {
+			has_country_flag = USA_Alaska_Crisis
+		}
+		allow_branch = {
+			has_country_flag = USA_Alaska_Crisis
+			USA_Alaska_Crisis = yes
+		}
 		completion_reward = {
 			country_event = {			
 				id = Alaska.1
@@ -772,13 +772,13 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = USA_The_Anchorage_Crsis
 		}
-							#trigger = {
-		#	has_country_flag = USA_Alaska_Crisis
-	#	}
-		#allow_branch = {
-		#	has_country_flag = USA_Alaska_Crisis
-		#	USA_Alaska_Crisis = yes
-	#	}
+		trigger = {
+			has_country_flag = USA_Alaska_Crisis
+		}
+		allow_branch = {
+			has_country_flag = USA_Alaska_Crisis
+			USA_Alaska_Crisis = yes
+		}
 		completion_reward = {
 	
 		}

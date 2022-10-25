@@ -1,4 +1,8 @@
 spriteTypes = {
+	spriteType = {
+		name = "the_1997_election"
+		texturefile = "gfx/event_pictures/the_1997_election.dds"
+	}
 
 	spriteType = {
 		name = "GFX_news_event_001"

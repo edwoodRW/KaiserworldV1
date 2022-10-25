@@ -96,8 +96,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "EventWindow_News"
-		position = { x=-282 y=-310 }	
-		size = { width = 528 height = 883 }
+		position = { x=-382 y=-310 }	
+		size = { width = 728 height = 983 }
 		moveable = yes
 		Orientation = CENTER
 		show_sound = world_news_effect
@@ -144,7 +144,7 @@ guiTypes = {
 			
 			buttonType = {
 				name = "btn_minimize"
-				position = {x=0 y=10}
+				position = {x=0 y=40}
 				spriteType = "GFX_event_button_minimize"
 				clicksound = click_default
 			}
@@ -188,7 +188,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "event_option_entry"
-		size = { width = 300 height = 100 }
+		size = { width = 300 height = 200 }
 		clipping = no
 		
 		background = {

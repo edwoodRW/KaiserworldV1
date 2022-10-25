@@ -18,7 +18,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		completion_reward = {
-
+			add_political_power = 10
 		}
 	
 	}
@@ -33,7 +33,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_Future_Of_The_Union  }
 		completion_reward = {
-
+			add_stability = 0.10
 		}
 
 	
@@ -70,7 +70,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Challenge_Other_Nations  }
 		completion_reward = {
-	
+			add_ideas = The_First_Rocket
 		}
 
 	
@@ -106,7 +106,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_Flight_Test  }
 		completion_reward = {
-
+			add_threat = 15
 		}
 
 	
@@ -123,7 +123,27 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Challenge_Other_Nations  }
 		completion_reward = {
-
+			add_research_slot = 1
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 100
+				target = GUY
+			}
+			send_equipment = {
+				equipment = nuclear
+				amount = 100
+				target = GUY
+			}
+			send_equipment = {
+				equipment = computing_tech
+				amount = 100
+				target = GUY
+			}
+			send_equipment = {
+				equipment = rocketry
+				amount = 100
+				target = GUY
+			}
 		}
 
 	
@@ -141,9 +161,13 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Move_Weapons_To_Barbados  }
 		completion_reward = {
-
+			ENG = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = medium_decrease
+				}
+			}
 		}
-
 	
 	}
 
@@ -160,6 +184,7 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = england.180
+			
 			}
 		}
 
@@ -199,7 +224,10 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Begin_To_Compete_With_The_World  }
 		completion_reward = {
-
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = ULS
+			}
 		}
 
 	
@@ -250,7 +278,12 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Move_The_Military_To_Stranraer  }
 		completion_reward = {
-
+			ENG = {
+				add_opinion_modifier = {
+					target = IRE
+					modifier = small_decrease
+				}
+			}
 		}
 
 	} 
@@ -266,7 +299,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Move_The_Military_To_Stranraer  }
 		completion_reward = {
-
+			add_stability = 0.010
 		}
 
 	} 
@@ -340,7 +373,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Build_The_Peoples_Stadium  }
 		completion_reward = {
-
+			add_offsite_building = { type = nuclear_reactor level = 1 }
 		}
 
 	
@@ -378,7 +411,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Execute_The_Scottish_Leftovers  }
 		completion_reward = {
-
+			add_political_power = 30
+			add_stability = -0.5
 		}
 
 	
@@ -456,7 +490,18 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Operation_Nightsky  }
 
 		completion_reward = {
-
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 3311
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 6350
+			}
 		}
 
 	
@@ -495,7 +540,7 @@ focus_tree = {
 		prerequisite = { focus =  ENG_The_Irish_Must_Stand_Down  }
 
 		completion_reward = {
-
+			add_threat = 10
 		}
 
 	
@@ -515,7 +560,12 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Refuse_To_Stand_Down  }
 
 		completion_reward = {
-
+			ENG = {
+				add_opinion_modifier = {
+					target = IRE
+					modifier = small_decrease
+				}
+			}
 		}
 
 	
@@ -533,7 +583,8 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Then_The_Republic_Will_Fall  }
 
 		completion_reward = {
-
+			add_political_power = 20
+			add_stability = -0.10
 		}
 
 	}
@@ -589,7 +640,42 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Time_To_Take_The_Clover  }
 
 		completion_reward = {
-
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 3501
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 11446
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 9458
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 6489
+			}
+			add_building_construction = {
+				type = radar_station
+				level = 4
+				instant_build = yes
+				province = 6489
+			}
+			add_building_construction = {
+				type = rocket_site
+				level = 4
+				instant_build = yes
+				province = 6489
+			}
 		}
 
 	}
@@ -607,7 +693,7 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Order_The_Defences_Against_French  }
 
 		completion_reward = {
-
+			add_manpower = 50000
 		}
 
 	}
@@ -624,7 +710,24 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Order_The_Young_To_Take_Up_Arms  }
 
 		completion_reward = {
-
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				province = 9379
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				province = 351
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+				province = 11297
+			}
 		}
 
 	}
@@ -641,7 +744,18 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Time_To_Take_The_Clover  }
 
 		completion_reward = {
-
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 11257
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				instant_build = yes
+				province = 3242
+			}
 		}
 
 	}
@@ -658,7 +772,42 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Forts_Along_Irish_Beaches  }
 
 		completion_reward = {
-
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 6062
+			}
+			add_building_construction = {
+				type = coastal_bunker
+				level = 3
+				instant_build = yes
+				province = 6196
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+				province = 6062
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+				province = 9090
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+				province = 200
+			}
+			add_building_construction = {
+				type = naval_base
+				level = 1
+				instant_build = yes
+				province = 11266
+			}
 		}
 
 	}
@@ -675,7 +824,28 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Protect_Scottish_Waters  }
 
 		completion_reward = {
-
+			navy_experience = 50
+			add_intel = {
+				target = IRE
+				civilian_intel = 3
+				army_intel = 2
+				navy_intel = 1
+				airforce_intel = 2
+			}
+			add_intel = {
+				target = GER
+				civilian_intel = 3
+				army_intel = 2
+				navy_intel = 1
+				airforce_intel = 2
+			}
+			add_intel = {
+				target = FRA
+				civilian_intel = 3
+				army_intel = 2
+				navy_intel = 1
+				airforce_intel = 2
+			}
 		}
 
 	}
@@ -692,11 +862,20 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Time_To_Take_The_Clover  }
 
 		completion_reward = {
-
-		}
-
+			ENG = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = small_decrease
+				}
+			}
+			ENG = {
+				add_opinion_modifier = {
+					target = CAN
+					modifier = small_decrease
+				}
+			}
+		}	
 	}
-
 	focus = {
 		id = ENG_We_Are_Serious
 		icon = we_are_serious_icon

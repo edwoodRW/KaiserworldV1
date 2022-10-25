@@ -69,7 +69,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_A_New_England  }
 		completion_reward = {
-
+			add_stability = 0.20
 		}
 
 	}
@@ -137,7 +137,13 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Sell_Weapons_To_Scottish_Reds  }
 		completion_reward = {
+			SCO = {
+				add_popularity = {
+					ideology = communist
+					popularity = 0.10
+				}
 
+			}
 		}
 
 	}
@@ -171,7 +177,9 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Begin_Propaganda_Campaigns_In_Scotland  }
 		completion_reward = {
-
+			SCO = {
+				add_stability = -0.20
+			}
 		}
 
 	}
@@ -191,7 +199,7 @@ focus_tree = {
 			country_event = {
 				id = england.154
 			}
-
+		
 
 
 		}
@@ -214,7 +222,7 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Destory_The_Borders  }
 		prerequisite = { focus =  ENG_United_By_The_People  }
 		completion_reward = {
-
+			add_political_power = 20
 		}
 	}
 
@@ -246,6 +254,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_RED_Meetings  }
 		completion_reward = {
+			add_ideas = Military_exercises_together
 
 		}
 	}
@@ -261,7 +270,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_RED_Meetings  }
 		completion_reward = {
-
+			add_ideas = Economic_support_idea
 		}
 	}
 
@@ -276,7 +285,12 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Economic_Support  }
 		completion_reward = {
-
+			ENG = {
+				add_opinion_modifier = {
+					target = SOV
+					modifier = small_increase
+				}
+			}
 		}
 	}
 
@@ -328,7 +342,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Establish_The_Third_Internationale  }
 		completion_reward = {
-
+			add_political_power = 20
+			add_command_power = 10
 		}
 	}
 
@@ -342,8 +357,16 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
+		trigger = {
+			has_country_flag = The_Famine
+		}
+		allow_branch = {
+			has_country_flag = The_Famine
+			The_Famine = yes
+		}
 		completion_reward = {
-		
+			add_stability = -0.20
+			
 		}
 	}
 
@@ -377,7 +400,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_English_Famine  }
 		completion_reward = {
-
+			add_stability = -0.10
+			add_political_power = 10
 		}
 	
 	}
@@ -394,7 +418,7 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Keep_Foreign_Economic_Support  }
 		prerequisite = { focus =  ENG_Accept_Red_Cross_Donations  }
 		completion_reward = {
-
+			add_stability = -0.20
 		}
 	
 	}
@@ -428,7 +452,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Order_Harsh_Quotas  }
 		completion_reward = {
-
+			add_political_power = 10
+			add_stability = -0.20
 		}
 	
 	}
@@ -484,7 +509,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_Union_Of_Britain  }
 		completion_reward = {
-
+			add_political_power = 10
 		}
 
 	}
@@ -499,7 +524,12 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Prepare_For_Production  }
 		completion_reward = {
-
+			add_fuel = 400
+			add_resource = {
+				type = steel
+				amount = 50
+				state = 122
+			}
 		}
 
 	}
@@ -514,7 +544,21 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Welsh_Resource_Collecting  }
 		completion_reward = {
-
+			add_resource = {
+				type = oil
+				amount = 75
+				state = 131
+			}
+			add_resource = {
+				type = aluminium
+				amount = 75
+				state = 129
+			}
+			add_resource = {
+				type = chromium
+				amount = 75
+				state = 127
+			}
 		}
 
 	}
@@ -529,7 +573,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Boost_Production_For_The_Union  }
 		completion_reward = {
-
+			add_stability = 0.10
 		}
 
 	}
@@ -561,7 +605,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Prepare_For_Production  }
 		completion_reward = {
-
+			add_ideas = Rebuild_Scottish_Industry
 		}
 
 	}
@@ -579,6 +623,7 @@ focus_tree = {
 			country_event = {
 				id = england.168
 			}
+			add_offsite_building = { type = nuclear_reactor level = 1 }
 		}
 
 	}
@@ -593,7 +638,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Begin_Nuclear_Research  }
 		completion_reward = {
-
+			add_nuclear_bombs = 1
 		}
 
 	}
@@ -630,6 +675,16 @@ focus_tree = {
 			country_event = {
 				id = england.171
 			}
+			modify_building_resources = {
+				building = industrial_complex
+				resource = aluminium
+				amount = 1
+			}
+			modify_building_resources = {
+				building = industrial_complex
+				resource = chromium
+				amount = 1
+			}
 		}
 
 	}
@@ -663,7 +718,8 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Prepare_For_The_United_Congress  }
 		completion_reward = {
-
+			add_political_power = 50
+			add_stability = 0.5
 		}
 
 	}
@@ -695,7 +751,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Crack_Down_On_Scottish_Rebels  }
 		completion_reward = {
-
+			add_stability = -0.5
 		}
 
 	}
@@ -727,7 +783,16 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Uniting_The_Lands  }
 		completion_reward = {
-
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = air_base
+				level = 3
+				instant_build = yes
+			}
 		}
 
 	}
@@ -742,7 +807,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Wales_The_Arms_Industry  }
 		completion_reward = {
-
+			add_ideas = Duel_Industries
 		}
 
 	}
@@ -757,6 +822,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_Duel_English_And_Welsh_Industry  }
 		completion_reward = {
+			add_ideas = Harvest_Scottish_Welsh_Land
 
 		}
 
@@ -816,7 +882,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_United_Armed_Forces  }
 		completion_reward = {
-
+			add_command_power = 20
 		}
 
 	}
@@ -831,7 +897,11 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_United_Armed_Forces  }
 		completion_reward = {
-
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_tech
+			}
 		}
 
 	}
@@ -846,7 +916,7 @@ focus_tree = {
 		}
 		prerequisite = { focus =  ENG_The_United_Armed_Forces  }
 		completion_reward = {
-
+				add_manpower = 4000
 		}
 
 	}
@@ -863,6 +933,10 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Promote_English_Generals  }
 		prerequisite = { focus =  ENG_Integrate_Welsh_Militia  }
 		completion_reward = {
+			army_experience = 10
+			navy_experience = 10
+			air_experience = 10
+
 
 		}
 
@@ -882,7 +956,27 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Promote_English_Generals  }
 		prerequisite = { focus =  ENG_Ingegrate_Welsh_Militia  }
 		completion_reward = {
-
+			add_research_slot = 1
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = rocketry
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_tech
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = support_tech
+			}
 		}
 
 	}
@@ -918,11 +1012,33 @@ focus_tree = {
 		prerequisite = { focus =  ENG_Prepare_For_The_Invasion_Of_France  }
 
 		completion_reward = {
-
+			FRA = {
+			load_oob = "FRA_1939"
+			set_stability = 0.09
+			set_war_support = 0.08
+			add_popularity = {
+				ideology = communist
+				popularity = 0.15
+			}
+			hidden_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = GER
+			}
+			add_temporary_buff_to_units = {
+				combat_offense = 0.25
+				combat_breakthrough = 0.25
+				org_damage_multiplier = -1.0
+				str_damage_multiplier = 0.25
+				war_support_reduction_on_damage = 0.2
+				cannot_retreat_while_attacking = 1.0			
+		}
+			}
 		}
 
 	}
-
+	}
 	focus = {
 		id = ENG_Order_The_Civil_War
 		icon = order_the_civil_war_icon

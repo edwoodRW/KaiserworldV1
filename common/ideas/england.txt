@@ -2,6 +2,223 @@ ideas = {
 
 		country = {	
 			
+			silencing_The_media = {
+				allowed = {
+					always = no
+				}
+				
+				picture = expanding_the_camps_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				consumer_goods_factor = 0.02
+				political_power_factor = 0.03
+				industrial_capacity_factory = 0.02
+				}
+		}
+			
+			
+			army_expanding_the_camps = {
+				allowed = {
+					always = no
+				}
+				
+				picture = expanding_the_camps_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+				consumer_goods_factor = 0.02
+				political_power_factor = 0.03
+				industrial_capacity_factory = 0.02
+				}
+		}
+			
+			
+			The_First_Rocket = {
+				allowed = {
+					always = no
+				}
+				
+				picture = the_first_rocket_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+				research_bonus = {
+		
+					rocketry = -0.30
+				}
+	
+
+				modifier = {
+
+						}
+			}
+			
+			
+			Harvest_Scottish_Welsh_Land = {
+				allowed = {
+					always = no
+				}
+				
+				picture = harvest_scottish_and_welsh_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					production_factory_max_efficiency_factor = 0.025
+					production_speed_industrial_complex_factor = 0.05
+					line_change_production_efficiency_factor = 0.025
+				}
+			}
+			
+			Duel_Industries = {
+				allowed = {
+					always = no
+				}
+				
+				picture = duel_english_welsh_industries_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					research_speed_factor = -0.04
+					line_change_production_efficiency_factor = 0.06
+					production_factory_efficiency_gain_factor = 0.06
+				}
+			}
+			
+			Rebuild_Scottish_Industry = {
+				allowed = {
+					always = no
+				}
+				
+				picture = building_scottish_industry
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+	
+	
+
+				modifier = {
+					consumer_goods_factor = 0.35
+					production_speed_industrial_complex_factor = -0.3
+					production_speed_arms_factory_factor = -0.3
+					max_fuel_factor = -0.25
+					fuel_gain_factor = -0.4
+				}
+			}
+			
+			
+			Economic_support_idea = {
+				allowed = {
+					always = no
+				}
+				
+				picture = economic_support_eng
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+				research_bonus = {
+					industry = -0.20
+				}
+	
+
+				modifier = {
+					consumer_goods_factor = 0.01
+					production_speed_infrastructure_factor = -0.15
+					monthly_population = 0.03
+				}
+			}
+			
+
+			Military_exercises_together = {
+				allowed = {
+					always = no
+				}
+				
+				picture = Military_exercises_together_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					stability_factor = 0.3
+					army_speed_factor = -0.5
+					mobilization_speed = -0.5
+					unit_limit_bonus = 2
+					industrial_capacity_factory = -0.01
+					industrial_capacity_dockyard = -0.01
+				}
+			}
+			
+			
+			Military_exercises_together = {
+				allowed = {
+					always = no
+				}
+				
+				picture = Military_exercises_together_idea
+
+				removal_cost = -1
+				
+				allowed_civil_war = {
+					always = yes
+				}
+			
+	
+
+				modifier = {
+					stability_factor = 0.3
+					army_speed_factor = -0.5
+					mobilization_speed = -0.5
+					unit_limit_bonus = 2
+					industrial_capacity_factory = -0.01
+					industrial_capacity_dockyard = -0.01
+				}
+			}
+			
 			The_United_Army = {
 				allowed = {
 					always = no

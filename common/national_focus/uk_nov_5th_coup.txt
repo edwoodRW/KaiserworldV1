@@ -76,7 +76,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = ENG_Ending_School_Early  }
 		completion_reward = {
-
+			add_ideas = army_expanding_the_camps
 		}
 
 	}
@@ -106,7 +106,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = ENG_Securing_the_cities  }
 		completion_reward = {
-
+			add_political_power = 20
 		}
 
 	}
@@ -133,7 +133,7 @@ focus_tree = {
 		y = 4
 		prerequisite = { focus = ENG_Shoot_To_kill2  }
 		completion_reward = {
-
+			add_ideas = silencing_The_media
 		}
 
 	}

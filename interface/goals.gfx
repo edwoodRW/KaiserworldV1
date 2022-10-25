@@ -10818,10 +10818,200 @@ SpriteType = {
 		}
 		
 	SpriteType = {
+		name = "arranging_a_conference_with_others_icon"
+		texturefile = "gfx/interface/goals/usa/arranging_a_conference_with_others_icon.dds"			
+		}	
+		
+
+	SpriteType = {
+		name = "contact_RIM_icon"
+		texturefile = "gfx/interface/goals/usa/contact_RIM_icon.dds"			
+		}	
+	
+	SpriteType = {
+		name = "eliminating_The_russian_threat_icon"
+		texturefile = "gfx/interface/goals/usa/eliminating_The_russian_threat_icon.dds"			
+		}	
+			
+	SpriteType = {
+		name = "Icon_Take_Down_their_Electrical_Grid_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Take_Down_their_Electrical_Grid_KW.dds"			
+		}
+
+		
+	SpriteType = {
+		name = "Icon_Take_Out_Key_Generals_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Take_Out_Key_Generals_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Drop_Propaganda_Leaflets_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Drop_Propaganda_Leaflets_KW.dds"			
+		}
+		
+
+	SpriteType = {
+		name = "Icon_Drone_Strike_Syndicalist_Infrastructure_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Drone_Strike_Syndicalist_Infrastructure_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Strike_Their_Oil_Refineries_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Strike_Their_Oil_Refineries_KW.dds"			
+		}
+		
+
+	SpriteType = {
+		name = "Icon_Blitz_For_Tehran_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Blitz_For_Tehran_KW.dds"			
+		}
+	
+
+	SpriteType = {
+		name = "Icon_Operation_Ajax_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Operation_Ajax_KW.dds"			
+		}
+
+	SpriteType = {
 		name = "Icon_Better_Internet_Access_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Better_Internet_Access_KW.dds"			
 		}
 		
+	SpriteType = {
+		name = "Restablish_local_policing_icon"
+		texturefile = "gfx/interface/goals/usa/Restablish_local_policing_icon.dds"			
+		}		
+
+	SpriteType = {
+		name = "hunt_for_escobar_icon"
+		texturefile = "gfx/interface/goals/usa/hunt_for_escobar_icon.dds"			
+		}
+				
+	SpriteType = {
+		name = "seize_drug_store_icon"
+		texturefile = "gfx/interface/goals/usa/seize_drug_store_icon.dds"			
+		}
+		
+	SpriteType = {
+		name = "take_control_of_the_canal_icon"
+		texturefile = "gfx/interface/goals/usa/take_control_of_the_canal_icon.dds"			
+		}
+	
+		
+	SpriteType = {
+		name = "arrest_fbi_members_icon"
+		texturefile = "gfx/interface/goals/usa/arrest_fbi_members_icon.dds"			
+		}
+
+	SpriteType = {
+		name = "pacify_the_rebels_icon"
+		texturefile = "gfx/interface/goals/usa/pacify_the_rebels_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "trial_of_james_comey_icon"
+		texturefile = "gfx/interface/goals/usa/trial_of_james_comey_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "taking_panama_icon"
+		texturefile = "gfx/interface/goals/usa/taking_panama_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "drone_strikes_on_new_washington_icon"
+		texturefile = "gfx/interface/goals/usa/drone_strikes_on_new_washington_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "promise_liberation_icon"
+		texturefile = "gfx/interface/goals/usa/promise_liberation_icon.dds"			
+		}
+		
+	SpriteType = {
+		name = "take_advantage_of_the_chaos_icon"
+		texturefile = "gfx/interface/goals/usa/take_advantage_of_the_chaos_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "expanding_the_obama_doctrine_icon"
+		texturefile = "gfx/interface/goals/usa/expanding_the_obama_doctrine_icon.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Send_Dissidents_Across_the_Border_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Send_Dissidents_Across_the_Border_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "break_it_apart_icon"
+		texturefile = "gfx/interface/goals/usa/break_it_apart_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "problem_of_central_america_icon"
+		texturefile = "gfx/interface/goals/usa/problem_of_central_america_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Sabotage_Syndicalist_Structures_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Sabotage_Syndicalist_Structures_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Supply_the_Iranian_Air_Force_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Supply_the_Iranian_Air_Force_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Assassinate_Syndicalist_Leaderships_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Assassinate_Syndicalist_Leaderships_KW.dds"			
+		}
+	
+
+	SpriteType = {
+		name = "Icon_Build_New_Airbases_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Build_New_Airbases_KW.dds"			
+		}
+	
+		
+	SpriteType = {
+		name = "Icon_Sell_Equipment_to_the_Republic_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Sell_Equipment_to_the_Republic_KW.dds"			
+		}
+
+	SpriteType = {
+		name = "Icon_Train_the_Iranian_Military_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Train_the_Iranian_Military_KW.dds"			
+		}
+		
+		
+		SpriteType = {
+			name = "Icon_Send_Military_Advisors_KW"
+			texturefile = "gfx/interface/goals/usa/Icon_Send_Military_Advisors_KW.dds"			
+			}
+		
+	SpriteType = {
+		name = "Icon_Supply_the_Democratic_Republic_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Supply_the_Democratic_Republic_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Direct_Intervention_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Direct_Intervention_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "legalize_gay_marriage_icon"
+		texturefile = "gfx/interface/goals/usa/legalize_gay_marriage_icon.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_The_Iran_Theater_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Iran_Theater_KW.dds"			
+		}
+		
+
 	SpriteType = {
 		name = "Icon_Encourage_Minority_Votes_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Encourage_Minority_Votes_KW.dds"			

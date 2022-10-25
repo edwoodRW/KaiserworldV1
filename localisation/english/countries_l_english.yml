@@ -6650,8 +6650,22 @@ WAL_fascist_DEF:0 "National State Of Wales"
  WAL_communist_ADJ:0 "Welsh"
 
 
+COF:0 "Commune Of France"
+COF_ADJ:0 "Commune Of France"
+COF_DEF:0 "Commune Of France"
 
-
+ SEA_fascism:0 "Empire of Sealand"
+ SEA_fascism_DEF:0 "The Empire of Sealand"
+ SEA_democratic:0 "Republic of Sealand"
+ SEA_democratic_DEF:0 "The Republic of Sealand"
+ SEA_nationalist:0 "Sealand"
+ SEA_nationalist_DEF:0 "Principality of Sealand"
+ SEA_communism:0 "Peoples Republic of Sealand"
+ SEA_communism_DEF:0 "The Peoples Republic of Sealand"
+ SEA_fascism_ADJ:0 "Sealand"
+ SEA_democratic_ADJ:0 "Sealand"
+ SEA_nationalist_ADJ:0 "Sealand"
+ SEA_communism_ADJ:0 "Sealand"
 
  SLO_fascist:0 "Slovak State"
  SLO_fascist_DEF:0 "The Slovak State"

@@ -2109,6 +2109,9 @@ country_event = {
 			
 			}
 		}
+		ENG = {
+			country_event = { days = 5 id = England.316 } 
+			}
 	}
 }
 
@@ -2313,7 +2316,9 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.169.o1
-
+		launch_nuke = {
+			province = 6062
+		}
 	}
 }
 
@@ -2338,6 +2343,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.171.o1
+		
 
 	}
 }
@@ -2416,27 +2422,28 @@ country_event = {
 	option = {
 		name = England.177.o1
 		FRA = {
-				
+			set_equipment_fraction = 0.5
+			set_war_support = 0.8
+			add_manpower = 10000
 			start_civil_war = {
 				set_cosmetic_tag = FRA_Commune_Of_France
 				size = 0.7
 				states = {
-					21 17  23 
+					21 17   
 				}
-				load_oob = "FRA_1939"
-				set_equipment_fraction = 0.5
-				set_stability = 0.9
-				set_war_support = 0.8
-				add_popularity = {
-					ideology = marxist
-					popularity = 0.35
-				}
+			
+				
 				ideology = communist
 				create_country_leader = {
 					name = "Fabien Roussel"
 					picture = "fabien_roussel.dds"
 					ideology = marxist
 
+				}
+				hidden_effect = {
+					ENG = {
+						country_event = { days = 60 id = England.316 } 
+					}
 				}
 			
 			}
@@ -2479,7 +2486,12 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = England.180.o1
-
+		ENG = {
+			add_opinion_modifier = {
+				target = CAN
+				modifier = small_decrease
+			}
+		}
 	}
 }
 
@@ -4652,4 +4664,50 @@ country_event = {
 }
 
 
+
+
+country_event = {
+	id = England.315
+	title = England.315.t
+	desc = England.315.d
+	picture = english_famine_start_event
+	is_triggered_only = yes
+	option = {
+		name = England.315.o1
+		set_country_flag = The_Famine
+		mark_focus_tree_layout_dirty = yes
+
+	}
+}
+
+country_event = {
+	id = England.316
+	title = England.316.t
+	desc = England.316.d
+	picture = end_of_civil_war_event
+	is_triggered_only = yes
+	option = {
+		name = England.316.o1
+		hidden_effect = {
+			COF = { 
+			white_peace = {
+				tag = FRA
+				message = my_peace_tt
+			}
+			COF = {
+		
+					transfer_state = 17
+					transfer_state = 20
+					transfer_state = 21
+					transfer_state = 26
+					transfer_state = 735
+					transfer_state = 22
+					transfer_state = 32					
+			}
+		}
+
+		}
+
+	}
+}
 

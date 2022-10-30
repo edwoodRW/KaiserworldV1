@@ -10818,6 +10818,102 @@ SpriteType = {
 		}
 	
 	SpriteType = {
+		name = "set_up_a_provisional_government_icon"
+		texturefile = "gfx/interface/goals/usa/set_up_a_provisional_government_icon.dds"			
+		} 
+
+	SpriteType = {
+		name = "backstab_the_imperials_icon"
+		texturefile = "gfx/interface/goals/usa/backstab_the_imperials_icon.dds"			
+		} 
+		
+	SpriteType = {
+		name = "another_revolution_in_russia_icon"
+		texturefile = "gfx/interface/goals/usa/another_revolution_in_russia_icon.dds"			
+		} 
+	
+		
+	SpriteType = {
+		name = "sabotage_russian_nuclear_plants_icon"
+		texturefile = "gfx/interface/goals/usa/sabotage_russian_nuclear_plants_icon.dds"			
+		} 
+	
+
+	SpriteType = {
+		name = "stoke_new_riots_icon"
+		texturefile = "gfx/interface/goals/usa/stoke_new_riots_icon.dds"			
+		} 
+	
+
+	SpriteType = {
+		name = "its_time_icon"
+		texturefile = "gfx/interface/goals/usa/its_time_icon.dds"			
+		} 
+	
+
+	SpriteType = {
+		name = "sabotage_russian_infrastructure_icon"
+		texturefile = "gfx/interface/goals/usa/sabotage_russian_infrastructure_icon.dds"			
+		} 
+
+	SpriteType = {
+		name = "ship_weapons_to_rebels_icon"
+		texturefile = "gfx/interface/goals/usa/ship_weapons_to_rebels_icon.dds"			
+		} 
+		
+			
+	SpriteType = {
+		name = "assassinate_russian_politicians_icon"
+		texturefile = "gfx/interface/goals/usa/assassinate_russian_politicians_icon.dds"			
+		} 
+		
+	SpriteType = {
+		name = "encourage_political_violence_icon"
+		texturefile = "gfx/interface/goals/usa/encourage_political_violence_icon.dds"			
+		} 
+		
+	SpriteType = {
+		name = "ruin_the_russian_image_icon"
+		texturefile = "gfx/interface/goals/usa/ruin_the_russian_image_icon.dds"			
+		} 
+		
+	
+	SpriteType = {
+		name = "radicalize_russian_youth_icon"
+		texturefile = "gfx/interface/goals/usa/radicalize_russian_youth_icon.dds"			
+		} 
+	
+	SpriteType = {
+		name = "reopen_radio_free_Europe_icon"
+		texturefile = "gfx/interface/goals/usa/reopen_radio_free_Europe_icon.dds"			
+		} 
+
+	SpriteType = {
+		name = "replace_russian_products_icon"
+		texturefile = "gfx/interface/goals/usa/replace_russian_products_icon.dds"			
+		} 	
+	
+	SpriteType = {
+		name = "Embargo_russia_icon"
+		texturefile = "gfx/interface/goals/usa/Embargo_russia_icon.dds"			
+		} 	
+		
+	SpriteType = {
+		name = "promote_anti_russian_sentiment_icon"
+		texturefile = "gfx/interface/goals/usa/promote_anti_russian_sentiment_icon.dds"			
+		} 		
+
+	SpriteType = {
+		name = "denounce_current_russian_regime_icon"
+		texturefile = "gfx/interface/goals/usa/denounce_current_russian_regime_icon.dds"			
+		} 		
+		
+	SpriteType = {
+		name = "cease_russian_oil_trade_ico"
+		texturefile = "gfx/interface/goals/usa/cease_russian_oil_trade_ico.dds"			
+		} 	
+	
+	SpriteType = {
 		name = "Icon_A_New_Space_Age_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_A_New_Space_Age_KW.dds"			
 		} 

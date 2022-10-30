@@ -1068,7 +1068,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Set_Up_A_Provisional_Government
-		icon = unkown
+		icon = set_up_a_provisional_government_icon
 		x = 35
 		y = 9
 		cost = 5
@@ -1500,7 +1500,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Promote_Anti_Russian_Sentiment
-		icon = unkown
+		icon = promote_anti_russian_sentiment_icon
 		x = 56
 		y = 6
 		cost = 5
@@ -1518,7 +1518,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Reopen_Radio_Free_Europe
-		icon = unkown
+		icon = reopen_radio_free_Europe_icon
 		x = 56
 		y = 7
 		cost = 5
@@ -1536,7 +1536,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Cease_Russian_Oil_Trades
-		icon = unkown
+		icon = cease_russian_oil_trade_ico
 		x = 58
 		y = 5
 		cost = 5
@@ -1553,7 +1553,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Embargo_Russia
-		icon = unkown
+		icon = Embargo_russia_icon
 		x = 58
 		y = 6
 		cost = 5
@@ -1570,7 +1570,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Radicalize_Russian_Youth
-		icon = unkown
+		icon = radicalize_russian_youth_icon
 		x = 58
 		y = 7
 		cost = 5
@@ -1589,7 +1589,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Denounce_The_Current_Russian_Regime
-		icon = unkown
+		icon = denounce_current_russian_regime_icon
 		x = 60
 		y = 5
 		cost = 5
@@ -1607,7 +1607,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Replace_Russian_Products
-		icon = unkown
+		icon = replace_russian_products_icon
 		x = 60
 		y = 6
 		cost = 5
@@ -1624,7 +1624,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Ruin_The_Russian_Image
-		icon = unkown
+		icon = ruin_the_russian_image_icon
 		x = 60
 		y = 7
 		cost = 5
@@ -1641,7 +1641,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Encourage_Political_Violence
-		icon = unkown
+		icon = encourage_political_violence_icon
 		x = 58
 		y = 8
 		cost = 5
@@ -1661,7 +1661,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Assassinate_Russian_Politicians
-		icon = unkown
+		icon = assassinate_russian_politicians_icon
 		x = 56
 		y = 9
 		cost = 5
@@ -1680,7 +1680,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Its_Time
-		icon = unkown
+		icon = its_time_icon
 		x = 56
 		y = 10
 		cost = 5
@@ -1699,7 +1699,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Ship_Weapons_To_Rebels
-		icon = unkown
+		icon = ship_weapons_to_rebels_icon
 		x = 58
 		y = 9
 		cost = 5
@@ -1717,7 +1717,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Stoke_New_Riots
-		icon = unkown
+		icon = stoke_new_riots_icon
 		x = 58
 		y = 10
 		cost = 5
@@ -1736,7 +1736,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Sabotage_Russian_Infrastructure
-		icon = unkown
+		icon = sabotage_russian_infrastructure_icon
 		x = 60
 		y = 9
 		cost = 5
@@ -1756,7 +1756,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Sabotage_Russian_Nuclear_Plants
-		icon = unkown
+		icon = sabotage_russian_nuclear_plants_icon
 		x = 60
 		y = 10
 		cost = 5
@@ -1775,7 +1775,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Another_Revolution_In_Russia
-		icon = unkown
+		icon = another_revolution_in_russia_icon
 		x = 58
 		y = 11
 		cost = 5
@@ -1796,7 +1796,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Backstab_The_Imperials
-		icon = unkown
+		icon = backstab_the_imperials_icon
 		x = 58
 		y = 12
 		cost = 5

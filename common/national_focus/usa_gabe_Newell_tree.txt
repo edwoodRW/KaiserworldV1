@@ -241,7 +241,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_To_Infinity
-		icon = unkown
+		icon = Icon_To_Infinity_KW
 		x = 10
 		y = 6
 		cost = 5
@@ -262,7 +262,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Everyone_Makes_A_Good_Point
-		icon = unkown
+		icon = Icon_Everyone_Makes_a_Good_Point_KW
 		x = 7
 		y = 7
 		cost = 5
@@ -279,7 +279,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Encourage_Political_Unity
-		icon = unkown
+		icon = Icon_Encourage_Political_Unity_KW
 		x = 7
 		y = 8
 		cost = 5
@@ -296,7 +296,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Re_Establish_American_Centrism
-		icon = unkown
+		icon = Icon_Reestablish_American_Centrism_KW
 		x = 7
 		y = 9
 		cost = 5
@@ -314,7 +314,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_And_Beyond
-		icon = unkown
+		icon = Icon_And_Beyond_KW
 		x = 10
 		y = 7
 		cost = 5
@@ -331,7 +331,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Encourage_The_Private_Space_Industry
-		icon = unkown
+		icon = Icon_Encourage_the_Private_Space_Industry_KW
 		x = 10
 		y = 8
 		cost = 5
@@ -348,7 +348,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Subsidize_An_Industrial_Revolution
-		icon = unkown
+		icon = Icon_Subsidize_an_Industrial_Revolution_KW
 		x = 10
 		y = 9
 		cost = 5
@@ -366,7 +366,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Cooperation_With_The_German_Scientific_Center
-		icon = unkown
+		icon = Icon_Cooperation_With_the_German_Scientific_Center_KW
 		x = 13
 		y = 7
 		cost = 5
@@ -384,7 +384,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_The_Norton_I_Rover
-		icon = unkown
+		icon = Icon_The_Norton_I_Rover_KW
 		x = 13
 		y = 8
 		cost = 5
@@ -401,7 +401,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Build_The_Sanders_Sattelite
-		icon = unkown
+		icon = Icon_Build_the_Sanders_Satellite_KW
 		x = 13
 		y = 9
 		cost = 5
@@ -419,7 +419,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_New_Space_Age
-		icon = unkown
+		icon = Icon_A_New_Space_Age_KW
 		x = 10
 		y = 10
 		cost = 5

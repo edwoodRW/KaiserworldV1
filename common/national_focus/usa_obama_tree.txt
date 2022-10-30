@@ -1126,7 +1126,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Welcome_To_North_Africa
-		icon = unkown
+		icon = Icon_Welcome_to_North_Africa_KW
 		x = 45
 		y = 1
 		cost = 5
@@ -1143,7 +1143,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_They_Have_WMDS
-		icon = unkown
+		icon = Icon_They_have_WMDs_KW
 		x = 45
 		y = 2
 		cost = 5
@@ -1160,7 +1160,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Strike_Quick_Win_Fast
-		icon = unkown
+		icon = Icon_Strike_Quick_Win_Fast_KW
 		x = 42
 		y = 3
 		cost = 5
@@ -1179,7 +1179,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Secure_The_Coast
-		icon = unkown
+		icon = Icon_Secure_the_Coast_KW
 		x = 42
 		y = 4
 		cost = 5
@@ -1197,7 +1197,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Bomb_The_Congress
-		icon = unkown
+		icon = Icon_Bomb_Their_Congress_KW
 		x = 42
 		y = 5
 		cost = 5
@@ -1215,7 +1215,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Move_To_Secure_The_Ruins
-		icon = unkown
+		icon = Icon_Move_to_Secure_the_Ruins_KW
 		x = 42
 		y = 6
 		cost = 5
@@ -1233,7 +1233,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Capture_Hoover
-		icon = unkown
+		icon = Icon_Capture_Hoover_KW
 		x = 42
 		y = 7
 		cost = 5
@@ -1251,7 +1251,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_Sow_The_Seeds_Of_Discord
-		icon = unkown
+		icon = Icon_Sow_the_Seeds_of_Discord_KW
 		x = 48
 		y = 3
 		cost = 5
@@ -1270,7 +1270,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Assassinate_The_Last_Hoover
-		icon = unkown
+		icon = Icon_Assassinate_the_Last_Hoover_KW
 		x = 48
 		y = 4
 		cost = 5
@@ -1287,7 +1287,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Send_Weapons_To_The_Rebels
-		icon = unkown
+		icon = Icon_Send_Weapons_to_Rebels_KW
 		x = 48
 		y = 5
 		cost = 5
@@ -1304,7 +1304,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Train_Pilots
-		icon = unkown
+		icon = Icon_Train_Pilots_KW
 		x = 48
 		y = 6
 		cost = 5
@@ -1321,7 +1321,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Drone_Strike_The_Airport
-		icon = unkown
+		icon = Icon_Drone_Strike_the_Airport_KW
 		x = 48
 		y = 7
 		cost = 5
@@ -1340,7 +1340,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Reclaim_Our_Old_Colony
-		icon = unkown
+		icon = Icon_Reclaim_Our_Old_Colony_KW
 		x = 39
 		y = 8
 		cost = 5
@@ -1368,7 +1368,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Promote_A_New_American_Dream
-		icon = unkown
+		icon = Icon_Promote_a_New_American_Dream_KW
 		x = 45
 		y = 8
 		cost = 5
@@ -1389,7 +1389,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Call_For_Dissolvement
-		icon = unkown
+		icon = Icon_Call_for_Dissolvement_KW
 		x = 50
 		y = 8
 		cost = 5
@@ -1465,7 +1465,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Contacting_Dissatisfied_Generals
-		icon = unkown
+		icon = contact_dissatisfied_generals_icon
 		x = 58
 		y = 4
 		cost = 5
@@ -1483,7 +1483,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Cease_Mldarossi_Relations
-		icon = unkown
+		icon = cease_mldarossi_relations_icon
 		x = 56
 		y = 5
 		cost = 5

@@ -10816,7 +10816,154 @@ SpriteType = {
 		name = "Icon_Better_Black_Lives_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Better_Black_Lives_KW.dds"			
 		}
+	
+	SpriteType = {
+		name = "Icon_A_New_Space_Age_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_A_New_Space_Age_KW.dds"			
+		} 
+
+	SpriteType = {
+		name = "Icon_Build_the_Sanders_Satellite_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Build_the_Sanders_Satellite_KW.dds"			
+		} 
 		
+	SpriteType = {
+		name = "Icon_Subsidize_an_Industrial_Revolution_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Subsidize_an_Industrial_Revolution_KW.dds"			
+		} 	
+
+	SpriteType = {
+		name = "Icon_Reestablish_American_Centrism_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Reestablish_American_Centrism_KW.dds"			
+		} 
+			
+	SpriteType = {
+		name = "Icon_The_Norton_I_Rover_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Norton_I_Rover_KW.dds"			
+		} 
+		
+	SpriteType = {
+		name = "Icon_Encourage_the_Private_Space_Industry_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Encourage_the_Private_Space_Industry_KW.dds"			
+		} 		
+		
+		
+	SpriteType = {
+		name = "Icon_Encourage_Political_Unity_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Encourage_Political_Unity_KW.dds"			
+		} 		
+		
+		
+	SpriteType = {
+		name = "Icon_Cooperation_With_the_German_Scientific_Center_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Cooperation_With_the_German_Scientific_Center_KW.dds"			
+		} 		
+		
+	SpriteType = {
+		name = "Icon_Everyone_Makes_a_Good_Point_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Everyone_Makes_a_Good_Point_KW.dds"			
+		} 		
+	
+	SpriteType = {
+		name = "Icon_And_Beyond_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_And_Beyond_KW.dds"			
+		} 
+		
+	SpriteType = {
+		name = "Icon_To_Infinity_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_To_Infinity_KW.dds"			
+		} 
+	
+	SpriteType = {
+		name = "cease_mldarossi_relations_icon"
+		texturefile = "gfx/interface/goals/usa/cease_mldarossi_relations_icon.dds"			
+		} 
+
+	SpriteType = {
+		name = "contact_dissatisfied_generals_icon"
+		texturefile = "gfx/interface/goals/usa/contact_dissatisfied_generals_icon.dds"			
+		} 	
+
+	SpriteType = {
+		name = "Icon_Call_for_Dissolvement_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Call_for_Dissolvement_KW.dds"			
+		} 	
+
+	SpriteType = {
+		name = "Icon_Promote_a_New_American_Dream_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Promote_a_New_American_Dream_KW.dds"			
+		} 
+		
+	SpriteType = {
+		name = "Icon_Reclaim_Our_Old_Colony_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Reclaim_Our_Old_Colony_KW.dds"			
+		} 	
+
+	SpriteType = {
+		name = "Icon_Drone_Strike_the_Airport_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Drone_Strike_the_Airport_KW.dds"			
+		} 	
+
+
+	SpriteType = {
+		name = "Icon_Capture_Hoover_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Capture_Hoover_KW.dds"			
+		} 	
+
+		
+	SpriteType = {
+		name = "Icon_Train_Pilots_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Train_Pilots_KW.dds"			
+		} 	
+
+	SpriteType = {
+		name = "Icon_Move_to_Secure_the_Ruins_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Move_to_Secure_the_Ruins_KW.dds"			
+		} 
+		
+	SpriteType = {
+		name = "Icon_Send_Weapons_to_Rebels_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Send_Weapons_to_Rebels_KW.dds"			
+		} 
+		
+	SpriteType = {
+		name = "Icon_Bomb_Their_Congress_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Bomb_Their_Congress_KW.dds"			
+		}  
+		   
+
+	SpriteType = {
+		name = "Icon_Assassinate_the_Last_Hoover_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Assassinate_the_Last_Hoover_KW.dds"			
+		}  
+		   
+	SpriteType = {
+		name = "Icon_Secure_the_Coast_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Secure_the_Coast_KW.dds"			
+		}       
+	
+	SpriteType = {
+		name = "Icon_Sow_the_Seeds_of_Discord_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Sow_the_Seeds_of_Discord_KW.dds"			
+		}
+		
+	SpriteType = {
+		name = "Icon_Strike_Quick_Win_Fast_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Strike_Quick_Win_Fast_KW.dds"			
+		}		
+
+	SpriteType = {
+		name = "Icon_They_have_WMDs_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_They_have_WMDs_KW.dds"			
+		}	
+				
+		
+	SpriteType = {
+		name = "Icon_Welcome_to_North_Africa_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Welcome_to_North_Africa_KW.dds"			
+		}	
+			
+
 	SpriteType = {
 		name = "arranging_a_conference_with_others_icon"
 		texturefile = "gfx/interface/goals/usa/arranging_a_conference_with_others_icon.dds"			

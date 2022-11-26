@@ -9,7 +9,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Continue_The_Commonwealth_Plan
-		icon = unknown
+		icon = continue_the_commonwealth_plan_icon
 		x = 10
 		y = 0
 		cost = 5
@@ -24,7 +24,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_Perfect_Bernies_Policies
-		icon = unkown
+		icon = perfect_bernies_policies_icon
 		x = 10
 		y = 1
 		cost = 5
@@ -40,7 +40,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Increase_Corporate_Taxes
-		icon = unkown
+		icon = increase_corporate_taxes_cion
 		x = 5
 		y = 2
 		cost = 5
@@ -57,7 +57,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Raise_Business_Tax
-		icon = unkown
+		icon = raise_business_tax_icon
 		x = 5
 		y = 3
 		cost = 5
@@ -73,7 +73,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Promote_Social_Justice_Reforms
-		icon = unkown
+		icon = promote_social_justice_reforms_icon
 		x = 8
 		y = 2
 		cost = 5
@@ -89,7 +89,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Increase_Government_Power
-		icon = unkown
+		icon = increase_government_power_icon
 		x = 8
 		y = 3
 		cost = 5
@@ -105,7 +105,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Expand_The_Definition_Of_Healthcare
-		icon = unkown
+		icon = expand_definition_of_healthcare_icon
 		x = 12
 		y = 2
 		cost = 5
@@ -121,7 +121,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_New_Civil_Rights_Bill
-		icon = unkown
+		icon = new_civil_rights_bill_icon
 		x = 12
 		y = 3
 		cost = 5
@@ -137,7 +137,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Create_A_Workers_Parliament
-		icon = unkown
+		icon = create_A_workers_parliament_icon
 		x = 15
 		y = 2
 		cost = 5
@@ -153,7 +153,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Nobody_Left_Behind
-		icon = unkown
+		icon = nobody_left_behind_icon
 		x = 15
 		y = 3
 		cost = 5
@@ -171,7 +171,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Pro_Worker_Legislation
-		icon = unkown
+		icon = pro_worker_legislation_icon
 		x = 10
 		y = 2
 		cost = 5
@@ -187,7 +187,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Nationalize_Farming
-		icon = unkown
+		icon = nationalize_farming_icon
 		x = 10
 		y = 3
 		cost = 5
@@ -204,7 +204,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_New_Constitutional_Convention
-		icon = unkown
+		icon = a_new_constitutional_convention_icon
 		x = 10
 		y = 4
 		cost = 5

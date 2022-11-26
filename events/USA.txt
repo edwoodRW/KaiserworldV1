@@ -264,3 +264,14 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = usa.12
+	title = usa.12.t
+	desc = usa.12.d
+	picture = hillary_election_win
+	is_triggered_only = yes
+	option = {
+		name = usa.12.o1
+	}
+}
+

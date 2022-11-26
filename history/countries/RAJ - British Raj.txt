@@ -182,8 +182,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Mulayam Singh Yadav"
-	picture = "Portrait_RAJ_Mulayam_Singh_Yadav.dds"
+	name = "Ashok Ghosh"
+	picture = "Ashok_Ghosh.dds"
 	ideology = democratic_socialist
 }
 

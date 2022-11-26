@@ -9,7 +9,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_New_Day_For_Woman
-		icon = unkown
+		icon = a_new_day_for_woman_icon
 		x = 10
 		y = 0
 		cost = 5
@@ -24,7 +24,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_A_New_Day_For_America
-		icon = unkown
+		icon = A_New_Day_for_America_icon
 		x = 10
 		y = 1
 		cost = 5
@@ -40,7 +40,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Expanding_The_Welfare_State
-		icon = unkown
+		icon = expanding_the_welfare_state_icon
 		x = 7
 		y = 2
 		cost = 5
@@ -56,7 +56,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Securing_Access_To_Food
-		icon = unkown
+		icon = securing_access_to_food_icon
 		x = 7
 		y = 3
 		cost = 5
@@ -72,7 +72,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Expand_Healthcare_Programs
-		icon = unkown
+		icon = expand_healthcarE_programs_icon
 		x = 7
 		y = 4
 		cost = 5
@@ -89,7 +89,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Enshrine_LGBTQ_Rights_Into_Law
-		icon = unkown
+		icon = enshrine_LGBT_rights_into_law_icon
 		x = 10
 		y = 2
 		cost = 5
@@ -105,7 +105,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Roll_Back_Oil_Drilling
-		icon = unkown
+		icon = roll_back_oil_drilling_icon
 		x = 10
 		y = 3
 		cost = 5
@@ -121,7 +121,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Cancel_All_Current_Pipelines
-		icon = unkown
+		icon = cancel_all_current_pipelines_icon
 		x = 10
 		y = 4
 		cost = 5
@@ -138,7 +138,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Eliminate_The_Pink_Tax
-		icon = unkown
+		icon = eliminate_the_pink_tax_icon
 		x = 13
 		y = 2
 		cost = 5
@@ -155,7 +155,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Expand_Title_IX_Protections
-		icon = unkown
+		icon = expand_title_XI_protections_icon
 		x = 13
 		y = 3
 		cost = 5
@@ -172,7 +172,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Fight_Traditional_Gender_Idenitites
-		icon = unkown
+		icon = fight_traditional_gender_idenities_icon
 		x = 13
 		y = 4
 		cost = 5
@@ -189,7 +189,7 @@ focus_tree = {
 	
 	focus = {
 		id = USA_Bridge_The_Gap_Between_Parties
-		icon = unkown
+		icon = bridge_gap_between_parties_icon
 		x = 10
 		y = 5
 		cost = 5
@@ -208,7 +208,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Defer_Student_Loans
-		icon = unkown
+		icon = defer_student_loans_icon
 		x = 7
 		y = 6
 		cost = 5
@@ -225,7 +225,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Disability_Rights
-		icon = unkown
+		icon = disabilities_rights_icon
 		x = 7
 		y = 7
 		cost = 5
@@ -242,7 +242,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Workers_Rights_Are_A_Priority
-		icon = unkown
+		icon = workers_rights_are_a_priority_icon
 		x = 7
 		y = 8
 		cost = 5
@@ -259,7 +259,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Continue_Fighting_Climate_Change
-		icon = unkown
+		icon = continue_fighting_climate_change_icon
 		x = 10
 		y = 6
 		cost = 5
@@ -277,7 +277,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Reform_The_Justice_System
-		icon = unkown
+		icon = reform_the_justice_system_icon
 		x = 10
 		y = 7
 		cost = 5
@@ -294,7 +294,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Tackle_The_Mental_Health_Crisis
-		icon = unkown
+		icon = tackle_the_mental_health_crisis_icon
 		x = 10
 		y = 8
 		cost = 5
@@ -311,7 +311,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Increase_Wealth_Tax
-		icon = unkown
+		icon = Increase_wealth_tax_icon
 		x = 13
 		y = 6
 		cost = 5
@@ -329,7 +329,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Introduce_Federal_Housing
-		icon = unkown
+		icon = introduce_federal_housing_icon
 		x = 13
 		y = 7
 		cost = 5
@@ -347,7 +347,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Expand_NSA_Powers
-		icon = unkown
+		icon = expand_NSA_Powers_icon
 		x = 13
 		y = 8
 		cost = 5
@@ -365,7 +365,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Renew_The_American_Dream
-		icon = unkown
+		icon = renew_the_american_Dream_icon
 		x = 10
 		y = 9
 		cost = 5
@@ -386,7 +386,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_New_Light_On_Top_Of_The_Hill
-		icon = unkown
+		icon = a_new_light_on_top_of_hill_icon
 		x = 30
 		y = 0
 		cost = 5
@@ -402,7 +402,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Life_Liberty_Decolonization
-		icon = unkown
+		icon = life_liberty_decolonization_icon
 		x = 26
 		y = 1
 		cost = 5
@@ -422,7 +422,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Self_Determination_For_All
-		icon = unkown
+		icon = self_determination_for_all_icon
 		x = 26
 		y = 2
 		cost = 5
@@ -439,7 +439,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Call_For_Sweeping_Decolonization
-		icon = unkown
+		icon = call_for_sweeping_decolonization_icon
 		x = 26
 		y = 3
 		cost = 5
@@ -456,7 +456,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Compensate_Colonial_Losses
-		icon = unkown
+		icon = compensate_colonial_losses_icon
 		x = 24
 		y = 4
 		cost = 5
@@ -473,7 +473,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Prevent_The_Further_Spread_Of_African_Syndicalism
-		icon = unkown
+		icon = prevent_spread_of_syndicalism_icon
 		x = 24
 		y = 5
 		cost = 5
@@ -490,7 +490,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Call_For_International_Investment
-		icon = unkown
+		icon = call_for_international_investment_icon
 		x = 24
 		y = 6
 		cost = 5
@@ -509,7 +509,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Ensure_Access_To_Healthcare
-		icon = unkown
+		icon = ensure_access_to_healthcare_icon
 		x = 24
 		y = 7
 		cost = 5
@@ -526,7 +526,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Promote_African_Democracy
-		icon = unkown
+		icon = promote_african_democracy_icon
 		x = 28
 		y = 4
 		cost = 5
@@ -544,7 +544,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Fund_African_Infrastructure
-		icon = unkown
+		icon = fund_african_infrastucture_icon
 		x = 28
 		y = 5
 		cost = 5
@@ -561,7 +561,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Repatriate_African_Exiles
-		icon = unkown
+		icon = repatriate_african_exiles_icon
 		x = 28
 		y = 6
 		cost = 5
@@ -578,7 +578,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Ensure_Ethic_Representation
-		icon = unkown
+		icon = ensure_ethic_representation_icon
 		x = 28
 		y = 7
 		cost = 5
@@ -596,7 +596,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_Safe_World_Is_A_Free_World
-		icon = unkown
+		icon = a_safe_world_a_Free_world_icon
 		x = 26
 		y = 8
 		cost = 5
@@ -614,7 +614,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Expand_Democracy_To_The_World
-		icon = unkown
+		icon = expand_democracy_around_the_world_icon
 		x = 35
 		y = 1
 		cost = 5
@@ -632,7 +632,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_A_New_Faction
-		icon = unkown
+		icon = a_new_faction_icon
 		x = 35
 		y = 2
 		cost = 5
@@ -649,7 +649,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Promote_Democratic_Reforms
-		icon = unkown
+		icon = promote_democratic_reforms_icon
 		x = 35
 		y = 3
 		cost = 5
@@ -666,7 +666,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Fund_The_Adenauer_Movement
-		icon = unkown
+		icon = fund_the_adenauer_movement_icon
 		x = 33
 		y = 4
 		cost = 5
@@ -685,7 +685,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Put_Diplomatic_Pressure_On_Germany
-		icon = unkown
+		icon = put_diplomatic_pressure_on_germany_icon
 		x = 33
 		y = 5
 		cost = 5
@@ -702,7 +702,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Demand_German_Repatriation
-		icon = unkown
+		icon = demand_german_repatriation_icon
 		x = 33
 		y = 6
 		cost = 5
@@ -720,7 +720,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Supply_The_Marquises
-		icon = unkown
+		icon = supply_the_marquises_icon
 		x = 37
 		y = 4
 		cost = 5
@@ -737,7 +737,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Put_Dipmomatic_Pressure_On_France
-		icon = unkown
+		icon = diplomatic_pressure_on_france_icon
 		x = 37
 		y = 5
 		cost = 5
@@ -754,7 +754,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Demand_French_Repatriation
-		icon = unkown
+		icon = demand_french_repatriation_icon
 		x = 37
 		y = 6
 		cost = 5
@@ -772,7 +772,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Focus_On_Asia
-		icon = unkown
+		icon = focus_on_asias_icon
 		x = 35
 		y = 7
 		cost = 5
@@ -791,7 +791,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Contacting_The_Descendant_Of_Ghandi
-		icon = unkown
+		icon = contacting_descendant_of_ghandi_icon
 		x = 33
 		y = 8
 		cost = 5
@@ -807,8 +807,8 @@ focus_tree = {
 	}
 
 	focus = {
-		id = USA_Bolster_His_Political_Influence
-		icon = unkown
+		id = USA_Bolster_His_Political_Influence ##Tushar Gandhi
+		icon = bolster_his_political_influence_icon
 		x = 33
 		y = 9
 		cost = 5

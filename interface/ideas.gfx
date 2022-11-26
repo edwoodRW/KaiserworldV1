@@ -193,8 +193,12 @@ spriteTypes = {
 
 	
 
-	#### BRITISH COMPANIES AND ADVISORS ####
+	####  COMPANIES AND ADVISORS ####
 	
+	spriteType = {
+		name = "GFX_idea_lockheed_martin_aeronautics"
+		texturefile = "gfx/interface/ideas/companies/lockheed_martin_aeronautics.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_scotland_Thales"

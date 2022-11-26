@@ -93,11 +93,10 @@ bookmarks = {
 			}
 		}
 		"SOV"={
-			history = "SOV_DESC"
+			history = "SOV_RED_WORLD_DESC"
 			ideology = revolutionary_socialist
 			ideas = {
-				bolshevik_insurgents2
-				orthodox_church_content
+				
 			}
 			focuses = {
 		

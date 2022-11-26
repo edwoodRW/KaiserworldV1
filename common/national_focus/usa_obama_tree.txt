@@ -1813,7 +1813,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Pass_The_New_Russia_Act
-		icon = unkown
+		icon = pass_the_new_russia_act_icon
 		x = 58
 		y = 13
 		cost = 5
@@ -1832,7 +1832,7 @@ focus_tree = {
 
 	focus = {
 		id = USA_Ally_The_New_Russia
-		icon = unkown
+		icon = ally_new_russia_icon
 		x = 58
 		y = 14
 		cost = 5

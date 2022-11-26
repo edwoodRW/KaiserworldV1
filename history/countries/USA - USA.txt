@@ -2,7 +2,7 @@
 
 oob = "USA_1939"
 
-load_focus_Tree = "USA_obama_tree"
+load_focus_Tree = "Alaska_intro_tree"
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

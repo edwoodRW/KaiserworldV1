@@ -1,6 +1,11 @@
 spriteTypes = {
 	
 	spriteType = {
+		name = "hillary_election_win"
+		texturefile = "gfx/event_pictures/report_event/hillary_election_win.dds"
+	}
+	
+	spriteType = {
 		name = "the_1997_election"
 		texturefile = "gfx/event_pictures/report_event/the_1997_election.dds"
 	}

@@ -44,7 +44,6 @@ news_event = {	#Revengers
 
 
 
-
 news_event = {	#Ohio Pillar
 	id = news.15
 	title = news.15.t

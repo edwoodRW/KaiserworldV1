@@ -10806,7 +10806,385 @@ SpriteType = {
 		name = "Icon_Continue_to_Support_Democracy_Abroad_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Continue_to_Support_Democracy_Abroad_KW.dds"			
 		}
+	
+	SpriteType = {
+		name = "expand_NSA_Powers_icon"
+		texturefile = "gfx/interface/goals/usa/expand_NSA_Powers_icon.dds"			
+		}
 		
+	
+	SpriteType = {
+		name = "bolster_his_political_influence_icon"
+		texturefile = "gfx/interface/goals/usa/bolster_his_political_influence_icon.dds"			
+		}	
+	
+	
+	SpriteType = {
+		name = "contacting_descendant_of_ghandi_icon"
+		texturefile = "gfx/interface/goals/usa/contacting_descendant_of_ghandi_icon.dds"			
+		}	
+	
+	SpriteType = {
+		name = "focus_on_asias_icon"
+		texturefile = "gfx/interface/goals/usa/focus_on_asias_icon.dds"			
+		}
+
+	SpriteType = {
+		name = "demand_german_repatriation_icon"
+		texturefile = "gfx/interface/goals/usa/demand_german_repatriation_icon.dds"			
+		}
+
+	SpriteType = {
+		name = "put_diplomatic_pressure_on_germany_icon"
+		texturefile = "gfx/interface/goals/usa/put_diplomatic_pressure_on_germany_icon.dds"			
+		}	
+		
+		
+	SpriteType = {
+		name = "fund_the_adenauer_movement_icon"
+		texturefile = "gfx/interface/goals/usa/fund_the_adenauer_movement_icon.dds"			
+		}	
+	
+
+	SpriteType = {
+		name = "demand_french_repatriation_icon"
+		texturefile = "gfx/interface/goals/usa/demand_french_repatriation_icon.dds"			
+		}	
+	
+		
+	SpriteType = {
+		name = "diplomatic_pressure_on_france_icon"
+		texturefile = "gfx/interface/goals/usa/diplomatic_pressure_on_france_icon.dds"			
+		}	
+	
+	SpriteType = {
+		name = "a_new_pax_americana_icon"
+		texturefile = "gfx/interface/goals/usa/a_new_pax_americana_icon.dds"			
+		}	
+		
+	
+	SpriteType = {
+		name = "station_troops_in_member_nations_icon"
+		texturefile = "gfx/interface/goals/usa/station_troops_in_member_nations_icon.dds"			
+		}	
+	
+	SpriteType = {
+		name = "spreading_democracy_aboard_icon"
+		texturefile = "gfx/interface/goals/usa/spreading_democracy_aboard_icon.dds"			
+		}	
+	
+
+	SpriteType = {
+		name = "float_the_dollar_icon"
+		texturefile = "gfx/interface/goals/usa/float_the_dollar_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "the_american_economic_union_icon"
+		texturefile = "gfx/interface/goals/usa/the_american_economic_union_icon.dds"			
+		}
+		
+
+	SpriteType = {
+		name = "open_space_travel_for_all_icon"
+		texturefile = "gfx/interface/goals/usa/open_space_travel_for_all_icon.dds"			
+		}
+		
+	SpriteType = {
+		name = "build_nato_parliament_icon"
+		texturefile = "gfx/interface/goals/usa/build_nato_parliament_icon.dds"			
+		}
+		
+
+	SpriteType = {
+		name = "inviting_ireland_icon"
+		texturefile = "gfx/interface/goals/usa/inviting_ireland_icon.dds"			
+		}
+		
+	SpriteType = {
+		name = "atlantic_hegemony_icon"
+		texturefile = "gfx/interface/goals/usa/atlantic_hegemony_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "charter_of_human_rights_icon"
+		texturefile = "gfx/interface/goals/usa/charter_of_human_rights_icon.dds"			
+		}		
+
+	SpriteType = {
+		name = "common_defense_for_all_members_icon"
+		texturefile = "gfx/interface/goals/usa/common_defense_for_all_members_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "create_a_new_faction_icon"
+		texturefile = "gfx/interface/goals/usa/create_a_new_faction_icon.dds"			
+		}	
+		
+	
+	SpriteType = {
+		name = "Icon_The_Windsor-Norton_Marriage_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Windsor-Norton_Marriage_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_the_Elizabeth_I_Spaceport_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_the_Elizabeth_I_Spaceport_KW.dds"			
+		}			
+	
+	SpriteType = {
+		name = "Icon_Degrade_the_Border_Between_the_Countries_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Degrade_the_Border_Between_the_Countries_KW.dds"			
+		}		
+		
+	SpriteType = {
+		name = "supply_the_marquises_icon"
+		texturefile = "gfx/interface/goals/usa/supply_the_marquises_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "promote_democratic_reforms_icon"
+		texturefile = "gfx/interface/goals/usa/promote_democratic_reforms_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_The_Hunt_for_Trudeau_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Hunt_for_Trudeau_KW.dds"			
+		}		
+			
+	SpriteType = {
+		name = "Icon_Redirect_Space_Funds_to_the_Entente_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Redirect_Space_Funds_to_the_Entente_KW.dds"			
+		}	
+
+		
+	SpriteType = {
+		name = "Icon_Open_Doors_for_Duel_Citizenships_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Open_Doors_for_Duel_Citizenships_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_CBC_America_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_CBC_America_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Refugee_Decrees_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Refugee_Decrees_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_The_Vancouver_Conference_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_Vancouver_Conference_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Aid_for_the_Reclamation_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Aid_for_the_Reclamation_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "call_for_international_investment_icon"
+		texturefile = "gfx/interface/goals/usa/call_for_international_investment_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Join_the_Entente_Economic_Union_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Join_the_Entente_Economic_Union_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Request_Entry_to_the_Entente_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Request_Entry_to_the_Entente_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "a_new_faction_icon"
+		texturefile = "gfx/interface/goals/usa/a_new_faction_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "expand_democracy_around_the_world_icon"
+		texturefile = "gfx/interface/goals/usa/expand_democracy_around_the_world_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "a_safe_world_a_Free_world_icon"
+		texturefile = "gfx/interface/goals/usa/a_safe_world_a_Free_world_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "ensure_ethic_representation_icon"
+		texturefile = "gfx/interface/goals/usa/ensure_ethic_representation_icon.dds"			
+		}	
+
+	
+	SpriteType = {
+		name = "ensure_access_to_healthcare_icon"
+		texturefile = "gfx/interface/goals/usa/ensure_access_to_healthcare_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "repatriate_african_exiles_icon"
+		texturefile = "gfx/interface/goals/usa/repatriate_african_exiles_icon.dds"			
+		}	
+
+		
+		
+	SpriteType = {
+		name = "fund_african_infrastucture_icon"
+		texturefile = "gfx/interface/goals/usa/fund_african_infrastucture_icon.dds"			
+		}	
+			
+		
+	SpriteType = {
+		name = "prevent_spread_of_syndicalism_icon"
+		texturefile = "gfx/interface/goals/usa/prevent_spread_of_syndicalism_icon.dds"			
+		}	
+			
+	SpriteType = {
+		name = "promote_african_democracy_icon"
+		texturefile = "gfx/interface/goals/usa/promote_african_democracy_icon.dds"			
+		}	
+		
+		
+	SpriteType = {
+		name = "compensate_colonial_losses_icon"
+		texturefile = "gfx/interface/goals/usa/compensate_colonial_losses_icon.dds"			
+		}	
+		
+	SpriteType = {
+		name = "call_for_sweeping_decolonization_icon"
+		texturefile = "gfx/interface/goals/usa/call_for_sweeping_decolonization_icon.dds"			
+		}		
+	
+		
+	SpriteType = {
+		name = "self_determination_for_all_icon"
+		texturefile = "gfx/interface/goals/usa/self_determination_for_all_icon.dds"			
+		}		
+	
+	SpriteType = {
+		name = "life_liberty_decolonization_icon"
+		texturefile = "gfx/interface/goals/usa/life_liberty_decolonization_icon.dds"			
+		}			
+		
+	SpriteType = {
+		name = "a_new_light_on_top_of_hill_icon"
+		texturefile = "gfx/interface/goals/usa/a_new_light_on_top_of_hill_icon.dds"			
+		}	
+	
+	SpriteType = {
+		name = "renew_the_american_Dream_icon"
+		texturefile = "gfx/interface/goals/usa/renew_the_american_Dream_icon.dds"			
+		}		
+		
+
+	SpriteType = {
+		name = "tackle_the_mental_health_crisis_icon"
+		texturefile = "gfx/interface/goals/usa/tackle_the_mental_health_crisis_icon.dds"			
+		}	
+	
+		
+	SpriteType = {
+		name = "workers_rights_are_a_priority_icon"
+		texturefile = "gfx/interface/goals/usa/workers_rights_are_a_priority_icon.dds"			
+		}	
+	
+	SpriteType = {
+		name = "introduce_federal_housing_icon"
+		texturefile = "gfx/interface/goals/usa/introduce_federal_housing_icon.dds"			
+		}	
+	
+		
+	SpriteType = {
+		name = "reform_the_justice_system_icon"
+		texturefile = "gfx/interface/goals/usa/reform_the_justice_system_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "disabilities_rights_icon"
+		texturefile = "gfx/interface/goals/usa/disabilities_rights_icon.dds"			
+		}	
+  	
+	  SpriteType = {
+		name = "Increase_wealth_tax_icon"
+		texturefile = "gfx/interface/goals/usa/Increase_wealth_tax_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "continue_fighting_climate_change_icon"
+		texturefile = "gfx/interface/goals/usa/continue_fighting_climate_change_icon.dds"			
+		}	
+
+		
+	SpriteType = {
+		name = "defer_student_loans_icon"
+		texturefile = "gfx/interface/goals/usa/defer_student_loans_icon.dds"			
+		}	
+
+	
+	SpriteType = {
+		name = "bridge_gap_between_parties_icon"
+		texturefile = "gfx/interface/goals/usa/bridge_gap_between_parties_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "fight_traditional_gender_idenities_icon"
+		texturefile = "gfx/interface/goals/usa/fight_traditional_gender_idenities_icon.dds"			
+		}		
+	
+	SpriteType = {
+		name = "cancel_all_current_pipelines_icon"
+		texturefile = "gfx/interface/goals/usa/cancel_all_current_pipelines_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "expand_healthcarE_programs_icon"
+		texturefile = "gfx/interface/goals/usa/expand_healthcarE_programs_icon.dds"			
+		}	
+	
+	SpriteType = {
+		name = "expand_title_XI_protections_icon"
+		texturefile = "gfx/interface/goals/usa/expand_title_XI_protections_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "roll_back_oil_drilling_icon"
+		texturefile = "gfx/interface/goals/usa/roll_back_oil_drilling_icon.dds"			
+		}		
+		
+	SpriteType = {
+		name = "securing_access_to_food_icon"
+		texturefile = "gfx/interface/goals/usa/securing_access_to_food_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "eliminate_the_pink_tax_icon"
+		texturefile = "gfx/interface/goals/usa/eliminate_the_pink_tax_icon.dds"			
+		}		
+	
+	SpriteType = {
+		name = "enshrine_LGBT_rights_into_law_icon"
+		texturefile = "gfx/interface/goals/usa/enshrine_LGBT_rights_into_law_icon.dds"			
+		}		
+	
+	SpriteType = {
+		name = "expanding_the_welfare_state_icon"
+		texturefile = "gfx/interface/goals/usa/expanding_the_welfare_state_icon.dds"			
+		}	
+
+	SpriteType = {
+		name = "A_New_Day_for_America_icon"
+		texturefile = "gfx/interface/goals/usa/A_New_Day_for_America_icon.dds"			
+		}
+
+	SpriteType = {
+		name = "a_new_day_for_woman_icon"
+		texturefile = "gfx/interface/goals/usa/a_new_day_for_woman_icon.dds"			
+		}
+		
+
 	SpriteType = {
 		name = "Icon_Establish_a_New_Embassy_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Establish_a_New_Embassy_KW.dds"			
@@ -10816,6 +11194,154 @@ SpriteType = {
 		name = "Icon_Better_Black_Lives_KW"
 		texturefile = "gfx/interface/goals/usa/Icon_Better_Black_Lives_KW.dds"			
 		}
+		
+	SpriteType = {
+		name = "Icon_An_American-German_Royal_Wedding_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_An_American-German_Royal_Wedding_KW.dds"			
+		}	
+		
+	SpriteType = {
+		name = "Icon_Exporting_American_Goods_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Exporting_American_Goods_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Lower_Tariffs_on_Reichspakt_Gold_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Lower_Tariffs_on_Reichspakt_Gold_KW.dds"			
+		}	
+		
+		
+	SpriteType = {
+		name = "Icon_Importing_German_Companies_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Importing_German_Companies_KW.dds"			
+		}	
+			
+
+	SpriteType = {
+		name = "Icon_Celebrate_Both_Cultures_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Celebrate_Both_Cultures_KW.dds"			
+		}	
+			
+	SpriteType = {
+		name = "Icon_Two_Titans_for_Peace_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Two_Titans_for_Peace_KW.dds"			
+		}	
+
+	SpriteType = {
+		name = "Icon_Ensure_Free_Travel_Between_Pakt_Members_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Ensure_Free_Travel_Between_Pakt_Members_KW.dds"			
+		} 
+	
+		
+	SpriteType = {
+		name = "Icon_Economic_Prosperity_Across_the_World_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Economic_Prosperity_Across_the_World_KW.dds"			
+		} 
+	
+	
+	SpriteType = {
+		name = "Icon_The_San_Francisco_Conference_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_The_San_Francisco_Conference_KW.dds"			
+		} 
+	
+	SpriteType = {
+		name = "Icon_Continue_Space_Cooperation_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Continue_Space_Cooperation_KW.dds"			
+		} 		
+	
+	SpriteType = {
+		name = "Icon_Join_MittelEuropa_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Join_MittelEuropa_KW.dds"			
+		} 
+			
+
+	SpriteType = {
+		name = "Icon_Where_Our_Loyalties_Will_Lay_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Where_Our_Loyalties_Will_Lay_KW.dds"			
+		} 
+	
+	SpriteType = {
+		name = "a_new_constitutional_convention_icon"
+		texturefile = "gfx/interface/goals/usa/a_new_constitutional_convention_icon.dds"			
+		} 
+		
+	SpriteType = {
+		name = "Icon_Our_Friends_in_the_Space_Race_KW"
+		texturefile = "gfx/interface/goals/usa/Icon_Our_Friends_in_the_Space_Race_KW.dds"			
+		} 
+	
+	SpriteType = {
+		name = "nobody_left_behind_icon"
+		texturefile = "gfx/interface/goals/usa/nobody_left_behind_icon.dds"			
+		} 
+	
+	SpriteType = {
+		name = "create_A_workers_parliament_icon"
+		texturefile = "gfx/interface/goals/usa/create_A_workers_parliament_icon.dds"			
+		} 	
+	
+	SpriteType = {
+		name = "new_civil_rights_bill_icon"
+		texturefile = "gfx/interface/goals/usa/new_civil_rights_bill_icon.dds"			
+		} 
+				
+	SpriteType = {
+		name = "expand_definition_of_healthcare_icon"
+		texturefile = "gfx/interface/goals/usa/expand_definition_of_healthcare_icon.dds"			
+		} 
+		
+	SpriteType = {
+		name = "nationalize_farming_icon"
+		texturefile = "gfx/interface/goals/usa/nationalize_farming_icon.dds"			
+		} 	
+
+	SpriteType = {
+		name = "pro_worker_legislation_icon"
+		texturefile = "gfx/interface/goals/usa/pro_worker_legislation_icon.dds"			
+		} 	
+		
+
+	SpriteType = {
+		name = "increase_government_power_icon"
+		texturefile = "gfx/interface/goals/usa/increase_government_power_icon.dds"			
+		} 	
+		
+	SpriteType = {
+		name = "promote_social_justice_reforms_icon"
+		texturefile = "gfx/interface/goals/usa/promote_social_justice_reforms_icon.dds"			
+		} 		
+		
+	SpriteType = {
+		name = "raise_business_tax_icon"
+		texturefile = "gfx/interface/goals/usa/raise_business_tax_icon.dds"			
+		} 		
+		
+	
+	SpriteType = {
+		name = "increase_corporate_taxes_cion"
+		texturefile = "gfx/interface/goals/usa/increase_corporate_taxes_cion.dds"			
+		} 		
+	
+		
+	SpriteType = {
+		name = "ally_new_russia_icon"
+		texturefile = "gfx/interface/goals/usa/ally_new_russia_icon.dds"			
+		} 		
+	
+	SpriteType = {
+		name = "pass_the_new_russia_act_icon"
+		texturefile = "gfx/interface/goals/usa/pass_the_new_russia_act_icon.dds"			
+		} 	
+
+	SpriteType = {
+		name = "perfect_bernies_policies_icon"
+		texturefile = "gfx/interface/goals/usa/perfect_bernies_policies_icon.dds"			
+		} 	
+		
+	SpriteType = {
+		name = "continue_the_commonwealth_plan_icon"
+		texturefile = "gfx/interface/goals/usa/continue_the_commonwealth_plan_icon.dds"			
+		} 
 	
 	SpriteType = {
 		name = "set_up_a_provisional_government_icon"
